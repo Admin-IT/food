@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a60385e9-6d00-4c27-bd70-7d5e613ec729" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/文档/数据库设计文档.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/文档/首席精英小组项目需求文档.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-dao/food-dao.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/food-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YZN0lbzxN00ik6xT1Vf4RrwCC2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/doc/文档" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\food\food-service\src\main\java\edu\nf\food" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\food\doc\文档" />
+      <recent name="D:\IdeaProjects\food\doc" />
+      <recent name="D:\IdeaProjects\food\food-web\src\main\java\edu\nf\food" />
+      <recent name="D:\IdeaProjects\food\food-util\src\main\java\edu\nf\food" />
+      <recent name="D:\IdeaProjects\food\food-service\src\main\java" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a60385e9-6d00-4c27-bd70-7d5e613ec729" name="Default Changelist" comment="" />
+      <created>1583145935829</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583145935829</updated>
+      <workItem from="1583145938714" duration="1577000" />
+      <workItem from="1583147598012" duration="1073000" />
+      <workItem from="1583148768358" duration="2200000" />
+      <workItem from="1583233519907" duration="915000" />
+    </task>
+    <task id="LOCAL-00001" summary="初始版本">
+      <created>1583149719330</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583149719330</updated>
+    </task>
+    <task id="LOCAL-00002" summary="初始版本">
+      <created>1583149765673</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583149765673</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初始版本" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始版本" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="336" y="71" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog" timestamp="1583148145267">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="336" y="71" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog/0.0.1366.728@0.0.1366.728" timestamp="1583148145267" />
+    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1583149762648">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583149762648" />
+    <state x="440" y="113" key="FileChooserDialogImpl" timestamp="1583146025146">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="440" y="113" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583146025146" />
+    <state x="226" y="0" key="SettingsEditor" timestamp="1583149564343">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="226" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583149564343" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1583149879490">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1583149879490" />
+    <state x="518" y="243" key="git4idea.rebase.GitRebaseDialog" timestamp="1583149870636">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="518" y="243" key="git4idea.rebase.GitRebaseDialog/0.0.1366.728@0.0.1366.728" timestamp="1583149870636" />
+    <state x="494" y="217" key="git4idea.ui.GitTagDialog" timestamp="1583149796992">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="494" y="217" key="git4idea.ui.GitTagDialog/0.0.1366.728@0.0.1366.728" timestamp="1583149796992" />
+    <state x="115" y="77" key="new project wizard" timestamp="1583149468931">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="115" y="77" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1583149468931" />
+  </component>
+</project>
