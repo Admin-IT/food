@@ -87,7 +87,7 @@
       <workItem from="1583145938714" duration="1577000" />
       <workItem from="1583147598012" duration="1073000" />
       <workItem from="1583148768358" duration="2200000" />
-      <workItem from="1583233519907" duration="2801000" />
+      <workItem from="1583233519907" duration="3546000" />
     </task>
     <task id="LOCAL-00001" summary="初始版本">
       <created>1583149719330</created>
@@ -110,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583240978386</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="初始  提交github">
+      <created>1583248147697</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583248147697</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,17 +126,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始版本" />
     <MESSAGE value="3.3 号" />
-    <option name="LAST_COMMIT_MESSAGE" value="3.3 号" />
+    <MESSAGE value="初始  提交github" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始  提交github" />
   </component>
   <component name="WindowStateProjectService">
     <state x="336" y="71" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog" timestamp="1583148145267">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="336" y="71" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog/0.0.1366.728@0.0.1366.728" timestamp="1583148145267" />
-    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1583240972812">
+    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1583248141304">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583240972812" />
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583248141304" />
     <state x="440" y="113" key="FileChooserDialogImpl" timestamp="1583146025146">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -138,10 +146,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="226" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583149564343" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1583241031181">
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1583248160494">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1583241031181" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1583248160494" />
     <state x="402" y="166" key="git4idea.merge.GitPullDialog" timestamp="1583241011483">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
