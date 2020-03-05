@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a60385e9-6d00-4c27-bd70-7d5e613ec729" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/doc/logo/logo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-entity/src/main/resources/application-dao.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/Backstage/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/src/main/resources/templates/Backstage/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/src/main/resources/templates/Reception/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/src/main/java/edu/nf/food/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/src/main/java/edu/nf/food/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-util/src/main/java/edu/nf/food/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/food-util/src/main/java/edu/nf/food/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +50,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/doc/文档" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/food-entity/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -51,15 +63,17 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\IdeaProjects\food\food-service\src\main\java\edu\nf\food" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IdeaProjects\food\doc\文档" />
-      <recent name="D:\IdeaProjects\food\doc" />
-      <recent name="D:\IdeaProjects\food\food-web\src\main\java\edu\nf\food" />
-      <recent name="D:\IdeaProjects\food\food-util\src\main\java\edu\nf\food" />
-      <recent name="D:\IdeaProjects\food\food-service\src\main\java" />
+      <recent name="D:\IdeaProjects\food\food-entity\src\main\resources" />
+      <recent name="D:\IdeaProjects\food\food-web\src\main\resources" />
+      <recent name="D:\IdeaProjects\food\food-web\src\main\resources\static\Reception" />
+      <recent name="D:\IdeaProjects\food\food-web\src\main\resources\static\Backstage" />
+      <recent name="D:\IdeaProjects\food\food-web\src\main\resources\templates\Backstage" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\food\food-web\src\main\resources\static\Reception" />
+      <recent name="D:\IdeaProjects\food\food-web\src\main\resources\templates\Reception" />
+      <recent name="D:\IdeaProjects\food\food-service\src\main\java\edu\nf\food" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -87,7 +101,8 @@
       <workItem from="1583145938714" duration="1577000" />
       <workItem from="1583147598012" duration="1073000" />
       <workItem from="1583148768358" duration="2200000" />
-      <workItem from="1583233519907" duration="3546000" />
+      <workItem from="1583233519907" duration="3643000" />
+      <workItem from="1583304586577" duration="5727000" />
     </task>
     <task id="LOCAL-00001" summary="初始版本">
       <created>1583149719330</created>
@@ -117,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583248147697</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="初始  提交github">
+      <created>1583249240616</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583249240616</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,22 +156,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="336" y="71" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog/0.0.1366.728@0.0.1366.728" timestamp="1583148145267" />
-    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1583248141304">
+    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1583249233904">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583248141304" />
-    <state x="440" y="113" key="FileChooserDialogImpl" timestamp="1583146025146">
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583249233904" />
+    <state x="440" y="113" key="FileChooserDialogImpl" timestamp="1583324970181">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="440" y="113" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583146025146" />
+    <state x="440" y="113" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583324970181" />
     <state x="226" y="0" key="SettingsEditor" timestamp="1583149564343">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="226" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583149564343" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1583248160494">
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1583249250574">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1583248160494" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1583249250574" />
     <state x="402" y="166" key="git4idea.merge.GitPullDialog" timestamp="1583241011483">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
