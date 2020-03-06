@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a60385e9-6d00-4c27-bd70-7d5e613ec729" name="Default Changelist" comment="模板区分">
-      <change afterPath="$PROJECT_DIR$/doc/Sql/menu.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/文档/~$据库设计文档.doc" afterDir="false" />
+    <list default="true" id="a60385e9-6d00-4c27-bd70-7d5e613ec729" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/文档/数据库设计文档.doc" beforeDir="false" afterPath="$PROJECT_DIR$/doc/文档/数据库设计文档.doc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/resources/application-dao.yml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/src/main/resources/application-dao.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +39,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/doc/Sql" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/food-dao/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -55,16 +53,17 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\food\food-dao\src\main\resources" />
       <recent name="D:\IdeaProjects\food\food-web\src\main\resources\static\Reception" />
       <recent name="D:\IdeaProjects\food\food-web\src\main\resources\templates\Reception" />
       <recent name="D:\IdeaProjects\food\food-service\src\main\java\edu\nf\food" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\food\food-dao\src\main\resources" />
       <recent name="D:\IdeaProjects\food\doc\Sql" />
       <recent name="D:\IdeaProjects\food\food-entity\src\main\resources" />
       <recent name="D:\IdeaProjects\food\food-web\src\main\resources" />
       <recent name="D:\IdeaProjects\food\food-web\src\main\resources\static\Reception" />
-      <recent name="D:\IdeaProjects\food\food-web\src\main\resources\static\Backstage" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -94,7 +93,7 @@
       <workItem from="1583148768358" duration="2200000" />
       <workItem from="1583233519907" duration="3643000" />
       <workItem from="1583304586577" duration="10399000" />
-      <workItem from="1583459677657" duration="1442000" />
+      <workItem from="1583459677657" duration="1750000" />
     </task>
     <task id="LOCAL-00001" summary="初始版本">
       <created>1583149719330</created>
@@ -138,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583374708755</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="模板区分">
+      <created>1583465627456</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1583465627456</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,10 +162,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="336" y="71" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog/0.0.1366.728@0.0.1366.728" timestamp="1583148145267" />
-    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1583464893023">
+    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1583465620048">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583464893023" />
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583465620048" />
     <state x="440" y="113" key="FileChooserDialogImpl" timestamp="1583324970181">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -172,10 +178,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="226" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583388309286" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1583464879061">
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1583465641704">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1583464879061" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1583465641704" />
     <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583377084927">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
