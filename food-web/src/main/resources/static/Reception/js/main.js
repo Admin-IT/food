@@ -9,7 +9,6 @@ $(function(){
 	$("#exitaddrbox1").click(function(){
 		$("#dr_getmission_box1").fadeOut();
 	});
-	//aa
 	var pass=1;
 	$("#submitaddrbox1").click(function(){
 		if(pass!=1){

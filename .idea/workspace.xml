@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a60385e9-6d00-4c27-bd70-7d5e613ec729" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/details.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/js/j.m.js" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/js/j.m.js" afterDir="false" />
@@ -108,7 +107,7 @@
       <workItem from="1583377642783" duration="128000" />
       <workItem from="1583377776912" duration="4368000" />
       <workItem from="1584086093124" duration="1705000" />
-      <workItem from="1584349979380" duration="3660000" />
+      <workItem from="1584349979380" duration="4839000" />
     </task>
     <task id="LOCAL-00001" summary="初始版本">
       <created>1583149719330</created>
@@ -166,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584412814548</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="初始  提交github 首页和详情页">
+      <created>1584414286149</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1584414286149</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,11 +201,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="336" y="71" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog/0.0.1366.728@0.0.1366.728" timestamp="1583148145267" />
-    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1584412813641">
+    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1584414284973">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583249233904" />
-    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1584412813641" />
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1584414284973" />
     <state x="440" y="119" key="FileChooserDialogImpl" timestamp="1584350016117">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -210,11 +216,11 @@
     </state>
     <state x="226" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583149564343" />
     <state x="226" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1583377931527" />
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1584412839433">
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1584414621557">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1583249250574" />
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1584412839433" />
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1584414621557" />
     <state x="402" y="166" key="git4idea.merge.GitPullDialog" timestamp="1583241011483">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
