@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a60385e9-6d00-4c27-bd70-7d5e613ec729" name="Default Changelist" comment="初始  提交github 首页和详情页">
-      <change afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/img/logo-bottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/img/logo3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/js/j.m.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/js/list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/js/m.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-dao/food-dao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/food.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/food-service.iml" beforeDir="false" />
-    </list>
+    <list default="true" id="a60385e9-6d00-4c27-bd70-7d5e613ec729" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,7 +99,7 @@
       <workItem from="1583377642783" duration="128000" />
       <workItem from="1583377776912" duration="4368000" />
       <workItem from="1584086093124" duration="1705000" />
-      <workItem from="1584349979380" duration="1758000" />
+      <workItem from="1584349979380" duration="2138000" />
     </task>
     <task id="LOCAL-00001" summary="初始版本">
       <created>1583149719330</created>
@@ -151,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583249240616</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="初始  提交github 首页和详情页">
+      <created>1584412192995</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1584412192996</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,11 +161,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="336" y="71" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog/0.0.1366.728@0.0.1366.728" timestamp="1583148145267" />
-    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1584412055222">
+    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1584412191915">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583249233904" />
-    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1584412055222" />
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1584412191915" />
     <state x="440" y="119" key="FileChooserDialogImpl" timestamp="1584350016117">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -184,11 +176,11 @@
     </state>
     <state x="226" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583149564343" />
     <state x="226" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1583377931527" />
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1584411859812">
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1584412198867">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1583249250574" />
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1584411859812" />
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1584412198867" />
     <state x="402" y="166" key="git4idea.merge.GitPullDialog" timestamp="1583241011483">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
