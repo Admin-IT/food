@@ -14,7 +14,7 @@ $(function(){
 		if(pass!=1){
 			return false;
 		}
-		pass=0;//
+		pass=0;
 		var prom = 1;
 		$.each($(".addrinputw1 input"),function(){
 			if($(this).val() == "" || $(this).val() == " " || $(this).val() == "undefined"){
