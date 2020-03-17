@@ -8,6 +8,7 @@ $("#addCdToFavInCon").hover(function(){
 		$(this).html("已收�?");
 	}
 });
+//aa
 $(".listtyle1").live("mouseenter",function(){
 	var _this = $(this);
 	_this.find("div.i").stop().animate({marginTop:"-100px"},400,function(){});

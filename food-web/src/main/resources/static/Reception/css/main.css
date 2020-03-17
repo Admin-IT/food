@@ -1,4 +1,4 @@
-html{_background-image:url(about:blank);overflow-x:hidden;background:beige;}
+html{overflow-x:hidden;background:beige;}
 body{background:beige;overflow-x:hidden;_background-attachment:fixed;position:relative;overflow-x:hidden;}
 textarea{resize:none;overflow:auto;}
 .header{height:120px;background:#282828  center repeat-y;width:100%;position:fixed;z-index:3000;}
