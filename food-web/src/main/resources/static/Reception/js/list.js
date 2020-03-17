@@ -7,7 +7,7 @@ $("#addCdToFavInCon").hover(function(){
 	if($(this).html()=="取消收藏"){
 		$(this).html("已收�?");
 	}
-});
+});//'
 $(".listtyle1").live("mouseenter",function(){
 	var _this = $(this);
 	_this.find("div.i").stop().animate({marginTop:"-100px"},400,function(){});
