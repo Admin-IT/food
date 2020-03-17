@@ -1,5 +1,7 @@
 package edu.nf.food.user.entity;
 
+import lombok.Data;
+
 /**
  * @Author ethan
  * @Classname UserArticle
@@ -7,33 +9,11 @@ package edu.nf.food.user.entity;
  * @Date 2020/3/17 13:45
  */
 
+@Data
 public class UserArticle {
 
     private Integer userArticleId;
     private Integer userId;
     private Integer articleId;
 
-    public Integer getUserArticleId() {
-        return userArticleId;
-    }
-
-    public void setUserArticleId(Integer userArticleId) {
-        this.userArticleId = userArticleId;
-    }
-
-    public Integer getUserId() {
-        return userId;
-    }
-
-    public void setUserId(Integer userId) {
-        this.userId = userId;
-    }
-
-    public Integer getArticleId() {
-        return articleId;
-    }
-
-    public void setArticleId(Integer articleId) {
-        this.articleId = articleId;
-    }
 }

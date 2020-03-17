@@ -1,5 +1,7 @@
 package edu.nf.food.food.entity;
 
+import lombok.Data;
+
 /**
  * @Author ethan
  * @Classname Classified
@@ -7,24 +9,10 @@ package edu.nf.food.food.entity;
  * @Date 2020/3/17 14:37
  */
 
+@Data
 public class Classified {
 
     private Integer classifiedId;
     private String classifiedName;
 
-    public Integer getClassifiedId() {
-        return classifiedId;
-    }
-
-    public void setClassifiedId(Integer classifiedId) {
-        this.classifiedId = classifiedId;
-    }
-
-    public String getClassifiedName() {
-        return classifiedName;
-    }
-
-    public void setClassifiedName(String classifiedName) {
-        this.classifiedName = classifiedName;
-    }
 }

@@ -1,9 +1,13 @@
 package edu.nf.food.food.entity;
 
+import lombok.Data;
+
 /**
  * @author ethan
  * @date 2020/3/6
  */
+
+@Data
 public class Food {
 
     private Integer foodId;

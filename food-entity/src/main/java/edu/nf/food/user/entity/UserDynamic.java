@@ -1,5 +1,7 @@
 package edu.nf.food.user.entity;
 
+import lombok.Data;
+
 import java.util.Date;
 
 /**
@@ -9,6 +11,7 @@ import java.util.Date;
  * @Date 2020/3/17 13:47
  */
 
+@Data
 public class UserDynamic {
 
     private Integer userDynamicId;
@@ -17,43 +20,5 @@ public class UserDynamic {
     private Integer senderId;
     private Date dynamicTime;
 
-    public Integer getUserDynamicId() {
-        return userDynamicId;
-    }
 
-    public void setUserDynamicId(Integer userDynamicId) {
-        this.userDynamicId = userDynamicId;
-    }
-
-    public Integer getUserId() {
-        return userId;
-    }
-
-    public void setUserId(Integer userId) {
-        this.userId = userId;
-    }
-
-    public String getDynamicContent() {
-        return dynamicContent;
-    }
-
-    public void setDynamicContent(String dynamicContent) {
-        this.dynamicContent = dynamicContent;
-    }
-
-    public Integer getSenderId() {
-        return senderId;
-    }
-
-    public void setSenderId(Integer senderId) {
-        this.senderId = senderId;
-    }
-
-    public Date getDynamicTime() {
-        return dynamicTime;
-    }
-
-    public void setDynamicTime(Date dynamicTime) {
-        this.dynamicTime = dynamicTime;
-    }
 }

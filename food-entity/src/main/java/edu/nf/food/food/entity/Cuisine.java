@@ -1,5 +1,7 @@
 package edu.nf.food.food.entity;
 
+import lombok.Data;
+
 /**
  * @Author ethan
  * @Classname Cuisine
@@ -7,24 +9,10 @@ package edu.nf.food.food.entity;
  * @Date 2020/3/17 14:35
  */
 
+@Data
 public class Cuisine {
 
     private Integer cuisineId;
     private String cuisineName;
 
-    public Integer getCuisineId() {
-        return cuisineId;
-    }
-
-    public void setCuisineId(Integer cuisineId) {
-        this.cuisineId = cuisineId;
-    }
-
-    public String getCuisineName() {
-        return cuisineName;
-    }
-
-    public void setCuisineName(String cuisineName) {
-        this.cuisineName = cuisineName;
-    }
 }
