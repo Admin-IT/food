@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a60385e9-6d00-4c27-bd70-7d5e613ec729" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/doc/logo/logo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-entity/src/main/resources/application-dao.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-web/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/Backstage/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-web/src/main/resources/templates/Backstage/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-web/src/main/resources/templates/Reception/README.md" afterDir="false" />
+    <list default="true" id="a60385e9-6d00-4c27-bd70-7d5e613ec729" name="Default Changelist" comment="初始  提交github 首页和详情页">
+      <change afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/img/logo-bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/img/logo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/js/j.m.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/js/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/js/m.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-dao/src/main/java/edu/nf/food/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/src/main/java/edu/nf/food/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-util/src/main/java/edu/nf/food/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/food-util/src/main/java/edu/nf/food/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/food-dao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/food.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/food-service.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,8 +35,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/Maven/apache-maven-3.6.1" />
-        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.6.1\conf\settings.xml" />
+        <option name="mavenHome" value="D:/idea/apache-maven-3.6.1" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -47,10 +54,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/food-entity/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/img" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -60,20 +68,20 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IdeaProjects\food\food-entity\src\main\resources" />
-      <recent name="D:\IdeaProjects\food\food-web\src\main\resources" />
-      <recent name="D:\IdeaProjects\food\food-web\src\main\resources\static\Reception" />
-      <recent name="D:\IdeaProjects\food\food-web\src\main\resources\static\Backstage" />
-      <recent name="D:\IdeaProjects\food\food-web\src\main\resources\templates\Backstage" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\IdeaProjects\food\food-web\src\main\resources\static\Reception" />
       <recent name="D:\IdeaProjects\food\food-web\src\main\resources\templates\Reception" />
       <recent name="D:\IdeaProjects\food\food-service\src\main\java\edu\nf\food" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\Class\food\food-web\src\main\resources\static\Reception\img" />
+      <recent name="C:\Users\Administrator\Desktop\Class\food\food-web\src\main\resources\static\Reception\js" />
+      <recent name="C:\Users\Administrator\Desktop\Class\food\food-web\src\main\resources\static\Reception\css" />
+      <recent name="D:\IdeaProjects\food\food-entity\src\main\resources" />
+      <recent name="D:\IdeaProjects\food\food-web\src\main\resources" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -103,6 +111,10 @@
       <workItem from="1583148768358" duration="2200000" />
       <workItem from="1583233519907" duration="3643000" />
       <workItem from="1583304586577" duration="5727000" />
+      <workItem from="1583377642783" duration="128000" />
+      <workItem from="1583377776912" duration="4368000" />
+      <workItem from="1584086093124" duration="1705000" />
+      <workItem from="1584349979380" duration="1758000" />
     </task>
     <task id="LOCAL-00001" summary="初始版本">
       <created>1583149719330</created>
@@ -149,29 +161,34 @@
     <MESSAGE value="初始版本" />
     <MESSAGE value="3.3 号" />
     <MESSAGE value="初始  提交github" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始  提交github" />
+    <MESSAGE value="初始  提交github 首页和详情页" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始  提交github 首页和详情页" />
   </component>
   <component name="WindowStateProjectService">
     <state x="336" y="71" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog" timestamp="1583148145267">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="336" y="71" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog/0.0.1366.728@0.0.1366.728" timestamp="1583148145267" />
-    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1583249233904">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1584412055222">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583249233904" />
-    <state x="440" y="113" key="FileChooserDialogImpl" timestamp="1583324970181">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1584412055222" />
+    <state x="440" y="119" key="FileChooserDialogImpl" timestamp="1584350016117">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="440" y="113" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583324970181" />
-    <state x="226" y="0" key="SettingsEditor" timestamp="1583149564343">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="440" y="119" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1584350016117" />
+    <state x="226" y="0" key="SettingsEditor" timestamp="1583377931527">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="226" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583149564343" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1583249250574">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="226" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1583377931527" />
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1584411859812">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1583249250574" />
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1584411859812" />
     <state x="402" y="166" key="git4idea.merge.GitPullDialog" timestamp="1583241011483">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -184,9 +201,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="494" y="217" key="git4idea.ui.GitTagDialog/0.0.1366.728@0.0.1366.728" timestamp="1583149796992" />
-    <state x="115" y="77" key="new project wizard" timestamp="1583149468931">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="115" y="81" key="new project wizard" timestamp="1583483296841">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="115" y="77" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1583149468931" />
+    <state x="115" y="81" key="new project wizard/0.0.1366.768@0.0.1366.768" timestamp="1583483296841" />
   </component>
 </project>
