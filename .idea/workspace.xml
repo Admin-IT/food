@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a60385e9-6d00-4c27-bd70-7d5e613ec729" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/user/entity/Collection.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/user/entity/Collection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/user/entity/Follow.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/user/entity/Follow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/user/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/user/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/user/entity/UserArticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/user/entity/UserArticle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +119,7 @@
       <workItem from="1583746222383" duration="2684000" />
       <workItem from="1584341905810" duration="680000" />
       <workItem from="1584368517332" duration="734000" />
-      <workItem from="1584422450655" duration="5802000" />
+      <workItem from="1584422450655" duration="8175000" />
     </task>
     <task id="LOCAL-00001" summary="初始版本">
       <created>1583149719330</created>
@@ -196,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584427266423</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="实体类 创建 ethan">
+      <created>1584429502351</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1584429502351</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,23 +234,23 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="488" y="53" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1584427090006" />
-    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1584427263910">
+    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1584429500892">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583467430973" />
-    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1584427263910" />
-    <state x="129" y="62" key="DiffContextDialog" timestamp="1584429154833">
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1584429500892" />
+    <state x="129" y="62" key="DiffContextDialog" timestamp="1584434600254">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="129" y="62" key="DiffContextDialog/0.0.1366.738@0.0.1366.738" timestamp="1584429154833" />
+    <state x="129" y="62" key="DiffContextDialog/0.0.1366.738@0.0.1366.738" timestamp="1584434600254" />
     <state x="440" y="113" key="FileChooserDialogImpl" timestamp="1583324970181">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="440" y="113" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583324970181" />
-    <state x="392" y="85" key="MultipleFileMergeDialog" timestamp="1584429209918">
+    <state x="392" y="85" key="MultipleFileMergeDialog" timestamp="1584434618671">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="392" y="85" key="MultipleFileMergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1584429209918" />
+    <state x="392" y="85" key="MultipleFileMergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1584434618671" />
     <state x="525" y="89" key="RollbackChangesDialog" timestamp="1583376907932">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -258,25 +260,25 @@
     </state>
     <state x="226" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583388309286" />
     <state x="226" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1584429124667" />
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1584429062388">
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1584429513494">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1583467448778" />
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1584429062388" />
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1584429513494" />
     <state x="363" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1584422450236">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="363" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1584422450236" />
-    <state x="477" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584429174506">
+    <state x="477" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584434638074">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1583377084927" />
-    <state x="477" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1584429174506" />
-    <state x="402" y="168" key="git4idea.merge.GitPullDialog" timestamp="1584429131823">
+    <state x="477" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1584434638074" />
+    <state x="402" y="168" key="git4idea.merge.GitPullDialog" timestamp="1584434654608">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="402" y="166" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1583464834431" />
-    <state x="402" y="168" key="git4idea.merge.GitPullDialog/0.0.1366.738@0.0.1366.738" timestamp="1584429131823" />
+    <state x="402" y="168" key="git4idea.merge.GitPullDialog/0.0.1366.738@0.0.1366.738" timestamp="1584434654608" />
     <state x="518" y="243" key="git4idea.rebase.GitRebaseDialog" timestamp="1583149870636">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
