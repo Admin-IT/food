@@ -12,6 +12,11 @@
     <artifactId>food-web</artifactId>
     <packaging>jar</packaging>
 
+
+
+
+
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -23,4 +28,28 @@
             <version>${project.version}</version>
         </dependency>
     </dependencies>
+
+    <build>
+
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <!-- 指定该Main Class为全局的唯一入口 -->
+                    <mainClass>edu.nf.food.FoodApplication</mainClass>
+                    <layout>ZIP</layout>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+
 </project>

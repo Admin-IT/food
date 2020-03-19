@@ -1,0 +1,15 @@
+edu\nf\food\article\entity\Article.class
+edu\nf\food\food\entity\Food.class
+edu\nf\food\user\entity\Collection.class
+edu\nf\food\user\entity\Follow.class
+edu\nf\food\user\entity\UserDynamic.class
+edu\nf\food\food\entity\Cuisine.class
+edu\nf\food\video\entity\Video.class
+edu\nf\food\label\entity\Label.class
+edu\nf\food\food\entity\Classified.class
+edu\nf\food\user\entity\User.class
+edu\nf\food\user\entity\UserArticle.class
+edu\nf\food\user\entity\UserFood.class
+edu\nf\food\label\entity\Technology.class
+edu\nf\food\web\entity\Web.class
+edu\nf\food\message\entity\Message.class

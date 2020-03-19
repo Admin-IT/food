@@ -24,9 +24,19 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.2.5.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
+
     </parent>
 
+
+
+
+
+
+
     <properties>
+
+
+        <start-class>com.bingg</start-class>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
@@ -58,4 +68,8 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+
+
+
 </project>
