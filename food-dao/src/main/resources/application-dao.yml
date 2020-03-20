@@ -32,8 +32,10 @@ spring:
         exclusions: /druid/*,*.js,*.css,*.html,*.png,*.jpg
 # mybatis配置
 mybatis:
-  type-aliases-package: edu.nf.food.label.entity
-  mapper-locations: classpath:/mapper/*.xml
+  type-aliases-package:
+  - edu.nf.food.label.entity
+  mapper-locations:
+  - classpath:/mapper/Label/*.xml
 # 分页插件配置
 pagehelper:
   # 数据库方言

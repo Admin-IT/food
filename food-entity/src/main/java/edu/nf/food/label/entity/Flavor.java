@@ -8,7 +8,7 @@ import lombok.Data;
  * 口味表
  */
 @Data
-public class Flaver {
+public class Flavor {
     private Integer id;
     private String name; // 口味名称
 }

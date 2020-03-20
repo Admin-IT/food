@@ -12,5 +12,22 @@ import java.util.List;
  */
 
 public interface TechnologyService {
+    /**
+     * 获取全部
+     * @return
+     */
     List<Technology> listTechnology();
+
+    /**
+     * 添加
+     * @param technology
+     */
+    void insertTechnology(Technology technology);
+
+    /**
+     * 删除
+     * @param technology
+     */
+    void deleteTechnology(Technology technology);
+
 }

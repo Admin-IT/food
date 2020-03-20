@@ -13,4 +13,8 @@ import java.util.List;
 @Mapper
 public interface TechnologyDao {
      List<Technology> listTechnology();
+
+     void insertTechnology(Technology technology);
+
+     void deleteTechnology(Technology technology);
 }

@@ -6,9 +6,16 @@
         <id column="menu_technology_id" property="technologyId"/>
         <result column="menu_technology_name" property="technologyName"/>
     </resultMap>
+    <insert id="insertTechnology" parameterType="edu.nf.food.label.entity.Technology">
+         insert into menu_technology(menu_technology_name)VALUES(#{technologyName});
+    </insert>
+    <delete id="deleteTechnology" parameterType="edu.nf.food.label.entity.Technology">
+        delete from menu_technology  where menu_technology_id = #{technologyId}
+    </delete>
 
     <select id="listTechnology" resultMap="tochnology">
         select * from menu_technology
     </select>
+
 
 </mapper>
