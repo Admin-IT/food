@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a933dc9-dd7f-4357-aeaf-5dc31ca50fe7" name="Default Changelist" comment="实体类搭建">
-      <change afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/healthy-eating.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/healthy-heart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/healthy-method.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/healthy-people.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/healthy-sick.html" afterDir="false" />
+    <list default="true" id="6a933dc9-dd7f-4357-aeaf-5dc31ca50fe7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/menu-video-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/menu-video.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/menu-baking.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/menu-baking.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/menu-chinesefood.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/menu-chinesefood.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/menu-family.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/menu-family.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/menu-specialsnack.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/menu-specialsnack.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/menu-worldmenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/menu-worldmenu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/healthy-eating.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/healthy-eating.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/healthy-heart.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/healthy-heart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/healthy-method.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/healthy-method.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/healthy-people.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/healthy-people.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/healthy-sick.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/healthy-sick.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/menu-baking.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/menu-baking.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/menu-chinesefood.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/menu-chinesefood.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/menu-family.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/menu-family.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/menu-specialsnack.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/menu-specialsnack.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/menu-worldmenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/menu-worldmenu.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +163,7 @@
       <workItem from="1584708975894" duration="578000" />
       <workItem from="1584934176976" duration="2213000" />
       <workItem from="1584946822995" duration="6258000" />
-      <workItem from="1585030039135" duration="159000" />
+      <workItem from="1585030039135" duration="5238000" />
     </task>
     <task id="LOCAL-00001" summary="实体类搭建">
       <created>1584623261101</created>
@@ -171,15 +172,34 @@
       <option name="project" value="LOCAL" />
       <updated>1584623261101</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="饮食健康板块">
+      <created>1585030328463</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585030328463</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="实体类搭建" />
-    <option name="LAST_COMMIT_MESSAGE" value="实体类搭建" />
+    <MESSAGE value="饮食健康板块" />
+    <option name="LAST_COMMIT_MESSAGE" value="饮食健康板块" />
   </component>
   <component name="WindowStateProjectService">
     <state x="311" y="57" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1584603172871">
@@ -194,11 +214,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="437" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1584671458108" />
-    <state x="284" y="0" key="CommitChangelistDialog2" timestamp="1584933957261">
+    <state x="284" y="0" key="CommitChangelistDialog2" timestamp="1585030327369">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="284" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584623253654" />
-    <state x="284" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1584933957261" />
+    <state x="284" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1585030327369" />
     <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1584506359070">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -240,15 +260,16 @@
     </state>
     <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584512359832" />
     <state x="186" y="9" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1585030071011" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1584623291527">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1585030332943">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584623291527" />
-    <state x="361" y="175" key="git4idea.merge.GitPullDialog" timestamp="1584934129666">
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1585030332943" />
+    <state x="361" y="175" key="git4idea.merge.GitPullDialog" timestamp="1585030907337">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="361" y="166" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1584710505506" />
-    <state x="361" y="175" key="git4idea.merge.GitPullDialog/0.0.1366.768@0.0.1366.768" timestamp="1584934129666" />
+    <state x="361" y="175" key="git4idea.merge.GitPullDialog/0.0.1366.768@0.0.1366.768" timestamp="1585030907337" />
     <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1584512259049">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
