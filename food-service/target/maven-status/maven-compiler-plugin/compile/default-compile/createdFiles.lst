@@ -1,2 +1,14 @@
-edu\nf\food\label\service\impl\TechnologyServiceImpl.class
-edu\nf\food\label\service\TechnologyService.class
+edu\nf\food\food\label\service\impl\NumberServiceImpl.class
+edu\nf\food\food\label\service\TechnologyService.class
+edu\nf\food\food\label\service\impl\TechnologyServiceImpl.class
+edu\nf\food\food\label\service\ReparationTimeService.class
+edu\nf\food\food\label\service\impl\ReparationTimeServiceImpl.class
+edu\nf\food\food\label\service\FlavorService.class
+edu\nf\food\food\label\service\NumberService.class
+edu\nf\food\web\RedisService.class
+edu\nf\food\food\label\service\impl\FlavorServiceImpl.class
+edu\nf\food\food\label\service\CookTimeService.class
+edu\nf\food\food\label\service\impl\CookTimeImpl.class
+edu\nf\food\food\label\service\impl\DifficultyServiceImpl.class
+edu\nf\food\food\label\service\DifficultyService.class
+edu\nf\food\food\label\service\exception\LabelException.class

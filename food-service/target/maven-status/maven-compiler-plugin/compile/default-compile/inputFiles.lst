@@ -1,2 +1,14 @@
-D:\IdeaProjects\food\food-service\src\main\java\edu\nf\food\label\service\TechnologyService.java
-D:\IdeaProjects\food\food-service\src\main\java\edu\nf\food\label\service\impl\TechnologyServiceImpl.java
+D:\IdeaProjects\food\food-service\src\main\java\edu\nf\food\food\label\service\NumberService.java
+D:\IdeaProjects\food\food-service\src\main\java\edu\nf\food\food\label\service\CookTimeService.java
+D:\IdeaProjects\food\food-service\src\main\java\edu\nf\food\food\label\service\exception\LabelException.java
+D:\IdeaProjects\food\food-service\src\main\java\edu\nf\food\web\RedisService.java
+D:\IdeaProjects\food\food-service\src\main\java\edu\nf\food\food\label\service\DifficultyService.java
+D:\IdeaProjects\food\food-service\src\main\java\edu\nf\food\food\label\service\impl\TechnologyServiceImpl.java
+D:\IdeaProjects\food\food-service\src\main\java\edu\nf\food\food\label\service\FlavorService.java
+D:\IdeaProjects\food\food-service\src\main\java\edu\nf\food\food\label\service\impl\CookTimeImpl.java
+D:\IdeaProjects\food\food-service\src\main\java\edu\nf\food\food\label\service\impl\ReparationTimeServiceImpl.java
+D:\IdeaProjects\food\food-service\src\main\java\edu\nf\food\food\label\service\impl\DifficultyServiceImpl.java
+D:\IdeaProjects\food\food-service\src\main\java\edu\nf\food\food\label\service\impl\FlavorServiceImpl.java
+D:\IdeaProjects\food\food-service\src\main\java\edu\nf\food\food\label\service\ReparationTimeService.java
+D:\IdeaProjects\food\food-service\src\main\java\edu\nf\food\food\label\service\TechnologyService.java
+D:\IdeaProjects\food\food-service\src\main\java\edu\nf\food\food\label\service\impl\NumberServiceImpl.java

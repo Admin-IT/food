@@ -1,22 +1,169 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a933dc9-dd7f-4357-aeaf-5dc31ca50fe7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/menu-video-details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/Reception/menu-video.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/healthy-eating.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/healthy-eating.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/healthy-heart.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/healthy-heart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/healthy-method.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/healthy-method.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/healthy-people.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/healthy-people.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/healthy-sick.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/healthy-sick.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/menu-baking.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/menu-baking.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/menu-chinesefood.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/menu-chinesefood.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/menu-family.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/menu-family.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/menu-specialsnack.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/menu-specialsnack.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/menu-worldmenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/resources/static/reception/menu-worldmenu.html" afterDir="false" />
+    <list default="true" id="3ff99edc-959c-4a56-ba31-dfa9fa2dedc3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/web/RedisService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/food/util/LettuceUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/food/util/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/food/util/testConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/src/test/java/edu/nf/food/FoodApplicationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-api/src/main/java/edu/nf/food/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/food-api/src/main/java/edu/nf/food/food/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-api/target/food-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/food-api/target/food-api-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/src/main/java/edu/nf/food/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/src/main/java/edu/nf/food/food/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/src/main/java/edu/nf/food/label/dao/CookTimeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/src/main/java/edu/nf/food/food/label/dao/CookTimeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/src/main/java/edu/nf/food/label/dao/DifficultyDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/src/main/java/edu/nf/food/food/label/dao/DifficultyDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/src/main/java/edu/nf/food/label/dao/FlavorDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/src/main/java/edu/nf/food/food/label/dao/FlavorDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/src/main/java/edu/nf/food/label/dao/NumberDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/src/main/java/edu/nf/food/food/label/dao/NumberDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/src/main/java/edu/nf/food/label/dao/ReparationTimeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/src/main/java/edu/nf/food/food/label/dao/ReparationTimeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/src/main/java/edu/nf/food/label/dao/TechnologyDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/src/main/java/edu/nf/food/food/label/dao/TechnologyDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/Label/CookTimeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/Label/CookTimeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/Label/DifficultyMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/Label/DifficultyMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/Label/FlavorMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/Label/FlavorMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/Label/NumberMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/Label/NumberMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/Label/ReparationTimeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/Label/ReparationTimeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/Label/TochnologyMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/Label/TochnologyMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/target/classes/Mapper/TochnologyMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/target/classes/application-dao.yml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/target/classes/application-dao.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/target/classes/edu/nf/food/label/dao/TechnologyDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/target/food-dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/target/food-dao-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/article/entity/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/article/entity/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/article/entity/ArticleClassified.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/article/entity/ArticleClassified.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/article/entity/ArticleDraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/article/entity/ArticleDraft.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/article/entity/ArticleExamine.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/article/entity/ArticleExamine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/entity/Classified.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/food/entity/Classified.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/entity/Cuisine.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/food/entity/Cuisine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/entity/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/food/entity/Food.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/entity/FoodDraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/food/entity/FoodDraft.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/entity/FoodExamine.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/food/entity/FoodExamine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/entity/FoodIngredients.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/food/entity/FoodIngredients.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/entity/Ingredients.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/food/entity/Ingredients.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/entity/IngredientsClassified.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/food/entity/IngredientsClassified.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/entity/Step.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/food/entity/Step.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/label/entity/CookTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/label/entity/CookTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/label/entity/Difficulty.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/label/entity/Difficulty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/label/entity/Flavor.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/label/entity/Flavor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/label/entity/Label.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/label/entity/Label.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/label/entity/Number.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/label/entity/Number.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/label/entity/ReparationTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/label/entity/ReparationTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/label/entity/Technology.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/label/entity/Technology.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/message/entity/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/message/entity/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/user/entity/Collection.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/user/entity/Collection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/user/entity/Follow.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/user/entity/Follow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/user/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/user/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/user/entity/UserArticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/user/entity/UserArticle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/user/entity/UserDynamic.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/user/entity/UserDynamic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/user/entity/UserFood.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/user/entity/UserFood.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/video/entity/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/video/entity/Video.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/video/entity/VidepStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/video/entity/VidepStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/web/entity/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/web/entity/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/web/entity/FloorFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/web/entity/FloorFour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/web/entity/FloorOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/web/entity/FloorOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/web/entity/FloorThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/web/entity/FloorThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/web/entity/FloorTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/web/entity/FloorTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/web/entity/Reply.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/web/entity/Reply.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/web/entity/Web.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/food/web/entity/Web.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/article/entity/Article.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/article/entity/ArticleClassified.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/article/entity/ArticleDraft.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/article/entity/ArticleExamine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/entity/Classified.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/entity/Cuisine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/entity/Food.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/entity/FoodDraft.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/entity/FoodExamine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/entity/FoodIngredients.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/entity/Ingredients.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/entity/IngredientsClassified.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/entity/Step.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/label/entity/CookTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/label/entity/Difficulty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/label/entity/Flaver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/label/entity/Label.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/label/entity/Number.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/label/entity/ReparationTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/label/entity/Technology.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/message/entity/Message.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/user/entity/Collection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/user/entity/Follow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/user/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/user/entity/UserArticle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/user/entity/UserDynamic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/user/entity/UserFood.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/video/entity/Video.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/video/entity/VidepStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/web/entity/Comment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/web/entity/FloorFour.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/web/entity/FloorOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/web/entity/FloorThree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/web/entity/FloorTwo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/web/entity/Reply.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/web/entity/Web.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/food-entity-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/target/food-entity-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/label/service/CookTimeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/label/service/CookTimeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/label/service/DifficultyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/label/service/DifficultyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/label/service/FlavorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/label/service/FlavorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/label/service/NumberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/label/service/NumberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/label/service/ReparationTimeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/label/service/ReparationTimeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/label/service/TechnologyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/label/service/TechnologyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/label/service/exception/LabelException.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/label/service/exception/LabelException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/label/service/impl/CookTimeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/label/service/impl/CookTimeImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/label/service/impl/DifficultyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/label/service/impl/DifficultyServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/label/service/impl/FlavorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/label/service/impl/FlavorServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/label/service/impl/NumberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/label/service/impl/NumberServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/label/service/impl/ReparationTimeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/label/service/impl/ReparationTimeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/label/service/impl/TechnologyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/label/service/impl/TechnologyServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/label/service/TechnologyService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/label/service/exception/LabelException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/label/service/impl/TechnologyServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/target/food-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/target/food-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-util/src/main/java/edu/nf/food/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/food-util/src/main/java/edu/nf/food/food/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-util/target/food-util-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/food-util/target/food-util-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-util/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/FoodApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/food/FoodApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/food/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/advice/LabelAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/food/advice/LabelAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/label/web/CookTimeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/food/label/web/CookTimeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/label/web/DifficultyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/food/label/web/DifficultyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/label/web/FlavorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/food/label/web/FlavorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/label/web/NumberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/food/label/web/NumberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/label/web/ReparationTimeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/food/label/web/ReparationTimeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/label/web/TechnologyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/food/label/web/TechnologyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/util/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/food/util/BaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/vo/ResponseVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/food/vo/ResponseVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/classes/edu/nf/food/FoodApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/classes/edu/nf/food/label/web/TechnologyController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/classes/edu/nf/food/util/BaseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/classes/edu/nf/food/vo/ResponseVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/reception/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/reception/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/reception/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/food-web-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/food-web-1.0-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,103 +184,24 @@
     <expand />
     <select />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="mybatis-mapper" />
-        <option value="Class" />
-        <option value="HTML File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/Maven/apache-maven-3.6.1" />
-        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.6.1\conf\settings.xml" />
-      </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="1ZIgwymfxSwr0ysZtTRm1GR84L6" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\IdeaProjects\food\food-dao\src\main\resources\Mapper\Label" />
-    </key>
-  </component>
-  <component name="RunAnythingCache">
-    <option name="myCommands">
-      <command value="mvn clean package -DskipTests" />
-    </option>
-  </component>
-  <component name="RunManager" selected="Spring Boot.FoodApplication">
-    <configuration name="ServiceApplicationTest.listTechnology" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="food-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.nf.food.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.nf.food" />
-      <option name="MAIN_CLASS_NAME" value="edu.nf.food.ServiceApplicationTest" />
-      <option name="METHOD_NAME" value="listTechnology" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FoodApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="FoodApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="food-web" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.nf.food.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.nf.food.FoodApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.nf.food.food.FoodApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.FoodApplication" />
-        <item itemvalue="JUnit.ServiceApplicationTest.listTechnology" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -151,132 +219,52 @@
     <configuration />
   </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="6a933dc9-dd7f-4357-aeaf-5dc31ca50fe7" name="Default Changelist" comment="" />
-      <created>1584504396892</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1584504396892</updated>
-      <workItem from="1584504429440" duration="9270000" />
-      <workItem from="1584532287598" duration="20031000" />
-      <workItem from="1584664705497" duration="15617000" />
-      <workItem from="1584708975894" duration="578000" />
-      <workItem from="1584934176976" duration="2213000" />
-      <workItem from="1584946822995" duration="6258000" />
-      <workItem from="1585030039135" duration="5238000" />
-    </task>
-    <task id="LOCAL-00001" summary="实体类搭建">
-      <created>1584623261101</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1584623261101</updated>
-    </task>
-    <task id="LOCAL-00002" summary="饮食健康板块">
-      <created>1585030328463</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1585030328463</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="实体类搭建" />
-    <MESSAGE value="饮食健康板块" />
-    <option name="LAST_COMMIT_MESSAGE" value="饮食健康板块" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="311" y="57" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1584603172871">
+    <state x="275" y="26" key="#Notifications" timestamp="1585738890438">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="311" y="57" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1366.728@0.0.1366.728" timestamp="1584603172871" />
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1584689270308">
+    <state x="275" y="26" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1585738890438" />
+    <state width="1323" height="198" key="GridCell.Tab.0.bottom" timestamp="1585738891322">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1584689270308" />
-    <state x="437" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584671458108">
+    <state width="1323" height="198" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585738891322" />
+    <state width="1323" height="198" key="GridCell.Tab.0.center" timestamp="1585738891322">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="437" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1584671458108" />
-    <state x="284" y="0" key="CommitChangelistDialog2" timestamp="1585030327369">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="284" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584623253654" />
-    <state x="284" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1585030327369" />
-    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1584506359070">
+    <state width="1323" height="198" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585738891322" />
+    <state width="1323" height="198" key="GridCell.Tab.0.left" timestamp="1585738891322">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584506359070" />
-    <state width="1323" height="251" key="GridCell.Tab.0.bottom" timestamp="1584708656636">
+    <state width="1323" height="198" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585738891322" />
+    <state width="1323" height="198" key="GridCell.Tab.0.right" timestamp="1585738891322">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="251" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584708656636" />
-    <state width="1323" height="251" key="GridCell.Tab.0.center" timestamp="1584708656635">
+    <state width="1323" height="198" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585738891322" />
+    <state width="1323" height="198" key="GridCell.Tab.1.bottom" timestamp="1585738752388">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="251" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584708656635" />
-    <state width="1323" height="251" key="GridCell.Tab.0.left" timestamp="1584708656635">
+    <state width="1323" height="198" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585738752388" />
+    <state width="1323" height="198" key="GridCell.Tab.1.center" timestamp="1585738752388">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="251" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584708656635" />
-    <state width="1323" height="251" key="GridCell.Tab.0.right" timestamp="1584708656636">
+    <state width="1323" height="198" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1585738752388" />
+    <state width="1323" height="198" key="GridCell.Tab.1.left" timestamp="1585738752388">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="251" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584708656636" />
-    <state width="1323" height="251" key="GridCell.Tab.1.bottom" timestamp="1584708656637">
+    <state width="1323" height="198" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1585738752388" />
+    <state width="1323" height="198" key="GridCell.Tab.1.right" timestamp="1585738752388">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="251" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584708656637" />
-    <state width="1323" height="251" key="GridCell.Tab.1.center" timestamp="1584708656636">
+    <state width="1323" height="198" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1585738752388" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1585738880134">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="251" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1584708656636" />
-    <state width="1323" height="251" key="GridCell.Tab.1.left" timestamp="1584708656636">
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585738880134" />
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1585738752480">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="251" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1584708656636" />
-    <state width="1323" height="251" key="GridCell.Tab.1.right" timestamp="1584708656636">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="251" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1584708656636" />
-    <state x="186" y="9" key="SettingsEditor" timestamp="1585030071011">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584512359832" />
-    <state x="186" y="9" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1585030071011" />
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1585030332943">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584623291527" />
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1585030332943" />
-    <state x="361" y="175" key="git4idea.merge.GitPullDialog" timestamp="1585030907337">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="361" y="166" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1584710505506" />
-    <state x="361" y="175" key="git4idea.merge.GitPullDialog/0.0.1366.768@0.0.1366.768" timestamp="1585030907337" />
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1584512259049">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1584512259049" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1584688779380">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1584688779380" />
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1585738752480" />
   </component>
 </project>

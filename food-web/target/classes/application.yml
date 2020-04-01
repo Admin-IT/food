@@ -5,7 +5,7 @@ server:
     max-threads: 1000
     min-spare-threads: 50
   # 指定端口
-  port: 8080
+  port: 8089
   # 指定项目的ContextPath路径
   servlet:
     context-path: /food
@@ -23,3 +23,36 @@ spring:
   # 包含dao的yml配置文件,对应的是application-xxx.yml文件的xxx名称
   profiles:
     include: dao
+
+  # redis
+  spring:
+    # redis配置
+    redis:
+      # 指定使用第几个库，默认是0
+      database: 0
+      # 主机地址
+      host: 127.0.0.1
+      # 端口
+      port: 6379
+      jedis:
+        pool:
+          max-active: 25
+          max-idle: 20
+          min-idle: 10
+      # 认证密码（如果在redis.conf中配置了密码）
+      password:
+      # 连接超时时间
+      timeout: 2000
+  # 连接池配置
+  #   lettuce:
+  #     pool:
+  #       # 最大连接数
+  #       max-active: 10
+  #       # 最大空闲连接
+  #       max-idle: 8
+  #       # 最小空闲连接
+  #       min-idle: 5
+  #       # 建立连接最大等待时间
+  #       max-wait: 2000
+  #       # 每间隔多少毫秒运行一次空闲连接回收
+  #       time-between-eviction-runs: 60000
