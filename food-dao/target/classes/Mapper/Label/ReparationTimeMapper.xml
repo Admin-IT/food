@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.nf.food.food.label.dao.ReparationTimeDao">
+     <resultMap id="reparationTime" type="edu.nf.food.food.label.entity.ReparationTime">
+         <id column="menu_reparation_time_id" property="id"/>
+         <result property="name" column="menu_reparation_time"/>
+     </resultMap>
+    <insert id="addReparationTime" parameterType="edu.nf.food.food.label.entity.ReparationTime">
+        insert into menu_reparation_time(menu_reparation_time)VALUES(#{name});
+    </insert>
+    <delete id="delReparationTime" parameterType="edu.nf.food.food.label.entity.ReparationTime">
+        delete from menu_reparation_time  where menu_reparation_time_id = #{id}
+    </delete>
+    <select id="listReparationTime" resultMap="reparationTime">
+        select * from  menu_reparation_time
+    </select>
+</mapper>

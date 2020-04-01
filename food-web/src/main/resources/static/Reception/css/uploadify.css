@@ -1,0 +1,75 @@
+.uploadbox{clear:both;}
+.muluploadbox{width:940px;padding:40px 0px 0px 50px;position:relative;}
+.muluploadbox .tip{font-size:12px;color:#999;line-height:46px;position:absolute;left:180px;display:block;height:46px;top:40px;}
+.muluploadbox .tip a{color:#ff3232;}
+.muluploadbox .tip a:hover{text-decoration: underline;}
+.muluploadbox_done{width:940px;padding:0px;position:relative;}
+.muluploadbox_done .tip{font-size:12px;color:#999;line-height:46px;position:absolute;left:130px;display:block;height:46px;top:0px;}
+.muluploadbox_done .tip a{color:#ff3232;}
+.muluploadbox_done .tip a:hover{text-decoration: underline;}
+.tipsitem{clear:both;padding-top:20px;}
+.uploadify {
+    position: relative;
+    margin-bottom: 0px;
+}
+.uploadify-button {
+    background-color: #ff3232;
+
+    background-position: center top;
+    background-repeat: no-repeat;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #FFF;
+    font: 14px Microsoft Yahei,榛戜綋;
+    text-align: center;
+    width: 100%;
+    height:46px;line-height:46px;
+    display:block;
+}
+.uploadify:hover .uploadify-button {
+    background-color: #e90000;
+    background-position: center bottom;
+}
+.uploadify-button.disabled {
+    background-color: #D0D0D0;
+    color: #808080;
+}
+.uploadify-queue {
+    margin-bottom: 1em;
+}
+.uploadify-queue-item {
+    background-color: #F5F5F5;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font: 11px Verdana, Geneva, sans-serif;
+    margin-top: 10px;
+    width:420px;
+    padding: 10px;
+    float:left;
+    margin-right:10px;
+}
+.uploadify-error {
+    background-color: #FDE5DD !important;
+}
+/*.uploadify-queue-item .cancel a {*/
+/*    background: url('../images/uploadify-cancel.png') 0 0 no-repeat;*/
+/*    float: right;*/
+/*    height:	16px;*/
+/*    text-indent: -9999px;*/
+/*    width: 16px;*/
+/*}*/
+.uploadify-queue-item.completed {
+    background-color: #E5E5E5;
+}
+.uploadify-progress {
+    background-color: #E5E5E5;
+    margin-top: 10px;
+    width: 100%;
+}
+.uploadify-progress-bar {
+    background-color: #0099FF;
+    height: 3px;
+    width: 1px;
+}

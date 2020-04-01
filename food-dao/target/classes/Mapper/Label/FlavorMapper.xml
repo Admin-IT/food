@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.nf.food.food.label.dao.FlavorDao">
+
+    <resultMap id="flavor" type="edu.nf.food.food.label.entity.Flavor">
+        <id column="menu_flavor_id" property="id"/>
+        <result column="menu_flavor_name" property="name"/>
+    </resultMap>
+
+    <!--添加-->
+    <insert id="addFlaver" parameterType="edu.nf.food.food.label.entity.Flavor">
+        insert into menu_flavor(menu_flavor_name)VALUES(#{name});
+    </insert>
+    <!--删除-->
+    <delete id="delFlaver"  parameterType="edu.nf.food.food.label.entity.Flavor">
+        delete from menu_flavor  where menu_flavor_id = #{id}
+    </delete>
+    <!--查询-->
+    <select id="listFlaver" resultMap="flavor">
+        select * from  menu_flavor
+    </select>
+
+
+</mapper>
