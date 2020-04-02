@@ -3,6 +3,7 @@ package edu.nf.food.food.service.impl;
 import edu.nf.food.food.dao.ClassifiedDao;
 import edu.nf.food.food.entity.Classified;
 import edu.nf.food.food.service.ClassifiedService;
+import edu.nf.food.food.service.exception.FoodException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -71,7 +72,7 @@ public class ClassifiedServiceImpl implements ClassifiedService {
         try{
             classifiedDao.addClassified(classified);
         }catch (Exception e){
-            throw new RuntimeException("添加分类异常：" + e);
+            throw new FoodException("添加分类异常：" + e);
         }
     }
 }

@@ -3,6 +3,7 @@ package edu.nf.food.food.service.impl;
 import edu.nf.food.food.dao.FoodDao;
 import edu.nf.food.food.entity.Food;
 import edu.nf.food.food.service.FoodService;
+import edu.nf.food.food.service.exception.FoodException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -71,7 +72,7 @@ public class FoodServiceImpl implements FoodService {
         try{
             foodDao.addFood(food);
         }catch (Exception e){
-            throw new RuntimeException("添加菜谱异常：" + e);
+            throw new FoodException("添加菜谱异常：" + e);
         }
     }
 }

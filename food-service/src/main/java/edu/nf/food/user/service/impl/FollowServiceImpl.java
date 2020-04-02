@@ -3,6 +3,7 @@ package edu.nf.food.user.service.impl;
 import edu.nf.food.user.dao.FollowDao;
 import edu.nf.food.user.entity.Follow;
 import edu.nf.food.user.service.FollowService;
+import edu.nf.food.user.service.exception.UserException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -70,7 +71,7 @@ public class FollowServiceImpl implements FollowService {
         try {
             followDao.addFollow(follow);
         }catch (Exception e){
-            throw new RuntimeException("添加关注异常：" + e);
+            throw new UserException("添加关注异常：" + e);
         }
     }
 }

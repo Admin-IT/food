@@ -3,6 +3,7 @@ package edu.nf.food.user.service.impl;
 import edu.nf.food.user.dao.UserDao;
 import edu.nf.food.user.entity.User;
 import edu.nf.food.user.service.UserService;
+import edu.nf.food.user.service.exception.UserException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -70,7 +71,7 @@ public class UserServiceImpl implements UserService {
         try {
             userDao.addUser(user);
         }catch (Exception e){
-            throw new RuntimeException("添加用户异常：" + e);
+            throw new UserException("添加用户异常：" + e);
         }
     }
 }

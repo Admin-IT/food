@@ -3,6 +3,7 @@ package edu.nf.food.user.service.impl;
 import edu.nf.food.user.dao.CollectionDao;
 import edu.nf.food.user.entity.Collection;
 import edu.nf.food.user.service.CollectionService;
+import edu.nf.food.user.service.exception.UserException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -70,7 +71,7 @@ public class CollectionServiceImpl implements CollectionService {
         try {
             collectionDao.addCollection(collection);
         } catch (Exception e) {
-            throw new RuntimeException("添加收藏异常：" + e);
+            throw new UserException("添加收藏异常：" + e);
         }
     }
 }

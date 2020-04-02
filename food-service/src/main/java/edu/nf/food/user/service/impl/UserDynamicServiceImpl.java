@@ -4,6 +4,7 @@ package edu.nf.food.user.service.impl;
 import edu.nf.food.user.dao.UserDynamicDao;
 import edu.nf.food.user.entity.UserDynamic;
 import edu.nf.food.user.service.UserDynamicService;
+import edu.nf.food.user.service.exception.UserException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -71,7 +72,7 @@ public class UserDynamicServiceImpl implements UserDynamicService {
         try {
             userDynamicDao.addUserDynamic(userDynamic);
         }catch (Exception e){
-            throw new RuntimeException("添加用户动态异常：" + e);
+            throw new UserException("添加用户动态异常：" + e);
         }
     }
 }

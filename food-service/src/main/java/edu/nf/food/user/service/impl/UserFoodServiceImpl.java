@@ -4,6 +4,7 @@ package edu.nf.food.user.service.impl;
 import edu.nf.food.user.dao.UserFoodDao;
 import edu.nf.food.user.entity.UserFood;
 import edu.nf.food.user.service.UserFoodService;
+import edu.nf.food.user.service.exception.UserException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -71,7 +72,7 @@ public class UserFoodServiceImpl implements UserFoodService {
         try {
             userFoodDao.addUserFood(userFood);
         }catch (Exception e){
-            throw new RuntimeException("添加用户菜谱异常：" + e);
+            throw new UserException("添加用户菜谱异常：" + e);
         }
     }
 }

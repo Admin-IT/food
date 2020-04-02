@@ -2,64 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a60385e9-6d00-4c27-bd70-7d5e613ec729" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/food-dao/src/main/java/edu/nf/food/food/dao/ClassifiedDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-dao/src/main/java/edu/nf/food/food/dao/CuisineDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-dao/src/main/java/edu/nf/food/food/dao/FoodDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-dao/src/main/java/edu/nf/food/user/dao/CollectionDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-dao/src/main/java/edu/nf/food/user/dao/FollowDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-dao/src/main/java/edu/nf/food/user/dao/UserArticleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-dao/src/main/java/edu/nf/food/user/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-dao/src/main/java/edu/nf/food/user/dao/UserDynamicDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-dao/src/main/java/edu/nf/food/user/dao/UserFoodDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/ClassifiedMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/CollectionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/CuisineMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/FollowMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/FoodMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/UserArticleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/UserDynamicMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/UserFoodMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-dao/target/classes/Mapper/FoodMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-dao/target/classes/edu/nf/food/food/dao/FoodDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/entity/Classified.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/entity/Cuisine.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/user/entity/Collection.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/user/entity/Follow.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/user/entity/UserArticle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/user/entity/UserDynamic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/user/entity/UserFood.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/service/ClassifiedService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/service/CuisineService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/service/FoodService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/service/impl/ClassifiedServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/service/impl/CuisineServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/service/impl/FoodServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/CollectionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/FollowService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/UserArticleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/UserDynamicService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/UserFoodService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/impl/CollectionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/impl/FollowServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/impl/UserArticleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/impl/UserDynamicServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/impl/UserFoodServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/food/service/FoodService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/food/service/impl/FoodServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/food_jar/food.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/food_web_jar/food-web.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/Sql/menu.sql" beforeDir="false" afterPath="$PROJECT_DIR$/doc/Sql/menu.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-dao/target/classes/application-dao.yml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/target/classes/application-dao.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/entity/Food.class" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/entity/Food.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/user/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/user/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/label/service/impl/TechnologyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/label/service/impl/TechnologyServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/test/java/edu/nf/food/ServiceApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/test/java/edu/nf/food/ServiceApplicationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/target/classes/META-INF/food-service.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/label/service/impl/TechnologyServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/label/service/impl/TechnologyServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/target/test-classes/edu/nf/food/ServiceApplicationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/target/test-classes/edu/nf/food/ServiceApplicationTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/service/exception/FoodException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/exception/UserException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/service/impl/ClassifiedServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/service/impl/ClassifiedServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/service/impl/CuisineServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/service/impl/CuisineServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/service/impl/FoodServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/service/impl/FoodServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/impl/CollectionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/impl/CollectionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/impl/FollowServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/impl/FollowServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/impl/UserArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/impl/UserArticleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/impl/UserDynamicServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/impl/UserDynamicServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/impl/UserFoodServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/impl/UserFoodServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/impl/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +85,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -147,6 +101,15 @@
       <recent name="D:\IdeaProjects\food\food-web\src\main\resources\templates\Reception" />
       <recent name="D:\IdeaProjects\food\food-service\src\main\java\edu\nf\food" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="FoodApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="food-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.nf.food.FoodApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -259,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584429502351</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="部分后台代码">
+      <created>1585798489602</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1585798489602</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,7 +242,8 @@
     <MESSAGE value="模板区分" />
     <MESSAGE value="测试 包" />
     <MESSAGE value="实体类 创建 ethan" />
-    <option name="LAST_COMMIT_MESSAGE" value="实体类 创建 ethan" />
+    <MESSAGE value="部分后台代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="部分后台代码" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="28" key="#Project_Structure" timestamp="1584427850702">
@@ -291,10 +262,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="459" y="160" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1583469067805" />
-    <state x="488" y="53" key="#com.intellij.ide.util.MemberChooser" timestamp="1584427090006">
+    <state x="488" y="53" key="#com.intellij.ide.util.MemberChooser" timestamp="1585799067246">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="488" y="53" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1584427090006" />
+    <state x="488" y="53" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1585799067246" />
     <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1584429500892">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -308,38 +279,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="440" y="113" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583324970181" />
-    <state x="392" y="85" key="MultipleFileMergeDialog" timestamp="1584434618671">
+    <state x="392" y="85" key="MultipleFileMergeDialog" timestamp="1585798695921">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="392" y="85" key="MultipleFileMergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1584434618671" />
+    <state x="392" y="85" key="MultipleFileMergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1585798695921" />
     <state x="525" y="89" key="RollbackChangesDialog" timestamp="1583376907932">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="525" y="89" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1583376907932" />
-    <state x="226" y="0" key="SettingsEditor" timestamp="1584429124667">
+    <state x="226" y="0" key="SettingsEditor" timestamp="1585798682267">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="226" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583388309286" />
-    <state x="226" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1584429124667" />
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1584429513494">
+    <state x="226" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1585798682267" />
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1585798757369">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1583467448778" />
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1584429513494" />
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1585798757369" />
     <state x="363" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1584422450236">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="363" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1584422450236" />
-    <state x="477" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584434638074">
+    <state x="477" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585798687817">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1583377084927" />
-    <state x="477" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1584434638074" />
-    <state x="402" y="168" key="git4idea.merge.GitPullDialog" timestamp="1584434654608">
+    <state x="477" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1585798687817" />
+    <state x="402" y="168" key="git4idea.merge.GitPullDialog" timestamp="1585798712366">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="402" y="166" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1583464834431" />
-    <state x="402" y="168" key="git4idea.merge.GitPullDialog/0.0.1366.738@0.0.1366.738" timestamp="1584434654608" />
+    <state x="402" y="168" key="git4idea.merge.GitPullDialog/0.0.1366.738@0.0.1366.738" timestamp="1585798712366" />
     <state x="518" y="243" key="git4idea.rebase.GitRebaseDialog" timestamp="1583149870636">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
