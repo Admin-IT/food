@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.nf.food.user.dao.UserDao">
+
+    <resultMap id="userMap" type="edu.nf.food.user.entity.User">
+        <id property="userId" column="menu_user_id"/>
+        <result property="userName" column="menu_user_name"/>
+        <result property="userSex" column="menu_user_sex"/>
+        <result property="userBirthday" column="menu_user_birthday"/>
+        <result property="userHometown" column="menu_user_hometown"/>
+        <result property="userLocation" column="menu_user_location"/>
+        <result property="userOccupation" column="menu_user_occupation"/>
+        <result property="userAutograph" column="menu_user_autograph"/>
+        <result property="userEmail" column="menu_user_email"/>
+        <result property="userTel" column="menu_user_tel"/>
+        <result property="userFans" column="menu_user_fans"/>
+        <result property="userFollow" column="menu_user_follow"/>
+        <result property="userImage" column="menu_user_image"/>
+    </resultMap>
+
+    <select id="listUser" resultMap="userMap">
+        select menu_user_id, menu_user_name, menu_user_sex, menu_user_birthday, menu_user_hometown,
+         menu_user_location, menu_user_occupation, menu_user_autograph, menu_user_email, menu_user_tel,
+          menu_user_fans, menu_user_follow, menu_user_image from menu_user
+    </select>
+
+    <delete id="delUserById" parameterType="edu.nf.food.user.entity.User">
+        delete from menu_user where menu_user_id = #{userId}
+    </delete>
+
+    <update id="upUserById" parameterType="edu.nf.food.user.entity.User">
+        update menu_user
+        set
+         menu_user_name = #{userName},
+         menu_user_sex = #{userSex},
+         menu_user_birthday = #{userBirthday},
+         menu_user_hometown = #{userHometown},
+         menu_user_location = #{userLocation},
+         menu_user_occupation = #{userOccupation},
+         menu_user_autograph = #{userAutograph},
+         menu_user_email = #{userEmail},
+         menu_user_tel = #{userTel},
+         menu_user_fans = #{userFans},
+         menu_user_follow = #{userFollow},
+         menu_user_image = #{userImage}
+        where menu_user_id = #{userId}
+    </update>
+
+    <insert id="addUser" parameterType="edu.nf.food.user.entity.User">
+        insert into menu_user_food
+         (menu_user_name, menu_user_sex, menu_user_birthday, menu_user_hometown, menu_user_location,
+         menu_user_occupation, menu_user_autograph, menu_user_email, menu_user_tel, menu_user_fans,
+         menu_user_follow, menu_user_image)
+        values
+         (#{userName}, #{userSex}, #{userBirthday}, #{userHometown}, #{userLocation}, #{userOccupation},
+         #{userAutograph}, #{userEmail}, #{userTel}, #{userFans}, #{userFollow}, #{userImage})
+    </insert>
+</mapper>
+

@@ -2,16 +2,81 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a60385e9-6d00-4c27-bd70-7d5e613ec729" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/doc/文档/~$精英小组项目需求文档.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-dao/target/classes/Mapper/ClassifiedMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-dao/target/classes/Mapper/CollectionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-dao/target/classes/Mapper/CuisineMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-dao/target/classes/Mapper/FollowMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-dao/target/classes/Mapper/UserArticleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-dao/target/classes/Mapper/UserDynamicMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-dao/target/classes/Mapper/UserFoodMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-dao/target/classes/Mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-dao/target/classes/edu/nf/food/food/dao/ClassifiedDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-dao/target/classes/edu/nf/food/food/dao/CuisineDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-dao/target/classes/edu/nf/food/user/dao/CollectionDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-dao/target/classes/edu/nf/food/user/dao/FollowDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-dao/target/classes/edu/nf/food/user/dao/UserArticleDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-dao/target/classes/edu/nf/food/user/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-dao/target/classes/edu/nf/food/user/dao/UserDynamicDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-dao/target/classes/edu/nf/food/user/dao/UserFoodDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/food/service/ClassifiedService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/food/service/CuisineService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/food/service/exception/FoodException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/food/service/impl/ClassifiedServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/food/service/impl/CuisineServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/user/service/CollectionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/user/service/FollowService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/user/service/UserArticleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/user/service/UserDynamicService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/user/service/UserFoodService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/user/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/user/service/exception/UserException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/user/service/impl/CollectionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/user/service/impl/FollowServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/user/service/impl/UserArticleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/user/service/impl/UserDynamicServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/user/service/impl/UserFoodServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/user/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/advice/FoodAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/advice/UserAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/food/web/ClassifiedController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/food/web/CuisineController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/food/web/FoodController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/user/web/CollectionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/user/web/FollowController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/user/web/UserArticleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/user/web/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/user/web/UserDynamicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/user/web/UserFoodController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/service/impl/ClassifiedServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/service/impl/ClassifiedServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/service/impl/CuisineServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/service/impl/CuisineServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/service/impl/FoodServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/service/impl/FoodServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/impl/CollectionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/impl/CollectionServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/impl/FollowServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/impl/FollowServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/impl/UserArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/impl/UserArticleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/impl/UserDynamicServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/impl/UserDynamicServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/impl/UserFoodServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/impl/UserFoodServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/ClassifiedMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/Food/ClassifiedMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/CollectionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/User/CollectionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/CuisineMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/Food/CuisineMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/FollowMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/User/FollowMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/FoodMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/Food/FoodMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/UserArticleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/User/UserArticleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/UserDynamicMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/User/UserDynamicMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/UserFoodMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/User/UserFoodMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/User/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/target/classes/Mapper/FoodMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/target/classes/Mapper/FoodMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/target/classes/Mapper/TochnologyMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/target/classes/application-dao.yml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/target/classes/application-dao.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/target/classes/edu/nf/food/food/dao/FoodDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/target/classes/edu/nf/food/food/dao/FoodDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/label/entity/entity/Classified.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/label/entity/entity/Cuisine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/label/entity/entity/Food.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/label/entity/entity/FoodDraft.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/label/entity/entity/FoodExamine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/label/entity/entity/FoodIngredients.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/label/entity/entity/Ingredients.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/label/entity/entity/IngredientsClassified.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/label/entity/entity/Step.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/food/service/FoodService.class" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/food/service/FoodService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/food/service/impl/FoodServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/food/service/impl/FoodServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/label/service/impl/TechnologyServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/label/service/impl/TechnologyServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/FoodApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/FoodApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/classes/edu/nf/food/FoodApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/edu/nf/food/FoodApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +135,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -83,7 +152,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -93,11 +162,15 @@
       <recent name="D:\IdeaProjects\food\food-web\src\main\resources" />
       <recent name="D:\IdeaProjects\food\food-web\src\main\resources\static\Reception" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.nf.food.advice" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\food\food-dao\src\main\resources\Mapper\User" />
+      <recent name="F:\food\food-dao\src\main\resources\Mapper\Food" />
       <recent name="D:\IdeaProjects\food\food-dao\src\main\resources" />
       <recent name="D:\IdeaProjects\food\food-web\src\main\resources\static\Reception" />
       <recent name="D:\IdeaProjects\food\food-web\src\main\resources\templates\Reception" />
-      <recent name="D:\IdeaProjects\food\food-service\src\main\java\edu\nf\food" />
     </key>
   </component>
   <component name="RunManager">
@@ -142,6 +215,8 @@
       <workItem from="1584341905810" duration="680000" />
       <workItem from="1584368517332" duration="734000" />
       <workItem from="1584422450655" duration="8175000" />
+      <workItem from="1585807303000" duration="2391000" />
+      <workItem from="1585810346524" duration="2135000" />
     </task>
     <task id="LOCAL-00001" summary="初始版本">
       <created>1583149719330</created>
@@ -234,7 +309,21 @@
       <option name="project" value="LOCAL" />
       <updated>1585799230198</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="部分后台代码 1.2">
+      <created>1585799800239</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1585799800239</updated>
+    </task>
+    <task id="LOCAL-00015" summary="部分后台代码 1.3">
+      <created>1585800017952</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1585800017952</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,17 +338,19 @@
     <MESSAGE value="实体类 创建 ethan" />
     <MESSAGE value="部分后台代码" />
     <MESSAGE value="部分后台代码 1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="部分后台代码 1.1" />
+    <MESSAGE value="部分后台代码 1.2" />
+    <MESSAGE value="部分后台代码 1.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="部分后台代码 1.3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="28" key="#Project_Structure" timestamp="1584427850702">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="275" y="28" key="#Project_Structure/0.0.1366.738@0.0.1366.738" timestamp="1584427850702" />
-    <state x="137" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583468776197">
+    <state x="137" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585800641052">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="137" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1583468776197" />
+    <state x="137" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1585800641052" />
     <state x="336" y="71" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog" timestamp="1583148145267">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -272,11 +363,11 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="488" y="53" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1585799067246" />
-    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1585799796729">
+    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1585800014516">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583467430973" />
-    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1585799796729" />
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1585800014516" />
     <state x="129" y="62" key="DiffContextDialog" timestamp="1584434600254">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -285,6 +376,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="440" y="113" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583324970181" />
+    <state width="1323" height="110" key="GridCell.Tab.0.bottom" timestamp="1585800518354">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="110" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1585800518354" />
+    <state width="1323" height="110" key="GridCell.Tab.0.center" timestamp="1585800518353">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="110" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1585800518353" />
+    <state width="1323" height="110" key="GridCell.Tab.0.left" timestamp="1585800518352">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="110" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1585800518352" />
+    <state width="1323" height="110" key="GridCell.Tab.0.right" timestamp="1585800518353">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="110" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1585800518353" />
+    <state width="1323" height="110" key="GridCell.Tab.1.bottom" timestamp="1585800518354">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="110" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1585800518354" />
+    <state width="1323" height="110" key="GridCell.Tab.1.center" timestamp="1585800518354">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="110" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1585800518354" />
+    <state width="1323" height="110" key="GridCell.Tab.1.left" timestamp="1585800518354">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="110" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1585800518354" />
+    <state width="1323" height="110" key="GridCell.Tab.1.right" timestamp="1585800518354">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="110" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1585800518354" />
     <state x="392" y="85" key="MultipleFileMergeDialog" timestamp="1585798695921">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -293,20 +416,20 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="525" y="89" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1583376907932" />
-    <state x="226" y="0" key="SettingsEditor" timestamp="1585798682267">
+    <state x="226" y="0" key="SettingsEditor" timestamp="1585802945184">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="226" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583388309286" />
-    <state x="226" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1585798682267" />
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1585799811516">
+    <state x="226" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1585802945184" />
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1585800022653">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1583467448778" />
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1585799811516" />
-    <state x="363" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1584422450236">
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1585800022653" />
+    <state x="363" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1585810347476">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="363" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1584422450236" />
+    <state x="363" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1585810347476" />
     <state x="477" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585798687817">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
