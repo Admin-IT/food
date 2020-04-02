@@ -147,12 +147,12 @@ create table menu_label
 
 
 -- 文章表
-create table  menu_atricle
+create table  menu_article
 (
    menu_article_id int primary key AUTO_INCREMENT, -- 唯一ID 格式：100001
 	 menu_article_title varchar(50) null, -- 标题
 	 menu_article_content varchar(2000) not null, -- 内容
-	 menu_atricle_image varchar(50) null, -- 图片
+	 menu_article_image varchar(50) null, -- 图片
 	 menu_user_id int null, -- 作者ID
 	 menu_user_comment varchar(50), -- 评论ID 关联为文章ID
 	 menu_user_time date not null, -- 上传时间

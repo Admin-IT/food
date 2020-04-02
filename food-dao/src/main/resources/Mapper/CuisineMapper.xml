@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.nf.food.food.dao.CuisineDao">
+
+    <resultMap id="CuisineMap" type="edu.nf.food.food.entity.Cuisine">
+        <id property="cuisineId" column="menu_cuisine_id"/>
+        <result property="cuisineName" column="menu_cuisine_name"/>
+    </resultMap>
+
+    <select id="listCuisine" resultMap="CuisineMap">
+        select menu_cuisine_id, menu_cuisine_name from menu_cuisine
+    </select>
+
+    <delete id="delCuisineById" parameterType="edu.nf.food.food.entity.Cuisine">
+        delete from menu_cuisine where menu_cuisine_id = #{cuisineId}
+    </delete>
+
+    <update id="upCuisineById" parameterType="edu.nf.food.food.entity.Cuisine">
+        update menu_cuisine set menu_cuisine_name = #{cuisineName} where menu_cuisine_id = #{cuisineId}
+    </update>
+
+    <insert id="addCuisine" parameterType="edu.nf.food.food.entity.Cuisine">
+        insert into menu_cuisine(menu_cuisine_name) values(#{cuisineName})
+    </insert>
+</mapper>

@@ -17,6 +17,7 @@ import java.util.List;
 @Service
 public class TechnologyServiceImpl implements TechnologyService {
 
+
     @Autowired
     private TechnologyDao technologyDao;
 
@@ -26,4 +27,5 @@ public class TechnologyServiceImpl implements TechnologyService {
 
        return technologyDao.listTechnology();
     }
+
 }

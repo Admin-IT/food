@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.nf.food.user.dao.UserFoodDao">
+
+    <resultMap id="UserFoodMap" type="edu.nf.food.user.entity.UserFood">
+        <id property="userFoodId" column="menu_user_food_id"/>
+        <result property="userId" column="menu_user_id"/>
+        <result property="foodId" column="menu_food_id"/>
+    </resultMap>
+
+    <select id="listUserFood" resultMap="UserFoodMap">
+        select menu_user_food_id, menu_user_id, menu_food_id from menu_user_food
+    </select>
+
+    <delete id="delUserFoodById" parameterType="edu.nf.food.user.entity.UserFood">
+        delete from menu_user_food where menu_user_food_id = #{userFoodId}
+    </delete>
+
+    <update id="upUserFoodById" parameterType="edu.nf.food.user.entity.UserFood">
+        update menu_user_food
+        set
+         menu_user_id = #{userId},
+         menu_food_id = #{foodId}
+        where menu_user_food_id = #{userFoodId}
+    </update>
+
+    <insert id="addUserFood" parameterType="edu.nf.food.user.entity.UserFood">
+        insert into menu_user_food(menu_user_id, menu_food_id) values(#{userId}, #{foodId})
+    </insert>
+</mapper>
+

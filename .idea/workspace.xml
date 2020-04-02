@@ -2,7 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a60385e9-6d00-4c27-bd70-7d5e613ec729" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-dao/src/main/java/edu/nf/food/food/dao/ClassifiedDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-dao/src/main/java/edu/nf/food/food/dao/CuisineDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-dao/src/main/java/edu/nf/food/food/dao/FoodDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-dao/src/main/java/edu/nf/food/user/dao/CollectionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-dao/src/main/java/edu/nf/food/user/dao/FollowDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-dao/src/main/java/edu/nf/food/user/dao/UserArticleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-dao/src/main/java/edu/nf/food/user/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-dao/src/main/java/edu/nf/food/user/dao/UserDynamicDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-dao/src/main/java/edu/nf/food/user/dao/UserFoodDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/ClassifiedMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/CollectionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/CuisineMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/FollowMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/FoodMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/UserArticleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/UserDynamicMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/UserFoodMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-dao/target/classes/Mapper/FoodMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-dao/target/classes/edu/nf/food/food/dao/FoodDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/entity/Classified.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/entity/Cuisine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/user/entity/Collection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/user/entity/Follow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/user/entity/UserArticle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/user/entity/UserDynamic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/user/entity/UserFood.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/service/ClassifiedService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/service/CuisineService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/service/FoodService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/service/impl/ClassifiedServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/service/impl/CuisineServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/service/impl/FoodServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/CollectionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/FollowService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/UserArticleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/UserDynamicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/UserFoodService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/impl/CollectionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/impl/FollowServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/impl/UserArticleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/impl/UserDynamicServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/impl/UserFoodServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/food/service/FoodService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/food/service/impl/FoodServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/food_jar/food.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/food_web_jar/food-web.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/Sql/menu.sql" beforeDir="false" afterPath="$PROJECT_DIR$/doc/Sql/menu.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/target/classes/application-dao.yml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/target/classes/application-dao.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/entity/Food.class" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/entity/Food.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/user/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/user/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/label/service/impl/TechnologyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/label/service/impl/TechnologyServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/src/test/java/edu/nf/food/ServiceApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/test/java/edu/nf/food/ServiceApplicationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/target/classes/META-INF/food-service.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/label/service/impl/TechnologyServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/label/service/impl/TechnologyServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/target/test-classes/edu/nf/food/ServiceApplicationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/target/test-classes/edu/nf/food/ServiceApplicationTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +90,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/label/service/impl/TechnologyServiceImpl.java" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/service/FoodService.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">

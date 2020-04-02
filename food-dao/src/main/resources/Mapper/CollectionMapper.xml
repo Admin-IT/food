@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.nf.food.user.dao.CollectionDao">
+
+    <resultMap id="collectionMap" type="edu.nf.food.user.entity.Collection">
+        <id property="collectionId" column="menu_user_collection_id"/>
+        <result property="userId" column="menu_user_id"/>
+        <result property="foodId" column="menu_food_id"/>
+        <result property="articleId" column="menu_article_id"/>
+    </resultMap>
+
+    <select id="listCollection" resultMap="collectionMap">
+        select menu_user_collection_id, menu_user_id, menu_food_id, menu_article_id from menu_user_collection
+    </select>
+
+    <delete id="delCollectionById" parameterType="edu.nf.food.user.entity.Collection">
+        delete from menu_user_collection where menu_user_collection_id = #{collectionId}
+    </delete>
+
+    <update id="upCollectionById" parameterType="edu.nf.food.user.entity.Collection">
+        update menu_user_collection
+        set
+         menu_user_id = #{userId},
+         menu_food_id = #{foodId},
+         menu_article_id = #{articleId}
+        where menu_user_collection_id = #{collectionId}
+    </update>
+
+    <insert id="addCollection" parameterType="edu.nf.food.user.entity.Collection">
+        insert into menu_user_collection(menu_user_id, menu_food_id, menu_article_id) values(#{userId}, #{foodId}, #{articleId})
+    </insert>
+</mapper>
+

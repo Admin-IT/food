@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.nf.food.food.dao.FoodDao">
+
+    <resultMap id="foodMap" type="edu.nf.food.food.entity.Food">
+        <id column="menu_food_id" property="foodId"/>
+        <result column="menu_food_name" property="foodName"/>
+        <result column="menu_food_cuisine" property="foodCuisine"/>
+        <result column="menu_food_classified" property="foodClassified"/>
+        <result column="menu_food_technology" property="foodTechnology"/>
+        <result column="menu_food_flavor" property="foodFlavor"/>
+        <result column="menu_food_difficulty" property="foodDifficulty"/>
+        <result column="menu_food_reparation_time" property="foodReparationTime"/>
+        <result column="menu_food_number" property="foodNumber"/>
+        <result column="menu_food_cooking_time" property="foodCookingTime"/>
+        <result column="menu_food_step" property="foodStep"/>
+        <result column="menu_food_ingredients" property="foodIngredients"/>
+        <result column="menu_food_image" property="foodImage"/>
+        <result column="menu_user_id" property="userId"/>
+        <result column="menu_food_introduce" property="foodIntroduce"/>
+        <result column="menu_food_label" property="foodLabel"/>
+        <result column="menu_food_story" property="foodStory"/>
+        <result column="menu_food_state" property="foodState"/>
+    </resultMap>
+
+    <select id="listFood" resultMap="foodMap">
+        select menu_food_id, menu_food_name, menu_food_cuisine, menu_food_classified, menu_food_technology,
+         menu_food_flavor, menu_food_difficulty, menu_food_reparation_time, menu_food_number, menu_food_cooking_time,
+          menu_food_step, menu_food_ingredients, menu_food_label, menu_food_story, menu_food_state from menu_food
+    </select>
+
+</mapper>
