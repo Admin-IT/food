@@ -3,42 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="6a933dc9-dd7f-4357-aeaf-5dc31ca50fe7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/ClassifiedMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/food/ClassifiedMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/CollectionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/User/CollectionMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/CuisineMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/food/CuisineMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/FollowMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/User/FollowMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/FoodMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/food/FoodMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/UserArticleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/User/UserArticleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/UserDynamicMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/User/UserDynamicMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/UserFoodMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/User/UserFoodMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/User/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-dao/target/classes/Mapper/FoodMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/target/classes/Mapper/FoodMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-dao/target/classes/edu/nf/food/food/dao/FoodDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/target/classes/edu/nf/food/food/dao/FoodDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/label/entity/entity/Classified.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/label/entity/entity/Cuisine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/label/entity/entity/Food.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/label/entity/entity/FoodDraft.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/label/entity/entity/FoodExamine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/label/entity/entity/FoodIngredients.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/label/entity/entity/Ingredients.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/label/entity/entity/IngredientsClassified.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/label/entity/entity/Step.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/label/entity/entity/Classified.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/label/entity/entity/Cuisine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/label/entity/entity/Food.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/label/entity/entity/FoodDraft.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/label/entity/entity/FoodExamine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/label/entity/entity/FoodIngredients.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/label/entity/entity/Ingredients.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/label/entity/entity/IngredientsClassified.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/label/entity/entity/Step.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/food/service/FoodService.class" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/food/service/FoodService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/food/service/impl/FoodServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/food/service/impl/FoodServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/label/service/impl/TechnologyServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/label/service/impl/TechnologyServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/FoodApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/FoodApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/edu/nf/food/FoodApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/edu/nf/food/FoodApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/food/ClassifiedMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/Food/ClassifiedMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/food/CuisineMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/Food/CuisineMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/food/FoodMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/src/main/resources/Mapper/Food/FoodMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/src/main/resources/application-dao.yml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/src/main/resources/application-dao.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -270,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585797866569</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="合并 bug修复">
+      <created>1585808889074</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1585808889074</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,7 +272,9 @@
     <MESSAGE value="合并 2 修改" />
     <MESSAGE value="打包 名 food" />
     <MESSAGE value="bug 修复1" />
-    <option name="LAST_COMMIT_MESSAGE" value="bug 修复1" />
+    <MESSAGE value="合并 bug修复" />
+    <option name="LAST_COMMIT_MESSAGE" value="合并 bug修复" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="46" key="#Project_Structure" timestamp="1585206336117">
@@ -321,10 +298,10 @@
     </state>
     <state x="413" y="127" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1585791976846" />
     <state x="413" y="134" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1585740954555" />
-    <state x="284" y="0" key="CommitChangelistDialog2" timestamp="1585797857717">
+    <state x="284" y="0" key="CommitChangelistDialog2" timestamp="1585808879332">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="284" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585797857717" />
+    <state x="284" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585808879332" />
     <state x="284" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1585208481402" />
     <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1585752766448">
       <screen x="0" y="0" width="1366" height="728" />
@@ -367,10 +344,10 @@
     </state>
     <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584512359832" />
     <state x="186" y="9" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1585205730926" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1585797884324">
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1585808895615">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585797884324" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585808895615" />
     <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1585035524844" />
     <state x="361" y="166" key="git4idea.merge.GitPullDialog" timestamp="1585800667107">
       <screen x="0" y="0" width="1366" height="728" />
