@@ -1,0 +1,81 @@
+html{width:100%;background:#fff url("../img/jpg/login_back.jpg") center top no-repeat;background-size:1920px auto;padding-top: 0px;}
+body{font-family: PingFang SC,arial,sans-serif;}
+.login_main{width:100%;background:#fff url("../img/jpg/login_back.jpg") center top no-repeat;background-size:1920px auto;padding-top: 0px;}
+.login_nav{height:108px;width:100%;border-bottom:1px solid rgba(255,255,255,0.08);}
+.login_nav .logo{height:108px;display:block;background:url("../img/png/logo.png") center no-repeat;background-size:75% auto;width:200px;}
+.login_navw{width:1200px;height:108px;margin:0px auto;position:relative;}
+.login_navw ul{position:absolute;right:0px;top:0px;font-size:0px;}
+.login_navw ul li{display:inline-block;vertical-align:top;}
+.login_navw ul li a{padding:0px 20px;color:#fff;font-size:18px;line-height:108px;display:inline-block;vertical-align:top;opacity: 0.8;}
+.login_navw ul li a:hover{opacity: 1;text-decoration: underline;}
+.login_title{height:180px;line-height:180px;text-align:center;color:#fff;font-weight:400;font-size:48px;}
+input{outline: none;}
+.new_loginpage{width:600px;background:#fff;margin:0px auto 100px;padding:1px 0px 0px;border-radius:24px;box-sizing:border-box;box-shadow:0px 0px 100px rgba(0,0,0,0.3);}
+.n1_title{height:43px;line-height:42px;font-size:22px;color:#333;text-align:center;margin:40px auto;}
+.n1_title .nl_t_left{display:inline-block;vertical-align:top;*zoom:1;*display:inline;width:91px;height:9px;margin-top:17px;margin-right:20px;}
+.n1_title .nl_t_right{display:inline-block;vertical-align:top;*zoom:1;*display:inline;width:91px;height:9px;margin-top:17px;margin-left:20px;}
+.nl_dsf_w{text-align:center;}
+.nl_dsf_w1{text-align:center;padding:18px 0px;}
+.nl_dsf_w1 a{display:inline-block;vertical-align:top;width:48px;height:48px;margin:0px 35px;font-size:0px;}
+.nl_dsf_w1 a span{display:block;height:48px;width:48px;background:url(https://s1.st.meishij.net/p2/20191112/20191112171037_886.png) no-repeat;    transition: all ease .3s;    -webkit-transition: all ease .3s;}
+.nl_dsf_w1 .a1 span{background-position:0px 0px;}
+.nl_dsf_w1 .a2 span{background-position:-48px 0px;}
+.nl_dsf_w1 .a3 span{background-position:-96px 0px;}
+.nl_or{height:40px;text-align:center;width:100%;font-size:16px;color:#999;line-height:40px;}
+.n1_loginbox_w{width:480px;margin:0px auto 0px;overflow:hidden;text-align:left;}
+.n1_loginbox_w_w{width:960px;font-size:0px;white-space: nowrap;transition:all ease 0.3s;}
+.n1_loginbox_w_w.left{margin-left:0px;}
+.n1_loginbox_w_w.right{margin-left:-480px;}
+.n1_loginbox_w1{width:480px;display:inline-block;vertical-align:top;}
+.n1_loginbox_w2{width:480px;display:inline-block;vertical-align:top;}
+.n1_loginitem{height:56px;width:480px;margin-bottom:20px;position:relative;}
+.n1_loginitem .text{box-sizing:border-box;height:56px;width:480px;border:1px solid #ddd;border-radius:28px;line-height:26px;font-size:18px;color:#333;padding:14px 20px;font-family:PingFang SC,"Hiragino Sans GB","鍐潚榛戜綋","Microsoft Yahei","寰蒋闆呴粦";}
+.n1_loginitem .password{box-sizing:border-box;height:56px;width:480px;border:1px solid #ddd;border-radius:28px;line-height:26px;font-size:18px;color:#333;padding:14px 20px;font-family:PingFang SC,"Hiragino Sans GB","鍐潚榛戜綋","Microsoft Yahei","寰蒋闆呴粦";}
+.n1_loginitem .yzm{box-sizing:border-box;height:56px;width:300px;border:1px solid #ddd;border-radius:28px;line-height:26px;font-size:18px;color:#333;padding:14px 20px;font-family:PingFang SC,"Hiragino Sans GB","鍐潚榛戜綋","Microsoft Yahei","寰蒋闆呴粦";}
+.n1_loginitem .submit{display:inline-block;vertical-align:top;height:56px;border-radius:28px;line-height:56px;font-size:24px;color:#fff;font-family:PingFang SC,"Hiragino Sans GB","鍐潚榛戜綋","Microsoft Yahei","寰蒋闆呴粦";background:#ea5d4e;cursor:pointer;border:0px;width:240px;}
+.n1_loginitem .submit:hover{background:#db432e;}
+.phone_yzmbtn{width:160px;float:right;background:#8fc31f;display:block;color:#fff;line-height:56px;height:56px;border-radius:28px;font-size:16px;text-align:center;}
+.phone_yzmbtn:hover{background:#75ab49;}
+.phone_yzmbtn.sended{background:#ddd;color:#999;}
+.n1_loginitem .label1{color:#999;font-size:16px;position:absolute;left:0px;top:0px;height:56px;line-height:56px;}
+.n1_loginitem .label1 input{margin-top:-2px;position:relative;height:16px;width:16px;}
+.n1_loginitem .label1 a{color:#ea5d4e;}
+.n1_loginitem .label1 a:hover{text-decoration:underline;}
+.n1_loginitem .label2{color:#999;font-size:16px;height:20px;line-height:20px;text-align:center;display:block;}
+.n1_loginitem .label2 input{margin-top:-2px;position:relative;height:16px;width:16px;}
+.n1_loginitem .label2 a{color:#ea5d4e;}
+.n1_loginitem .label2 a:hover{text-decoration:underline;}
+.n1_loginitem .forgetpassword{display:block;color:#999;font-size:16px;position:absolute;right:0px;top:0px;height:56px;line-height:56px;}
+.n1_loginitem .forgetpassword:hover{text-decoration:underline;color:#ea5d4e;}
+.n1_loginitem .label2 .forgetpassword1{display:inline-block;vertical-align:top;color:#999;font-size:16px;height:20px;line-height:20px;}
+.n1_loginitem .label2 .forgetpassword1:hover{text-decoration:underline;color:#ea5d4e;}
+.golink{color:#ea5d4e;font-size:18px;display:block;text-align:center;line-height:38px;height:38px;padding:0px 0px 20px;font-weight:600;}
+.golink:hover{color:#ea5d4e;text-decoration:underline;}
+.golink1{color:#999;font-size:14px;display:block;text-align:center;line-height:38px;height:38px;padding:0px 0px 28px;font-weight:400;}
+.golink1:hover{color:#ea5d4e;text-decoration:underline;}
+.n1_moredsf{width:480px;text-align:center;height:16px;margin:-20px auto 0px;padding-bottom:40px;display:none;}
+.n1_moredsf a{display:inline-block;font-size:14px;vertical-align:top;height:16px;line-height:16px;padding:0px 20px;color:#333;background:url(https://s1.st.meishij.net/p2/20191112/20191112164645_659.png) no-repeat;}
+.n1_moredsf a:hover{color:#ea5d4e;text-decoration:underline;}
+.n1_moredsf .a1{background-position:0px 0px;}
+.n1_moredsf .a2{background-position:0px -16px;}
+.n1_moredsf .a3{background-position:0px -32px;}
+.n1_moredsf .a4{background-position:0px -48px;}
+.n1_more_zc{width:480px;text-align:center;background:#fff;margin:0px auto;display:none;}
+.n1_loginbox_www{width:480px;overflow:hidden;margin:0px auto 0px;}
+.n1_loginbox_ww{width:480px;margin-left:0px;}
+.login_false_tip{height:44px;line-height:44px;color:#fff;background:#ea5d4e;text-align:center;margin:0px 0px 20px;font-size:16px;border-radius:4px;}
+.login_tips{height:24px;line-height:24px;font-size:13px;margin-top:-10px;margin-bottom:10px;background:url(https://s1.st.meishij.net/p2/20191112/20191112164645_930.png) no-repeat;padding-left:20px;margin-left:20px;}
+.login_tips.true{background-position:0px -24px;color:#8fc31f;}
+.login_tips.false{background-position:0px -48px;color:#ea5d4e;}
+.login_tips.tip{background-position:0px 0px;color:#7ecef4;}
+.login_pw_tips{height:24px;line-height:24px;font-size:13px;margin-top:-10px;margin-bottom:10px;padding-left:80px;}
+.login_pw_tips.state1{background-position:0px -0px;color:#ea5d4e;}
+.login_pw_tips.state2{background-position:0px -24px;color:#f98120;}
+.login_pw_tips.state3{background-position:0px -48px;color:#8fc31f;}
+.loginbox_title{width:100%;text-align:center;padding-top:14px;height:84px;line-height:84px;font-size:24px;font-weight:600;color:#999;}
+.loginbox_title a{color:#999;}
+.loginbox_title a.current{color:#333;}
+.loginbox_title a:hover{color:#333;text-decoration: underline;}
+.loginbox_title span.current{color:#333;}
+.loginbox_title a:hover {color: #333;text-decoration: underline;}
+.tipss{font-size:12px;color:#999;line-height:18px;}

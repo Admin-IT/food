@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="edu.nf.food.food.label.dao.TechnologyDao">
-    <resultMap id="tochnology" type="edu.nf.food.food.label.entity.Technology">
+<mapper namespace="edu.nf.food.label.dao.TechnologyDao">
+    <resultMap id="tochnology" type="edu.nf.food.label.entity.Technology">
         <id column="menu_technology_id" property="technologyId"/>
         <result column="menu_technology_name" property="technologyName"/>
     </resultMap>
-    <insert id="insertTechnology" parameterType="edu.nf.food.food.label.entity.Technology">
+    <insert id="insertTechnology" parameterType="edu.nf.food.label.entity.Technology">
          insert into menu_technology(menu_technology_name)VALUES(#{technologyName});
     </insert>
-    <delete id="deleteTechnology" parameterType="edu.nf.food.food.label.entity.Technology">
+    <delete id="deleteTechnology" parameterType="edu.nf.food.label.entity.Technology">
         delete from menu_technology  where menu_technology_id = #{technologyId}
     </delete>
 

@@ -2,8 +2,228 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a933dc9-dd7f-4357-aeaf-5dc31ca50fe7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/food-dao/target/classes/META-INF/food-dao.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-dao/target/classes/edu/nf/food/label/dao/CookTimeDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-dao/target/classes/edu/nf/food/label/dao/DifficultyDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-dao/target/classes/edu/nf/food/label/dao/FlavorDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-dao/target/classes/edu/nf/food/label/dao/NumberDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-dao/target/classes/edu/nf/food/label/dao/ReparationTimeDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-entity/target/classes/META-INF/food-entity.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/label/entity/entity/Classified.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/label/entity/entity/Cuisine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/target/classes/META-INF/food-service.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/label/service/CookTimeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/label/service/DifficultyService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/label/service/FlavorService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/label/service/NumberService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/label/service/ReparationTimeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/label/service/impl/CookTimeImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/label/service/impl/DifficultyServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/label/service/impl/FlavorServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/label/service/impl/NumberServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/label/service/impl/ReparationTimeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/META-INF/food-web.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/edu/nf/food/advice/LabelAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/edu/nf/food/label/web/CookTimeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/edu/nf/food/label/web/DifficultyController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/edu/nf/food/label/web/FlavorController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/edu/nf/food/label/web/NumberController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/edu/nf/food/label/web/ReparationTimeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/edu/nf/food/util/LettuceUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/edu/nf/food/util/RedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/edu/nf/food/util/testConnection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/app-download.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/collected-all.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/collected-ct.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/collected-menus.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/collected-off.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/collected.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/create-cp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/css/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/css/food-leader-details.list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/css/food-menu-details.list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/css/forcum.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/css/main-m.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/css/my.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/css/swiper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/css/upload.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/css/uploadify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/css/user.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/follower.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/following.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/food-leader-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/food-leader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/food-menu-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/food-menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/img/gif/arrow_20x80.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/img/gif/msj_menuarrow.gif-v=3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/img/gif/shut.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/img/gif/step_result_img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/img/gif/upload_step_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/img/gif/uploadavatar160.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/img/gif/uploadtips0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/img/gif/uploadtips1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/img/gif/uploadtips2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/img/gif/uploadtips3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/img/gif/uploadtips4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/img/gif/uploadtips5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/img/gif/uploadtips6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/img/gif/uploadtips7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/img/gif/uploadtips8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/img/gif/userbackbtn1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/img/jpg/head.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/img/jpg/login_back.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/img/jpg/usernolove.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/img/png/backtotop_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/img/png/default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/img/png/foodshow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/img/png/header_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/img/png/itoparrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/img/png/jccp_navbgg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/img/png/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/img/png/logo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/img/png/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/img/png/mssxtest_btns.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/img/png/searchbtn1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/img/png/selectbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/img/png/upload_big_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/img/png/usernolovebtn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/img/png/vip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/img/png/ysjk_navbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/img/test.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/img/向下.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/js/swiper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/logon-youpu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/my-article.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/my-task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/news-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/notification.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/phone.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/photo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/pic-avatar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/recent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/recipe-help.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/update-email.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/update-phone.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/user-center-cg.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/user-center-cp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/user-center-cp2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/user-center-cp3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/user-center-cp4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/user-center-user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/user-center-zp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/user-center.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/user-forum.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/user-forumc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/user-forumx.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/user-mes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/target/test-classes/edu/nf/food/FoodApplicationTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/target/classes/Mapper/Label/CookTimeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/target/classes/Mapper/Label/CookTimeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/target/classes/Mapper/Label/DifficultyMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/target/classes/Mapper/Label/DifficultyMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/target/classes/Mapper/Label/FlavorMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/target/classes/Mapper/Label/FlavorMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/target/classes/Mapper/Label/NumberMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/target/classes/Mapper/Label/NumberMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/target/classes/Mapper/Label/ReparationTimeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/target/classes/Mapper/Label/ReparationTimeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/target/classes/Mapper/Label/TochnologyMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/target/classes/Mapper/Label/TochnologyMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/target/classes/application-dao.yml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/target/classes/application-dao.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/target/classes/edu/nf/food/food/label/dao/CookTimeDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/target/classes/edu/nf/food/food/label/dao/DifficultyDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/target/classes/edu/nf/food/food/label/dao/FlavorDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/target/classes/edu/nf/food/food/label/dao/NumberDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/target/classes/edu/nf/food/food/label/dao/ReparationTimeDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/target/classes/edu/nf/food/food/label/dao/TechnologyDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/article/entity/Article.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/article/entity/ArticleClassified.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/article/entity/ArticleDraft.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/article/entity/ArticleExamine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/food/entity/Classified.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/food/entity/Cuisine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/food/entity/Food.class" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/label/entity/entity/Food.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/food/entity/FoodDraft.class" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/label/entity/entity/FoodDraft.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/food/entity/FoodExamine.class" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/label/entity/entity/FoodExamine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/food/entity/FoodIngredients.class" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/label/entity/entity/FoodIngredients.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/food/entity/Ingredients.class" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/label/entity/entity/Ingredients.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/food/entity/IngredientsClassified.class" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/label/entity/entity/IngredientsClassified.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/food/entity/Step.class" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/label/entity/entity/Step.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/label/entity/CookTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/label/entity/Difficulty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/label/entity/Flavor.class" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/label/entity/Flavor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/label/entity/Label.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/label/entity/Number.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/label/entity/ReparationTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/label/entity/Technology.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/message/entity/Message.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/user/entity/Collection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/user/entity/Follow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/user/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/user/entity/UserArticle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/user/entity/UserDynamic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/user/entity/UserFood.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/video/entity/Video.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/video/entity/VidepStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/web/entity/Comment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/web/entity/FloorFour.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/web/entity/FloorOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/web/entity/FloorThree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/web/entity/FloorTwo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/web/entity/Reply.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/food/web/entity/Web.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/food/label/service/CookTimeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/food/label/service/DifficultyService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/food/label/service/FlavorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/food/label/service/NumberService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/food/label/service/ReparationTimeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/food/label/service/TechnologyService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/food/label/service/exception/LabelException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/food/label/service/impl/CookTimeImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/food/label/service/impl/DifficultyServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/food/label/service/impl/FlavorServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/food/label/service/impl/NumberServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/food/label/service/impl/ReparationTimeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/food/label/service/impl/TechnologyServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/label/service/impl/TechnologyServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/label/service/impl/TechnologyServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/web/RedisService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/food-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/advice/LabelAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/advice/LabelAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/src/test/java/edu/nf/food/FoodApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/test/java/edu/nf/food/FoodApplicationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/classes/edu/nf/food/FoodApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/edu/nf/food/FoodApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/classes/edu/nf/food/food/FoodApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/classes/edu/nf/food/food/advice/LabelAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/classes/edu/nf/food/food/label/web/CookTimeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/classes/edu/nf/food/food/label/web/DifficultyController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/classes/edu/nf/food/food/label/web/FlavorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/classes/edu/nf/food/food/label/web/NumberController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/classes/edu/nf/food/food/label/web/ReparationTimeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/classes/edu/nf/food/food/label/web/TechnologyController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/classes/edu/nf/food/food/util/BaseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/classes/edu/nf/food/food/util/LettuceUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/classes/edu/nf/food/food/util/RedisConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/classes/edu/nf/food/food/util/testConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/classes/edu/nf/food/food/vo/ResponseVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/classes/edu/nf/food/label/web/TechnologyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/edu/nf/food/label/web/TechnologyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/reception/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/reception/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/reception/healthy-eating.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/healthy-eating.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/reception/healthy-heart.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/healthy-heart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/reception/healthy-method.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/healthy-method.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/reception/healthy-people.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/healthy-people.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/reception/healthy-sick.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/healthy-sick.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/reception/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/reception/menu-baking.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/menu-baking.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/reception/menu-chinesefood.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/menu-chinesefood.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/reception/menu-family.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/menu-family.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/reception/menu-specialsnack.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/menu-specialsnack.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/reception/menu-video-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/menu-video-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/reception/menu-video.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/menu-video.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/reception/menu-worldmenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/reception/menu-worldmenu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/food-web-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/food-web-1.0-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/food.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/food.jar.original" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +398,7 @@
       <workItem from="1585208180068" duration="4420000" />
       <workItem from="1585222931126" duration="9241000" />
       <workItem from="1585530331515" duration="14201000" />
-      <workItem from="1585742859392" duration="7858000" />
+      <workItem from="1585742859392" duration="9882000" />
     </task>
     <task id="LOCAL-00001" summary="实体类搭建">
       <created>1584623261101</created>
@@ -215,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585794040252</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="打包 名 food">
+      <created>1585794414221</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585794414221</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +467,8 @@
     <MESSAGE value="菜谱视频板块以及一些小改动" />
     <MESSAGE value="合并" />
     <MESSAGE value="合并 2 修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="合并 2 修改" />
+    <MESSAGE value="打包 名 food" />
+    <option name="LAST_COMMIT_MESSAGE" value="打包 名 food" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="46" key="#Project_Structure" timestamp="1585206336117">
@@ -264,10 +492,10 @@
     </state>
     <state x="413" y="127" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1585791976846" />
     <state x="413" y="134" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1585740954555" />
-    <state x="284" y="0" key="CommitChangelistDialog2" timestamp="1585794033221">
+    <state x="284" y="0" key="CommitChangelistDialog2" timestamp="1585794408623">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="284" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585794033221" />
+    <state x="284" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585794408623" />
     <state x="284" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1585208481402" />
     <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1585752766448">
       <screen x="0" y="0" width="1366" height="728" />
@@ -310,10 +538,10 @@
     </state>
     <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584512359832" />
     <state x="186" y="9" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1585205730926" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1585794110854">
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1585794414464">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585794110854" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585794414464" />
     <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1585035524844" />
     <state x="361" y="175" key="git4idea.merge.GitPullDialog" timestamp="1585030907337">
       <screen x="0" y="0" width="1366" height="768" />
