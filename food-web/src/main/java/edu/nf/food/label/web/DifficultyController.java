@@ -48,7 +48,7 @@ public class DifficultyController extends BaseController {
      * @param difficulty
      * @return
      */
-    @PostMapping("/add_difficulty")
+    @PostMapping("/del_difficulty")
     public ResponseVO delDifficulty(Difficulty difficulty){
         service.delDiffculty(difficulty);
         return success("删除成功");

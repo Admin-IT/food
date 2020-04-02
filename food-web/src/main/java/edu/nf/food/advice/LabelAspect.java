@@ -1,7 +1,7 @@
 package edu.nf.food.advice;
 
-import edu.nf.food.label.service.exception.LabelException;
-import edu.nf.food.vo.ResponseVO;
+import edu.nf.food.food.label.service.exception.LabelException;
+import edu.nf.food.food.vo.ResponseVO;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;

@@ -4,6 +4,7 @@ import edu.nf.food.label.dao.CookTimeDao;
 import edu.nf.food.label.entity.CookTime;
 import edu.nf.food.label.service.CookTimeService;
 import edu.nf.food.label.service.exception.LabelException;
+import edu.nf.food.label.dao.CookTimeDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

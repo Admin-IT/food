@@ -1,5 +1,6 @@
 package edu.nf.food.label.service.impl;
 
+
 import edu.nf.food.label.dao.NumberDao;
 import edu.nf.food.label.entity.Number;
 import edu.nf.food.label.service.NumberService;

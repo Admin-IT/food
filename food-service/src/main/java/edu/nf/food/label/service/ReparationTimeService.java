@@ -1,5 +1,6 @@
 package edu.nf.food.label.service;
 
+
 import edu.nf.food.label.entity.ReparationTime;
 
 import java.util.List;

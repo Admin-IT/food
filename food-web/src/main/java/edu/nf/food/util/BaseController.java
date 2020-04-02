@@ -8,7 +8,7 @@ import org.springframework.http.HttpStatus;
  * @date 2020/3/20
  */
 public class BaseController {
-    public <T>ResponseVO<T> success(T data){
+    public <T> ResponseVO<T> success(T data){
           ResponseVO<T> vo = new ResponseVO<>();
           vo.setCode(HttpStatus.OK.value());
           vo.setData(data);

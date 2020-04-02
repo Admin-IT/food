@@ -1,6 +1,5 @@
 package edu.nf.food.label.service;
 
-import edu.nf.food.label.dao.CookTimeDao;
 import edu.nf.food.label.entity.CookTime;
 
 import java.util.List;

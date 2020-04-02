@@ -1,7 +1,6 @@
 package edu.nf.food.label.service.impl;
 
 import edu.nf.food.label.dao.TechnologyDao;
-import edu.nf.food.label.entity.Label;
 import edu.nf.food.label.entity.Technology;
 import edu.nf.food.label.service.TechnologyService;
 import edu.nf.food.label.service.exception.LabelException;

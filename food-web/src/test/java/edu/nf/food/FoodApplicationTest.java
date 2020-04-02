@@ -1,6 +1,5 @@
 package edu.nf.food;
 
-import edu.nf.food.food.util.LettuceUtils;
 import io.lettuce.core.api.sync.RedisCommands;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
