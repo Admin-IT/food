@@ -30,4 +30,42 @@
           menu_food_step, menu_food_ingredients, menu_food_label, menu_food_story, menu_food_state from menu_food
     </select>
 
+    <delete id="delFoodById" parameterType="edu.nf.food.food.entity.Food">
+        delete from menu_food where menu_food_id = #{foodId}
+    </delete>
+
+    <update id="upFoodById" parameterType="edu.nf.food.food.entity.Food">
+        update menu_food
+         set
+             menu_food_name = #{foodName},
+             menu_food_cuisine = #{foodCuisine},
+             menu_food_classified = #{foodClassified},
+             menu_food_technology = #{foodTechnology},
+             menu_food_flavor = #{foodFlavor},
+             menu_food_difficulty = #{foodDifficulty},
+             menu_food_reparation_time = #{foodReparationTime},
+             menu_food_number = #{foodNumber},
+             menu_food_cooking_time = #{foodCookingTime},
+             menu_food_step = #{foodStep},
+             menu_food_ingredients = #{foodIngredients},
+             menu_food_image = #{foodImage},
+             menu_user_id = #{userId},
+             menu_food_introduce = #{foodIntroduce},
+             menu_food_label = #{foodLabel},
+             menu_food_story = #{foodStory},
+             menu_food_state = #{foodState}
+         where
+             menu_food_id = #{foodId}
+    </update>
+
+    <insert id="addFood" parameterType="edu.nf.food.food.entity.Food">
+        insert into menu_food
+          (menu_food_name, menu_food_cuisine, menu_food_classified, menu_food_technology,
+          menu_food_flavor, menu_food_difficulty, menu_food_reparation_time, menu_food_number, menu_food_cooking_time,
+          menu_food_step, menu_food_ingredients, menu_food_label, menu_food_story)
+        values
+          (#{foodName}, #{foodCuisine},#{foodClassified},#{foodTechnology}, #{foodFlavor}, #{foodDifficulty},
+          #{foodReparationTime},#{foodNumber},#{foodCookingTime},#{foodStep}, #{foodIngredients},#{foodImage},
+          #{userId},#{foodIntroduce},#{foodLabel},#{foodStory})
+    </insert>
 </mapper>

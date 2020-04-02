@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.nf.food.user.dao.FollowDao">
+
+    <resultMap id="followMap" type="edu.nf.food.user.entity.Follow">
+        <id property="followId" column="menu_user_follow_id"/>
+        <result property="follow" column="menu_user_follow"/>
+        <result property="userId" column="menu_user"/>
+    </resultMap>
+
+    <select id="listCollection" resultMap="followMap">
+        select menu_user_follow_id, menu_user_follow, menu_user from menu_user_follow
+    </select>
+
+    <delete id="delFollowById" parameterType="edu.nf.food.user.entity.Follow">
+        delete from menu_user_follow where menu_user_follow_id = #{followId}
+    </delete>
+
+    <update id="upFollowById" parameterType="edu.nf.food.user.entity.Follow">
+        update menu_user_follow
+        set
+         menu_user_follow = #{follow},
+         menu_user = #{userId}
+        where menu_user_follow_id = #{followId}
+    </update>
+
+    <insert id="addFollow" parameterType="edu.nf.food.user.entity.Follow">
+        insert into menu_user_follow(menu_user_follow, menu_user) values(#{follow}, #{userId})
+    </insert>
+</mapper>
+

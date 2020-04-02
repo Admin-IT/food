@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.nf.food.user.dao.UserDynamicDao">
+
+    <resultMap id="UserDynamicMap" type="edu.nf.food.user.entity.UserDynamic">
+        <id property="userDynamicId" column="menu_user_dynamic_id"/>
+        <result property="userId" column="menu_user_id"/>
+        <result property="dynamicContent" column="menu_dynamic_content"/>
+        <result property="senderId" column="menu_sender_id"/>
+        <result property="dynamicTime" column="menu_dynamic_time"/>
+    </resultMap>
+
+    <select id="listUserDynamic" resultMap="UserDynamicMap">
+        select menu_user_dynamic_id, menu_user_id, menu_dynamic_content, menu_sender_id, menu_dynamic_time from menu_user_dynamic
+    </select>
+
+    <delete id="delUserDynamicById" parameterType="edu.nf.food.user.entity.UserDynamic">
+        delete from menu_user_dynamic where menu_user_article_id = #{userArticleId}
+    </delete>
+
+    <update id="upUserDynamicById" parameterType="edu.nf.food.user.entity.UserDynamic">
+        update menu_user_dynamic
+        set
+         menu_user_id = #{userId},
+         menu_dynamic_content = #{dynamicContent},
+         menu_sender_id = #{senderId},
+         menu_dynamic_time = #{dynamicTime}
+        where menu_user_dynamic_id = #{userDynamicId}
+    </update>
+
+    <insert id="addUserDynamic" parameterType="edu.nf.food.user.entity.UserDynamic">
+        insert into menu_user_dynamic(menu_user_id, menu_dynamic_content, menu_sender_id, menu_dynamic_time)
+        values(#{userId}, #{dynamicContent}, #{senderId}, #{dynamicTime})
+    </insert>
+</mapper>
+

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.nf.food.food.dao.ClassifiedDao">
+
+    <resultMap id="classifiedMap" type="edu.nf.food.food.entity.Classified">
+        <id property="classifiedId" column="menu_classified_id"/>
+        <result property="classifiedName" column="menu_classified_name"/>
+
+    </resultMap>
+    <select id="listClassified" resultMap="classifiedMap">
+        select menu_classified_id, menu_classified_name from menu_classified
+    </select>
+
+    <delete id="delClassifiedById" parameterType="edu.nf.food.food.entity.Classified">
+        delete from menu_classified where menu_classified_id = #{classifiedId}
+    </delete>
+
+    <update id="upClassifiedById" parameterType="edu.nf.food.food.entity.Classified">
+        update menu_classified set menu_classified_name = #{classifiedName} where menu_classified_id = #{classifiedId}
+    </update>
+
+    <insert id="addClassified" parameterType="edu.nf.food.food.entity.Classified">
+        insert into menu_classified(menu_classified_name) values(#{classifiedName})
+    </insert>
+</mapper>
