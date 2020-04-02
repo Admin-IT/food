@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.nf.food.label.dao.NumberDao">
+      <resultMap id="number" type="edu.nf.food.label.entity.Number">
+          <id column="menu_number_id" property="id"/>
+          <result column="menu_number_name" property="name"/>
+      </resultMap>
+    <insert id="addNumber" parameterType="edu.nf.food.label.entity.Number">
+        insert into menu_number(menu_number_name)VALUES(#{name});
+    </insert>
+    <delete id="delNumber" parameterType="edu.nf.food.label.entity.Number">
+        delete from menu_number  where menu_number_id = #{id}
+    </delete>
+    <select id="listNumber" resultMap="number">
+        select * from  menu_number
+    </select>
+</mapper>

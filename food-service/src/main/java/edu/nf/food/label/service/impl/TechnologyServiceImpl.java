@@ -3,6 +3,7 @@ package edu.nf.food.label.service.impl;
 import edu.nf.food.label.dao.TechnologyDao;
 import edu.nf.food.label.entity.Technology;
 import edu.nf.food.label.service.TechnologyService;
+import edu.nf.food.label.service.exception.LabelException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -25,7 +26,29 @@ public class TechnologyServiceImpl implements TechnologyService {
     public List<Technology> listTechnology() {
 
 
-       return technologyDao.listTechnology();
+        try {
+            return technologyDao.listTechnology();
+        } catch (Exception e) {
+           throw new LabelException("数据库错误");
+        }
+    }
+
+    @Override
+    public void insertTechnology(Technology technology) {
+        try {
+            technologyDao.insertTechnology(technology);
+        } catch (Exception e) {
+            throw new LabelException("添加错误");
+        }
+    }
+
+    @Override
+    public void deleteTechnology(Technology technology) {
+        try {
+            technologyDao.deleteTechnology(technology);
+        } catch (Exception e) {
+            throw new LabelException("删除失败");
+        }
     }
 
 }

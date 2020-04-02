@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/png/logo1.png" type="image/x-icon">
+    <title>上传头像</title>
+    <script>
+        function submitForm(){
+            document.getElementById("uploader").submit();
+            document.getElementById("clickToUpload").style.display = "none";
+        }
+    </script>
+    <link rel="stylesheet" href="css/upload.css">
+    <style>
+        body {background:#f5f5f5; margin:0; padding:0;}
+        .uploader {position:relative; width:58px;}
+        .btn {width:91px; height:61px; background:none; border:none; color:#937E68; text-align:center; line-height:61px; font-size:12px; z-index:999;}
+        .file {position:absolute; top:0; left:0; height:160px; filter:alpha(opacity:0); opacity:0; width:160px; cursor:pointer; font-size:160px; z-index:200;}
+        #clickToUpload{position:relative;z-index:100;width:160px;}
+        .uploading{height:160px;width:160px;line-height:160px;display:block;text-align:center;color:#999;font-size:14px;position:absolute;left:0px;top:0px;background:#f5f5f5;}
+        .delimgbtn{height:32px;background:#333;position:absolute;right:0px;top:0px;display:none;z-index:300;width:32px;line-height:32px;font-size:12px;color:#fff;cursor:pointer;text-indent:-9999px;background:rgba(0,0,0,0.5) url(https://s1.c.meishij.net/n/images/delimgicon.png) 0px 0px no-repeat;}
+        #upload_big_img {
+            height: 160px;
+            width: 160px;
+            overflow: hidden;
+            position: relative;
+        }
+    </style>
+</head>
+<body style="position: relative">
+    <div class="upload_big_img">
+        <form method="POST" action="" id="uploader" enctype="multipart/form-data">
+            <input type="hidden" value="titlepic" name="act">
+            <img id="clickToUpload" src="../static/img/gif/uploadavatar160.gif">
+            <input type="file" class="file" id="upload_top_img" name="photos" size="1" value="浏览" onchange="submitForm();">
+            <div class="uploading" id="uploading">上传中...</div>
+        </form>
+    </div>
+</body>
+</html>
