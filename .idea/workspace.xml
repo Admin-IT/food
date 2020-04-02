@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a60385e9-6d00-4c27-bd70-7d5e613ec729" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/service/exception/FoodException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/user/service/exception/UserException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/service/impl/ClassifiedServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/service/impl/ClassifiedServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/service/impl/CuisineServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/nf/food/food/service/impl/CuisineServiceImpl.java" afterDir="false" />
@@ -229,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585798489602</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="部分后台代码 1.1">
+      <created>1585799230198</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1585799230198</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,7 +248,8 @@
     <MESSAGE value="测试 包" />
     <MESSAGE value="实体类 创建 ethan" />
     <MESSAGE value="部分后台代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="部分后台代码" />
+    <MESSAGE value="部分后台代码 1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="部分后台代码 1.1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="28" key="#Project_Structure" timestamp="1584427850702">
@@ -266,11 +272,11 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="488" y="53" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1585799067246" />
-    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1584429500892">
+    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1585799228213">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583467430973" />
-    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1584429500892" />
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1585799228213" />
     <state x="129" y="62" key="DiffContextDialog" timestamp="1584434600254">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -292,11 +298,11 @@
     </state>
     <state x="226" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583388309286" />
     <state x="226" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1585798682267" />
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1585798757369">
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1585799250146">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1583467448778" />
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1585798757369" />
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1585799250146" />
     <state x="363" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1584422450236">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

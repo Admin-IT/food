@@ -33,7 +33,7 @@ public class UserArticleServiceImpl implements UserArticleService {
             List<UserArticle> list = userArticleDao.listUserArticle();
             return list;
         }catch (Exception e){
-            throw new RuntimeException("获取用户文章列表异常：" + e);
+            throw new UserException("获取用户文章列表异常：" + e);
         }
     }
 
@@ -46,7 +46,7 @@ public class UserArticleServiceImpl implements UserArticleService {
         try {
             userArticleDao.delUserArticleById(userArticle);
         }catch (Exception e){
-            throw new RuntimeException("删除用户文章异常：" + e);
+            throw new UserException("删除用户文章异常：" + e);
         }
     }
 
@@ -60,7 +60,7 @@ public class UserArticleServiceImpl implements UserArticleService {
         try {
             userArticleDao.upUserArticleById(userArticle);
         }catch (Exception e){
-            throw new RuntimeException("更新用户文章异常：" + e);
+            throw new UserException("更新用户文章异常：" + e);
         }
     }
 

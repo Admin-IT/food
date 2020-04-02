@@ -32,7 +32,7 @@ public class ClassifiedServiceImpl implements ClassifiedService {
             List<Classified> list = classifiedDao.listClassified();
             return list;
         }catch (Exception e){
-            throw new RuntimeException("获取分类异常：" + e);
+            throw new FoodException("获取分类异常：" + e);
         }
     }
 
@@ -45,7 +45,7 @@ public class ClassifiedServiceImpl implements ClassifiedService {
         try{
            classifiedDao.delClassifiedById(classified);
         }catch (Exception e){
-            throw new RuntimeException("删除分类异常：" + e);
+            throw new FoodException("删除分类异常：" + e);
         }
     }
 
@@ -59,7 +59,7 @@ public class ClassifiedServiceImpl implements ClassifiedService {
         try{
             classifiedDao.upClassifiedById(classified);
         }catch (Exception e){
-            throw new RuntimeException("修改分类异常：" + e);
+            throw new FoodException("修改分类异常：" + e);
         }
     }
 

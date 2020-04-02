@@ -33,7 +33,7 @@ public class UserDynamicServiceImpl implements UserDynamicService {
             List<UserDynamic> list = userDynamicDao.listUserDynamic();
             return list;
         }catch (Exception e){
-            throw new RuntimeException("获取用户动态列表异常：" + e);
+            throw new UserException("获取用户动态列表异常：" + e);
         }
     }
 
@@ -46,7 +46,7 @@ public class UserDynamicServiceImpl implements UserDynamicService {
         try {
             userDynamicDao.delUserDynamicById(userDynamic);
         }catch (Exception e){
-            throw new RuntimeException("删除用户动态异常：" + e);
+            throw new UserException("删除用户动态异常：" + e);
         }
     }
 
@@ -59,7 +59,7 @@ public class UserDynamicServiceImpl implements UserDynamicService {
         try {
             userDynamicDao.upUserDynamicById(userDynamic);
         }catch (Exception e){
-            throw new RuntimeException("修改用户动态异常：" + e);
+            throw new UserException("修改用户动态异常：" + e);
         }
     }
 

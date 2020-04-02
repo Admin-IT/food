@@ -32,7 +32,7 @@ public class UserServiceImpl implements UserService {
             List<User> list = userDao.listUser();
             return list;
         }catch (Exception e){
-            throw new RuntimeException("获取用户列表异常：" + e);
+            throw new UserException("获取用户列表异常：" + e);
         }
     }
 
@@ -45,7 +45,7 @@ public class UserServiceImpl implements UserService {
         try {
             userDao.delUserById(user);
         }catch (Exception e){
-            throw new RuntimeException("删除用户异常：" + e);
+            throw new UserException("删除用户异常：" + e);
         }
     }
 
@@ -58,7 +58,7 @@ public class UserServiceImpl implements UserService {
         try {
             userDao.upUserById(user);
         }catch (Exception e){
-            throw new RuntimeException("更新用户异常：" + e);
+            throw new UserException("更新用户异常：" + e);
         }
     }
 

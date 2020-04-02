@@ -32,7 +32,7 @@ public class FollowServiceImpl implements FollowService {
             List<Follow> list = followDao.listFollow();
             return list;
         }catch (Exception e){
-            throw new RuntimeException("获取粉丝列表异常：" + e);
+            throw new UserException("获取粉丝列表异常：" + e);
         }
     }
 
@@ -45,7 +45,7 @@ public class FollowServiceImpl implements FollowService {
         try {
             followDao.delFollowById(follow);
         }catch (Exception e){
-            throw new RuntimeException("取消关注异常：" + e);
+            throw new UserException("取消关注异常：" + e);
         }
     }
 
@@ -58,7 +58,7 @@ public class FollowServiceImpl implements FollowService {
         try {
             followDao.upFollowById(follow);
         }catch (Exception e){
-            throw new RuntimeException("更新关注异常：" + e);
+            throw new UserException("更新关注异常：" + e);
         }
     }
 

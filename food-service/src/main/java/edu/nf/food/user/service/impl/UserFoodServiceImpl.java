@@ -33,7 +33,7 @@ public class UserFoodServiceImpl implements UserFoodService {
             List<UserFood> list = userFoodDao.listUserFood();
             return list;
         }catch (Exception e){
-            throw new RuntimeException("获取用户菜谱列表异常：" + e);
+            throw new UserException("获取用户菜谱列表异常：" + e);
         }
     }
 
@@ -46,7 +46,7 @@ public class UserFoodServiceImpl implements UserFoodService {
         try {
             userFoodDao.delUserFoodById(userFood);
         }catch (Exception e){
-            throw new RuntimeException("删除用户菜谱异常：" + e);
+            throw new UserException("删除用户菜谱异常：" + e);
         }
     }
 
@@ -59,7 +59,7 @@ public class UserFoodServiceImpl implements UserFoodService {
         try {
             userFoodDao.upUserFoodById(userFood);
         }catch (Exception e){
-            throw new RuntimeException("修改用户菜谱异常：" + e);
+            throw new UserException("修改用户菜谱异常：" + e);
         }
     }
 

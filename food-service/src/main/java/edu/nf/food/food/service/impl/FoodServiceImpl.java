@@ -33,7 +33,7 @@ public class FoodServiceImpl implements FoodService {
            List<Food> list = foodDao.listFood();
            return list;
        }catch (Exception e){
-           throw new RuntimeException("获取菜谱异常：" + e);
+           throw new FoodException("获取菜谱异常：" + e);
        }
     }
 
@@ -46,7 +46,7 @@ public class FoodServiceImpl implements FoodService {
         try{
             foodDao.delFoodById(food);
         }catch (Exception e){
-            throw new RuntimeException("删除菜谱异常：" + e);
+            throw new FoodException("删除菜谱异常：" + e);
         }
     }
 
@@ -59,7 +59,7 @@ public class FoodServiceImpl implements FoodService {
         try{
             foodDao.upFoodById(food);
         }catch (Exception e){
-            throw new RuntimeException("修改菜谱异常：" + e);
+            throw new FoodException("修改菜谱异常：" + e);
         }
     }
 

@@ -31,7 +31,7 @@ public class CuisineServiceImpl implements CuisineService {
             List<Cuisine> list = cuisineDao.listCuisine();
             return list;
         }catch (Exception e){
-            throw new RuntimeException("获取烹饪列表异常：" + e);
+            throw new FoodException("获取烹饪列表异常：" + e);
         }
     }
 
@@ -44,7 +44,7 @@ public class CuisineServiceImpl implements CuisineService {
         try {
            cuisineDao.delCuisineById(cuisine);
         }catch (Exception e){
-            throw new RuntimeException("删除异常：" + e);
+            throw new FoodException("删除异常：" + e);
         }
     }
 
@@ -57,7 +57,7 @@ public class CuisineServiceImpl implements CuisineService {
         try {
             cuisineDao.upCuisineById(cuisine);
         }catch (Exception e){
-            throw new RuntimeException("修改异常：" + e);
+            throw new FoodException("修改异常：" + e);
         }
     }
 

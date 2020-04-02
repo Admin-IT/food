@@ -32,7 +32,7 @@ public class CollectionServiceImpl implements CollectionService {
             List<Collection> list = collectionDao.listCollection();
             return list;
         }catch (Exception e){
-            throw new RuntimeException("获取收藏列表异常：" + e);
+            throw new UserException("获取收藏列表异常：" + e);
         }
     }
 
@@ -45,7 +45,7 @@ public class CollectionServiceImpl implements CollectionService {
         try {
             collectionDao.delCollectionById(collection);
         } catch (Exception e) {
-            throw new RuntimeException("取消收藏异常：" + e);
+            throw new UserException("取消收藏异常：" + e);
         }
     }
 
@@ -58,7 +58,7 @@ public class CollectionServiceImpl implements CollectionService {
         try {
             collectionDao.upCollectionById(collection);
         } catch (Exception e) {
-            throw new RuntimeException("更新收藏异常：" + e);
+            throw new UserException("更新收藏异常：" + e);
         }
     }
 
