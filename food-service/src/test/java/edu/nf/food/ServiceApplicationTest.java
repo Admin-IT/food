@@ -31,10 +31,10 @@ class ServiceApplicationTest {
     @Test
     void listTechnology() {
 
-        List<Technology> list = technologyService.listTechnology();
-        for (Technology technology : list) {
-            System.out.println(technology.getTechnologyId());
-        }
+//        List<Technology> list = technologyService.listTechnology();
+//        for (Technology technology : list) {
+//            System.out.println(technology.getTechnologyId());
+//        }
     }
 
     @Test

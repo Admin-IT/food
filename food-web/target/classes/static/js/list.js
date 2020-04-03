@@ -1,12 +1,12 @@
 $(function(){
-$("#addCdToFavInCon").hover(function(){
-	if($(this).html()=="已收�?"){
-		$(this).html("取消收藏");
-	}
-},function(){
-	if($(this).html()=="取消收藏"){
-		$(this).html("已收�?");
-	}
+$("#addCdToFavInCon").hover(function () {
+    if ($(this).html() == "已收�?") {
+        $(this).html("取消收藏");
+    }
+}, function () {
+    if ($(this).html() == "取消收藏") {
+        $(this).html("已收�?");
+    }
 });
 $(".listtyle1").live("mouseenter",function(){
 	var _this = $(this);
@@ -80,19 +80,19 @@ $(".listtyle1 .info2").live("mouseleave",function(){
 	var _this = $(this);
 	_this.find(".info2_c").stop().animate({left: "232px",opacity:"0"}, 800,function(){});
 });
-$(".filter_otherbtn").toggle(function(){
-	var _this = $(this);
-	_this.html("<< 收起");
-	$(this).prev().find(".others").fadeIn(function(){
-		
-	});
-},function(){
-	var _this = $(this);
-	_this.html("展开全部 >>");
-	$(this).prev().find(".others").fadeOut(function(){
-		
-	});
-});
+    $(".filter_otherbtn").toggle(function () {
+        var _this = $(this);
+        _this.html("<< 收起");
+        $(this).prev().find(".others").fadeIn(function () {
+
+        });
+    }, function () {
+        var _this = $(this);
+        _this.html("展开全部 >>");
+        $(this).prev().find(".others").fadeOut(function () {
+
+        });
+    });
 $(".other_c").css("min-height",$("#listnav_con_c").height()+"px");
 if ($.browser.msie && ($.browser.version == "6.0") && !$.support.style) { 
 	$(".other_c").css("height",$("#listnav_con_c").height()+"px");//for ie6
