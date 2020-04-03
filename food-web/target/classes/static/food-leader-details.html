@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+    <title>有谱_美食达人_xxxxxx</title>
+    <meta name="keywords" content="美食,美食网,菜谱,菜谱网,美食地图,食谱,食谱网,特色食谱,特色美食,美食大全家常菜谱,菜谱大全,美食网站,特色菜谱,最新菜谱,美食分享,美食加盟,人气美食,菜谱分享,餐饮加盟,特色小吃,美食文化" />
+    <meta name="description" content="有谱 - 做你最喜爱的美食网，菜谱网。提供最人性化的菜谱大全,食谱家常菜，家常菜谱大全的美食网,让人们在宣泄的都市中体验在家常做菜,享受美食的乐趣.找家常菜谱,上有谱美食网" />
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <script>var _hmt = _hmt || [];</script>
+    <link rel="stylesheet" type="text/css" media="all" href="css/ss_base.css"/>
+    <link rel="stylesheet" type="text/css" media="all" href="css/main.css"/>
+    <link rel="stylesheet" type="text/css" media="all" href="css/food-leader-details.list.css"/>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="js/load.js"></script>
+    <script type="text/javascript" src="js/j.m.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/list.js"></script>
+</head>
+<body>
+<!--顶部-->
+<div class="header">
+    <div class="header_c">
+        <!--logo标-->
+        <a href="index.html" class="logo pngFix">
+            <img src="img/logo3.png" height="120">
+        </a>
+        <!--搜索框-->
+        <div class="main_search_top_w">
+            <div class="suggestionsBox" id="suggestions" style="display:none;"><ul class="suggestionList" id="autoSuggestionsList"></ul></div>
+            <form class="search" action="">
+                <input type="text" class="text" name="q" defaultval="请输入菜谱/食材/菜单/作者" x-webkit-speech="" value="请输入菜谱/食材/菜单/作者" autocomplete="off" onfocus="if(this.value=='请输入菜谱/食材/菜单/作者'){this.value='';}$(this).css('color','#333');" onblur="if(this.value==''){this.value='请输入菜谱/食材/菜单/作者';$(this).css('color','#999');}" id="input1String"><input type="button" class="submit" value="搜 索">
+            </form>
+        </div>
+        <!--登录/注册-->
+        <div class="loginitem_h">
+            <a href="#" class="link header_login">注册</a>
+            <a href="#" class="link header_register">登录</a>
+        </div>
+    </div>
+</div>
+<!--导航栏-->
+<div class="nav">
+    <ul id="main_nav">
+        <li class=""><a href="index.html" class="link pngFix"><strong>首页</strong></a></li>
+        <li class="hasmore">
+            <a href="menu-family.html" class="link pngFix"><strong>菜谱大全</strong></a>
+            <div class="dw clearfix">
+                <div class="dww clearfix dww_cpdq">
+                    <div class="dwitem clearfix pngFix">
+                        <dl class="clearfix">
+                            <dt><a href="menu-family.html">家常菜谱</a></dt>
+                            <dd><a href="#">家常菜</a></dd>
+                            <dd><a href="#">私家菜</a></dd>
+                            <dd><a href="#">凉菜</a></dd>
+                            <dd><a href="#">海鲜</a></dd>
+                            <dd><a href="#">热菜</a></dd>
+                            <dd><a href="#">汤粥</a></dd>
+                            <dd><a href="#">素食</a></dd>
+                            <dd><a href="#">酱料蘸料</a></dd>
+                            <dd><a href="#">卤酱</a></dd>
+                            <dd><a href="#">火锅底料</a></dd>
+                            <dd><a href="#">甜品点心</a></dd>
+                            <dd><a href="#">糕点主食</a></dd>
+                            <dd><a href="#">时尚饮品</a></dd>
+                        </dl>
+                    </div>
+                    <div class="dwitem dwitem_half clearfix">
+                        <dl class="clearfix">
+                            <dt><a href="menu-chinesefood.html">中华菜系</a></dt>
+                            <dd><a href="#">川菜</a></dd>
+                            <dd><a href="#">粤菜</a></dd>
+                            <dd><a href="#">东北菜</a></dd>
+                            <dd><a href="#">湘菜</a></dd>
+                            <dd><a href="#">鲁菜</a></dd>
+                            <dd><a href="#">浙菜</a></dd>
+                            <dd><a href="#">湖北菜</a></dd>
+                        </dl>
+                    </div>
+                    <div class="dwitem dwitem_half clearfix">
+                        <dl class="clearfix">
+                            <dt><a href="menu-specialsnack.html">特色小吃</a></dt>
+                            <dd><a href="#">四川小吃</a></dd>
+                            <dd><a href="#">广东小吃</a></dd>
+                            <dd><a href="#">北京小吃</a></dd>
+                            <dd><a href="#">陕西小吃</a></dd>
+                        </dl>
+                    </div><br/>
+                    <div class="dwitem dwitem_half clearfix">
+                        <dl class="clearfix">
+                            <dt><a href="menu-worldmenu.html">外国菜谱</a></dt>
+                            <dd><a href="#">韩国料理</a></dd>
+                            <dd><a href="#">日本料理</a></dd>
+                            <dd><a href="#">法国菜</a></dd>
+                            <dd><a href="#">意大利餐</a></dd>
+                        </dl>
+                    </div>
+                    <div class="dwitem dwitem_half clearfix">
+                        <dl class="clearfix">
+                            <dt><a href="menu-baking.html">烘焙</a></dt>
+                            <dd><a href="#">蛋糕面包</a></dd>
+                            <dd><a href="#">饼干配方</a></dd>
+                            <dd><a href="#">甜品点心</a></dd>
+                        </dl>
+                    </div><br/>
+                </div>
+            </div>
+        </li>
+        <li class="hasmore"><a href="healthy-eating.html" class="link pngFix"><strong>饮食健康</strong></a>
+            <div class="dw clearfix">
+                <div class="dww clearfix dww_ysjk">
+                    <div class="dwitem clearfix pngFix">
+                        <dl class="clearfix">
+                            <dt><a href="healthy-eating.html">饮食健康</a></dt>
+                            <dd><a href="#">饮食小常识</a></dd><dd><a href="#">美容瘦身</a></dd>
+                            <dd><a href="#">食品安全</a></dd><dd><a href="#">养生妙方</a></dd>
+                            <dd><a href="#">饮食禁忌</a></dd><dd><a href="#">中医保健</a></dd>
+                            <dd><a href="#">母婴健康饮食</a></dd><dd><a href="#">饮食新闻</a></dd>
+                        </dl>
+                    </div>
+                    <div class="dwitem clearfix">
+                        <dl class="clearfix"><dt><a href="healthy-method.html">功能性调理</a></dt>
+                            <dd><a href="#">清热去火</a></dd><dd><a href="#">减肥</a></dd>
+                            <dd><a href="#">祛痰</a></dd><dd><a href="#">乌发</a></dd>
+                            <dd><a href="#">滋阴补肾</a></dd><dd><a href="#">健脾开胃</a></dd>
+                            <dd><a href="#">消化不良</a></dd><dd><a href="#">清热解毒</a></dd>
+                            <dd><a href="#">补阳壮阳</a></dd><dd><a href="#">增肥</a></dd>
+                        </dl>
+                    </div><br/>
+                    <div class="dwitem dwitem_half clearfix">
+                        <dl class="clearfix">
+                            <dt><a href="healthy-people.html">人群膳食</a></dt>
+                            <dd><a href="#">孕妇</a></dd><dd><a href="#">老人</a></dd>
+                            <dd><a href="#">产妇</a></dd><dd><a href="#">哺乳期</a></dd>
+                            <dd><a href="#">青少年</a></dd><dd><a href="#">幼儿</a></dd>
+                            <dd><a href="#">学龄期儿童</a></dd>
+                        </dl>
+                    </div>
+                    <div class="dwitem dwitem_half clearfix">
+                        <dl class="clearfix">
+                            <dt><a href="healthy-sick.html">疾病调理</a></dt><dd><a href="#">糖尿病</a></dd>
+                            <dd><a href="#">高血压</a></dd><dd><a href="#">痛风</a></dd>
+                            <dd><a href="#">胃炎</a></dd><dd><a href="#">痔疮</a></dd>
+                            <dd><a href="#">更年期</a></dd><dd><a href="#">甲状腺</a></dd>
+                        </dl>
+                    </div><br/>
+                    <div class="dwitem clearfix">
+                        <dl class="clearfix">
+                            <dt><a href="healthy-heart.html">脏腑调理</a></dt>
+                            <dd><a href="#">感冒</a></dd>
+                            <dd><a href="#">补肾</a></dd>
+                            <dd><a href="#">阳痿早泄</a></dd>
+                            <dd><a href="#">补血</a></dd>
+                            <dd><a href="#">便秘</a></dd>
+                            <dd><a href="#">腹泻</a></dd>
+                            <dd><a href="#">活血化瘀</a></dd>
+                        </dl>
+                    </div>
+                    <!--<div class="bgitem">
+                    </div>-->
+                </div>
+            </div>
+        </li>
+        <li ><a href="food-menu.html" class="link pngFix"><strong>美食菜单</strong></a></li>
+        <li class="current"><a href="#" class="link"><strong>美食达人</strong></a></li>
+        <li ><a href="menu-video.html" class="link pngFix"><strong>菜谱视频</strong></a></li>
+        <li ><a href="app-download.html" class="link pngFix"><strong>产品下载</strong></a></li>
+    </ul>
+</div>
+<!--底部自动弹出的搜索框-->
+<div class="main_search main_search_slideUp pngFix" slideUp="1" style="_display:none;" id="main_search">
+    <div class="main_search_w">
+        <div class="searchform_div">
+            <form action="#" target="_blank"><input type="text" class="text" name="q" x-webkit-speech=""  autocomplete="off"  id="inputString" placeholder="输入菜谱、食材、作者"><input type="button" class="submit" value="搜 索"></form>
+        </div>
+    </div>
+</div>
+<!--中间内容-->
+<div class="main_w clearfix">
+    <style>
+        .mrfl_itemw{padding:10px 60px;}
+        .mrfl_item{width:100%;height:164px;display:inline-block;vertical-align:top;border:1px solid #eee;}
+        .mrfl_item a{margin:0px 16px;padding:16px 0px;border-bottom:1px solid #f6f6f6;display:block;position:relative;padding-left:142px;height:132px;}
+        .mrfl_item:hover{background:rgba(0,0,0,0.05);}
+        .mini .mrfl_item a{padding-left:110px;height:100px;}
+        .mrfl_item:last-child a{border-bottom:0px;}
+        .mrfl_item a .imgw{height:132px;width:132px;position:absolute;left:0px;top:16px;background:#f6f6f6;}
+        .mini .mrfl_item a .imgw{height:100px;width:100px;}
+        .mrfl_item a .imgw img{display:block;height:100%;width:100%;}
+        .mrfl_item a .info{height:132px;position:relative;}
+        .mini .mrfl_item a .info{height:100px;}
+        .mrfl_item a .info .gn{display:block;padding:2px 0px;line-height:25px;color:#333;font-weight:400;font-size:18px;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow:hidden;text-overflow:ellipsis;}
+        .mini .mrfl_item a .info .gn{line-height:21px;font-size:15px;}
+        .mrfl_item a .info .pr1{height:32px;line-height:32px;}
+        .mrfl_item a .info .pr1 .del{color:#666;line-height:32px;font-size:12px;display:inline-block;vertical-align:top;font-weight:400;}
+        .mrfl_item a .info .pr1 .tag{display:inline-block;vertical-align:top;padding:0px 4px;border-radius:2px;color:#fff;height:20px;line-height:20px;font-size:12px;font-weight:400;margin-left:12px;background:#f86e2c;margin-top:6px;}
+        .mrfl_item a .info .pr2{position:absolute;bottom:0px;left:0px;height:27px;}
+        .mrfl_item a .info .pr2 span{display:inline-block;vertical-align:bottom;color:#f86e2c;font-size:12px;font-weight:400;position:relative;top:-2px;line-height:14px;}
+        .mrfl_item a .info .pr2 strong{display:inline-block;vertical-align:bottom;font-size:21px;color:#f86e2c;font-weight:400;line-height:23px;}
+        .mrfl_item a .info .pr2 em{display:inline-block;vertical-align:bottom;color:#666;padding-left:20px;font-weight:400;position:relative;top:-2px;font-size:12px;line-height:14px;}
+        .pgc-img-caption{-webkit-tap-highlight-color: transparent; box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; padding: 0px; text-align: center; font-size: 12px; color: rgb(119, 119, 119); line-height: 16px;}
+        .article-title{-webkit-tap-highlight-color: transparent; box-sizing: border-box; font-size: 34px; margin: 0px; padding: 0px; line-height: 44px; color: rgb(34, 34, 34); font-family: quot;, Arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);}
+        .description{-webkit-tap-highlight-color: transparent; box-sizing: border-box; margin-top: 16px; margin-bottom: 16px; padding: 0px;}
+
+    </style>
+    <div class="w1050">
+        <div class="dr_con_left">
+            <div class="dr_mod10">
+                <div class="dr_mod10_tw">
+                    <h1>吃剩的柚子皮不要扔，削一削，做成小零食，清甜不苦，下火润喉</h1>
+                    <span class="info">2502浏览 · 10赞 · 7评论 · 2019-10-22 14:01:08</span>
+                </div>
+                <div class="dr_con_maincontxt">
+                    <p><img src="" alt=""/></p>
+                    <p class="pgc-img-caption" ><br/></p>
+                    <p class="description">每年10月中秋以后，酸甜可口的柚子就开始上市了。大家都知道柚子果肉的营养丰富，其维生素C的含量是柠檬、橙子的3倍，钙的含量更比苹果、香蕉、梨等水果多10倍。可是吃剩的柚子皮一般都被直接丢掉了，其实这样太浪费啦，柚子皮不但可以作为冰箱和房间内的除味剂，还能做成吃的。</p>
+                    <p><img src="" alt=""/></p>
+                    <p class="pgc-img-caption" ><br/></p>
+                    <p class="description">柚子皮，也是中药“化橘红”的原料，有暖胃、化痰、润喉等功效。不但能冲水泡茶喝，还能做成柚子皮糖，清甜去火，口感QQ的，非常好吃哦。</p>
+                    <p><img src=""alt=""/></p>
+                    <p class="pgc-img-caption"><br/></p>
+                    <p class="description">昨天我花4.9买了个柚子，柚子皮刮下来正好做这一小盒柚子皮糖。北方的冬天空气污染严重，经常会咽喉干痛咳嗽，这一盒够吃半个月啦。</p>
+                    <p><img src="" alt=""/></p>
+                    <p class="pgc-img-caption"><br/></p>
+                    <p class="description">它的做法很简单，但是要口感Q弹易嚼，清甜不苦，还是有些处理柚子皮的小窍门的，接下来一起看看吧。</p>
+                    <p class="description"><span style="-webkit-tap-highlight-color: transparent; box-sizing: border-box; font-weight: 700;">用料</span>：柚子皮1个，白砂糖200克（有剩余），水适量。</p>
+                    <p class="description"><span style="-webkit-tap-highlight-color: transparent; box-sizing: border-box; font-weight: 700;">做法</span>：</p>
+                    <p><img src="" alt=""/></p>
+                    <p class="pgc-img-caption"><br/></p>
+                    <p class="description">1.准备好新鲜的柚子皮和白砂糖。将柚子皮放在温盐水中搓洗一下，把表皮的杂质洗净。</p>
+                    <p class="description"><span style="-webkit-tap-highlight-color: transparent; box-sizing: border-box; font-weight: 700;">小提示：</span>柚子皮也可以不剥下来，直接就着一整个没剥的完整柚子来清洗和操作。</p>
+                    <p><img src="" alt=""/></p>
+                    <p class="pgc-img-caption"><br/></p>
+                    <p class="description">2.用厨房刮皮刀将柚子表皮刮下来，尽量刮得薄，不要带出白色的部分。然后用刀切成窄条或细丝都行。</p><p style="-webkit-tap-highlight-color: transparent; box-sizing: border-box; margin-top: 16px; margin-bottom: 16px; padding: 0px;"><span style="-webkit-tap-highlight-color: transparent; box-sizing: border-box; font-weight: 700;">小提示：</span>也有一些用柚子皮做菜的食谱，建议刮掉青黄的部分，只留白色棉絮状的柚子皮。估计是把柚子皮当成冬瓜皮来处理了。其实柚子皮中富含的营养正是青黄的部分，千万不要舍本逐末丢掉哦。</p>
+                    <p><img src="" alt=""/></p>
+                    <p class="pgc-img-caption"><br/></p>
+                    <p class="description">3.将柚子皮、适量白砂糖和水倒入小锅中，大火煮沸后，小火煮半小时左右。</p>
+                    <p><img src="http://p9.pstatp.com/large/pgc-image/68fcf79f948c4a6a859e9f7eaf94ec8a" alt=""/></p>
+                    <p class="pgc-img-caption"><br/></p>
+                    <p class="description">4.煮到如图，柚子皮差不多透明的程度，大火收汁。</p>
+                    <p class="description"><span style="-webkit-tap-highlight-color: transparent; box-sizing: border-box; font-weight: 700;">小提示：</span>为了缩短煮的时间和去除苦味，也可以提前将柚子皮泡水冷藏隔夜，直接煮也没问题。</p>
+                    <p><img src="" alt=""/></p>
+                    <p class="pgc-img-caption"><br/></p>
+                    <p class="description">5.汤汁收得差不多时，将煮到透明的柚子皮捞出，铺在晾网上晾凉风干。煮好的柚子皮表面是微微有点粘的，嚼起来有果丹皮的口感。</p>
+                    <p><img src="" alt=""/></p>
+                    <p class="pgc-img-caption"><br/></p>
+                    <p class="description">6.在餐盒或带盖的小锅里倒适量白砂糖，把柚子皮倒入其中，盖上盖子晃动一下，让它均匀地粘在柚子皮上。</p><p style="-webkit-tap-highlight-color: transparent; box-sizing: border-box; margin-top: 16px; margin-bottom: 16px; padding: 0px;"><span style="-webkit-tap-highlight-color: transparent; box-sizing: border-box; font-weight: 700;">小提示：</span>一定要在柚子皮凉透情况下再倒入白砂糖，不然白砂糖会融化，就达不到起砂的口感，那样拿起来会粘手，也不美观。</p>
+                    <p><img src="" alt=""/></p>
+                    <p class="pgc-img-caption"><br/></p>
+                    <p class="description">7.最后，将做好的柚子皮糖装入密封罐，冷藏保存，想吃的时候取出来直接吃就可以啦。一般保存一个月是没问题的。</p>
+                    <p><img src="" alt=""/></p>
+                    <p class="pgc-img-caption"><br/></p>
+                    <p class="description"><span style="-webkit-tap-highlight-color: transparent; box-sizing: border-box; font-weight: 700;">小提示：</span></p>
+                    <p class="description">1.<span style="-webkit-tap-highlight-color: transparent; box-sizing: border-box; font-weight: 700;">挑选柚子的小窍门：</span>要看、闻、掂、叩。先看，上尖下圆，表皮饱满光润；闻，有浓郁的香味；用手掂一下，相对更重更压手的，果肉品质更好；叩，轻轻按压外皮，下陷的部分弹性好的话，说明更新鲜多汁。</p>
+                    <p class="description">2.有的柚子味道偏酸，除了品种方面的原因，储存时间太久也会这样。</p>
+                    <p class="description">3.<span style="-webkit-tap-highlight-color: transparent; box-sizing: border-box; font-weight: 700;">剥柚子皮的方法：</span></p>
+                    <p><img src="" alt=""/></p>
+                    <p class="pgc-img-caption"><br/></p>
+                    <p class="description">用水果刀在柚子皮上，纵向划成几瓣，然后把皮朝外揭开，取出柚子瓤。也可以先在柚子尖的一头横向削一刀，再纵向划，之后同样很方便就剥开了。</p>
+                    <p class="description">4.这个食谱的做法也可以用来做橙皮糖，不过今年橙子卖得好贵，而且个头小，不如柚子个头大好处理。</p>
+                    <p class="description">5.做柚子皮糖，白砂糖的用量肯定不会少，要想成品好吃，白砂糖的品质也很重要。我用的是甘汁园的双碳白砂糖。“双碳”是白砂糖生产加工过程中使用的脱色工艺，比用硫磺脱色更安全，无残留，而且颜色洁白透亮，没有杂质。</p>
+                    <p><img src="" alt=""/></p>
+                    <p class="pgc-img-caption"><br/></p>
+                    <p class="description">以上就是简单好吃的“柚子皮糖”的做法了，变废为宝，无添加剂，有时间的话做起来给家人吃吧。觉得这个食谱不错就<span style="-webkit-tap-highlight-color: transparent; box-sizing: border-box; font-weight: 700;">点个赞吧</span>，也<span style="-webkit-tap-highlight-color: transparent; box-sizing: border-box; font-weight: 700;">欢迎关注我</span>发布的更多原创美食文章，每篇食谱都是由我亲手制作、拍摄和撰写的，收藏、转发和留言评论都是对我的鼓励，谢谢。</p>
+                </div>
+                <div class="drcon_mzsm"><p><strong>本文著作权归作者本人和美食杰共同所有，未经许可不得转载。文章仅代表作者看法，如有更多内容分享或是对文中观点有不同见解，美食杰原创欢迎您的投稿。</strong><br/>
+                    <span class="red">投稿须知：</span><br/>分享温暖食谱、美食故事，展示生活态度、传播经验体会，美食杰欢迎您的投稿，请了解并熟悉投稿流程和审核要求，如果您对原创投稿有任何疑问或者建议，欢迎发送邮件至luochao@meishi.cc
+                </p></div>
+                <!--
+                <div class="dr_con_zanbox">
+                    <a href="javascript:void(0)" ztid="1020160815" aid="140587" class="zanbtn zanbtn" id="con_wzzanbtn">赞<em class="yz">已赞</em></a>
+                    <span class="zannumw">已有 <strong>10</strong> 人赞过</span>
+                    <div class="dr_con_sharebox">
+                        <div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a></div>
+                        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                    </div>
+                    <div class="zanerlist" id="zanerlist">
+                        <a href="https://i.meishi.cc/cook.php?id=13994985" target="_blank"><img src="https://st-cn.meishij.net/user/235/229/t13994985_156595332607876.jpg"></a><a href="https://i.meishi.cc/cook.php?id=30078" target="_blank"><img src="https://st-cn.meishij.net/user/78/120/t30078_149732997706318.jpg"></a><a href="https://i.meishi.cc/cook.php?id=7675731" target="_blank"><img src="https://st-cn.meishij.net/user/231/202/t7675731_153026472810417.jpg"></a><a href="https://i.meishi.cc/cook.php?id=3994922" target="_blank"><img src="https://st-cn.meishij.net/user/172/229/t3994922_148015557430861.jpg"></a><a href="https://i.meishi.cc/cook.php?id=14320198" target="_blank"><img src="https://s1.c.meishij.net/images/default/tx2_4.png"></a><a href="https://i.meishi.cc/cook.php?id=4283179" target="_blank"><img src="https://st-cn.meishij.net/user/179/132/t4283179_145133219460245.jpg"></a><a href="https://i.meishi.cc/cook.php?id=2975247" target="_blank"><img src="https://st-cn.meishij.net/user/247/150/t2975247_142312699138461.jpg"></a><a href="https://i.meishi.cc/cook.php?id=14291757" target="_blank"><img src="https://s1.c.meishij.net/images/default/tx2_8.png"></a>
+                    </div>
+                </div>-->
+            </div>
+            <div class="postpl_ww" style="margin-top:20px" id="newspls">
+                <div class="postpl_w">
+                    <a href="javascript:void(0)"><img src=""></a>
+                    <div class="postplform">
+                        <form method="POST" action="">
+                            <input name="obj_id" type="hidden" id="obj_id" value="140587">
+                            <input type="hidden" name="user_id" id="user_id" value="0">
+                            <input type="hidden" name="ecmsfrom" value="">
+                            <input name="fid" type="hidden" id="fid" value="324">
+                            <input name="repid" type="hidden" id="repid" value="0">
+                            <textarea placeholder="说点什么吧" name="saytext" class="saytext"></textarea>
+                            <input type="submit" class="topic_submit" value="提交">
+                        </form>
+                    </div>
+                </div>
+                <div id="kwc_comment">
+                    <div class="plitem clearfix" id="commentid413">
+                        <a target="_blank" href="" class="img"><img src=""></a>
+                        <div class="plcon">
+                            <a target="_blank" class="name" href="">author</a>
+                            <p>xxxxxxxxx</p>
+                            <span class="time">2020-03-19 20:30</span>
+                            <a href="####" class="re re_start">回复</a>
+                        </div>
+                        <div class="comscoms clearfix"  style="display: none;" >
+                            <ul class="page1">
+                            </ul>
+                            <div class="re_form" style="padding-top: 20px; display: block;">
+                                <textarea class="re_textarea" placeholder="我也说一句"></textarea>
+                                <input name="repid" type="hidden" class="reply_id" value="413">
+                                <input type="button" class="re_submit" value="回复">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dr_con_right">
+            <div class="dr_mod11">
+                <a href="" target="_blank" class="ava">
+                    <img src=""><span class="dricon"></span>
+                </a>
+                <a href="" target="_blank" class="aun">name</a>
+                <p class="sign">签名：各美食平台认证的美食达人，新浪美食博主，柏翠第六届全国烘焙大赛冠军，苏泊尔“我是大厨师”总决赛亚军，KitchenAid忆年味比赛冠军，ACA第四届烘焙大赛亚军，学厨模具签约达人。擅长创意烘焙和创新家常菜</p>
+                <div class="info1">
+                    <div class="item">
+                        <strong id="fensi_num">40173</strong>
+                        <span>粉丝</span>
+                    </div>
+                    <div class="item">
+                        <strong>166</strong>
+                        <span>关注</span>
+                    </div>
+                </div>
+                <a href="javascript:void(0)" uid="3484135" class="gzbtn " id="gzbtn">+ 关注</a>
+                <div class="info2">
+                    <p>级别：二级达人<br/>
+                        菜谱：1245篇<br/>
+                        文章：395篇<br/>
+                        完成任务：448个<br/>
+                        获赞：201194
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--底部-->
+<div class="main_footer pngFix">
+    <div class="footer_con1 clearfix">
+        <div class="logobottom" style="height:196px;width:600px;background-size:70% auto;">
+            <a href="index.html" style="height:100%;width:200px;display:block;">
+                <img src="img/logo-bottom.png">
+            </a>
+        </div>
+        <!--官方微博、QQ空间、微信二维码、手机端二维码-->
+        <!--
+        <div class="links">
+            <ul class="cleearfix">
+                <li class="sina"><a class="img" target="_blank" href="https://e.weibo.com/meishij"><span>关注：49万</span></a><p><a target="_blank" href="https://e.weibo.com/meishij">点击进入<br/>美食杰官方微博</a></p></li><li class="tengxun"><a class="img"  target="_blank" href="https://user.qzone.qq.com/613171717"><span>关注：10.9万</span></a><p><a target="_blank" href="https://user.qzone.qq.com/613171717">点击进入<br/>美食杰QQ空间</a></p></li><li class="weixin"><a target="_blank" href="https://sj.meishi.cc/" class="img"></a><p><a target="_blank" href="https://sj.meishi.cc/">扫描二维码添加<br/>美食杰为微信好友</a></p></li><li class="download"><a target="_blank" href="https://sj.meishi.cc/" class="img"></a><p><a target="_blank" href="https://sj.meishi.cc/">扫描二维码下载<br/>美食杰手机客户端</a></p></li>
+            </ul>
+        </div>-->
+    </div>
+    <div class="footer_con3">
+        <ul class="clearfix">
+            <li><a target="_blank" href="#" title="公司简介">公司简介</a></li>
+            <li><a target="_blank" href="#" title="关于我们">关于我们</a></li>
+            <li><a target="_blank" href="#" title="产品下载">产品下载</a></li>
+            <li><a target="_blank" href="#" title="加入我们">加入我们</a></li>
+            <li><a target="_blank" href="#" title="联系我们">联系我们</a></li>
+            <li><a target="_blank" href="#" title="商务合作">商务合作</a></li>
+            <li><a target="_blank" href="#" title="用户协议">用户协议</a></li>
+            <li><a target="_blank" href="#" title="用户协议">隐私政策</a></li>
+            <li><a target="_blank" href="#" title="网站地图">网站地图</a></li>
+            <li><a target="_blank" href="#" title="友情链接">友情链接</a></li>
+        </ul>
+        <!--<p><a target="_blank" href="https://www.miibeian.gov.cn" class="gray_a">京ICP备14030359号</a>/<a target="_blank" href="https://beian.gov.cn/" class="gray_a"><img src="https://st-cn.meishij.net/p2/20180208/20180208111357_93713.png" />京公网安备11010802026928</a> Copyright © 2003-2020 MEISHIJ CO.,LTD.</p>-->
+    </div>
+</div><div style="display:none;"><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1259001544'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/stat.php%3Fid%3D1259001544' type='text/javascript'%3E%3C/script%3E"));</script></div></body></html>
+
+
+

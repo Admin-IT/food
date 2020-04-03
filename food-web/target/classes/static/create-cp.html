@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>有谱 - 美食,菜谱</title>
+    <link rel="shortcut icon" href="img/png/logo1.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/main-m.css">
+    <link rel="stylesheet" href="css/ss_base.css">
+    <link rel="stylesheet" href="css/user.css">
+    <link rel="stylesheet" href="css/upload.css">
+    <script src="js/jquery-1.12.4.min.js"></script>
+
+    <script type="text/javascript" src="js/load.js"></script>
+    <script src="js/upload.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/user.js"></script>
+    <script src="js/tipwindown.js"></script>
+</head>
+<body style="background:  #fae8c8">
+<div class="header">
+    <div class="header_c">
+        <a href="" class="logo pngFix"></a>
+        <div class="main_search_top_w">
+            <div class="suggestionsBox" id="suggestions" style="display: none">
+                <ul class="suggestionList" id="autoSuggestionsList"></ul>
+            </div>
+            <form class="search" action="">
+                <input type="text" class="text" name="q" placeholder="请输入菜谱/食材/菜单/作者" x-webkit-speech value="请输入菜谱/食材/菜单/作者"
+                       autocomplete="off" onfocus="if (this.value == '请输入菜谱/食材/菜单/作者'){
+                                       this.value='';}$(this).css('color','#333');" onblur="if (this.value=''){this.value='请输入菜谱/食材/菜单/作者';$(this).css('color','#999');}"
+                       id="inputString" style="color: rgb(153,153,153);">
+                <input type="submit" class="submit" value="搜 索">
+            </form>
+        </div>
+        <div class="loginitem_h">
+            <script src=""></script>
+            <div class="userinfo">
+                <div class="userinfo_w" id="userinfo_w">
+                    <a href="" class="avatar">
+                        <img src="img/jpg/head.jpg">
+                    </a>
+                    <a href="user-center.html" class="outer">厨神</a>
+                    <div class="top_userinfo_more">
+                        <div class="u">
+                            <a href="user-center.html" class="img">
+                                <img src="img/jpg/head.jpg">
+                            </a>
+                            <div class="n">
+                                <a href="user-center.html">厨神</a>
+                                <a target="_blank" href="" class="v"></a>
+                            </div>
+                        </div>
+                        <ul class="clearfix">
+                            <li>
+                                <a href="create-cp.html" class="redbtn">发布菜谱</a>
+                                <a class="greybtn free" onclick="">发布图文（400积分）</a>
+                            </li>
+                            <li>
+                                <a href="user-center.html" class="linkk">我的美食空间</a>
+                            </li>
+                            <li>
+                                <a href="" class="linkk">我的积分成长</a>
+                            </li>
+                            <li>
+                                <a href="" class="linkk">退出登录</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="" class="outer">收藏</a>
+                <div class="mes">
+                    <a href="" class="outer">消息</a>
+                    <div class="topbar_mesbox" id="dr_getmission_box1" style="display: none"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="nav">
+    <ul id="main_nav">
+        <li>
+            <a href="index.html" class="link pngFix">
+                <strong>首页</strong>
+            </a>
+        </li>
+        <li class="hasmore">
+            <a href="menu-family.html" class="link pngFix">
+                <strong>菜谱大全</strong>
+            </a>
+            <div class="dw clearfix">
+                <div class="dww clearfix dww_cpdq">
+                    <div class="dwitem clearfix pngFix">
+                        <dl class="clearfix">
+                            <dt>
+                                <a href="menu-family.html">家常菜谱</a>
+                            </dt>
+                            <dd>
+                                <a href="menu-family.html">家常菜</a>
+                            </dd>
+                            <dd>
+                                <a href="menu-family.html">凉菜</a>
+                            </dd>
+                            <dd>
+                                <a href="menu-family.html">素食</a>
+                            </dd>
+                            <dd>
+                                <a href="menu-family.html">晚餐</a>
+                            </dd>
+                            <dd>
+                                <a href="menu-family.html">私家菜</a>
+                            </dd>
+                            <dd>
+                                <a href="menu-family.html">热菜</a>
+                            </dd>
+                            <dd>
+                                <a href="menu-family.html">海鲜</a>
+                            </dd>
+                            <dd>
+                                <a href="menu-family.html">孕妇</a>
+                            </dd>
+                            <dd>
+                                <a href="menu-family.html">早餐</a>
+                            </dd>
+                            <dd>
+                                <a href="menu-family.html">午餐</a>
+                            </dd>
+                            <dd>
+                                <a href="menu-family.html">甜品点心</a>
+                            </dd>
+                            <dd>
+                                <a href="menu-family.html">汤粥</a>
+                            </dd>
+                            <dd>
+                                <a href="menu-family.html">宝宝食谱-婴儿食谱</a>
+                            </dd>
+                            <dd>
+                                <a href="menu-family.html">糕点主食</a>
+                            </dd>
+                            <dd>
+                                <a href="menu-family.html">微波炉</a>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="dwitem dwitem_half clearfix">
+                        <dl class="clearfix">
+                            <dt>
+                                <a href="menu-chinesefood.html">中华菜系</a>
+                            </dt>
+                            <dd>
+                                <a href="menu-chinesefood.html">川菜</a>
+                            </dd>
+                            <dd>
+                                <a href="menu-chinesefood.html">粤菜</a>
+                            </dd>
+                            <dd>
+                                <a href="menu-chinesefood.html">东北菜</a>
+                            </dd>
+                            <dd>
+                                <a href="menu-chinesefood.html">湘菜</a>
+                            </dd>
+                            <dd>
+                                <a href="menu-chinesefood.html">鲁菜</a>
+                            </dd>
+                            <dd>
+                                <a href="menu-chinesefood.html">浙菜</a>
+                            </dd>
+                            <dd>
+                                <a href="menu-chinesefood.html">湖北菜</a>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="dwitem dwitem_half clearfix">
+                        <dl class="clearfix">
+                            <dt>
+                                <a href="menu-specialsnack.html">各地小吃</a>
+                            </dt>
+                            <dd>
+                                <a href="menu-specialsnack.html">四川小吃</a>
+                            </dd>
+                            <dd>
+                                <a href="menu-specialsnack.html">广东小吃</a>
+                            </dd>
+                            <dd>
+                                <a href="menu-specialsnack.html">北京小吃</a>
+                            </dd>
+                            <dd>
+                                <a href="menu-specialsnack.html">陕西小吃</a>
+                            </dd>
+                        </dl>
+                    </div>
+                    <br>
+                    <div class="dwitem dwitem_half clearfix">
+                        <dl class="clearfix">
+                            <dt>
+                                <a href="menu-worldmenu.html">外国菜谱</a>
+                            </dt>
+                            <dd>
+                                <a href="menu-worldmenu.html">韩国料理</a>
+                            </dd>
+                            <dd>
+                                <a href="menu-worldmenu.html">日本料理</a>
+                            </dd>
+                            <dd>
+                                <a href="menu-worldmenu.html">法国菜</a>
+                            </dd>
+                            <dd>
+                                <a href="menu-worldmenu.html">意大利餐</a>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="dwitem dwitem_half clearfix">
+                        <dl class="clearfix">
+                            <dt>
+                                <a href="menu-baking.html">烘焙</a>
+                            </dt>
+                            <dd>
+                                <a href="menu-baking.html">蛋糕面包</a>
+                            </dd>
+                            <dd>
+                                <a href="menu-baking.html">饼干配方</a>
+                            </dd>
+                            <dd>
+                                <a href="menu-baking.html">甜品点心</a>
+                            </dd>
+                        </dl>
+                    </div>
+                    <br>
+                    <div class="dwitem dwitem_half clearfix">
+                        <dl class="clearfix">
+                            <dt>
+                                <a href="">厨房百科</a>
+                            </dt>
+                            <dd>
+                                <a href="">摆盘围边</a>
+                            </dd>
+                            <dd>
+                                <a href="">烹饪技巧</a>
+                            </dd>
+                            <dd>
+                                <a href="">生活妙招</a>
+                            </dd>
+                            <dd>
+                                <a href="">美食专题</a>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="dwitem dwitem_half clearfix">
+                        <dl class="clearfix">
+                            <dt>
+                                <a href="">食材百科</a>
+                            </dt>
+                            <dd>
+                                <a href="">蔬菜</a>
+                            </dd>
+                            <dd>
+                                <a href="">水果</a>
+                            </dd>
+                            <dd>
+                                <a href="">谷类</a>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="bgitem"></div>
+                </div>
+            </div>
+        </li>
+        <li class="hasmore">
+            <a href="healthy-eating.html" class="link pngFix">
+                <strong>健康饮食</strong>
+            </a>
+            <div class="dw clearfix">
+                <div class="dww clearfix dww_ysjk">
+                    <div class="dwitem clearfix pngFix">
+                        <dl class="clearfix">
+                            <dt>
+                                <a href="healthy-eating.html">饮食健康</a>
+                            </dt>
+                            <dd>
+                                <a href="healthy-eating.html">饮食小常识</a>
+                            </dd>
+                            <dd>
+                                <a href="healthy-eating.html">美容瘦身</a>
+                            </dd>
+                            <dd>
+                                <a href="healthy-eating.html">食品安全</a>
+                            </dd>
+                            <dd>
+                                <a href="healthy-eating.html">养生妙方</a>
+                            </dd>
+                            <dd>
+                                <a href="healthy-eating.html">饮食禁忌</a>
+                            </dd>
+                            <dd>
+                                <a href="healthy-eating.html">中医保健</a></dd>
+                            <dd>
+                                <a href="healthy-eating.html">母婴健康饮食</a>
+                            </dd>
+                            <dd>
+                                <a href="healthy-eating.html">饮食新闻</a>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="dwitem clearfix">
+                        <dl class="clearfix">
+                            <dt>
+                                <a href="healthy-eating.html">功能性调理</a>
+                            </dt>
+                            <dd>
+                                <a href="healthy-eating.html">清热去火</a>
+                            </dd>
+                            <dd>
+                                <a href="healthy-eating.html">减肥</a>
+                            </dd>
+                            <dd>
+                                <a href="healthy-eating.html">祛痰</a>
+                            </dd>
+                            <dd>
+                                <a href="healthy-eating.html">乌发</a></dd>
+                            <dd>
+                                <a href="healthy-eating.html">滋阴补肾</a>
+                            </dd>
+                            <dd>
+                                <a href="healthy-eating.html">健脾开胃</a>
+                            </dd>
+                            <dd>
+                                <a href="healthy-eating.html">消化不良</a>
+                            </dd>
+                            <dd>
+                                <a href="healthy-eating.html">清热解毒</a>
+                            </dd>
+                            <dd>
+                                <a href="healthy-eating.html">补阳壮阳</a>
+                            </dd>
+                            <dd>
+                                <a href="healthy-eating.html">增肥</a>
+                            </dd>
+                        </dl>
+                    </div>
+                    <br>
+                    <div class="dwitem dwitem_half clearfix">
+                        <dl class="clearfix">
+                            <dt>
+                                <a href="">人群膳食</a>
+                            </dt>
+                            <dd>
+                                <a href="">孕妇</a>
+                            </dd>
+                            <dd>
+                                <a href="">老人</a>
+                            </dd>
+                            <dd>
+                                <a href="">产妇</a>
+                            </dd>
+                            <dd>
+                                <a href="">哺乳期</a>
+                            </dd>
+                            <dd>
+                                <a href="">青少年</a>
+                            </dd>
+                            <dd>
+                                <a href="">幼儿</a>
+                            </dd>
+                            <dd>
+                                <a href="">学龄期儿童</a>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="dwitem dwitem_half clearfix">
+                        <dl class="clearfix">
+                            <dt>
+                                <a href="">疾病调理</a>
+                            </dt>
+                            <dd>
+                                <a href="">糖尿病</a>
+                            </dd>
+                            <dd>
+                                <a href="">高血压</a>
+                            </dd>
+                            <dd>
+                                <a href="">痛风</a>
+                            </dd>
+                            <dd>
+                                <a href="">胃炎</a>
+                            </dd>
+                            <dd>
+                                <a href="">痔疮</a>
+                            </dd>
+                            <dd>
+                                <a href="">更年期</a>
+                            </dd>
+                            <dd>
+                                <a href="">甲状腺</a>
+                            </dd>
+                        </dl>
+                    </div>
+                    <br>
+                    <div class="dwitem clearfix">
+                        <dl class="clearfix">
+                            <dt>
+                                <a href="">脏腑调理</a>
+                            </dt>
+                            <dd>
+                                <a href="">感冒</a>
+                            </dd>
+                            <dd>
+                                <a href="">补肾</a>
+                            </dd>
+                            <dd>
+                                <a href="">阳痿早泄</a>
+                            </dd>
+                            <dd>
+                                <a href="">补血</a>
+                            </dd>
+                            <dd>
+                                <a href="">便秘</a>
+                            </dd>
+                            <dd>
+                                <a href="">腹泻</a>
+                            </dd>
+                            <dd>
+                                <a href="">活血化瘀</a>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="bgitem"></div>
+                </div>
+            </div>
+        </li>
+        <li class="">
+            <a href="food-menu.html" class="link pngFix">
+                <strong>美食菜单</strong>
+            </a>
+        </li>
+        <li class="">
+            <a href="" class="link pngFix">
+                <strong>美食达人</strong>
+                <img src="img/png/foodshow.png" style="display: inline-block;margin-left: -7px;vertical-align: top;margin-top: 8px;">
+            </a>
+        </li>
+        <li class="">
+            <a href="menu-video.html" class="link pngFix">
+                <strong>菜谱视频</strong>
+            </a>
+        </li>
+        <li class="">
+            <a href="app-download.html" class="link pngFix">
+                <strong>产品下载</strong>
+            </a>
+        </li>
+    </ul>
+</div>
+<!--  回到顶部指针  -->
+<div class="bottom_back_top_top bottom_back_top_top_slideUp" id="bottom_back_top_top" style="left: 1161px;bottom: 6px;display: block">
+    <a href="#" class="backtotop pngFix">回到顶部</a>
+</div>
+    <div class="main_w clearfix">
+        <style>
+            .swiper-container{height:140px;width:890px;margin:0px 0px 0px;}
+            .swiper-wrapper{height:100px;width:890px;}
+            .swiper-container-horizontal>.swiper-pagination {    bottom: 10px;    left: 0;    width: 100%;}
+            .swiper-pagination-bullet-active {    opacity: 1;    background: #ff5151;}
+        </style>
+        <form id="uploadform" action="" method="post" onsubmit="return saveReport();">
+            <input type="hidden" value="new" id="r_act" name="act">
+            <input type="hidden" value="3" name="stype" id="stype">
+            <input type="hidden" name="id" id="r_id" value="0">
+            <div class="main">
+                <h3 class="bbtitles">欢迎发布新菜谱，先介绍一下你的大作！</h3>
+                <div class="item clearfix">
+                    <div class="help" id="helpbar" style="display: none;">菜谱发布并审核通过后，将被美食杰收录并展示。
+                        <a target="_blank" href="">查看新手帮助 &gt;&gt;</a>
+                    </div>
+                    <div class="uploadbox">
+                        <a target="_blank" href="recipe-help.html" class="showhelp" id="showhelp" style="display: inline;">查看帮助 &gt;&gt;</a>
+                        <div class="uploaditem">
+                            <h5>标题</h5>
+                            <div class="row1_box">
+                                <div class="input_text_item">
+                                    <input type="text" title="title" value="" name="title" placeholder="请填写菜谱名称，10字以内" class="hastip">
+                                    <div class="upload_tips" style="bottom:54px;left:0px;">
+                                        1、菜谱名称保持10个汉字以内
+                                        <br>2、菜谱名称中不加特殊符号如：“，。【】”
+                                        <span class="upload_tips_arrow"></span>
+                                    </div>
+                                    <input type="text" style="display:none;" title="from_site" value="" name="from_site" id="from_site" placeholder="请填写菜谱原文地址，如 http://www.meishi.cc/">
+                                </div>
+                                <a style="display:inline-block;vertical-align:top;*display:inline;*zoom:1;height:44px;line-height:44px; color:#ff3232;font-size:14px;text-decoration:underline;padding-left:10px;" href="user-center.html" target="_blank">如何让你的菜看起来很好吃 &gt;</a>
+                            </div>
+                        </div>
+                        <div class="uploaditem">
+                            <h5>自媒体标题（8-30个字符）：</h5>
+                            <div class="row1_box">
+                                <div class="input_text_item">
+                                    <input type="text" value="" name="ftitle" placeholder="请填写自媒体标题" class="hastip">
+                                </div>
+                            </div>
+                        </div>
+                        <!--要发布菜的属性-->
+                        <div class="uploaditem">
+                            <h5>属性</h5>
+                            <div class="row1_box">
+                                <div class="selectitem" style="z-index: 200;">
+                                    <dl>
+                                    <dt style="border-bottom: 0px;">选择工艺</dt><dd class="clearfix" style="display: none;">
+                                    <span val="0" class="current" cur="1">选择工艺</span>
+                                    <span val="192" class="" cur="0">炒</span>
+                                    <span val="156" class="" cur="0">蒸</span>
+                                    <span val="194" class="" cur="0">煮</span>
+                                    <span val="124" class="" cur="0">炖</span>
+                                    <span val="141" class="" cur="0">拌</span>
+                                    <span val="149" class="" cur="0">烧</span>
+                                    <span val="129" class="" cur="0">煎</span>
+                                    <span val="153" class="" cur="0">炸</span>
+                                    <span val="220" cur="0">烘焙</span>
+                                    <span val="251" class="" cur="0">微波</span>
+                                    <span val="130" class="" cur="0">烤</span>
+                                    <span val="147" cur="0">煲</span>
+                                    <span val="144" class="" cur="0">焖</span>
+                                    <span val="136" cur="0">冻</span>
+                                    <span val="252" cur="0">烙</span>
+                                    <span val="148" class="" cur="0">砂锅</span>
+                                    <span val="134" cur="0">腌</span>
+                                    <span val="138" cur="0">卤</span>
+                                    <span val="132" class="" cur="0">酱</span>
+                                    <span val="127" class="" cur="0">烩</span>
+                                    <span val="112" cur="0">扒</span>
+                                    <span val="114" cur="0">爆</span>
+                                    <span val="140" cur="0">炝</span>
+                                    <span val="142" cur="0">熘</span>
+                                    <span val="139" cur="0">熏</span>
+                                    <span val="123" cur="0">汆</span>
+                                    <span val="113" cur="0">拔丝</span>
+                                    <span val="253" cur="0">榨汁</span>
+                                    <span val="193" cur="0">灼</span>
+                                    <span val="256" cur="0">泡</span>
+                                    <span val="133" cur="0">腊</span>
+                                    <span val="119" cur="0">糖蘸</span>
+                                    <span val="255" cur="0">干锅</span>
+                                    <span val="262" cur="0">焗</span>
+                                    <span val="260" cur="0">干煸</span>
+                                    <span val="261" cur="0">煨</span>
+                                    <span val="259" cur="0">其他</span>
+                                </dd>
+                                </dl>
+                                    <input type="hidden" name="gongyi" value="0">
+                                </div>
+                                <div class="selectitem" style="z-index: 1;">
+                                    <dl>
+                                        <dt style="border-bottom: 1px;">香辣味</dt>
+                                        <dd class="clearfix" style="display: none;">
+                                    <span val="0" class="" cur="0">选择口味</span>
+                                    <span val="168" class="" cur="0">家常味</span>
+                                    <span val="187" cur="1" class="current">香辣味</span>
+                                    <span val="160" class="" cur="0">咸鲜味</span>
+                                    <span val="185" cur="0" class="">甜味</span>
+                                    <span val="182" cur="0">酸甜味</span>
+                                    <span val="180" cur="0">酸辣味</span>
+                                    <span val="177" cur="0">麻辣味</span>
+                                    <span val="170" cur="0">酱香味</span>
+                                    <span val="257" cur="0">奶香味</span>
+                                    <span val="183" cur="0">蒜香味</span>
+                                    <span val="188" cur="0">鱼香味</span>
+                                    <span val="162" cur="0">葱香味</span>
+                                    <span val="166" cur="0">果味</span>
+                                    <span val="186" cur="0">五香味</span>
+                                    <span val="173" cur="0">咖喱味</span>
+                                    <span val="171" cur="0">椒麻味</span>
+                                    <span val="179" cur="0">茄汁味</span>
+                                    <span val="266" cur="0">酸味</span>
+                                    <span val="174" cur="0">苦香味</span>
+                                    <span val="169" cur="0">姜汁味</span>
+                                    <span val="165" cur="0">怪味</span>
+                                    <span val="172" cur="0">芥末味</span>
+                                    <span val="167" cur="0">红油味</span>
+                                    <span val="164" cur="0">豆瓣味</span>
+                                    <span val="176" cur="0">麻酱味</span>
+                                    <span val="264" cur="0">黑椒味</span>
+                                    <span val="265" cur="0">糊辣味</span>
+                                    <span val="189" cur="0">其他</span>
+                                </dd>
+                                    </dl>
+                                    <input type="hidden" name="kouwei" value="187">
+                                </div>
+                                <div class="selectitem" style="z-index: 1;">
+                                    <dl>
+                                        <dt style="border-bottom: 1px;">选择难度</dt>
+                                        <dd class="clearfix" style="display: none;">
+                                            <span val="0" class="" cur="0">选择难度</span>
+                                            <span val="1" cur="0" class="">新手尝试</span>
+                                            <span val="2" cur="0">初级入门</span>
+                                            <span val="3" class="" cur="0">初中水平</span>
+                                            <span val="4" cur="1" class="current">中级掌勺</span>
+                                            <span val="5" cur="0">高级厨师</span>
+                                            <span val="6" cur="0">厨神级</span>
+                                        </dd>
+                                    </dl>
+                                    <input type="hidden" name="make_diff" value="4">
+                                </div>
+                                <div class="selectitem" style="z-index: 1;">
+                                    <dl>
+                                        <dt style="border-bottom: 1px;">5分钟</dt>
+                                        <dd class="clearfix" style="display: none;">
+                                            <span val="0" class="" cur="0">选择准备时间</span>
+                                            <span val="1" cur="1" class="current">5分钟</span>
+                                            <span val="2" cur="0">10分钟</span>
+                                            <span val="3" class="" cur="0">15分钟</span>
+                                            <span val="4" class="" cur="0">30分钟</span>
+                                            <span val="5" cur="0">60分钟</span>
+                                            <span val="6" cur="0">90分钟</span>
+                                            <span val="7" cur="0">2小时</span>
+                                            <span val="8" cur="0">数小时</span>
+                                            <span val="9" cur="0">一天</span>
+                                            <span val="10" cur="0">数天</span>
+                                            <div class="upload_tips_style2" cur="0">TIPS：醒发、泡发、腌制等操作算作准备时间</div>
+                                        </dd>
+                                    </dl>
+                                    <input type="hidden" name="make_pretime" value="1">
+                                </div>
+                                <div class="selectitem selectitem_shijian" style="z-index: 1;">
+                                    <dl>
+                                        <dt style="border-bottom: 1px;">&lt;5分钟</dt>
+                                        <dd class="clearfix" style="display: none;">
+                                            <span val="0" class="" cur="0">选择烹饪时间</span>
+                                            <span val="1" cur="1" class="current">&lt;5分钟</span>
+                                            <span val="2" cur="0">&lt;10分钟</span>
+                                            <span val="3" class="" cur="0">&lt;15分钟</span>
+                                            <span val="4" cur="0">&lt;30分钟</span>
+                                            <span val="5" cur="0">&lt;60分钟</span>
+                                            <span val="6" cur="0">&lt;90分钟</span>
+                                            <span val="7" cur="0">&lt;2小时</span>
+                                            <span val="8" cur="0">&lt;数小时</span>
+                                            <span val="9" cur="0">&lt;一天</span>
+                                            <span val="10" cur="0">&lt;数天</span>
+                                        </dd>
+                                    </dl>
+                                    <input type="hidden" name="make_time" value="1">
+                                </div>
+                                <div class="selectitem selectitem_renshu" style="z-index: 1;">
+                                    <dl>
+                                        <dt style="border-bottom: 1px;">选择人数</dt>
+                                        <dd class="clearfix" style="display: none;">
+                                            <span val="0" class="" cur="0">选择人数</span>
+                                            <span val="1" cur="1" class="current">1人份</span>
+                                            <span val="2" cur="0" class="">2人份</span>
+                                            <span val="3" class="" cur="0">3人份</span>
+                                            <span val="6" cur="0">4人份</span>
+                                            <span val="4" cur="0">5人份</span>
+                                            <span val="5" class="" cur="0">未知</span>
+                                        </dd>
+                                    </dl>
+                                    <input type="hidden" name="make_amount" value="1">
+                                </div>
+                            </div>
+                        </div>
+                        <!--要发布制作成菜的图片-->
+                        <div class="uploaditem pb0">
+                            <h5>成品图 (328*440)</h5>
+                            <div class="file_box">
+                                <div class="fileitem" id="upload_big_img">
+                                    <input type="hidden" value="" name="newsphoto" id="newsphoto">
+                                    <img src="" id="uploaded_show">
+                                    <a href="####" id="delimg"></a>
+                                    <iframe id="newsphoto_iframe" src="img/png/upload_big_img.png" frameborder="0" height="400" width="300" scrolling="no"></iframe>
+                                </div>
+                                <div class="textareaitem">
+                                    <textarea placeholder="说说这道菜背后的故事吧~ " name="descr"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-------------一---------->
+                <h3 class="bbtitles">记录所有原材料</h3>
+                <div class="item clearfix">
+                    <div class="uploadbox" id="step2_box">
+                        <!--主料的增加减少-->
+                        <div class="uploaditem" id="uploaditem_zl">
+                            <div class="upload_tips_style3">
+                                <strong>小提示：</strong>
+                                <br>1、输入食材后，下方会弹出相应食材可选择；如果没有弹出，可能是您输入的食材有误，或者没有当前食材（请联系小编）
+                                <br>2、“适量、少许”尽量少用或者不用，用量精确对您的粉丝更有帮助
+                            </div>
+                            <h5>主料</h5>
+
+                            <div id="zlinputs" class="ylinputs">
+                                <div class="row1_box_half">
+                                    <div class="suggestionsBox suggestions" style="display:none;">
+                                        <ul class="suggestionList autoSuggestionsList"></ul>
+                                    </div>
+                                    <div class="input_text_item1">
+                                        <input class="inputtext_scname" name="zlsc1" value="" type="text" placeholder="比如：面粉" defaultval="请填写主料名称" autocomplete="off" href="">
+                                    </div>
+                                    <div class="input_text_item2">
+                                        <input name="zlyl1" value="" type="text" placeholder="比如：200克">
+                                    </div>
+                                    <span class="delsc"></span>
+                                </div>
+                                <div class="row1_box_half">
+                                    <div class="suggestionsBox suggestions" style="display:none;">
+                                        <ul class="suggestionList autoSuggestionsList"></ul>
+                                    </div>
+                                    <div class="input_text_item1">
+                                        <input class="inputtext_scname" name="zlsc2" value="" type="text" placeholder="请填写主料名称" defaultval="请填写主料名称" autocomplete="off" href="">
+                                    </div>
+                                    <div class="input_text_item2">
+                                        <input name="zlyl2" value="" type="text" placeholder="请填写用量">
+                                    </div>
+                                    <span class="delsc"></span>
+                                </div>
+                                <div class="row1_box_half">
+                                    <div class="suggestionsBox suggestions" style="display:none;">
+                                        <ul class="suggestionList autoSuggestionsList"></ul>
+                                    </div>
+                                    <div class="input_text_item1">
+                                        <input class="inputtext_scname" name="zlsc3" value="" type="text" placeholder="请填写主料名称" defaultval="请填写主料名称" autocomplete="off" href="">
+                                    </div>
+                                    <div class="input_text_item2">
+                                        <input name="zlyl3" value="" type="text" placeholder="请填写用量">
+                                    </div>
+                                    <span class="delsc"></span>
+                                </div>
+                            </div>
+                            <div class="row1_box_half">
+                                <a class="addsc_item" id="addazl" href="####">+ 增加一项</a>
+                            </div>
+                        </div>
+                        <!--辅料的增加减少-->
+                        <div class="uploaditem pb0" id="uploaditem_fl">
+                            <h5>辅料</h5>
+                            <div id="flinputs" class="ylinputs">
+                                <div class="row1_box_half">
+                                    <div class="suggestionsBox suggestions" style="display:none;">
+                                        <ul class="suggestionList autoSuggestionsList"></ul>
+                                    </div>
+                                    <div class="input_text_item1">
+                                        <input class="inputtext_scname" name="flsc1" value="" type="text" placeholder="比如：食盐" defaultval="请填写辅料名称" autocomplete="off" href="">
+                                    </div>
+                                    <div class="input_text_item2">
+                                        <input name="flyl1" value="" type="text" placeholder="比如：1茶匙">
+                                    </div>
+                                    <span class="delsc"></span>
+                                </div>
+                                <div class="row1_box_half">
+                                    <div class="suggestionsBox suggestions" style="display:none;">
+                                        <ul class="suggestionList autoSuggestionsList"></ul>
+                                    </div>
+                                    <div class="input_text_item1">
+                                        <input class="inputtext_scname" name="flsc2" value="" type="text" placeholder="请填写辅料名称" defaultval="请填写辅料名称" autocomplete="off" href="">
+                                    </div>
+                                    <div class="input_text_item2">
+                                        <input name="flyl2" value="" type="text" placeholder="请填写用量">
+                                    </div>
+                                    <span class="delsc"></span>
+                                </div>
+                                <div class="row1_box_half">
+                                    <div class="suggestionsBox suggestions" style="display:none;">
+                                        <ul class="suggestionList autoSuggestionsList"></ul>
+                                    </div>
+                                    <div class="input_text_item1">
+                                        <input class="inputtext_scname" name="flsc3" value="" type="text" placeholder="请填写辅料名称" defaultval="请填写辅料名称" autocomplete="off" href="">
+                                    </div>
+                                    <div class="input_text_item2">
+                                        <input name="flyl3" value="" type="text" placeholder="请填写用量">
+                                    </div>
+                                    <span class="delsc"></span>
+                                </div>
+                                <div class="row1_box_half">
+                                    <div class="suggestionsBox suggestions" style="display:none;">
+                                        <ul class="suggestionList autoSuggestionsList"></ul>
+                                    </div>
+                                    <div class="input_text_item1">
+                                        <input class="inputtext_scname" name="flsc4" value="" type="text" placeholder="请填写辅料名称" defaultval="请填写辅料名称" autocomplete="off" href="">
+                                    </div>
+                                    <div class="input_text_item2">
+                                        <input name="flyl4" value="" type="text" placeholder="请填写用量">
+                                    </div>
+                                    <span class="delsc"></span>
+                                </div>
+                            </div>
+                            <div class="row1_box_half">
+                                <a class="addsc_item" id="addafl" href="####">+ 增加一项</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <style>
+                    .addTipsBtn{display:block;height:40px;line-height:40px;background:#eee;color:#333;text-align:center;width:150px;}
+                    .tipsFormW{width:600px;height:200px;padding-top:10px;position:relative;}
+                    .tipsFormW .left{width:180px;height:180px;float:left;background:#eee;}
+                    .tipsFormW .right{height:200px;width:390px;float:right;}
+                    .tipsFormW .right .text{height:40px;border:1px solid #ddd;line-height:40px;width:368px;padding:0px 10px;}
+                    .tipsFormW .right textarea{height:126px;border:1px solid #ddd;width:368px;margin-top:10px;padding:10px;}
+                    .tipsFormW .x{position:absolute;height:24px;width:24px;background:#ff5151;color:#fff;text-align:center;line-height:24px;right:-24px;top:10px;cursor:pointer;}
+                </style>
+                <script>
+                    $(function(){
+                        $(".addTipsBtn").click(function(){
+                            var _this= $(this);
+                            _this.next().toggle();
+                        });
+
+                        $(".tipsFormW .x").click(function(){
+                            var _p = $(this).parents(".tipsFormW");
+                            var guid = _p.find("input.guid").val();
+                            _p.find("input.text").val("");
+                            _p.find("input.tips_img").val("");
+                            _p.find("textarea").val("");
+                            var new_src = "/iframe/pic_step.php?tips=1&step=" + guid;
+                            _p.find("iframe").attr('src',new_src);
+                            _p.toggle();
+                        });
+                    });
+                </script>
+
+                <!-------------二---------->
+                <h3 class="bbtitles">开始写步骤了！能否简单易学就看你怎么写了，加油！</h3>
+                <div class="item clearfix">
+                    <div class="upload_tips_style3" style="margin-left:50px;position:relative;top:30px;margin-bottom:30px;">
+                        <strong>小提示：</strong>
+                        <br>1、步骤图宽度在400像素至550像素，如果拼接请横向拼接2至3张（当宽度大于550时会自动压缩，不用裁切）
+                        <br>2、每个步骤只用一段话描述，请勿在步骤中再细分“1.2.3.”
+                    </div>
+                    <div class="uploadbox pr0">
+                        <!--对步骤图增加删除-->
+                        <div class="uploaditem">
+                            <div id="steps">
+                                <div class="stepitem">
+                                    <div class="stepnum">1</div>
+                                    <div class="stepupload">
+                                        <iframe id="iframe_f5c2f65a389cc8620ad31278a296da19" src="../static/img/gif/upload_step_img.png" frameborder="0" height="180" width="180" scrolling="no"></iframe>
+                                        <input type="hidden" id="step_img_f5c2f65a389cc8620ad31278a296da19" name="step_img[]">
+                                    </div>
+                                    <div class="stepright">
+                                        <div class="stepst_w">
+                                            <div class="stepst_tips">更多步骤细节（选填） &gt;</div>
+                                            <div class="stepst">
+                                                <div class="step_scselect">
+                                                    <div class="step_scselect_item">
+                                                        <span class="t">此步骤所用食材：</span>
+                                                        <div class="c">
+                                                            <input type="hidden" value="" class="step_sc_input" name="step_sc_input[]">
+                                                            <dl class="zl clearfix">
+                                                                <dt class="zl">
+                                                                    <span class="s1">主料</span>
+                                                                    <span class="s2">步骤用量（可修改）</span>
+                                                                </dt>
+                                                            </dl>
+                                                            <dl class="fl clearfix">
+                                                                <dt class="fl">
+                                                                    <span class="s1">辅料</span>
+                                                                    <span class="s2">步骤用量（可修改）</span>
+                                                                </dt>
+                                                            </dl>
+                                                        </div>
+                                                    </div>
+                                                    <p>此步骤所用食材：</p>
+                                                    <div class="selectitem_l">
+                                                        <p>请选择食材</p>
+                                                    </div>
+                                                </div>
+                                                <div class="step_timeselect">
+                                                    <p>此步骤所用时间：</p>
+                                                    <div class="timeinput">
+                                                        <input type="text" name="step_time[]">
+                                                    </div>
+                                                    <span class="timedw_select">分钟</span>
+                                                 </div>
+                                            </div>
+                                        </div>
+                                        <textarea placeholder="请填写步骤描述" name="step_text[]"></textarea>
+                                    </div>
+                                    <div class="step_rightbtns" style="display: none;">
+                                        <a href="####" class="moveUp"></a>
+                                        <a href="####" class="moveDown"></a>
+                                        <a href="####" class="addStep"></a>
+                                        <a href="####" class="delStep"></a>
+                                    </div>
+                                </div>
+                                <div class="stepitem">
+                                    <div class="stepnum">2</div>
+                                    <div class="stepupload"><iframe id="iframe_6f07616486a377c572b6e09e4b0ebe2b" src="../static/img/gif/upload_step_img.png" frameborder="0" height="180" width="180" scrolling="no"></iframe><input type="hidden" id="step_img_6f07616486a377c572b6e09e4b0ebe2b" name="step_img[]"></div><div class="stepright">
+                                    <div class="stepst_w">
+                                        <div class="stepst_tips">更多步骤细节（选填） &gt;</div>
+                                        <div class="stepst">
+                                            <div class="step_scselect">
+                                                <div class="step_scselect_item">
+                                                    <span class="t">此步骤所用食材：</span><div class="c">
+                                                    <input type="hidden" value="" class="step_sc_input" name="step_sc_input[]">
+                                                    <dl class="zl clearfix"><dt class="zl"><span class="s1">主料</span><span class="s2">步骤用量（可修改）</span></dt></dl>
+                                                    <dl class="fl clearfix"><dt class="fl"><span class="s1">辅料</span><span class="s2">步骤用量（可修改）</span></dt></dl>
+                                                </div>
+                                                </div>
+                                                <p>此步骤所用食材：</p><div class="selectitem_l"><p>请选择食材</p></div>
+                                            </div><div class="step_timeselect"><p>此步骤所用时间：</p><div class="timeinput">
+                                            <input type="text" name="step_time[]">
+                                        </div><span class="timedw_select">分钟</span>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <textarea placeholder="请填写步骤描述" name="step_text[]"></textarea>
+                                    <!--小技巧 start-->
+
+
+                                    <!--小技巧 end-->
+
+                                </div><div class="step_rightbtns" style="display: none;">
+                                    <a href="####" class="moveUp"></a><a href="####" class="moveDown"></a><a href="####" class="addStep"></a><a href="####" class="delStep"></a>
+                                </div>
+                                </div>
+                                <div class="stepitem">
+                                    <div class="stepnum">3</div>
+                                    <div class="stepupload"><iframe id="iframe_4be4337a01f373b25dcf0bbc9305d62e" src="../static/img/gif/upload_step_img.png" frameborder="0" height="180" width="180" scrolling="no"></iframe><input type="hidden" id="step_img_4be4337a01f373b25dcf0bbc9305d62e" name="step_img[]"></div><div class="stepright">
+                                    <div class="stepst_w">
+                                        <div class="stepst_tips">更多步骤细节（选填） &gt;</div>
+                                        <div class="stepst">
+                                            <div class="step_scselect">
+                                                <div class="step_scselect_item">
+                                                    <span class="t">此步骤所用食材：</span><div class="c">
+                                                    <input type="hidden" value="" class="step_sc_input" name="step_sc_input[]">
+                                                    <dl class="zl clearfix"><dt class="zl"><span class="s1">主料</span><span class="s2">步骤用量（可修改）</span></dt></dl>
+                                                    <dl class="fl clearfix"><dt class="fl"><span class="s1">辅料</span><span class="s2">步骤用量（可修改）</span></dt></dl>
+                                                </div>
+                                                </div>
+                                                <p>此步骤所用食材：</p><div class="selectitem_l"><p>请选择食材</p></div>
+                                            </div><div class="step_timeselect"><p>此步骤所用时间：</p><div class="timeinput">
+                                            <input type="text" name="step_time[]">
+                                        </div><span class="timedw_select">分钟</span>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <textarea placeholder="请填写步骤描述" name="step_text[]"></textarea>
+                                    <!--小技巧 start-->
+
+
+                                    <!--小技巧 end-->
+
+                                </div>
+                                    <div class="step_rightbtns" style="display: none;">
+                                    <a href="####" class="moveUp"></a>
+                                        <a href="####" class="moveDown"></a>
+                                        <a href="####" class="addStep"></a>
+                                        <a href="####" class="delStep"></a>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="addstep_item">
+                                <a href="####" class="addstep_btn" id="addstep_btn">+ 增加一步</a>
+                            </div>
+                        </div>
+                        <!--对成品图增加删除-->
+                        <div id="step_result" class="uploaditem">
+                            <h5>最终效果图<span style="font-size:12px;color:#333;padding-left:10px;">（请上传两张或以上不同角度成品图，宽度500-600像素之间，最好横图竖图、远景近景图都有）</span></h5>
+                            <div class="tipsitem">
+                                <div class="stepupload">
+                                    <iframe src="../static/img/gif/step_result_img.gif" frameborder="0" height="180" width="180" scrolling="no"></iframe><input type="hidden" id="123" name="step_result_img[]"></div>
+                                <div class="stepupload">
+                                    <iframe src="../static/img/gif/step_result_img.gif" frameborder="0" height="180" width="180" scrolling="no"></iframe><input type="hidden" id="234" name="step_result_img[]"></div>
+                                <div class="stepupload">
+                                    <iframe src="../static/img/gif/step_result_img.gif" frameborder="0" height="180" width="180" scrolling="no"></iframe><input type="hidden" id="345" name="step_result_img[]"></div>
+                                <div class="stepupload">
+                                    <iframe src="../static/img/gif/step_result_img.gif" frameborder="0" height="180" width="180" scrolling="no"></iframe><input type="hidden" id="456" name="step_result_img[]"></div>
+                            </div>
+                        </div>
+                        <div class="uploaditem">
+                            <h5>烹饪小技巧</h5>
+                            <div class="tipsitem">
+                                <div class="input_text_item">
+                                    <textarea name="tips" placeholder="分享下你做这道菜的过程中的心得和小技巧吧！"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <br><br><br>
+                    </div>
+                </div>
+
+                <!-------------三---------->
+                <div class="uploadsubmit_item" style="width:460px;">
+                    <input type="button" onclick="do_submit(2)" value="保存为草稿" class="submit_2" style="display: inline-block; color: white;">
+                    <input type="button" onclick="do_submit(1)" class="submit_1" value="搞定，提交审核！" style="display: inline-block; color: white;">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>人数签查询 </title>
+    <meta content="" name="description"/>
+    <meta content="" name="author"/>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon"/>
+
+    <!-- CORE CSS FRAMEWORK - START -->
+    <link href="plugins/pace/pace-theme-flash.css" rel="stylesheet" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="https://www.jq22.com/jquery/bootstrap-3.3.4.css">
+    <link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css"/>
+    <link href="css/animate.min.css" rel="stylesheet" type="text/css"/>
+    <link href="plugins/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" type="text/css"/>
+    <!-- CORE CSS FRAMEWORK - END -->
+
+    <!-- CORE CSS TEMPLATE - START -->
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+
+</head>
+<body class=" ">
+<!-- START TOPBAR -->
+<div class='page-topbar '>
+    <div class='logo-area'>
+
+    </div>
+    <div class='quick-area'>
+        <div class='pull-left'>
+
+        </div>
+        <div class='pull-right'>
+            <ul class="info-menu right-links list-inline list-unstyled">
+                <li class="profile">
+                    <a href="#" data-toggle="dropdown" class="toggle">
+                        <img src="images/avatar-4.png" alt="user-image" class="img-circle img-inline">
+                        <span>Smith Wright <i class="fa fa-angle-down"></i></span>
+                    </a>
+                    <ul class="dropdown-menu profile animated fadeIn">
+                        <li>
+                            <a href="account-confirmation.html">
+                                <i class="fa fa-wrench"></i> Settings
+                            </a>
+                        </li>
+                        <li>
+                            <a href="ui-profile.html">
+                                <i class="fa fa-user"></i> Profile
+                            </a>
+                        </li>
+                        <li>
+                            <a href="ui-support.html">
+                                <i class="fa fa-info"></i> Help
+                            </a>
+                        </li>
+                        <li class="last">
+                            <a href="ui-login.html">
+                                <i class="fa fa-lock"></i> Logout
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<!-- END TOPBAR -->
+<!-- START CONTAINER -->
+<div class="page-container row-fluid container-fluid">
+
+    <!-- SIDEBAR - START -->
+
+    <div class="page-sidebar fixedscroll">
+
+        <!-- MAIN MENU - START 　侧边导航栏　-->
+        <div class="page-sidebar-wrapper" id="main-menu-wrapper">
+
+
+            <ul class='wraplist'>
+                <li class='menusection'>Main</li>
+                <li class="">
+                    <a href="home.html">
+                        <i>
+                            <svg t="1583482170517" class="icon" viewBox="0 0 1039 1024" version="1.1"
+                                 xmlns="http://www.w3.org/2000/svg" p-id="14617" width="16" height="16">
+                                <path d="M1025.024 489.984L546.304 22.528c-15.36-14.848-38.4-14.848-54.272 0L14.848 488.96c-10.24 9.216-15.872 24.064-14.336 38.4 2.048 23.04 19.456 40.96 40.96 40.96h77.824v249.856c0 107.52 78.848 194.56 176.64 194.56H599.552c59.392-0.512 107.008-54.272 107.008-120.32v-217.088c0-66.048-48.64-120.32-109.056-120.32H439.808c-59.904 0-109.056 53.76-109.056 120.32v138.24c0 21.504 13.312 40.96 32.256 45.056 22.016 5.12 44.032-10.752 48.128-34.816 0.512-3.072 1.024-6.144 1.024-9.216v-139.776c0-16.384 12.288-30.208 27.136-30.208h158.72c14.848 0 27.136 13.824 27.136 30.208v217.088c0 16.384-12.288 30.208-27.136 30.208H295.424c-52.736 0-94.72-46.592-94.72-104.96v-294.4c0-25.088-18.432-45.056-40.96-45.056h-3.072c-1.536 0-3.072-1.536-3.072-3.584 0-1.024 0.512-1.536 1.024-2.56l356.864-347.648c4.608-4.608 12.288-4.608 17.408 0L884.224 471.04c2.048 2.56 1.024 6.656-2.048 6.656h-2.048c-22.528 0-40.96 19.968-40.96 45.056v294.4c0 35.84-16.384 69.632-44.032 88.576-19.456 12.8-25.088 40.96-13.312 61.952 0.512 0.512 1.024 1.536 1.536 2.56 12.8 19.968 38.912 23.04 58.368 9.216 49.664-35.84 79.36-97.28 79.36-162.816v-249.856h75.776c14.336 0 29.184-7.68 36.352-21.504 10.24-16.384 6.656-40.448-8.192-55.296"
+                                      p-id="14618" fill="#cdcdcd"></path>
+                            </svg>
+                        </i>
+                        <span class="title">首页</span>
+                    </a>
+                </li>
+
+                <li class="">
+                    <a href="javascript:;">
+                        <i>
+                            <svg t="1583482075318" class="icon" viewBox="0 0 1186 1024" version="1.1"
+                                 xmlns="http://www.w3.org/2000/svg" p-id="12721" width="16" height="16">
+                                <path d="M904.610909 348.16a21.992727 21.992727 0 1 1 43.985455 0v248.389818a21.992727 21.992727 0 0 1-43.985455 0V348.16z m-30.557091 611.956364a21.992727 21.992727 0 1 1 0 43.985454H678.865455a21.992727 21.992727 0 1 1 0-43.985454h195.16509z m-457.076363 0a21.992727 21.992727 0 0 1 0 43.985454H229.003636a87.575273 87.575273 0 0 1-87.458909-87.691636v-591.36a21.992727 21.992727 0 0 1 43.985455 0v591.36c0 24.157091 19.479273 43.706182 43.473454 43.706182h187.997091z"
+                                      fill="#cdcdcd" p-id="12722"></path>
+                                <path d="M438.993455 982.109091V632.389818c0-24.157091 19.479273-43.706182 43.473454-43.706182h130.955636c23.994182 0 43.473455 19.549091 43.473455 43.706182V982.109091a21.992727 21.992727 0 1 0 43.985455 0V632.389818a87.575273 87.575273 0 0 0-87.45891-87.691636h-130.955636a87.575273 87.575273 0 0 0-87.458909 87.691636V982.109091a21.992727 21.992727 0 1 0 43.985455 0zM534.132364 60.625455l490.216727 386.862545a21.992727 21.992727 0 0 0 27.229091-34.536727L547.723636 15.313455a21.992727 21.992727 0 0 0-27.275636 0.046545L18.920727 412.997818a21.992727 21.992727 0 1 0 27.322182 34.443637L534.132364 60.648727z"
+                                      fill="#cdcdcd" p-id="12723"></path>
+                                <path d="M989.044364 659.712a16.756364 16.756364 0 0 1 14.056727 0l153.6 71.074909a16.756364 16.756364 0 0 1 0 30.417455l-153.6 71.098181a16.756364 16.756364 0 0 1-14.056727 0l-153.6-71.098181a16.756364 16.756364 0 0 1 0-30.417455l153.6-71.074909z m7.028363 33.652364l-113.710545 52.642909 113.710545 52.596363 113.710546-52.596363-113.710546-52.642909z"
+                                      fill="#cdcdcd" p-id="12724"></path>
+                                <path d="M996.072727 891.578182l-146.757818-65.675637a16.756364 16.756364 0 0 0-13.684364 30.603637l153.6 68.724363a16.756364 16.756364 0 0 0 13.684364 0l153.6-68.724363a16.756364 16.756364 0 0 0-13.684364-30.603637L996.072727 891.578182z"
+                                      fill="#cdcdcd" p-id="12725"></path>
+                            </svg>
+                        </i>
+                        <span class="title">首页管理</span>
+                        <span class="arrow "></span>
+                    </a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a class="" href="three_eals.html">三餐管理</a>
+                        </li>
+                        <li>
+                            <a class="" href="hot_push.html">热门管理</a>
+                        </li>
+                        <li>
+                            <a class="" href="ranking_list.html">排行榜管理</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="">
+                    <a href="javascript:;">
+                        <i>
+                            <svg t="1583482010822" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                                 xmlns="http://www.w3.org/2000/svg" p-id="11810" width="16" height="16">
+                                <path d="M358.4 426.057143c0 82.285714 62.171429 149.942857 140.8 160.914286v184.685714c0 14.628571 12.8 27.428571 27.428571 27.428571s27.428571-12.8 27.428572-27.428571v-100.571429h45.714286c14.628571 0 27.428571-12.8 27.428571-27.428571s-12.8-27.428571-27.428571-27.428572h-45.714286V585.142857c73.142857-14.628571 129.828571-80.457143 129.828571-159.085714 0-89.6-73.142857-162.742857-162.742857-162.742857s-162.742857 73.142857-162.742857 162.742857z m162.742857-107.885714c60.342857 0 107.885714 47.542857 107.885714 107.885714 0 60.342857-47.542857 107.885714-107.885714 107.885714s-107.885714-47.542857-107.885714-107.885714c0-60.342857 47.542857-107.885714 107.885714-107.885714z"
+                                      p-id="11811" fill="#cdcdcd"></path>
+                                <path d="M864.914286 190.171429l-338.285715-109.714286c-5.485714-1.828571-10.971429-1.828571-16.457142 0l-338.285715 109.714286c-10.971429 3.657143-18.285714 14.628571-18.285714 25.6V643.657143c1.828571 14.628571 21.942857 142.628571 354.742857 298.057143 3.657143 1.828571 7.314286 1.828571 10.971429 1.828571s7.314286 0 10.971428-1.828571C861.257143 786.285714 883.2 658.285714 885.028571 643.657143V215.771429c-1.828571-10.971429-9.142857-21.942857-20.114285-25.6z m-36.571429 449.828571c-1.828571 9.142857-32.914286 113.371429-310.857143 246.857143-279.771429-133.485714-309.028571-237.714286-310.857143-246.857143V235.885714l310.857143-102.4 310.857143 102.4V640z"
+                                      p-id="11812" fill="#cdcdcd"></path>
+                            </svg>
+                        </i>
+                        <span class="title">权限管理</span>
+                        <span class="arrow "></span>
+                    </a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a class="" href="permission-assignment.html">权限分配</a>
+                        </li>
+                        <li>
+                            <a class="" href="xxx.html">权限总览</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="">
+                    <a href="javascript:;">
+                        <i>
+                            <svg t="1583482317323" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                                 xmlns="http://www.w3.org/2000/svg" p-id="15435" width="16" height="16">
+                                <path d="M895.035 512c0-211.212-171.837-383.035-383.034-383.035-211.202 0-383.036 171.823-383.036 383.035 0 114.679 50.669 217.728 130.777 287.985 0.256 0.268 0.49 0.547 0.76 0.808 1.013 0.971 2.094 1.823 3.203 2.618 66.916 57.096 153.643 91.624 248.294 91.624 95.025 0 182.066-34.796 249.092-92.302a28.018 28.018 0 0 0 3.918-3.152c0.513-0.494 0.972-1.02 1.443-1.544C845.284 727.83 895.035 625.625 895.035 512z m-709.618 0c0-180.08 146.504-326.583 326.585-326.583 180.076 0 326.583 146.504 326.583 326.583 0 88.718-35.577 169.27-93.193 228.188-41.242-37.242-87.697-64.225-136.776-79.423 18.767-19.82 33.54-47.741 44.183-83.685l24.2-91.224c10.56-27.826 3.448-62.447-20.175-97.785-28.973-43.345-82.885-87.214-129.94-87.214h-27.95c-45.647 0-95.896 40.188-123.268 77.54-27.372 37.348-36.961 75.387-27.316 105.872l25.139 94.311c8.848 27.124 21.446 58.782 43.498 82.487-49.315 15.434-95.896 42.721-137.193 80.336C221.48 682.382 185.417 601.328 185.417 512zM323.21 778.345c42.252-36.947 90.303-61.311 140.499-70.913 14.363-2.759 23.676-18.249 22.324-32.789v-16.692a28.209 28.209 0 0 0-14.356-24.574c-17.756-10.033-31.482-32.33-44.079-70.8l-25.028-94.05c-4.325-13.725 2.618-34.937 18.634-56.753 24.644-33.642 59.538-54.467 77.732-54.467h27.95c19.57 0 59.239 26.572 82.998 62.116 12.79 19.144 18.218 37.06 14.192 46.79a33.703 33.703 0 0 0-1.212 3.557l-24.42 92.05c-10.64 35.973-25.443 59.814-44.023 70.84a28.207 28.207 0 0 0-13.808 24.274v17.556a0.362 0.362 0 0 0-0.029-0.153c-0.027 0-0.083 0.221-0.192 0.747-2.51 15.12 7.498 29.492 22.55 32.374 49.654 9.476 97.252 33.494 139.229 69.885-53.596 38.52-119.277 61.239-190.168 61.239-70.285 0.001-135.453-22.316-188.793-60.237z"
+                                      p-id="15436" fill="#cdcdcd"></path>
+                            </svg>
+                        </i>
+                        <span class="title">用户管理</span>
+                        <span class="arrow"></span>
+                    </a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a class="" href="user_find.html">用户查找</a>
+                        </li>
+                        <li>
+                            <a class="" href="user_add.html">用户添加</a>
+                        </li>
+                        <li>
+                            <a class="" href="user_update.html">用户修改</a>
+                        </li>
+                        <li>
+                            <a class="" href="user_cancel.html">用户注销</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="">
+                    <a href="javascript:;">
+                        <i>
+                            <svg t="1585705204364" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                                 xmlns="http://www.w3.org/2000/svg" p-id="2183" width="16" height="16">
+                                <path d="M731.167 900.845h-438.335c-61.271 0-98.979-32.992-98.979-87.196v-603.299c0-54.202 37.706-87.196 98.979-87.196h438.335c61.271 0 98.979 32.992 98.979 87.196v600.942c0 56.56-37.706 89.552-98.979 89.552zM292.833 170.287c-51.846 0-51.846 28.278-51.846 40.062v600.942c0 11.782 0 40.062 51.846 40.062h438.335c51.846 0 51.846-28.278 51.846-40.062v-600.942c0-11.782 0-40.062-51.846-40.062h-438.335z"
+                                      p-id="2184" fill="#cdcdcd"></path>
+                                <path d="M358.817 900.845c-2.356 0-7.069 0-9.426-2.356-21.21-9.426-21.21-9.426-14.141-751.767 0-14.141 9.426-23.568 23.568-23.568 14.141 0 23.568 11.782 23.568 23.568-2.356 271.013-4.714 683.424 0 723.487 2.356 7.069 0 16.497-7.069 23.568-4.714 4.714-9.426 7.069-16.497 7.069z"
+                                      p-id="2185" fill="#cdcdcd"></path>
+                                <path d="M665.183 358.817h-164.964c-14.141 0-23.568-9.426-23.568-23.568s9.426-23.568 23.568-23.568h164.964c14.141 0 23.568 9.426 23.568 23.568s-9.426 23.568-23.568 23.568z"
+                                      p-id="2186" fill="#cdcdcd"></path>
+                                <path d="M665.183 500.218h-164.964c-14.141 0-23.568-9.426-23.568-23.568s9.426-23.568 23.568-23.568h164.964c14.141 0 23.568 9.426 23.568 23.568s-9.426 23.568-23.568 23.568z"
+                                      p-id="2187" fill="#cdcdcd"></path>
+                            </svg>
+                        </i>
+                        <span class="title">菜谱管理</span>
+                        <span class="arrow"></span>
+                    </a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a class="" href="examine_food.html">菜谱审核</a>
+                        </li>
+                        <li>
+                            <a class="" href="food_add.html">菜谱添加</a>
+                        </li>
+                        <li>
+                            <a class="" href="food_find.html">菜谱查找</a>
+                        </li>
+                        <li>
+                            <a class="" href="food_update.html">菜谱修改</a>
+                        </li>
+                        <li>
+                            <a class="" href="food_cancel.html">菜谱删除</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="">
+                    <a href="javascript:;">
+                        <i>
+                            <svg t="1585705355025" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                                 xmlns="http://www.w3.org/2000/svg" p-id="3178" width="16" height="16">
+                                <path d="M947.2 298.666667c0-34.133333-12.8-68.266667-38.4-89.6l-93.866667-93.866667c-51.2-51.2-132.266667-51.2-179.2 0l-512 516.266667c-25.6 21.333333-38.4 55.466667-38.4 89.6V853.333333c0 46.933333 38.4 85.333333 81.066667 85.333334h682.666667c25.6 0 42.666667-17.066667 42.666666-42.666667s-17.066667-42.666667-42.666666-42.666667h-409.6l469.333333-465.066666c25.6-25.6 38.4-55.466667 38.4-89.6zM170.666667 853.333333v-132.266666c0-12.8 4.266667-21.333333 12.8-29.866667L597.333333 273.066667l153.6 153.6-413.866666 413.866666c-8.533333 8.533333-21.333333 12.8-34.133334 12.8H170.666667zM849.066667 328.533333l-38.4 38.4L657.066667 213.333333l38.4-38.4c8.533333-8.533333 21.333333-12.8 29.866666-12.8 12.8 0 21.333333 4.266667 29.866667 12.8l93.866667 93.866667c8.533333 8.533333 12.8 17.066667 12.8 29.866667s-4.266667 21.333333-12.8 29.866666z"
+                                      p-id="3179" fill="#cdcdcd"></path>
+                            </svg>
+                        </i>
+                        <span class="title">文章管理</span>
+                        <span class="arrow"></span>
+                    </a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a class="" href="examine_article.html">文章审核</a>
+                        </li>
+                        <li>
+                            <a class="" href="article_add.html">文章添加</a>
+                        </li>
+                        <li>
+                            <a class="" href="article_find.html">文章查找</a>
+                        </li>
+                        <li>
+                            <a class="" href="article_update.html">文章修改</a>
+                        </li>
+                        <li>
+                            <a class="" href="article_cancel.html">文章删除</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="">
+                    <a href="javascript:;">
+                        <i>
+                            <svg t="1585705472936" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                                 xmlns="http://www.w3.org/2000/svg" p-id="4820" width="16" height="16">
+                                <path d="M810.666667 128H213.333333C140.8 128 85.333333 183.466667 85.333333 256v512c0 72.533333 55.466667 128 128 128h597.333334c72.533333 0 128-55.466667 128-128V256c0-72.533333-55.466667-128-128-128z m42.666666 640c0 25.6-17.066667 42.666667-42.666666 42.666667H213.333333c-25.6 0-42.666667-17.066667-42.666666-42.666667V256c0-25.6 17.066667-42.666667 42.666666-42.666667h597.333334c25.6 0 42.666667 17.066667 42.666666 42.666667v512z"
+                                      p-id="4821" fill="#cdcdcd"></path>
+                                <path d="M669.866667 439.466667l-179.2-115.2c-12.8-8.533333-29.866667-12.8-46.933334-12.8-46.933333 0-85.333333 38.4-85.333333 85.333333v226.133333c0 17.066667 4.266667 34.133333 12.8 46.933334 12.8 21.333333 29.866667 34.133333 55.466667 38.4h17.066666c17.066667 0 34.133333-4.266667 46.933334-12.8l174.933333-115.2 25.6-25.6c12.8-17.066667 17.066667-42.666667 12.8-64 0-21.333333-12.8-38.4-34.133333-51.2z m-221.866667 187.733333V396.8l174.933333 115.2-174.933333 115.2z"
+                                      p-id="4822" fill="#cdcdcd"></path>
+                            </svg>
+                        </i>
+                        <span class="title">视频管理</span>
+                        <span class="arrow"></span>
+                    </a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a class="" href="examine_video.html">视频审核</a>
+                        </li>
+                        <li>
+                            <a class="" href="video_add.html">视频添加</a>
+                        </li>
+                        <li>
+                            <a class="" href="video_find.html">视频查找</a>
+                        </li>
+                        <li>
+                            <a class="" href="video_update.html">视频修改</a>
+                        </li>
+                        <li>
+                            <a class="" href="video_cancel.html">视频删除</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="">
+                    <a href="javascript:;">
+                        <i>
+                            <svg t="1585705516026" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                                 xmlns="http://www.w3.org/2000/svg" p-id="5690" width="16" height="16">
+                                <path d="M1000.71 700.64h-34l31.11-33.19a19.51 19.51 0 0 0 4.87-18 20.06 20.06 0 0 0-12.62-14L908 604.9l27.27-4.3-97.38-587.49-27.62 4.78c-244.12 42.28-335.93 229.26-363.05 302.8-153.43-58.56-288.78-18.36-290.84-17.69l-27.55 8.6 80.81 212.21-83.8-55.72a20.72 20.72 0 0 0-20.18-1.59 19.83 19.83 0 0 0-11.55 16.22L74 700.69H23.3a23.51 23.51 0 0 0-16.44 6.59 22.42 22.42 0 0 0-6.86 16c0 76.87 30.69 149 86.27 203.42 55.19 54 130.22 84.36 208.43 84.2h434.62C808 1010.89 882 981 937.65 926.68c55.47-53.82 86.58-127.07 86.34-203.42a23.17 23.17 0 0 0-23.29-22.59z m-53-38.39l-36.26 38.45h-4.83L896 671.45a11.28 11.28 0 0 0-8.72-7.28l-60.07-11.37-45.45-33.7a11.8 11.8 0 0 0-11.08-1.59l-45.93 17.07-52.26-17.2a12 12 0 0 0-9.05 0.73 11.5 11.5 0 0 0-5.79 6.82l-11.92 39.37-45.39 36.4h-14.52l-21.3-21.89 11.8-15.46 33-17.88a19.62 19.62 0 0 0 9.09-10.11L635 594.6h48.85a20.46 20.46 0 0 0 9.51-2.29l45.45-23.49 35 11.15a20.77 20.77 0 0 0 18.74-3.19l41.54-31.46 36.07 33.82-4.33 36.66a19.85 19.85 0 0 0 13 20.8z m-65.75 38.39h-245l26.27-21.14A12.63 12.63 0 0 0 667 674l9.51-31.39 44.85 14.62a11.2 11.2 0 0 0 7.81-0.14l43.67-16.15 42.49 31.46a11.41 11.41 0 0 0 4.72 2.15l56.24 10.62zM523.2 694l6.47 6.72h-85.14l-75.34-80.25a11.8 11.8 0 0 0-11.08-3.47 11.51 11.51 0 0 0-8.56 7.66 11.13 11.13 0 0 0 2.51 11.06l60.92 65h-36.4l-25.72-27.91a11.8 11.8 0 0 0-16.4-0.9 11.18 11.18 0 0 0-0.85 16l11.8 12.82h-54.62l-6.27-10.13 12.85-17.81a19.31 19.31 0 0 0 2.49-18l-4.72-13.17 32.74-19.13A19.69 19.69 0 0 0 337 600l-4.4-14.89h27a20.18 20.18 0 0 0 20-16.09l5.36-26.81 29.4 25.22a20.91 20.91 0 0 0 25.07 1.45l23.29 14.35 6.26-9.64 12.77 12.22a20.79 20.79 0 0 0 13 5.62l18.74 1v11.8a19.28 19.28 0 0 0 7 14.89l23.6 20.06-22.16 29.2a19.4 19.4 0 0 0 1.23 25.62zM285.82 569.29L279.21 552l8.95 3.6a19.36 19.36 0 0 0-2.36 13.73z m150.75-46.93l-7.46 5.06-44-37.84a20.78 20.78 0 0 0-20-3.89 20.06 20.06 0 0 0-13.42 15l-8.95 44.71h-37.32a19 19 0 0 0-4.26 1L382.32 355a418.15 418.15 0 0 1 125.76 56.65z m98.16 31.55l-30.25-1.73-13.63-12.89 60.85-94.42a518.48 518.48 0 0 1 62.81 64.43c-0.79 0.34-1.63 0.27-2.36 0.83L550 562.06a20.06 20.06 0 0 0-15.27-8.15z m19.17 34.72l65.89-55 25.85 21.24h-24.46a20.3 20.3 0 0 0-19 12.62l-19 46.64-4.47 2.42-25-21.24v-6.64z m257.23-399.9l-106.3-81.43a424.87 424.87 0 0 1 87.69-30.84zM653.77 136.8l170.35 130.39L860 484 554.58 233.13a400.09 400.09 0 0 1 99.14-96.34zM525.29 279.46L810 513.22l-33.87 25.72-33-10.46a21 21 0 0 0-15.83 1.31l-46.59 24.12L704 539.63c-62.76-98.21-135.33-159.13-206.76-196.41a406.23 406.23 0 0 1 28-63.73z m-198.22 65.07l-66.74 157.69-58.87-154.5a424.88 424.88 0 0 1 125.61-3.19z m-36.15 228.36l2.3 8.53-8.53-6.09z m-56.79 15.19l1.35 3.4 2.49-0.91 30.46 20.23-8.52 4.92a19.59 19.59 0 0 0-8.73 23.6l6.82 18.89-14.56 20.06a19.49 19.49 0 0 0-0.71 21.76l0.35 0.55h-10l-28.25-57.72a13.06 13.06 0 0 0 1.27-2.36l18.39-47a11.13 11.13 0 0 0-0.25-8.72 11.52 11.52 0 0 0-6.5-6 11.8 11.8 0 0 0-8.86 0.25 11.37 11.37 0 0 0-6 6.34L191.18 615l-40.33-82.26z m-104.66-46.37l68 138.89-33.73-19.74a23.7 23.7 0 0 0-23.68-1 22.39 22.39 0 0 0-0.25 39.77l1.57 1h-26.46z m599.85 423.7H294.7c-128-0.14-234.92-95.15-247.1-219.52h928.75c-12.16 124.32-119.07 219.3-247.03 219.52z"
+                                      fill="#cdcdcd" p-id="5691"></path>
+                            </svg>
+                        </i>
+                        <span class="title">食材管理</span>
+                        <span class="arrow"></span>
+                    </a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a class="" href="ingredient_add.html">食材添加</a>
+                        </li>
+                        <li>
+                            <a class="" href="ingredient_find.html">食材查找</a>
+                        </li>
+                        <li>
+                            <a class="" href="food_update.html">食材修改</a>
+                        </li>
+                        <li>
+                            <a class="" href="food_cancel.html">食材删除</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="open">
+                    <a href="javascript:;">
+                        <i>
+                            <svg t="1585705560609" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                                 xmlns="http://www.w3.org/2000/svg" p-id="6581" width="16" height="16">
+                                <path d="M458.069333 0A113.777778 113.777778 0 0 1 546.133333 41.756444l445.269334 544.199112a56.888889 56.888889 0 0 1-3.811556 76.231111l-325.404444 325.404444a56.888889 56.888889 0 0 1-76.231111 3.811556L41.756444 546.133333A113.777778 113.777778 0 0 1 0 458.069333V113.777778a113.777778 113.777778 0 0 1 113.777778-113.777778h344.291555z m160.085334 870.741333l252.586666-252.586666L458.069333 113.777778H113.777778v344.291555l504.376889 412.672z"
+                                      p-id="6582" fill="#cdcdcd"></path>
+                                <path d="M284.444444 284.444444m-56.888888 0a56.888889 56.888889 0 1 0 113.777777 0 56.888889 56.888889 0 1 0-113.777777 0Z"
+                                      p-id="6583" fill="#cdcdcd"></path>
+                            </svg>
+                        </i>
+                        <span class="title">标签管理</span>
+                        <span class="arrow"></span>
+                    </a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a class="" href="label_add.html">标签添加</a>
+                        </li>
+                        <li>
+                            <a class="" href="label_find.html">标签查找</a>
+                        </li>
+                        <li>
+                            <a class="" href="label_update.html">标签修改</a>
+                        </li>
+                        <li>
+                            <a class="" href="label_cancel.html">标签删除</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <i class="fa fa-adn"></i>
+                                <span class="title">工艺签</span>
+                                <span class="arrow"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a class="" href="technology_add.html">添加</a>
+                                </li>
+                                <li>
+                                    <a class="" href="technology_find.html">查找</a>
+                                </li>
+                                <li>
+                                    <a class="" href="technology_update.html">修改</a>
+                                </li>
+                                <li>
+                                    <a class="" href="technology_cancel.html">删除</a>
+                                </li>
+                            </ul>
+                        <li>
+                            <a href="javascript:;">
+                                <i class="fa fa-adn"></i>
+                                <span class="title">口味签</span>
+                                <span class="arrow"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a class="" href="flavor_add.html">添加</a>
+                                </li>
+                                <li>
+                                    <a class="" href="flavor_find.html">查找</a>
+                                </li>
+                                <li>
+                                    <a class="" href="flavor_update.html">修改</a>
+                                </li>
+                                <li>
+                                    <a class="" href="flavor_cancel.html">删除</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="javascript:;">
+                                <i class="fa fa-adn"></i>
+                                <span class="title">难度签</span>
+                                <span class="arrow"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a class="" href="food_difficulty_add.html">添加</a>
+                                </li>
+                                <li>
+                                    <a class="" href="food_difficulty_find.html">查找</a>
+                                </li>
+                                <li>
+                                    <a class="" href="food_difficulty_update.html">修改</a>
+                                </li>
+                                <li>
+                                    <a class="" href="food_difficulty_cancel.html">删除</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="javascript:;">
+                                <i class="fa fa-adn"></i>
+                                <span class="title">准备时间签</span>
+                                <span class="arrow"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a class="" href="food_reparation_add.html">添加</a>
+                                </li>
+                                <li>
+                                    <a class="" href="food_reparation_find.html">查找</a>
+                                </li>
+                                <li>
+                                    <a class="" href="food_reparation_update.html">修改</a>
+                                </li>
+                                <li>
+                                    <a class="" href="food_reparation_cancel.html">删除</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="javascript:;">
+                                <i class="fa fa-adn"></i>
+                                <span class="title">烹饪时间签</span>
+                                <span class="arrow"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a class="" href="food_cooking_time_add.html">添加</a>
+                                </li>
+                                <li>
+                                    <a class="" href="food_cooking_time_find.html">查找</a>
+                                </li>
+                                <li>
+                                    <a class="" href="food_cooking_time_update.html">修改</a>
+                                </li>
+                                <li>
+                                    <a class="" href="food_cooking_time_cancel.html">删除</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="open">
+                            <a href="javascript:;">
+                                <i class="fa fa-adn"></i>
+                                <span class="title">人数签</span>
+                                <span class="arrow"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a class="" href="food_number_add.html">添加</a>
+                                </li>
+                                <li>
+                                    <a class="active" href="food_number_find.html">查找</a>
+                                </li>
+                                <li>
+                                    <a class="" href="food_number_update.html">修改</a>
+                                </li>
+                                <li>
+                                    <a class="" href="food_number_cancel.html">删除</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="">
+                            <a href="javascript:;">
+                                <i class="fa fa-adn"></i>
+                                <span class="title">菜谱图片签</span>
+                                <span class="arrow"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a class="" href="food_image_add.html">添加</a>
+                                </li>
+                                <li>
+                                    <a class="" href="food_image_find.html">查找</a>
+                                </li>
+                                <li>
+                                    <a class="" href="food_image_update.html">修改</a>
+                                </li>
+                                <li>
+                                    <a class="" href="food_image_cancel.html">删除</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="javascript:;">
+                                <i class="fa fa-adn"></i>
+                                <span class="title">菜系一级分类签</span>
+                                <span class="arrow"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <i class="fa fa-adn"></i>
+                                <span class="title">菜系二级分类签</span>
+                                <span class="arrow"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <i class="fa fa-adn"></i>
+                                <span class="title">食材一级分类签</span>
+                                <span class="arrow"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <i class="fa fa-adn"></i>
+                                <span class="title">食材二级分类签</span>
+                                <span class="arrow"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <i class="fa fa-adn"></i>
+                                <span class="title">健康一级分类签</span>
+                                <span class="arrow"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <i class="fa fa-adn"></i>
+                                <span class="title">健康二级分类签</span>
+                                <span class="arrow"></span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+
+            </ul>
+
+        </div>
+        <!-- MAIN MENU - END -->
+
+
+    </div>
+    <!--  SIDEBAR - END -->
+    <!-- START CONTENT -->
+    <section id="main-content" class=" ">
+        <div class='col-xs-12'>
+            <div class="page-title">
+
+                <div class="pull-left">
+                    <!-- PAGE HEADING TAG - START -->
+                    <h1 class="title">定格</h1>
+                    <!-- PAGE HEADING TAG - END -->
+                </div>
+
+                <div class="pull-right hidden-xs">
+
+                </div>
+            </div>
+            <!--			容器-->
+            <div class="col-lg-12">
+                <section class="box ">
+                    <header class="panel_header">
+                        <h4>人数签信息表</h4>
+                        <table id="table_article" class="table table-striped table-hover bg-info">
+                            <thead>
+                            <tr>
+                                <th>编号</th>
+                                <th>人数签分级</th>
+                            </tr>
+                            </thead>
+                            <tbody class="tabs-left">
+
+                            </tbody>
+                        </table>
+                    </header>
+                </section>
+            </div>
+
+        </div>
+    </section>
+    <!-- END CONTENT -->
+
+
+</div>
+<!-- END CONTAINER -->
+<!-- LOAD FILES AT PAGE END FOR FASTER LOADING -->
+
+<!-- CORE JS FRAMEWORK - START -->
+<script src="jquery/jquery-1.12.4.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="jquery/bootstrap-3.3.7-dist/boots/bootstrap.min.js"></script>
+<script src="plugins/pace/pace.min.js"></script>
+<script src="plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+<script src="plugins/viewport/viewportchecker.js"></script>
+
+<!-- CORE JS FRAMEWORK - END -->
+
+<!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - START -->
+
+<script src="plugins/autosize/autosize.min.js"></script>
+<!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - END -->
+
+<!-- CORE TEMPLATE JS - START -->
+<script src="js/scripts.js"></script>
+<!-- END CORE TEMPLATE JS - END -->
+<script>
+    $(document).ready(function () {
+        $('#table_article').DataTable({
+            language: {
+                "lengthMenu": '每页显示<select>' + '<option value="10">10</option>'
+                    + '<option value="20">20</option>'
+                    + '<option value="30">30</option>'
+                    + '<option value="40">40</option>'
+                    + '<option value="50">50</option>' + '</select>条',
+                "oPaginate": {
+                    "sFirst": "首页",
+                    "sPrevious": "上一页",
+                    "sNext": "下一页",
+                    "sLast": "末页"
+                },
+                "processing": "加载中...",  //DataTables载入数据时，是否显示‘进度’提示
+                "info": "共 _PAGES_ 页  _TOTAL_ 条数据  ",
+                'sPaginationType': "full_numbers", //详细分页组，可以支持直接跳转到某页
+                "infoEmpty": "暂无数据",
+                "sLengthMenu": "显示_MENU_条 ",
+                "emptyTable": "暂无要处理的数据...",  //表格中无数据
+                "search": "搜索:",
+                "infoFiltered": " —— 从  _MAX_ 条数据中筛选",
+                "zeroRecords": "暂未查询到相关信息"
+            },
+            "ajax": {
+                url: "../list_employee",
+                type: "GET", dataSrc: function (result) {
+                    if (result.code === 500) {
+                        $("#new").append(
+                            //占据整个屏幕Div
+                            "<div id='fullScreen'></div>" +
+                            //浮层区
+                            "<div id='message-floatLayer'> <p class='big-font'>提示消息</p> <p class='small-font'>" + result.message + "</p>" +
+                            "<input id='hide3' type='button' class='btn-round btn-primary col-xs-3' value='关闭'>" +
+                            "</div>"
+                        );
+                        $("#hide3").click(function () {
+                            $("#fullScreen,#message-floatLayer").remove();
+                        });
+                    }
+                    console.log(result.data);
+                    return result.data;
+                }
+            },
+            "columns": [{'data': 'emId'},
+                {'data': 'username'},
+                {'data': 'emSex'},
+                {'data': 'emIdentityCard'},
+                {'data': 'emPosition'},
+                {'data': 'emNumber'},
+                {'data': 'emAddress'},
+                {'data': 'emGrade'},
+                {'data': 'emGradeStatus'}
+            ]
+        });
+    });
+</script>
+</body>
+
+</html>

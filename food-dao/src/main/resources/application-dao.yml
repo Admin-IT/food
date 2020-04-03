@@ -30,12 +30,16 @@ spring:
       web-stat-filter:
         url-pattern: /*
         exclusions: /druid/*,*.js,*.css,*.html,*.png,*.jpg
+    thymeleaf:
+      prefix: /templates/**
+      suffix: .html
+      cache: false
 # mybatis配置
 mybatis:
   type-aliases-package:
   - edu.nf.food.label.entity
   - edu.nf.food.food.entity
-  - edunf.food.user.entity
+  - edu.nf.food.user.entity
   mapper-locations:
     - classpath:/mapper/Label/*.xml
     - classpath:/mapper/Food/*.xml

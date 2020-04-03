@@ -9,6 +9,7 @@ server:
   # 指定项目的ContextPath路径
   servlet:
     context-path: /food
+
 spring:
   # 字符编码过滤器配置（CharacterEncodingFilter）
   http:
@@ -21,5 +22,7 @@ spring:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8
   # 包含dao的yml配置文件,对应的是application-xxx.yml文件的xxx名称
+  thymeleaf:
+    prefix: classpath:/templates/
   profiles:
     include: dao

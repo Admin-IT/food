@@ -44,10 +44,19 @@
         <mybatis.statter.version>1.3.1</mybatis.statter.version>
         <pagehelper.version>1.2.3</pagehelper.version>
         <druid.version>1.1.10</druid.version>
+        <thymeleaf.version>2.2.2.RELEASE</thymeleaf.version>
     </properties>
     <!-- 添加一些spring-boot父模块没有的依赖 -->
     <dependencyManagement>
         <dependencies>
+            <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-thymeleaf -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-thymeleaf</artifactId>
+                <version>${thymeleaf.version}</version>
+            </dependency>
+
+
             <!-- mybatis -->
             <dependency>
                 <groupId>org.mybatis.spring.boot</groupId>

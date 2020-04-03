@@ -71,8 +71,22 @@ public class UserServiceImpl implements UserService {
     public void addUser(User user) {
         try {
             userDao.addUser(user);
-        }catch (Exception e){
+        } catch (Exception e) {
             throw new UserException("添加用户异常：" + e);
         }
+    }
+
+
+    @Override
+    public User loginUser(User user) {
+        User us = userDao.loginUser(user);
+
+        if (us == null) {
+            throw new UserException("该账户未存在");
+        }
+        if (!us.getUserPass().equals(user.getUserPass())) {
+            throw new UserException("账户或密码错误");
+        }
+        return us;
     }
 }

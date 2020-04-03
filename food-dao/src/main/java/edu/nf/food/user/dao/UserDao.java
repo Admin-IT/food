@@ -22,4 +22,6 @@ public interface UserDao {
     void upUserById(User user);
 
     void addUser(User user);
+
+    User loginUser(User user);
 }

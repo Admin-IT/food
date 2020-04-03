@@ -24,6 +24,6 @@ public class User {
     private String userFans;
     private String userFollow;
     private String userImage;
-
+    private String userPass;
 
 }

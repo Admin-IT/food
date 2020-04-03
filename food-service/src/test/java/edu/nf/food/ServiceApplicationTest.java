@@ -5,6 +5,8 @@ import edu.nf.food.food.entity.Food;
 import edu.nf.food.food.service.FoodService;
 import edu.nf.food.label.entity.Technology;
 import edu.nf.food.label.service.TechnologyService;
+import edu.nf.food.user.entity.User;
+import edu.nf.food.user.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,6 +25,8 @@ class ServiceApplicationTest {
     @Autowired
     private FoodService foodService;
 
+    @Autowired
+    private UserService service;
 
     @Test
     void listTechnology() {
@@ -41,4 +45,12 @@ class ServiceApplicationTest {
             System.out.println(food.getFoodName());
         }
     }
+
+//    @Test
+//    void addUser(){
+//        User us = new User();
+//        us.setUserEmail("123@qq.com");
+//        us.setUserPass("123456");
+//        service.addUser(us);
+//    }
 }

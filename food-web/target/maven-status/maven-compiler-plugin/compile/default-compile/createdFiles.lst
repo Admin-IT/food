@@ -1,1 +1,15 @@
 edu\nf\food\FoodApplication.class
+edu\nf\food\user\web\UserController.class
+edu\nf\food\util\testConnection.class
+edu\nf\food\util\CommconsEmail.class
+edu\nf\food\util\BaseController.class
+edu\nf\food\label\web\DifficultyController.class
+edu\nf\food\label\web\FlavorController.class
+edu\nf\food\vo\ResponseVO.class
+edu\nf\food\label\web\CookTimeController.class
+edu\nf\food\label\web\ReparationTimeController.class
+edu\nf\food\util\RedisConfig.class
+edu\nf\food\util\LettuceUtils.class
+edu\nf\food\advice\LabelAspect.class
+edu\nf\food\label\web\TechnologyController.class
+edu\nf\food\label\web\NumberController.class

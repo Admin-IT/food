@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>有谱 - 美食,菜谱</title>
+    <link rel="shortcut icon" href="img/png/logo1.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/my.css">
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/log-user.js"></script>
+</head>
+<body>
+<div class="login_main">
+    <div class="login_nav">
+        <div class="login_navw">
+            <a href="" class="logo"></a>
+            <ul>
+                <li>
+                    <a href="index.html">首页</a>
+                </li>
+                <li>
+                    <a href="menu-family.html">菜谱大全</a>
+                </li>
+                <li>
+                    <a href="healthy-eating.html">饮食健康</a>
+                </li>
+                <li>
+                    <a href="food-menu">美食菜单</a>
+                </li>
+                <li>
+                    <a href="">美食达人</a>
+                </li>
+                <li>
+                    <a href="menu-video.html">美食视频</a>
+                </li>
+                <li>
+                    <a href="app-download">产品下载</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="login_title">欢迎来到“有谱”</div>
+    <div class="new_loginpage">
+
+        <div class="n1_loginbox_w" id="msj_loginbox">
+            <script type="text/javascript">
+                $(function(){
+                    $(".login_false_tip").hide();
+                    $("#n1_loginbox_w_w").removeClass("right").addClass("left");
+                    $(this).siblings().removeClass("current");
+                    $(this).addClass("current");
+                    $("#login_phone_tab").click(function(){
+                        $(".login_false_tip").hide();
+                        $("#n1_loginbox_w_w").removeClass("right").addClass("left");
+                        $(this).siblings().removeClass("current");
+                        $(this).addClass("current");
+                    });
+                    $("#login_acc_tab").click(function(){
+                        $(".login_false_tip").hide();
+                        $("#n1_loginbox_w_w").removeClass("left").addClass("right");
+                        $(this).siblings().removeClass("current");
+                        $(this).addClass("current");
+                    });
+                });
+            </script>
+            <!--    选择账号登录方式        -->
+            <div class="loginbox_title">
+                <a href="javascript:;"  id="login_phone_tab" class="current">手机号登录</a>
+                　|　
+                <a href="javascript:;" id="login_acc_tab" class="">账号密码登录</a>
+            </div>
+            <div class="n1_loginbox_w_w left" id="n1_loginbox_w_w">
+<!--                手机号登录-->
+                <div class="n1_loginbox_w1" id="n1_loginbox_w1">
+                    <div class="login_false_tip"></div>
+                    <form action="">
+                        <div class="n1_loginitem">
+                            <input id="login_mobile" type="text" name="username1" class="text" placeholder="请输入手机号">
+                        </div>
+                        <div class="n1_loginitem">
+                            <input type="hidden" name="login_type" value="1">
+                            <input id="login_code" type="text" class="text forcheck pyzm_forcheck yzm" name="number" placeholder="请输入验证码">
+                            <a href="" class="phone_yzmbtn" id="phone_yzmbtn">获取验证码</a>
+                        </div>
+                        <div class="n1_loginitem" style="text-align: center;">
+                            <input type="submit" class="submit" value="登 录">
+                        </div>
+                    </form>
+                </div>
+<!--                账号密码登录-->
+                <div class="n1_loginbox_w2" id="n1_loginbox_w2">
+                    <div class="login_false_tip" id="message"></div>
+                    <form id="f1">
+                        <div class="n1_loginitem">
+                            <input  type="text" name="userEmail" class="text" placeholder="请输入账号">
+                        </div>
+                        <div class="n1_loginitem">
+                            <input type="hidden" name="login_type" value="2">
+                            <input type="password" class="password" name="userPass" placeholder="请输入密码">
+                        </div>
+                        <div class="n1_loginitem" style="height: 20px;line-height: 20px;">
+                            <label class="label2">
+                                <input type="checkbox" checked="checked" class="checkbox" name="cookietime">
+                                "记住账号    "
+                                <a href="" class="forgetpassword1">忘记密码?</a>
+                            </label>
+                        </div>
+                        <div class="n1_loginitem" style="text-align: center;">
+                            <input type="button" class="submit" value="登 录">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="n1_more_zc" id="nl_more_zc" style="display: none;">
+            <div class="n1_loginbox_www">
+                <div class="n1_login_ww">
+                    <div class="loginbox_title">
+                        <span class="current">注册“有谱”</span>
+                    </div>
+                    <div class="n1_loginbox_w" style="float: left;">
+                        <div class="login_false_tip"></div>
+                        <form class="register_form_pn" action="" method="post" id="reg_form">
+                            <input type="hidden" name="ac" value="zhuce">
+                            <div class="n1_loginitem">
+                                <input type="text" name="reg_phone email" class="text forcheck pn_forcheck" passcheck="0" id="reg_email" placeholder="请输入邮箱">
+                            </div>
+                            <div class="n1_loginitem">
+                                <input type="password" name="reg_phone pass" class="text forcheck pn_forcheck" passcheck="0" id="reg_pass" placeholder="请输入密码">
+                            </div>
+                            <div class="login_tips tip" style="display: none;"> </div>
+                            <div class="n1_loginitem">
+                                <input type="text" name="reg_code" id="reg_code" class="text forcheck pyzm_forcheck1 yzm" passeheck="0" placeholder="请输入验证码">
+                                <a href="javascript:void(0)" class="phone_yzmbtn" id="phone_yzmbtn1">获取验证码</a>
+                            </div>
+                            <div class="login_tips false" style="display: none;"> </div>
+                            <div class="n1_loginitem" style="text-align: center;">
+                                <input type="button" class="submit register_submit" id="reg_btn" value="注册">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="javascript:void(0)" class="golink" id="nl_gozc" opened="1">没有账号？立即注册</a>
+    </div>
+</div>
+<div class="blackbg" id="yzm_blackbg"></div>
+<script type="text/javascript">
+    $(function(){
+
+
+           $('#phone_yzmbtn1').on('click',function(){
+               var email = $("#reg_email").val();
+
+               $.ajax({
+                   url:"./send_email?email="+email,
+                   type:"get",
+                   anync:false,
+                   cache:false,
+
+                   dataType:"json",
+                   success:function(data){
+                       if(data!=null){
+                          $('#phone_yzmbtn1').text(data.message);
+                       }else{
+                           alert("获取验证码失败！");
+                       }
+
+                   }
+
+
+               });
+
+           });
+
+            $('#f1 :button').on('click',function () {
+                var name = $("input[name=userEmail]").val();
+                var pass = $("input[name=userPass]").val();
+
+                $.ajax({
+                    url : './login_user?userEmail='+name+'&userPass='+pass,
+                    // data : $("#f1").serialize(),
+                    type : 'get',
+                    success : function (result) {
+
+                        if(result.code==200){
+                            window.location.href="index.html";//登陆成功跳转到管理界面
+                        }else{
+                           alert(result.message)
+                        }
+                    }
+                })
+            });
+
+        $('#reg_btn').on('click',function () {reg_pass
+             var email = $("#reg_email").val();
+             var yzm = $("#reg_code").val();
+             var password = $("#reg_pass").val();
+
+            $.ajax({
+                url : './add_user?userEmail='+email+'&userPass='+password+'&yzm='+yzm,
+                // data : $("#f1").serialize(),
+                type : 'get',
+                success : function (result) {
+
+                    if(result.code==200){
+                        window.location.href="logon-youpu.html";//登陆成功跳转到管理界面
+                    }else{
+                        alert(result.message)
+                    }
+                }
+            })
+        });
+        }
+    )
+</script>
+</body>
+</html>
