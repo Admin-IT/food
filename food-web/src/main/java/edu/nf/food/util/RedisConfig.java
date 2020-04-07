@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
  * @author ljf
  * @date 2020/3/30
  */
-@Configuration
+//@Configuration
 public class RedisConfig {
 //    /**
 //     * 自定义RedisTemplate,指定key和value的序列化器
