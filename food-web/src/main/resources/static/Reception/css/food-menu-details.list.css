@@ -30,14 +30,14 @@
 .liststyle1_w{width:988px;margin:0px auto 20px;}
 .fliterstyle1{float:left;width:232px;_overflow:hidden;}
 .fliterstyle1 div.chosedbox{padding:14px 0px 6px 14px;width:218px;background:#fff;overflow:hidden;margin-bottom:20px;}
-.fliterstyle1 div.chosedbox a{float:left;margin:0px 8px 8px 0px;display:block;height:32px;width:98px;background:#ff3232;color:#fff;line-height:32px;font-size:12px;text-indent:14px;overflow:hidden;_display:inline;}
+.fliterstyle1 div.chosedbox a{float:left;margin:0px 8px 8px 0px;display:block;height:32px;width:98px;color:#fff;line-height:32px;font-size:12px;text-indent:14px;overflow:hidden;_display:inline;}
 .fliterstyle1 div.chosedbox a:hover{background-color:#e90808;}
 .fliterstyle1_main{width:232px;background:#fff;}
 .fliterstyle1_main .tab{height:50px;background:#f5f5f5;}
 .fliterstyle1_main .tab li{float:left;width:116px;position:relative;}
 .fliterstyle1_main .tab li a{display:block;color:#333;font-weight:bold;text-align:center;font-size:14px;line-height:50px;}
 .fliterstyle1_main .tab li a:hover{text-decoration:underline;}
-.fliterstyle1_main .tab li.current{background:#fff;width: 233px}
+.fliterstyle1_main .tab li.current{background:#fff;width: 232px}
 .fliterstyle1_main .tab li.current a{color:#ff3232;}
 .fliterstyle1_main .tabcon{overflow:hidden;}
 .fliterstyle1_main .tabcon dl{}
@@ -51,8 +51,8 @@
 .fliterstyle1_main .tabcon dl dd.row2 a em{display:inline-block;vertical-align:top;*display:inline;*zoom:1;float:right;padding-right:20px;color:#999;}
 .fliterstyle1_main .tabcon dl dd.bb0{border-bottom:0px;}
 .fliterstyle1_main .tabcon dl dd a{float:left;margin:0px 8px 8px 0px;display:block;height:30px;width:96px;border:1px solid #eee;background:#fff;color:#333;line-height:30px;font-size:12px;text-align:center;overflow:hidden;}
-.fliterstyle1_main .tabcon dl dd a:hover{border:1px solid #aaa;background:#fff;}
-.fliterstyle1_main .tabcon dl dd a.chosed{border:1px solid #f3f3f3;background:#fff;}
+.fliterstyle1_main .tabcon dl dd a:hover{border:1px solid #aaa;}
+.fliterstyle1_main .tabcon dl dd a.chosed{border:1px solid #f3f3f3;}
 .fliterstyle1_main .tabcon dl dd.long{height:30px;line-height:30px;color:#666;text-align:center;padding:7px;border-top:1px solid #eee;}
 .fliterstyle1_main .tabcon dl dd.long:hover{background:#eee;cursor:pointer;}
 .fliterstyle1_main .tabcon dl dd a.filter_otherbtn{background:#ddd;border:1px solid #ccc;width:202px;}
@@ -66,7 +66,7 @@
 .tabcon_scsearch div.w input.text{height:20px;padding:4px;line-height:20px;width:160px;border:0px;background:none;color:#999;overflow:hidden;}
 .tabcon_scsearch div.w input.submit{cursor:pointer;border:0px;background:none;height:28px;width:32px;position:absolute;right:0px;top:0px;overflow:hidden;}
 .tabcon_scsearch div.w input.submit:hover{background-position:0px -46px;}
-.listtyle1_w{float:left;width:756px;}
+.listtyle1_w{margin-left: 127px;width:756px;}
 .listtyle1_w_c4{width:990px;}
 .listtyle1{margin-left:20px;background:#fff;height:332px;width:232px;position:relative;float:left;margin-bottom:20px;_display:inline;}
 .listtyle1 div.img{position:relative;height:232px;width:232px;}
@@ -195,8 +195,6 @@
 .nav_style2 ul li a div.img img{height:106px;width:106px;}
 .nav_style2 ul li a div.img h3{height:53px;line-height:32px;font-size:12px;color:#fff;position:absolute;bottom:0px;left:0px;width:106px;text-align:center;font-weight:bold;}
 .nav_style2 ul li a div.img strong{height:53px;line-height:32px;font-size:12px;color:#fff;position:absolute;bottom:0px;left:0px;width:106px;text-align:center;font-weight:bold;display:block;}
-.nav_style2 ul li.current a div.img h3{}
-.nav_style2 ul li.current a div.img strong{}
 .nav_style2 ul li a span.masker{position:absolute;height:135px;width:106px;display:Block;left:0px; top:0px;}
 .nav_style2 ul li.current a span.masker{background-position:0px -135px;}
 .nav_style2 ul li a:hover span.masker{background-position:0px -135px;}
@@ -459,7 +457,7 @@
 .smt_left{width:232px;float:left;}
 .smt_left{float:left;width:232px;_overflow:hidden;}
 .smt_left div.chosedbox{padding:14px 0px 6px 14px;width:218px;background:#fff;overflow:hidden;margin-bottom:20px;}
-.smt_left div.chosedbox a{float:left;margin:0px 8px 8px 0px;display:block;height:32px;width:98px;background:#ff3232;color:#fff;line-height:32px;font-size:12px;text-indent:14px;overflow:hidden;_display:inline;}
+.smt_left div.chosedbox a{float:left;margin:0px 8px 8px 0px;display:block;height:32px;width:98px;color:#fff;line-height:32px;font-size:12px;text-indent:14px;overflow:hidden;_display:inline;}
 .smt_left div.chosedbox a:hover{background-color:#e90808;}
 .smt_left{width:232px;background:#fff;}
 .smt_left .tab{height:50px;background:#f5f5f5;}

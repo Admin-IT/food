@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+    <title>有谱_美食达人_</title>
+    <meta name="keywords" content="美食,美食网,菜谱,菜谱网,美食地图,食谱,食谱网,特色食谱,特色美食,美食大全家常菜谱,菜谱大全,美食网站,特色菜谱,最新菜谱,美食分享,美食加盟,人气美食,菜谱分享,餐饮加盟,特色小吃,美食文化" />
+    <meta name="description" content="有谱 - 做你最喜爱的美食网，菜谱网。提供最人性化的菜谱大全,食谱家常菜，家常菜谱大全的美食网,让人们在宣泄的都市中体验在家常做菜,享受美食的乐趣.找家常菜谱,上有谱美食网" />
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <script>var _hmt = _hmt || [];</script>
+    <link rel="stylesheet" type="text/css" media="all" href="css/ss_base.css"/>
+    <link rel="stylesheet" type="text/css" media="all" href="css/main.css"/>
+    <link rel="stylesheet" type="text/css" media="all" href="css/food-leader-details.list.css"/>
+    <link rel="stylesheet" type="text/css" media="all" href="css/swiper.css"/>
+    <script type="text/javascript" src="js/j.m.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/list.js"></script>
+    <script type="text/javascript" src="js/swiper.js"></script>
+</head>
+<body>
+<!--顶部-->
+<div class="header">
+    <div class="header_c">
+        <!--logo标-->
+        <a href="index.html" class="logo pngFix">
+            <img src="img/logo3.png" height="120">
+        </a>
+        <!--搜索框-->
+        <div class="main_search_top_w">
+            <div class="suggestionsBox" id="suggestions" style="display:none;"><ul class="suggestionList" id="autoSuggestionsList"></ul></div>
+            <form class="search" action="">
+                <input type="text" class="text" name="q" defaultval="请输入菜谱/食材/菜单/作者" x-webkit-speech="" value="请输入菜谱/食材/菜单/作者" autocomplete="off" onfocus="if(this.value=='请输入菜谱/食材/菜单/作者'){this.value='';}$(this).css('color','#333');" onblur="if(this.value==''){this.value='请输入菜谱/食材/菜单/作者';$(this).css('color','#999');}" id="input1String"><input type="button" class="submit" value="搜 索">
+            </form>
+        </div>
+        <!--登录/注册-->
+        <div class="loginitem_h">
+            <a href="#" class="link header_login">注册</a>
+            <a href="#" class="link header_register">登录</a>
+        </div>
+    </div>
+</div>
+<!--导航栏-->
+<div class="nav">
+    <ul id="main_nav">
+        <li class=""><a href="index.html" class="link pngFix"><strong>首页</strong></a></li>
+        <li class="hasmore">
+            <a href="menu-family.html" class="link pngFix"><strong>菜谱大全</strong></a>
+            <div class="dw clearfix">
+                <div class="dww clearfix dww_cpdq">
+                    <div class="dwitem clearfix pngFix">
+                        <dl class="clearfix">
+                            <dt><a href="menu-family.html">家常菜谱</a></dt>
+                            <dd><a href="#">家常菜</a></dd>
+                            <dd><a href="#">私家菜</a></dd>
+                            <dd><a href="#">凉菜</a></dd>
+                            <dd><a href="#">海鲜</a></dd>
+                            <dd><a href="#">热菜</a></dd>
+                            <dd><a href="#">汤粥</a></dd>
+                            <dd><a href="#">素食</a></dd>
+                            <dd><a href="#">酱料蘸料</a></dd>
+                            <dd><a href="#">卤酱</a></dd>
+                            <dd><a href="#">火锅底料</a></dd>
+                            <dd><a href="#">甜品点心</a></dd>
+                            <dd><a href="#">糕点主食</a></dd>
+                            <dd><a href="#">时尚饮品</a></dd>
+                        </dl>
+                    </div>
+                    <div class="dwitem dwitem_half clearfix">
+                        <dl class="clearfix">
+                            <dt><a href="menu-chinesefood.html">中华菜系</a></dt>
+                            <dd><a href="#">川菜</a></dd>
+                            <dd><a href="#">粤菜</a></dd>
+                            <dd><a href="#">东北菜</a></dd>
+                            <dd><a href="#">湘菜</a></dd>
+                            <dd><a href="#">鲁菜</a></dd>
+                            <dd><a href="#">浙菜</a></dd>
+                            <dd><a href="#">湖北菜</a></dd>
+                        </dl>
+                    </div>
+                    <div class="dwitem dwitem_half clearfix">
+                        <dl class="clearfix">
+                            <dt><a href="menu-specialsnack.html">特色小吃</a></dt>
+                            <dd><a href="#">四川小吃</a></dd>
+                            <dd><a href="#">广东小吃</a></dd>
+                            <dd><a href="#">北京小吃</a></dd>
+                            <dd><a href="#">陕西小吃</a></dd>
+                        </dl>
+                    </div><br/>
+                    <div class="dwitem dwitem_half clearfix">
+                        <dl class="clearfix">
+                            <dt><a href="menu-worldmenu.html">外国菜谱</a></dt>
+                            <dd><a href="#">韩国料理</a></dd>
+                            <dd><a href="#">日本料理</a></dd>
+                            <dd><a href="#">法国菜</a></dd>
+                            <dd><a href="#">意大利餐</a></dd>
+                        </dl>
+                    </div>
+                    <div class="dwitem dwitem_half clearfix">
+                        <dl class="clearfix">
+                            <dt><a href="menu-baking.html">烘焙</a></dt>
+                            <dd><a href="#">蛋糕面包</a></dd>
+                            <dd><a href="#">饼干配方</a></dd>
+                            <dd><a href="#">甜品点心</a></dd>
+                        </dl>
+                    </div><br/>
+                    <div class="dwitem dwitem_half clearfix">
+                        <dl class="clearfix">
+                            <dt><a href="menu-all.html">食材百科</a></dt>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="hasmore"><a href="healthy-eating.html" class="link pngFix"><strong>饮食健康</strong></a>
+            <div class="dw clearfix">
+                <div class="dww clearfix dww_ysjk">
+                    <div class="dwitem clearfix pngFix">
+                        <dl class="clearfix">
+                            <dt><a href="healthy-eating.html">饮食健康</a></dt>
+                            <dd><a href="#">饮食小常识</a></dd><dd><a href="#">美容瘦身</a></dd>
+                            <dd><a href="#">食品安全</a></dd><dd><a href="#">养生妙方</a></dd>
+                            <dd><a href="#">饮食禁忌</a></dd><dd><a href="#">中医保健</a></dd>
+                            <dd><a href="#">母婴健康饮食</a></dd><dd><a href="#">饮食新闻</a></dd>
+                        </dl>
+                    </div>
+                    <div class="dwitem clearfix">
+                        <dl class="clearfix"><dt><a href="healthy-method.html">功能性调理</a></dt>
+                            <dd><a href="#">清热去火</a></dd><dd><a href="#">减肥</a></dd>
+                            <dd><a href="#">祛痰</a></dd><dd><a href="#">乌发</a></dd>
+                            <dd><a href="#">滋阴补肾</a></dd><dd><a href="#">健脾开胃</a></dd>
+                            <dd><a href="#">消化不良</a></dd><dd><a href="#">清热解毒</a></dd>
+                            <dd><a href="#">补阳壮阳</a></dd><dd><a href="#">增肥</a></dd>
+                        </dl>
+                    </div><br/>
+                    <div class="dwitem dwitem_half clearfix">
+                        <dl class="clearfix">
+                            <dt><a href="healthy-people.html">人群膳食</a></dt>
+                            <dd><a href="#">孕妇</a></dd><dd><a href="#">老人</a></dd>
+                            <dd><a href="#">产妇</a></dd><dd><a href="#">哺乳期</a></dd>
+                            <dd><a href="#">青少年</a></dd><dd><a href="#">幼儿</a></dd>
+                            <dd><a href="#">学龄期儿童</a></dd>
+                        </dl>
+                    </div>
+                    <div class="dwitem dwitem_half clearfix">
+                        <dl class="clearfix">
+                            <dt><a href="healthy-sick.html">疾病调理</a></dt><dd><a href="#">糖尿病</a></dd>
+                            <dd><a href="#">高血压</a></dd><dd><a href="#">痛风</a></dd>
+                            <dd><a href="#">胃炎</a></dd><dd><a href="#">痔疮</a></dd>
+                            <dd><a href="#">更年期</a></dd><dd><a href="#">甲状腺</a></dd>
+                        </dl>
+                    </div><br/>
+                    <div class="dwitem clearfix">
+                        <dl class="clearfix">
+                            <dt><a href="healthy-heart.html">脏腑调理</a></dt>
+                            <dd><a href="#">感冒</a></dd>
+                            <dd><a href="#">补肾</a></dd>
+                            <dd><a href="#">阳痿早泄</a></dd>
+                            <dd><a href="#">补血</a></dd>
+                            <dd><a href="#">便秘</a></dd>
+                            <dd><a href="#">腹泻</a></dd>
+                            <dd><a href="#">活血化瘀</a></dd>
+                        </dl>
+                    </div>
+                    <!--<div class="bgitem">
+                    </div>-->
+                </div>
+            </div>
+        </li>
+        <li ><a href="food-menu.html" class="link pngFix"><strong>美食菜单</strong></a></li>
+        <li class="current"><a href="food-leader.html" class="link"><strong>美食达人</strong></a></li>
+        <li ><a href="menu-video.html" class="link pngFix"><strong>菜谱视频</strong></a></li>
+        <li ><a href="app-download.html" class="link pngFix"><strong>产品下载</strong></a></li>
+    </ul>
+</div>
+<!--底部自动弹出的搜索框-->
+<div class="main_search main_search_slideUp pngFix" slideUp="1" style="_display:none;" id="main_search">
+    <div class="main_search_w">
+        <div class="searchform_div">
+            <form action="#" target="_blank"><input type="text" class="text" name="q" x-webkit-speech=""  autocomplete="off"  id="inputString" placeholder="输入菜谱、食材、作者"><input type="button" class="submit" value="搜 索"></form>
+        </div>
+    </div>
+</div>
+<!--中间内容-->
+<div class="main_w clearfix">
+    <div class="dr_mod1">
+        <div class="dr_mod1w">
+            <div class="swiper-container swiper-container1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="" target="_blank" class="mod1_img">
+                            <img src="img/test.jpg">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="" target="_blank" class="mod1_img">
+                            <img src="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="" target="_blank" class="mod1_img">
+                            <img src="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="" target="_blank" class="mod1_img">
+                            <img src="">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-pagination swiper-pagination1"></div>
+            </div>
+            <div class="swiper-button-prev1">〈&nbsp;&nbsp;</div>
+            <div class="swiper-button-next1">&nbsp;&nbsp;〉</div>
+        </div>
+    </div>
+    <!--轮播图js-->
+    <script>
+        var mySwiper = new Swiper('.swiper-container1', {
+            loop : true,
+            autoplay: 5000,
+            speed:600,
+            pagination : '.swiper-pagination1',
+            preventClicks:false,
+            onlyExternal : true,
+            prevButton:'.swiper-button-prev1',
+            nextButton:'.swiper-button-next1'
+        });
+    </script>
+    <div class="dr_mod2">
+        <div class="dr_mod2_item">
+            <a href="" target="_blank" class="tag1">
+                <img src="">
+                <strong>中式菜</strong>
+            </a>
+        </div>
+        <div class="dr_mod2_item">
+            <a href="" target="_blank" class="tag2">
+                <img src="">
+                <strong>西式菜</strong>
+            </a>
+        </div>
+        <div class="dr_mod2_item">
+            <a href="" target="_blank" class="tag3">
+                <img src="">
+                <strong>烘焙</strong>
+            </a>
+        </div>
+        <div class="dr_mod2_item">
+            <a href="" target="_blank" class="tag4">
+                <img src="">
+                <strong>素食</strong>
+            </a>
+        </div>
+        <div class="dr_mod2_item">
+            <a href="" target="_blank" class="tag5">
+                <img src="">
+                <strong>轻食</strong>
+            </a>
+        </div>
+        <div class="dr_mod2_item">
+            <a href="" target="_blank" class="tag6">
+                <img src="">
+                <strong>一人食</strong>
+            </a>
+        </div>
+        <div class="dr_mod2_item">
+            <a href="" target="_blank" class="tag7">
+                <img src="">
+                <strong>孕婴</strong>
+            </a>
+        </div>
+        <div class="dr_mod2_item">
+            <a href="" target="_blank" class="tag8">
+                <img src="">
+                <strong>养生</strong>
+            </a>
+        </div>
+        <div class="dr_mod2_item">
+            <a href="" target="_blank" class="tag9">
+                <img src="">
+                <strong>技巧</strong>
+            </a>
+        </div>
+        <div class="dr_mod2_item">
+            <a href="" target="_blank" class="tag10">
+                <img src="">
+                <strong>品味家</strong>
+            </a>
+        </div>
+        <div class="dr_mod2_item">
+            <a href="" target="_blank" class="tag11">
+                <img src="">
+                <strong>营养师</strong>
+            </a>
+        </div>
+    </div>
+    <!--内容精选----------->
+    <div class="w1050">
+        <h3 class="dr_btitle">内容精选</h3>
+        <div class="dr_mod3list clearfix">
+            <div class="dr_mod3">
+                <a href="food-leader-details.html" target="_blank" class="img"><img src="https://st-cn.meishij.net/p2/small/20191022/a687735ab356945c03303131c54a5f51.jpeg?iopcmd=thumbnail&amp;type=13&amp;width=330&amp;height=186"></a>
+                <div class="info">
+                    <a href="food-leader-details.html" target="_blank" class="title">吃剩的柚子皮不要扔，削一削，做成小零食，清甜不苦，下火润喉</a>
+                    <div class="i">2502浏览  · 7评论  · 10赞</div>
+                    <a href="" target="_blank" class="aun">author</a>
+                </div>
+            </div>
+            <div class="dr_mod3">
+                <a href="food-leader-details.html" target="_blank" class="img"><img src=""></a>
+                <div class="info">
+                    <a href="food-leader-details.html" target="_blank" class="title">吃剩的柚子皮不要扔，削一削，做成小零食，清甜不苦，下火润喉</a>
+                    <div class="i">2502浏览  · 7评论  · 10赞</div>
+                    <a href="" target="_blank" class="aun">author</a>
+                </div>
+            </div>
+            <div class="dr_mod3">
+                <a href="food-leader-details.html" target="_blank" class="img"><img src=""></a>
+                <div class="info">
+                    <a href="food-leader-details.html" target="_blank" class="title">吃剩的柚子皮不要扔，削一削，做成小零食，清甜不苦，下火润喉</a>
+                    <div class="i">2502浏览  · 7评论  · 10赞</div>
+                    <a href="" target="_blank" class="aun">author</a>
+                </div>
+            </div>
+            <div class="dr_mod3">
+                <a href="food-leader-details.html" target="_blank" class="img"><img src=""></a>
+                <div class="info">
+                    <a href="food-leader-details.html" target="_blank" class="title">吃剩的柚子皮不要扔，削一削，做成小零食，清甜不苦，下火润喉</a>
+                    <div class="i">2502浏览  · 7评论  · 10赞</div>
+                    <a href="" target="_blank" class="aun">author</a>
+                </div>
+            </div>
+            <div class="dr_mod3">
+                <a href="food-leader-details.html" target="_blank" class="img"><img src=""></a>
+                <div class="info">
+                    <a href="food-leader-details.html" target="_blank" class="title">吃剩的柚子皮不要扔，削一削，做成小零食，清甜不苦，下火润喉</a>
+                    <div class="i">2502浏览  · 7评论  · 10赞</div>
+                    <a href="" target="_blank" class="aun">author</a>
+                </div>
+            </div>
+            <div class="dr_mod3">
+                <a href="food-leader-details.html" target="_blank" class="img"><img src=""></a>
+                <div class="info">
+                    <a href="food-leader-details.html" target="_blank" class="title">吃剩的柚子皮不要扔，削一削，做成小零食，清甜不苦，下火润喉</a>
+                    <div class="i">2502浏览  · 7评论  · 10赞</div>
+                    <a href="" target="_blank" class="aun">author</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--大咖专栏;热门活动----------->
+    <div class="w1050 mt-20">
+        <div class="w505">
+            <h3 class="dr_btitle">大咖专栏</h3>
+            <div class="dr_mod4">
+                <a href="food-leader-details.html" target="_blank" class="big">
+                    <img src="https://st-cn.meishij.net/p2/20181210/f6a832fad10d918220ccc4b3b15e26bf.jpeg">
+                    <div class="title">
+                        <strong>这小饼饭菜一锅出，比包子简单，比油条好吃，做少了根本不够吃</strong>
+                    </div>
+                </a>
+                <a href="" target="_blank" class="small">
+                    <img src="https://st-cn.meishij.net/p2/small/20181126/0893b999e4440292bcccb64d9c146091.jpeg">
+                </a>
+                <a href="" target="_blank" class="small">
+                    <img src="">
+                </a>
+                <a href="" target="_blank" class="small">
+                    <img src="">
+                </a>
+            </div>
+        </div>
+        <div class="w505">
+            <h3 class="dr_btitle">热门活动</h3>
+            <div class="dr_mod4">
+                <a href="food-leader-details.html" target="_blank" class="big">
+                    <img src="https://st-cn.meishij.net/p2/20181210/f6a832fad10d918220ccc4b3b15e26bf.jpeg">
+                    <div class="title">
+                        <strong>这小饼饭菜一锅出，比包子简单，比油条好吃，做少了根本不够吃</strong>
+                    </div>
+                </a>
+                <a href="" target="_blank" class="small">
+                    <img src="https://st-cn.meishij.net/p2/small/20181126/0893b999e4440292bcccb64d9c146091.jpeg">
+                </a>
+                <a href="" target="_blank" class="small">
+                    <img src="">
+                </a>
+                <a href="" target="_blank" class="small">
+                    <img src="">
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!--以下的还没改-->
+
+
+    <!--达人榜单；新晋达人----------->
+    <div class="w1050">
+        <h3 class="dr_btitle">达人榜单</h3>
+        <div class="dr_mod5">
+            <h4 class="title">新晋达人</h4>
+            <div class="dr_mod5itemlist">
+                <div class="dr_mod5item">
+                    <a href="https://i.meishi.cc/cook.php?id=14585930" target="_blank"><img src="https://st-cn.meishij.net/user/180/93/t14585930_158511852978540.jpg" class="ava"></a>
+                    <a href="https://i.meishi.cc/cook.php?id=14585930"  target="_blank" class="name">Linda食记</a>
+                    <span class="des">喜欢美食，喜欢美食杰，申请达人</span>
+                    <a href="https://i.meishi.cc/daren_task/daren_tagpage.php?id=" target="_blank" class="tag tag"></a>
+                </div>
+                <div class="dr_mod5item">
+                    <a href="https://i.meishi.cc/cook.php?id=14569320" target="_blank"><img src="https://st-cn.meishij.net/user/70/27/t14569320_158441181102093.jpg" class="ava"></a>
+                    <a href="https://i.meishi.cc/cook.php?id=14569320"  target="_blank" class="name">锅一瓢</a>
+                    <span class="des">专注素食的拍摄与分享，希望在美食杰让更多人看到素食。</span>
+                    <a href="https://i.meishi.cc/daren_task/daren_tagpage.php?id=" target="_blank" class="tag tag"></a>
+                </div>
+                <div class="dr_mod5item">
+                    <a href="https://i.meishi.cc/cook.php?id=14566783" target="_blank"><img src="https://st-cn.meishij.net/user/33/17/t14566783_158432077927356.jpg" class="ava"></a>
+                    <a href="https://i.meishi.cc/cook.php?id=14566783"  target="_blank" class="name">安迪的小厨房</a>
+                    <span class="des">家有吃货宝宝，为爱下厨房，热爱美食，愿意分享美食，用美食传递爱！</span>
+                    <a href="https://i.meishi.cc/daren_task/daren_tagpage.php?id=" target="_blank" class="tag tag"></a>
+                </div>
+                <div class="dr_mod5item">
+                    <a href="https://i.meishi.cc/cook.php?id=14560006" target="_blank"><img src="https://st-cn.meishij.net/user/06/240/t14560006_158415545560539.jpg" class="ava"></a>
+                    <a href="https://i.meishi.cc/cook.php?id=14560006"  target="_blank" class="name">美食作家阿当</a>
+                    <span class="des">我是一个中式烹饪的老师，每天教学大量的美食，我想把美好的食物带给大家。</span>
+                    <a href="https://i.meishi.cc/daren_task/daren_tagpage.php?id=" target="_blank" class="tag tag"></a>
+                </div>
+                <div class="dr_mod5item">
+                    <a href="https://i.meishi.cc/cook.php?id=10016977" target="_blank"><img src="https://st-cn.meishij.net/user/227/67/t10016977_149726460666322.jpg" class="ava"></a>
+                    <a href="https://i.meishi.cc/cook.php?id=10016977"  target="_blank" class="name">polarisotaku</a>
+                    <span class="des">将健康美食分享给大家</span>
+                    <a href="https://i.meishi.cc/daren_task/daren_tagpage.php?id=" target="_blank" class="tag tag"></a>
+                </div>
+                <div class="dr_mod5item">
+                    <a href="https://i.meishi.cc/cook.php?id=14553052" target="_blank"><img src="https://s1.c.meishij.net/q/images/default/t_default.png" class="ava"></a>
+                    <a href="https://i.meishi.cc/cook.php?id=14553052"  target="_blank" class="name">白白白云OoO</a>
+                    <span class="des">热爱美食，喜欢跟分享给有共同爱好的朋友</span>
+                    <a href="https://i.meishi.cc/daren_task/daren_tagpage.php?id=" target="_blank" class="tag tag"></a>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="dr_mod5">
+            <h4 class="title">热门达人</h4>
+            <div class="dr_mod5itemlist">
+                <div class="dr_mod5item">
+                    <a href="https://i.meishi.cc/cook.php?id=2378495" target="_blank"><img src="https://st-cn.meishij.net/user/245/13/t2378495_47022.jpg" class="ava"></a>
+                    <a href="https://i.meishi.cc/cook.php?id=2378495"  target="_blank" class="name">搬个凳子看戏08</a>
+                    <span class="des">本月热度：9754</span>
+                    <a href="javascript:void(0);" uid="2378495" class="gzbtn btn ">关注</a>
+                </div>
+
+                <div class="dr_mod5item">
+                    <a href="https://i.meishi.cc/cook.php?id=62904" target="_blank"><img src="https://st-cn.meishij.net/user/154/01/t62904_152386836353255.jpg" class="ava"></a>
+                    <a href="https://i.meishi.cc/cook.php?id=62904"  target="_blank" class="name">林冰儿</a>
+                    <span class="des">本月热度：8237</span>
+                    <a href="javascript:void(0);" uid="62904" class="gzbtn btn ">关注</a>
+                </div>
+
+                <div class="dr_mod5item">
+                    <a href="https://i.meishi.cc/cook.php?id=4706280" target="_blank"><img src="https://st-cn.meishij.net/user/30/75/t4706280_157196159259154.jpg" class="ava"></a>
+                    <a href="https://i.meishi.cc/cook.php?id=4706280"  target="_blank" class="name">雪峰儿</a>
+                    <span class="des">本月热度：5391</span>
+                    <a href="javascript:void(0);" uid="4706280" class="gzbtn btn ">关注</a>
+                </div>
+
+                <div class="dr_mod5item">
+                    <a href="https://i.meishi.cc/cook.php?id=3441371" target="_blank"><img src="https://st-cn.meishij.net/user/121/15/t3441371_142357672308934.jpg" class="ava"></a>
+                    <a href="https://i.meishi.cc/cook.php?id=3441371"  target="_blank" class="name">杰米田园</a>
+                    <span class="des">本月热度：5142</span>
+                    <a href="javascript:void(0);" uid="3441371" class="gzbtn btn ">关注</a>
+                </div>
+
+                <div class="dr_mod5item">
+                    <a href="https://i.meishi.cc/cook.php?id=9087269" target="_blank"><img src="https://st-cn.meishij.net/user/19/99/t9087269_147988085535438.jpg" class="ava"></a>
+                    <a href="https://i.meishi.cc/cook.php?id=9087269"  target="_blank" class="name">幸福精灵a</a>
+                    <span class="des">本月热度：4970</span>
+                    <a href="javascript:void(0);" uid="9087269" class="gzbtn btn ">关注</a>
+                </div>
+
+                <div class="dr_mod5item">
+                    <a href="https://i.meishi.cc/cook.php?id=10031823" target="_blank"><img src="https://st-cn.meishij.net/user/73/127/t10031823_154579600302699.jpg" class="ava"></a>
+                    <a href="https://i.meishi.cc/cook.php?id=10031823"  target="_blank" class="name">水怜忧</a>
+                    <span class="des">本月热度：4197</span>
+                    <a href="javascript:void(0);" uid="10031823" class="gzbtn btn ">关注</a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="dr_xdr">
+            <p>成为达人即可享受不一样的特权专属标识、优先推荐、更高的积分体系、更多的家居馆折扣…想要施展才华、展现魅力的你，快来申请成为美食达人吧~</p>
+            <a href="/expert/" target="_blank" class="btn">申请达人</a>
+        </div>
+
+    </div>
+    <!--达人任务----------->
+    <div class="w1050">
+        <div class="dr_mod6">
+            <h3 class="dr_btitle">达人任务</h3>
+            <div class="dr_mod6item">
+                <a href="https://i.meishi.cc/daren_task/task_detail.php?id= 2287" target="_blank" class="img"><img src="https://st-cn.meishij.net/article/title_pic/20200330/20200330142044_597.jpg"></a>
+                <div class="title">
+                    <span class="tag tag1">中式菜</span>
+                    <a href="https://i.meishi.cc/daren_task/task_detail.php?id=2287" target="_blank" class="t">”樱花季”花类视频菜谱征集活动</a>
+                </div>
+                <div class="des">
+                    <span><strong>一级任务</strong> | 浏览：113 | 申请名额：120 | 申请人数：21 | 截止时间：04月25日 23:59</span>
+                </div>
+                <!--<div class="des">
+                    <span><strong>三级任务</strong> | 浏览：81241 | 申请名额：100 | 申请人数：66 | 截止时间：8月1日 24:00</span>
+                </div>-->
+                <!--<a href="http://i.meishi.cc/daren_task/task_detail.php?id=6" target="_blank" class="btn btn1">领取任务</a>-->
+                <a href="https://i.meishi.cc/daren_task/task_detail.php?id= 2287" target="_blank" class="btn btn1">领取任务</a>			<span class="jltip">奖励：5倍积分</span>
+                <!--<span class="pphz"></span>-->
+            </div>
+            <div class="dr_mod6item">
+                <a href="https://i.meishi.cc/daren_task/task_detail.php?id= 2286" target="_blank" class="img"><img src="https://st-cn.meishij.net/article/title_pic/20200326/20200326094333_775.jpg"></a>
+                <div class="title">
+                    <span class="tag tag1">中式菜</span>
+                    <a href="https://i.meishi.cc/daren_task/task_detail.php?id=2286" target="_blank" class="t">春风化“鱼”美食挑战赛</a>
+                </div>
+                <div class="des">
+                    <span><strong>一级任务</strong> | 浏览：333 | 申请名额：99 | 申请人数：56 | 截止时间：04月02日 23:59</span>
+                </div>
+                <!--<div class="des">
+                    <span><strong>三级任务</strong> | 浏览：81241 | 申请名额：100 | 申请人数：66 | 截止时间：8月1日 24:00</span>
+                </div>-->
+                <!--<a href="http://i.meishi.cc/daren_task/task_detail.php?id=6" target="_blank" class="btn btn1">领取任务</a>-->
+                <a href="https://i.meishi.cc/daren_task/task_detail.php?id= 2286" target="_blank" class="btn btn1">领取任务</a>			<span class="jltip">奖励：炒锅、积分</span>
+                <!--<span class="pphz"></span>-->
+            </div>
+            <div class="dr_mod6item">
+                <a href="https://i.meishi.cc/daren_task/task_detail.php?id= 2285" target="_blank" class="img"><img src="https://st-cn.meishij.net/article/title_pic/20200324/20200324100018_619.jpg"></a>
+                <div class="title">
+                    <span class="tag tag1">中式菜</span>
+                    <a href="https://i.meishi.cc/daren_task/task_detail.php?id=2285" target="_blank" class="t">霸王超市丨安全绿色无公害，盘锦大米人人爱</a>
+                </div>
+                <div class="des">
+                    <span><strong>一级任务</strong> | 浏览：515 | 申请名额：99 | 申请人数：66 | 截止时间：04月24日 23:59</span>
+                </div>
+                <!--<div class="des">
+                    <span><strong>三级任务</strong> | 浏览：81241 | 申请名额：100 | 申请人数：66 | 截止时间：8月1日 24:00</span>
+                </div>-->
+                <!--<a href="http://i.meishi.cc/daren_task/task_detail.php?id=6" target="_blank" class="btn btn1">领取任务</a>-->
+                <a href="https://i.meishi.cc/daren_task/task_detail.php?id= 2285" target="_blank" class="btn btn1">领取任务</a>			<span class="jltip">奖励：盘锦大勇大米</span>
+                <!--<span class="pphz"></span>-->
+            </div>
+            <div class="dr_mod6item">
+                <a href="https://i.meishi.cc/daren_task/task_detail.php?id= 2284" target="_blank" class="img"><img src="https://st-cn.meishij.net/article/title_pic/20200318/20200318134112_520.jpg"></a>
+                <div class="title">
+                    <span class="tag tag1">中式菜</span>
+                    <a href="https://i.meishi.cc/daren_task/task_detail.php?id=2284" target="_blank" class="t">“没有一个冬天不会过去，没有一个春天不会到来”</a>
+                </div>
+                <div class="des">
+                    <span><strong>一级任务</strong> | 浏览：656 | 申请名额：99 | 申请人数：77 | 截止时间：03月29日 23:59</span>
+                </div>
+                <!--<div class="des">
+                    <span><strong>三级任务</strong> | 浏览：81241 | 申请名额：100 | 申请人数：66 | 截止时间：8月1日 24:00</span>
+                </div>-->
+                <!--<a href="http://i.meishi.cc/daren_task/task_detail.php?id=6" target="_blank" class="btn btn1">领取任务</a>-->
+                <a href="https://i.meishi.cc/daren_task/task_detail.php?id= 2284" target="_blank" class="btn btn4">已过期</a>			<span class="jltip">奖励：积分</span>
+                <!--<span class="pphz"></span>-->
+            </div>
+            <div class="dr_mod6item">
+                <a href="https://i.meishi.cc/daren_task/task_detail.php?id= 2283" target="_blank" class="img"><img src="https://st-cn.meishij.net/article/title_pic/20200318/20200318094724_835.jpg"></a>
+                <div class="title">
+                    <span class="tag tag1">中式菜</span>
+                    <a href="https://i.meishi.cc/daren_task/task_detail.php?id=2283" target="_blank" class="t">“水果熟了”美食挑战赛</a>
+                </div>
+                <div class="des">
+                    <span><strong>一级任务</strong> | 浏览：521 | 申请名额：99 | 申请人数：65 | 截止时间：03月25日 23:59</span>
+                </div>
+                <!--<div class="des">
+                    <span><strong>三级任务</strong> | 浏览：81241 | 申请名额：100 | 申请人数：66 | 截止时间：8月1日 24:00</span>
+                </div>-->
+                <!--<a href="http://i.meishi.cc/daren_task/task_detail.php?id=6" target="_blank" class="btn btn1">领取任务</a>-->
+                <a href="https://i.meishi.cc/daren_task/task_detail.php?id= 2283" target="_blank" class="btn btn4">已过期</a>			<span class="jltip">奖励：炒锅、积分</span>
+                <!--<span class="pphz"></span>-->
+            </div>
+            <div class="dr_mod6item">
+                <a href="https://i.meishi.cc/daren_task/task_detail.php?id= 2282" target="_blank" class="img"><img src="https://st-cn.meishij.net/article/title_pic/20200311/20200311124351_392.jpg"></a>
+                <div class="title">
+                    <span class="tag tag1">中式菜</span>
+                    <a href="https://i.meishi.cc/daren_task/task_detail.php?id=2282" target="_blank" class="t">霸王超市丨食平方杏鲍菇虾仁花蛤酱，鲜、嫩、香、辣让你吃到过瘾</a>
+                </div>
+                <div class="des">
+                    <span><strong>一级任务</strong> | 浏览：794 | 申请名额：99 | 申请人数：58 | 截止时间：04月13日 23:59</span>
+                </div>
+                <!--<div class="des">
+                    <span><strong>三级任务</strong> | 浏览：81241 | 申请名额：100 | 申请人数：66 | 截止时间：8月1日 24:00</span>
+                </div>-->
+                <!--<a href="http://i.meishi.cc/daren_task/task_detail.php?id=6" target="_blank" class="btn btn1">领取任务</a>-->
+                <a href="https://i.meishi.cc/daren_task/task_detail.php?id= 2282" target="_blank" class="btn btn1">领取任务</a>			<span class="jltip">奖励：食平方杏鲍菇虾仁花蛤酱</span>
+                <!--<span class="pphz"></span>-->
+            </div>
+
+            <a class="dr_mod6_more" href="/daren_task/task_list.php" target="_blank">查看更多任务 >></a>
+        </div>
+    </div>
+    <!--优质内容----------->
+    <div class="w1050">
+        <h3 class="dr_btitle">优质内容</h3>
+        <div class="dr_mod3list clearfix" id="dr_mod3list_bottom">
+        </div>
+    </div>
+    <!--
+    <script type="text/javascript">
+        $(function(){
+            $(".gzbtn").click(function(){
+                var _this = $(this);
+                var uid = $(this).attr("uid");
+                $.post("/ajax/add_follow.php", { uid: uid },
+                    function(data){
+                        if(data != ''){
+                            var obj = eval('(' + data + ')');
+                            if(obj.status_code == -2){
+                                alert(obj.result);
+                            }else if(obj.status_code == -1){
+                                location.href = "http://i.meishi.cc/login.php?redirect=" + encodeURIComponent(location.href);
+                            }else if(obj.status_code == 0){
+                                _this.removeClass("gzbtn btn").addClass("gzbtn btn gzed");
+                                _this.html('已关注');
+                            }else if(obj.status_code == 1){
+                                _this.removeClass("gzbtn btn gzed").addClass("gzbtn btn");
+                                _this.html('关注');
+                            }
+                        }
+                    });
+            });
+        });
+        var ajaxing=0;
+        $(document).ready(function(){
+            var range = 200; //距下边界长度/单位px
+            var page = 1;   //请php同学输出为当前页码
+            var maxnum = parseInt((page+2)/3)*900; //设置最多加载到多少页 ，值为3的倍数，3、6、9等等
+            var totalheight = 0
+            var main = $("#dr_mod3list_bottom"); //主体元素
+            $(window).scroll(function(){
+                var srollPos = $(window).scrollTop(); //滚动条距顶部距离(页面超出窗口的高度)
+                //console.log("滚动条到顶部的垂直高度: "+$(document).scrollTop());
+                //console.log("页面的文档高度 ："+$(document).height());
+                //console.log('浏览器的高度：'+$(window).height());
+                totalheight = parseFloat($(window).height()) + parseFloat(srollPos);
+                if(($(document).height()-range) <= totalheight && page != maxnum) {
+                    if(ajaxing==0){
+                        ajaxing = 1;
+                        $.post("/ajax/daren_index.php?act=ajax&page="+page,function(data){
+                            if(data.code==1){
+                                main.append(data.html);
+                                var ele = $("#dr_pageitem a.current");
+                                $("#dr_pageitem a").removeClass("current");
+                                ele.parent().next().find("a").addClass("current");
+                                if(data.is_have){
+                                    ajaxing = 0;
+                                }
+                            }
+                            page++;
+                        },'json');
+                    }
+                }
+            });
+
+        });
+    </script>
+    -->
+</div>
+<!--底部-->
+<div class="main_footer pngFix">
+    <div class="footer_con1 clearfix">
+        <div class="logobottom" style="height:196px;width:600px;background-size:70% auto;">
+            <a href="index.html" style="height:100%;width:200px;display:block;">
+                <img src="img/logo-bottom.png">
+            </a>
+        </div>
+        <!--官方微博、QQ空间、微信二维码、手机端二维码-->
+        <!--
+        <div class="links">
+            <ul class="cleearfix">
+                <li class="sina"><a class="img" target="_blank" href="https://e.weibo.com/meishij"><span>关注：49万</span></a><p><a target="_blank" href="https://e.weibo.com/meishij">点击进入<br/>美食杰官方微博</a></p></li><li class="tengxun"><a class="img"  target="_blank" href="https://user.qzone.qq.com/613171717"><span>关注：10.9万</span></a><p><a target="_blank" href="https://user.qzone.qq.com/613171717">点击进入<br/>美食杰QQ空间</a></p></li><li class="weixin"><a target="_blank" href="https://sj.meishi.cc/" class="img"></a><p><a target="_blank" href="https://sj.meishi.cc/">扫描二维码添加<br/>美食杰为微信好友</a></p></li><li class="download"><a target="_blank" href="https://sj.meishi.cc/" class="img"></a><p><a target="_blank" href="https://sj.meishi.cc/">扫描二维码下载<br/>美食杰手机客户端</a></p></li>
+            </ul>
+        </div>-->
+    </div>
+    <div class="footer_con3">
+        <ul class="clearfix">
+            <li><a target="_blank" href="#" title="公司简介">公司简介</a></li>
+            <li><a target="_blank" href="#" title="关于我们">关于我们</a></li>
+            <li><a target="_blank" href="#" title="产品下载">产品下载</a></li>
+            <li><a target="_blank" href="#" title="加入我们">加入我们</a></li>
+            <li><a target="_blank" href="#" title="联系我们">联系我们</a></li>
+            <li><a target="_blank" href="#" title="商务合作">商务合作</a></li>
+            <li><a target="_blank" href="#" title="用户协议">用户协议</a></li>
+            <li><a target="_blank" href="#" title="用户协议">隐私政策</a></li>
+            <li><a target="_blank" href="#" title="网站地图">网站地图</a></li>
+            <li><a target="_blank" href="#" title="友情链接">友情链接</a></li>
+        </ul>
+        <!--<p><a target="_blank" href="https://www.miibeian.gov.cn" class="gray_a">京ICP备14030359号</a>/<a target="_blank" href="https://beian.gov.cn/" class="gray_a"><img src="https://st-cn.meishij.net/p2/20180208/20180208111357_93713.png" />京公网安备11010802026928</a> Copyright © 2003-2020 MEISHIJ CO.,LTD.</p>-->
+    </div>
+</div><div style="display:none;"><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1259001544'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/stat.php%3Fid%3D1259001544' type='text/javascript'%3E%3C/script%3E"));</script></div></body></html>
+
+
+
