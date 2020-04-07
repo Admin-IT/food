@@ -2,211 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a933dc9-dd7f-4357-aeaf-5dc31ca50fe7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/src/test/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/util/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-web/src/test/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-api/target/food-api-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-api/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-dao/target/food-dao-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-dao/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-dao/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-dao/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/user/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/src/main/java/edu/nf/food/user/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/user/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/food-entity/target/classes/edu/nf/food/user/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-entity/target/food-entity-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-entity/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-entity/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-entity/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-entity/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-entity/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/src/main/resources/application-dao.yml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/src/main/resources/application-dao.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-dao/target/classes/application-dao.yml" beforeDir="false" afterPath="$PROJECT_DIR$/food-dao/target/classes/application-dao.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/food-service/src/test/java/edu/nf/food/ServiceApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/test/java/edu/nf/food/ServiceApplicationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/user/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/target/classes/edu/nf/food/user/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/target/food-service-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/food-service/target/test-classes/edu/nf/food/ServiceApplicationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/target/test-classes/edu/nf/food/ServiceApplicationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-util/target/food-util-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-util/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-util/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/util/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/util/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/util/testController.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/java/edu/nf/food/util/testController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/food-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/src/test/java/edu/nf/food/FoodApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/src/test/java/edu/nf/food/FoodApplicationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/food-web/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/edu/nf/food/user/web/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/edu/nf/food/user/web/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/article_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/article_add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/article_cancel.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/article_cancel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/article_find.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/article_find.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/article_update.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/article_update.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/examine_article.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/examine_article.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/examine_food.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/examine_food.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/examine_video.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/examine_video.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/flavor_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/flavor_add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/flavor_cancel.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/flavor_cancel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/flavor_find.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/flavor_find.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/flavor_update.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/flavor_update.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_cancel.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_cancel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_cooking_time_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_cooking_time_add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_cooking_time_cancel.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_cooking_time_cancel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_cooking_time_find.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_cooking_time_find.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_cooking_time_update.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_cooking_time_update.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_difficulty_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_difficulty_add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_difficulty_cancel.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_difficulty_cancel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_difficulty_find.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_difficulty_find.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_difficulty_update.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_difficulty_update.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_find.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_find.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_image_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_image_add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_image_cancel.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_image_cancel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_image_find.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_image_find.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_image_update.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_image_update.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_number_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_number_add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_number_cancel.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_number_cancel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_number_find.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_number_find.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_number_update.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_number_update.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_reparation_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_reparation_add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_reparation_cancel.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_reparation_cancel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_reparation_find.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_reparation_find.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_reparation_update.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_reparation_update.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_update.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/food_update.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/hot_push.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/hot_push.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/ingredient_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/ingredient_add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/ingredient_cancel.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/ingredient_cancel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/ingredient_find.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/ingredient_find.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/ingredient_update.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/ingredient_update.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/label_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/label_add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/label_cancel.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/label_cancel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/label_find.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/label_find.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/label_update.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/label_update.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/log_find.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/log_find.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/permission-assignment.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/permission-assignment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/ranking_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/ranking_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/technology_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/technology_add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/technology_addl.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/technology_addl.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/technology_cancel.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/technology_cancel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/technology_find.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/technology_find.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/technology_update.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/technology_update.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/three_eals.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/three_eals.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/user_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/user_add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/user_cancel.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/user_cancel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/user_find.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/user_find.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/user_update.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/user_update.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/video_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/video_add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/video_cancel.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/video_cancel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/video_find.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/video_find.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/video_update.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/video_update.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/模板.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/Backstage/模板.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/app-download.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/app-download.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/food-leader-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/food-leader-details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/food-leader.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/food-leader.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/food-menu-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/food-menu-details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/food-menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/food-menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/healthy-eating.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/healthy-eating.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/healthy-heart.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/healthy-heart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/healthy-method.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/healthy-method.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/healthy-people.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/healthy-people.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/healthy-sick.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/healthy-sick.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/js/list.js" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/js/list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/js/load.js" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/js/load.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/js/log-user.js" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/js/log-user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/js/message.js" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/js/message.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/js/tipwindown.js" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/js/tipwindown.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/js/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/js/upload.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/js/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/js/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/logon-youpu.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/logon-youpu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/menu-baking.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/menu-baking.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/menu-chinesefood.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/menu-chinesefood.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/menu-family.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/menu-family.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/menu-specialsnack.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/menu-specialsnack.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/menu-video-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/menu-video-details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/menu-video.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/menu-video.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/menu-worldmenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/menu-worldmenu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/my-task.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/my-task.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/user-center-cp.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/user-center-cp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/user-center-cp2.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/user-center-cp2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/user-center-cp3.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/user-center-cp3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/user-center-cp4.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/user-center-cp4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/user-center-user.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/user-center-user.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/user-center-zp.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/user-center-zp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/static/user-mes.html" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/static/user-mes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/article_add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/article_cancel.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/article_find.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/article_update.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/examine_article.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/examine_food.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/examine_video.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/flavor_add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/flavor_cancel.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/flavor_find.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/flavor_update.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/food_add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/food_cancel.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/food_cooking_time_add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/food_cooking_time_cancel.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/food_cooking_time_find.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/food_cooking_time_update.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/food_difficulty_add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/food_difficulty_cancel.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/food_difficulty_find.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/food_difficulty_update.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/food_find.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/food_image_add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/food_image_cancel.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/food_image_find.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/food_image_update.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/food_number_add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/food_number_cancel.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/food_number_find.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/food_number_update.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/food_reparation_add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/food_reparation_cancel.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/food_reparation_find.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/food_reparation_update.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/food_update.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/hot_push.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/ingredient_add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/ingredient_cancel.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/ingredient_find.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/ingredient_update.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/label_add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/label_cancel.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/label_find.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/label_update.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/log_find.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/permission-assignment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/ranking_list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/technology_add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/technology_addl.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/technology_cancel.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/technology_find.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/technology_update.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/three_eals.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/user_add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/user_cancel.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/user_find.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/user_update.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/video_add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/video_cancel.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/video_find.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/video_update.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/classes/templates/Backstage/模板.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/food.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/food.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-web/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/classes/edu/nf/food/util/RedisConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/classes/edu/nf/food/util/RedisConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-web/target/test-classes/edu/nf/food/FoodApplicationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/food-web/target/test-classes/edu/nf/food/FoodApplicationTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,6 +52,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -276,7 +94,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/food-web/src/main/resources/static/Backstage" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/food-service/src/test/resources" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -290,10 +108,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\IdeaProjects\food\food-dao\src\main\resources\Mapper\User" />
-      <recent name="D:\IdeaProjects\food\food-dao\src\main\resources\Mapper\food" />
-      <recent name="D:\IdeaProjects\food\food-dao\src\main\resources\Mapper\Label" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\food\food-service\src\test\resources" />
+      <recent name="D:\IdeaProjects\food\food-web\src\main\resources\static\Backstage" />
+      <recent name="D:\IdeaProjects\food\food-web\src\main\resources\templates\Backstage" />
+      <recent name="D:\IdeaProjects\food\food-web\src\main\resources\static\js" />
+      <recent name="D:\IdeaProjects\food\food-web\src\main\resources\static" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="edu.nf.food.vo" />
@@ -302,12 +122,10 @@
       <recent name="edu.nf.food.message.entity" />
       <recent name="edu.nf.food.article.web" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IdeaProjects\food\food-web\src\main\resources\static\Backstage" />
-      <recent name="D:\IdeaProjects\food\food-web\src\main\resources\templates\Backstage" />
-      <recent name="D:\IdeaProjects\food\food-web\src\main\resources\static\js" />
-      <recent name="D:\IdeaProjects\food\food-web\src\main\resources\static" />
-      <recent name="D:\IdeaProjects\food\food-web\src\main\java\edu\nf\food" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\food\food-dao\src\main\resources\Mapper\User" />
+      <recent name="D:\IdeaProjects\food\food-dao\src\main\resources\Mapper\food" />
+      <recent name="D:\IdeaProjects\food\food-dao\src\main\resources\Mapper\Label" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -316,6 +134,22 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.FoodApplication">
+    <configuration name="FoodApplicationTest.testForValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="food-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.nf.food.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.nf.food" />
+      <option name="MAIN_CLASS_NAME" value="edu.nf.food.FoodApplicationTest" />
+      <option name="METHOD_NAME" value="testForValues" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServiceApplicationTest.addUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="food-service" />
       <extension name="coverage">
@@ -348,6 +182,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServiceApplicationTest.testForValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="food-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.nf.food.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.nf.food" />
+      <option name="MAIN_CLASS_NAME" value="edu.nf.food.ServiceApplicationTest" />
+      <option name="METHOD_NAME" value="testForValues" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FoodApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="food-web" />
       <extension name="coverage">
@@ -364,6 +214,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.FoodApplication" />
+        <item itemvalue="JUnit.ServiceApplicationTest.testForValues" />
+        <item itemvalue="JUnit.FoodApplicationTest.testForValues" />
         <item itemvalue="JUnit.ServiceApplicationTest.addUser" />
         <item itemvalue="JUnit.ServiceApplicationTest.listTechnology" />
       </list>
@@ -407,7 +259,8 @@
       <workItem from="1585742859392" duration="10277000" />
       <workItem from="1585870083629" duration="9536000" />
       <workItem from="1585880104236" duration="424000" />
-      <workItem from="1585880700117" duration="3191000" />
+      <workItem from="1585880700117" duration="10477000" />
+      <workItem from="1586219397239" duration="2522000" />
     </task>
     <task id="LOCAL-00001" summary="实体类搭建">
       <created>1584623261101</created>
@@ -479,7 +332,21 @@
       <option name="project" value="LOCAL" />
       <updated>1585876624886</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="整合 1">
+      <created>1585884433800</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1585884433800</updated>
+    </task>
+    <task id="LOCAL-00012" summary="test">
+      <created>1585959816408</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1585959816408</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -509,7 +376,9 @@
     <MESSAGE value="合并 bug修复" />
     <MESSAGE value="bug 3" />
     <MESSAGE value="后台 合并" />
-    <option name="LAST_COMMIT_MESSAGE" value="后台 合并" />
+    <MESSAGE value="整合 1" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -538,61 +407,65 @@
     </state>
     <state x="413" y="127" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1585791976846" />
     <state x="413" y="134" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1585740954555" />
-    <state x="226" y="0" key="CommitChangelistDialog2" timestamp="1585876611309">
+    <state x="226" y="0" key="CommitChangelistDialog2" timestamp="1585959807730">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="226" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585876611309" />
+    <state x="226" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585959807730" />
     <state x="284" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1585208481402" />
     <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1585752766448">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585752766448" />
-    <state width="1323" height="247" key="GridCell.Tab.0.bottom" timestamp="1585882185105">
+    <state width="1323" height="264" key="GridCell.Tab.0.bottom" timestamp="1586228113429">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="247" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585882185105" />
-    <state width="1323" height="247" key="GridCell.Tab.0.center" timestamp="1585882185105">
+    <state width="1323" height="264" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586228113429" />
+    <state width="1323" height="264" key="GridCell.Tab.0.center" timestamp="1586228113428">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="247" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585882185105" />
-    <state width="1323" height="247" key="GridCell.Tab.0.left" timestamp="1585882185105">
+    <state width="1323" height="264" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586228113428" />
+    <state width="1323" height="264" key="GridCell.Tab.0.left" timestamp="1586228113427">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="247" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585882185105" />
-    <state width="1323" height="247" key="GridCell.Tab.0.right" timestamp="1585882185105">
+    <state width="1323" height="264" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586228113427" />
+    <state width="1323" height="264" key="GridCell.Tab.0.right" timestamp="1586228113429">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="247" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585882185105" />
-    <state width="1323" height="273" key="GridCell.Tab.1.bottom" timestamp="1585874156660">
+    <state width="1323" height="264" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586228113429" />
+    <state width="1323" height="264" key="GridCell.Tab.1.bottom" timestamp="1586228113430">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="273" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585874156660" />
-    <state width="1323" height="273" key="GridCell.Tab.1.center" timestamp="1585874156659">
+    <state width="1323" height="264" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586228113430" />
+    <state width="1323" height="264" key="GridCell.Tab.1.center" timestamp="1586228113430">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="273" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1585874156659" />
-    <state width="1323" height="273" key="GridCell.Tab.1.left" timestamp="1585874156659">
+    <state width="1323" height="264" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1586228113430" />
+    <state width="1323" height="264" key="GridCell.Tab.1.left" timestamp="1586228113429">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="273" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1585874156659" />
-    <state width="1323" height="273" key="GridCell.Tab.1.right" timestamp="1585874156659">
+    <state width="1323" height="264" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1586228113429" />
+    <state width="1323" height="264" key="GridCell.Tab.1.right" timestamp="1586228113430">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="273" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1585874156659" />
+    <state width="1323" height="264" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1586228113430" />
     <state x="372" y="19" key="SettingsEditor" timestamp="1585880560092">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="372" y="19" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585880560092" />
     <state x="186" y="9" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1585205730926" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1585811118235">
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1585959913070">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585811118235" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585959913070" />
     <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1585035524844" />
-    <state x="361" y="166" key="git4idea.merge.GitPullDialog" timestamp="1585874804424">
+    <state x="370" y="0" width="626" height="728" key="find.popup" timestamp="1586228068658">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="361" y="166" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1585874804424" />
+    <state x="370" y="0" width="626" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1586228068658" />
+    <state x="361" y="166" key="git4idea.merge.GitPullDialog" timestamp="1585959869317">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="361" y="166" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1585959869317" />
     <state x="361" y="175" key="git4idea.merge.GitPullDialog/0.0.1366.768@0.0.1366.768" timestamp="1585030907337" />
     <state x="500" y="229" key="git4idea.ui.GitUnstashDialog" timestamp="1585800716333">
       <screen x="0" y="0" width="1366" height="728" />
@@ -610,5 +483,19 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1585840326348" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/food-web/src/test/java/edu/nf/food/FoodApplicationTest.java</url>
+          <line>42</line>
+          <properties class="edu.nf.food.FoodApplicationTest" method="testForValues">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
