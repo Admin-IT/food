@@ -28,4 +28,5 @@ public class Food {
     private String foodLabel;
     private String foodStory;
     private String foodState;
+    private String foodDate;
 }

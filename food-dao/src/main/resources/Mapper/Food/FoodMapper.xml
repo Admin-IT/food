@@ -22,12 +22,13 @@
         <result column="menu_food_label" property="foodLabel"/>
         <result column="menu_food_story" property="foodStory"/>
         <result column="menu_food_state" property="foodState"/>
+        <result column="menu_food_date" property="foodDate"/>
     </resultMap>
 
     <select id="listFood" resultMap="foodMap">
         select menu_food_id, menu_food_name, menu_food_cuisine, menu_food_classified, menu_food_technology,
          menu_food_flavor, menu_food_difficulty, menu_food_reparation_time, menu_food_number, menu_food_cooking_time,
-          menu_food_step, menu_food_ingredients, menu_food_label, menu_food_story, menu_food_state from menu_food
+          menu_food_step, menu_food_ingredients, menu_food_label, menu_food_story, menu_food_state ,menu_food_date from menu_food
     </select>
 
     <delete id="delFoodById" parameterType="edu.nf.food.food.entity.Food">
@@ -62,10 +63,10 @@
         insert into menu_food
           (menu_food_name, menu_food_cuisine, menu_food_classified, menu_food_technology,
           menu_food_flavor, menu_food_difficulty, menu_food_reparation_time, menu_food_number, menu_food_cooking_time,
-          menu_food_step, menu_food_ingredients, menu_food_label, menu_food_story)
+          menu_food_step, menu_food_ingredients, menu_food_label, menu_food_story,menu_food_date)
         values
           (#{foodName}, #{foodCuisine},#{foodClassified},#{foodTechnology}, #{foodFlavor}, #{foodDifficulty},
           #{foodReparationTime},#{foodNumber},#{foodCookingTime},#{foodStep}, #{foodIngredients},#{foodImage},
-          #{userId},#{foodIntroduce},#{foodLabel},#{foodStory})
+          #{userId},#{foodIntroduce},#{foodLabel},#{foodStory},)
     </insert>
 </mapper>
