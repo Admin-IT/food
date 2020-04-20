@@ -24,4 +24,6 @@ public interface UserDao {
     void addUser(User user);
 
     User loginUser(User user);
+
+    User allUserMess(Integer userId);
 }

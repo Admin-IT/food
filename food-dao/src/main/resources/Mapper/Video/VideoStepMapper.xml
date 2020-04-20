@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.nf.food.video.dao.VideoStepDao">
+    <resultMap id="videoStepMap" type="edu.nf.food.video.entity.VideoStep">
+        <id column="menu_food_video_step_id" property="id"/>
+        <result column="menu_video_step_id" property="videoId"/>
+        <result column="menu_video_step_method" property="method"/>
+        <!--一对一关联视频ID-->
+        <association property="video" resultMap="videoMap"/>
+    </resultMap>
+
+    <resultMap id="videoMap" type="edu.nf.food.video.entity.Video">
+        <id column="menu_food_video_id" property="id"/>
+        <result column="menu_video_name" property="name"/>
+        <result column="menu_video_label" property="label"/>
+        <result column="menu_video_classified" property="classified"/>
+        <result column="menu_video_admin" property="userId"/>
+        <result column="menu_video_time" property="time"/>
+        <result column="menu_video_play" property="number"/>
+    </resultMap>
+
+    <select id="listStep" resultMap="videoStepMap" parameterType="java.lang.Integer">
+        select vs.menu_video_step_method from
+        menu_food_video_step vs left join
+        menu_food_video v on vs.menu_video_step_id
+        = v.menu_food_video_id where vs.menu_video_step_id = #{videoId}
+    </select>
+</mapper>

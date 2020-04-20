@@ -18,6 +18,9 @@
     <script type="text/javascript" src="js/j.m.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/list.js"></script>
+    <script src="data/video.js"></script>
+    <link rel="stylesheet" href="css/pagination.css">
+    <script src="js/jquery.pagination.js"></script>
 </head>
 <body>
 <!--顶部-->
@@ -36,8 +39,8 @@
         </div>
         <!--登录/注册-->
         <div class="loginitem_h">
-            <a href="#" class="link header_login">注册</a>
-            <a href="#" class="link header_register">登录</a>
+            <a href="logon-youpu.html" class="link header_login">注册</a>
+            <a href="logon-youpu.html" class="link header_register">登录</a>
         </div>
     </div>
 </div>
@@ -99,12 +102,18 @@
                     </div>
                     <div class="dwitem dwitem_half clearfix">
                         <dl class="clearfix">
-                            <dt><a href="#">烘焙</a></dt>
+                            <dt><a href="menu-baking.html">烘焙</a></dt>
                             <dd><a href="#">蛋糕面包</a></dd>
                             <dd><a href="#">饼干配方</a></dd>
                             <dd><a href="#">甜品点心</a></dd>
                         </dl>
-                    </div><br/>
+                    </div>
+                    <br/>
+                    <div class="dwitem dwitem_half clearfix">
+                        <dl class="clearfix">
+                            <dt><a href="menu-all.html">食材百科</a></dt>
+                        </dl>
+                    </div>
                 </div>
             </div>
         </li>
@@ -165,7 +174,7 @@
         </li>
         <li><a href="food-menu.html" class="link pngFix"><strong>美食菜单</strong></a></li>
         <li><a href="food-leader.html" class="link"><strong>美食达人</strong></a></li>
-        <li><a href="menu-video.html" class="link pngFix"><strong>菜谱视频</strong></a></li>
+        <li class="current"><a href="menu-video.html" class="link pngFix"><strong>菜谱视频</strong></a></li>
         <li><a href="app-download.html" class="link pngFix"><strong>产品下载</strong></a></li>
     </ul>
 </div>
@@ -238,131 +247,9 @@
             <a href="index.html">首页</a><span> &gt; </span><span>视频菜谱</span>
         </div>
         <div class="v_list" id="v_list">
-            <div class="v_item">
-                <a href="menu-video-details.html">
-                    <div class="c1">
-                        <img src="" class="v_img">
-                        <div class="v_time">11万次播放</div>
-                        <div class="v_length">01:23</div>
-                        <div class="v_cover"></div>
-                    </div>
-                    <div class="c2">
-                        <strong class="v_name">xxx的做法</strong>
-                    </div>
-                </a>
-            </div>
-            <div class="v_item">
-                <a href="">
-                    <div class="c1">
-                        <img src="" class="v_img">
-                        <div class="v_time">11万次播放</div>
-                        <div class="v_length">00:48</div>
-                        <div class="v_cover"></div>
-                    </div>
-                    <div class="c2">
-                        <strong class="v_name">xxx的做法</strong>
-                    </div>
-                </a>
-            </div>
-            <div class="v_item">
-                <a href="">
-                    <div class="c1">
-                        <img src="" class="v_img">
-                        <div class="v_time">6万次播放</div>
-                        <div class="v_length">00:41</div>
-                        <div class="v_cover"></div>
-                    </div>
-                    <div class="c2">
-                        <strong class="v_name">xxx的做法</strong>
-                    </div>
-                </a>
-            </div>
-            <div class="v_item">
-                <a href="">
-                    <div class="c1">
-                        <img src="" class="v_img">
-                        <div class="v_time">10万次播放</div>
-                        <div class="v_length">00:54</div>
-                        <div class="v_cover"></div>
-                    </div>
-                    <div class="c2">
-                        <strong class="v_name">xxx的做法</strong>
-                    </div>
-                </a>
-            </div>
-            <div class="v_item">
-                <a href="">
-                    <div class="c1">
-                        <img src="" class="v_img">
-                        <div class="v_time">10万次播放</div>
-                        <div class="v_length">00:30</div>
-                        <div class="v_cover"></div>
-                    </div>
-                    <div class="c2">
-                        <strong class="v_name">xxx的做法</strong>
-                    </div>
-                </a>
-            </div>
-            <div class="v_item">
-                <a href="">
-                    <div class="c1">
-                        <img src="" class="v_img">
-                        <div class="v_time">12万次播放</div>
-                        <div class="v_length">01:30</div>
-                        <div class="v_cover"></div>
-                    </div>
-                    <div class="c2">
-                        <strong class="v_name">xxx的做法</strong>
-                    </div>
-                </a>
-            </div>
-            <div class="v_item">
-                <a href="">
-                    <div class="c1">
-                        <img src="" class="v_img">
-                        <div class="v_time">10万次播放</div>
-                        <div class="v_length">00:43</div>
-                        <div class="v_cover"></div>
-                    </div>
-                    <div class="c2">
-                        <strong class="v_name">xxx的做法</strong>
-                    </div>
-                </a>
-            </div>
-            <div class="v_item">
-                <a href="">
-                    <div class="c1">
-                        <img src="" class="v_img">
-                        <div class="v_time">12万次播放</div>
-                        <div class="v_length">01:30</div>
-                        <div class="v_cover"></div>
-                    </div>
-                    <div class="c2">
-                        <strong class="v_name">xxx的做法</strong>
-                    </div>
-                </a>
-            </div>
-            <div class="v_item">
-                <a href="">
-                    <div class="c1">
-                        <img src="" class="v_img">
-                        <div class="v_time">12万次播放</div>
-                        <div class="v_length">00:39</div>
-                        <div class="v_cover"></div>
-                    </div>
-                    <div class="c2">
-                        <strong class="v_name">xxx的做法</strong>
-                    </div>
-                </a>
-            </div>
         </div>
-        <div class="listtyle1_page">
+        <div id="page" class="listtyle1_page">
             <div class="listtyle1_page_w">
-                <a title="的做法大全第1页" href="" class="current">1</a>
-                <a title="的做法大全第2页" href="">2</a>
-                <a title="的做法大全第3页" href="">3</a>
-                <a title="的做法大全第4页" href="">4</a>
-                <a href="" class="next">下一页</a>
             </div>
         </div>
     </div>

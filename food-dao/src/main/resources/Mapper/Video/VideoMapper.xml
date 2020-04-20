@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.nf.food.video.dao.VideoDao">
+    <resultMap id="videoMap" type="edu.nf.food.video.entity.Video">
+        <id column="menu_food_video_id" property="id"/>
+        <result column="menu_video_name" property="name"/>
+        <result column="menu_video_label" property="label"/>
+        <result column="menu_video_classified" property="classified"/>
+        <result column="menu_video_admin" property="userId"/>
+        <result column="menu_video_time" property="time"/>
+        <result column="menu_video_play" property="number"/>
+    </resultMap>
+    <select id="listVideo" resultMap="videoMap">
+        select menu_food_video_id, menu_video_name,menu_video_label,
+                menu_video_classified,menu_video_admin,
+                menu_video_time,menu_video_play
+        from menu_food_video
+    </select>
+    <select id="getVideoMsg" resultMap="videoMap" parameterType="java.lang.Integer">
+        select  menu_video_name,menu_video_label,
+                menu_video_classified,
+                menu_video_time,menu_video_play
+        from menu_food_video
+        where menu_food_video_id = #{id}
+    </select>
+    <select id="listSameVideo" resultMap="videoMap" parameterType="java.lang.String">
+        select menu_food_video_id, menu_video_name,menu_video_label,
+                menu_video_classified,menu_video_admin,
+                menu_video_time,menu_video_play
+        from menu_food_video
+        where menu_video_classified = #{classified}
+    </select>
+</mapper>
