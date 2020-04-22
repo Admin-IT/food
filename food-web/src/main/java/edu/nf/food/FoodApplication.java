@@ -8,6 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author admin
  * @date 2020/3/11
  */
+
 @SpringBootApplication
 @MapperScan(basePackages = {"edu.nf.food.label.dao", "edu.nf.food.food.dao", "edu.nf.food.user.dao", "edu.nf.food.video.dao"})
 public class FoodApplication {

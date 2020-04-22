@@ -31,4 +31,5 @@
         from menu_food_video
         where menu_video_classified = #{classified}
     </select>
+
 </mapper>

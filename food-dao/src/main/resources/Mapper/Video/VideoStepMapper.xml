@@ -10,6 +10,7 @@
         <association property="video" resultMap="videoMap"/>
     </resultMap>
 
+
     <resultMap id="videoMap" type="edu.nf.food.video.entity.Video">
         <id column="menu_food_video_id" property="id"/>
         <result column="menu_video_name" property="name"/>

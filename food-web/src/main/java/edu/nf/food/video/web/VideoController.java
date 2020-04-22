@@ -32,7 +32,7 @@ public class VideoController extends BaseController {
 
     @GetMapping("/get_same_video")
     public ResponseVO<List<Video>> listSame(String classified) {
-        //System.out.println(classified);
+        System.out.println(classified);
         List<Video> list = service.listSameVideo(classified);
         return success(list);
     }

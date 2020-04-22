@@ -20,7 +20,7 @@ function addTable(pageInfo) {
     $.each(pageInfo.list, function (i, s) {
         $('#v_list').append(
             '<div class="v_item">' +
-            '<a href="menu-video-details.html?id=' + s.id + '">' +
+            '<a href="menu-video-details.html?id=' + s.id + '&type=' + s.classified + '">' +
             '<div class="c1">' +
             '<video class="v_img" src="upload/' + s.name + '" width="330px" height="185px"></video>' +
             '<div class="v_time">' + s.number + '次播放</div>' +

@@ -9,6 +9,7 @@ import lombok.Data;
  */
 @Data
 public class VideoStep {
+
     private Integer id;
     private Integer videoId;//视频ID
     private String method;//做法内容介绍

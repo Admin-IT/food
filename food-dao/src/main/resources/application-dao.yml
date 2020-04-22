@@ -48,7 +48,7 @@ mybatis:
     - classpath:/mapper/Video/*.xml
 # 分页插件配置
 pagehelper:
-  # 数据库方言
+  # 数据库的方言
   helper-dialect: mysql
   # 分页合理化参数，默认值为false。当该参数设置为 true 时，pageNum<=0 时会查询第一页
   reasonable: true

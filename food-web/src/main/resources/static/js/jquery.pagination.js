@@ -9,6 +9,7 @@
  * @param {Object} opts Several options (see README for documentation)
  * @return {Object} jQuery Object
  */
+
 (function ($) {
     /**
      * @class Class for calculating pagination values

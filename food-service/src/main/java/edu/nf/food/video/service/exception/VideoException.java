@@ -1,6 +1,7 @@
 package edu.nf.food.video.service.exception;
 
 public class VideoException extends RuntimeException {
+
     public VideoException(String message) {
         super(message);
     }

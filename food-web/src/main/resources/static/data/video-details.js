@@ -1,6 +1,6 @@
 $(function () {
     /**
-     * 从前一个界面获取数据
+     * 从前一个界面获取数据id
      * @param name
      * @returns {string|null}
      */
@@ -10,6 +10,10 @@ $(function () {
         if (r != null) return unescape(r[2]);
         return null;
     };
+    //获取 上一个视频页面传来的分类字段值
+    var searchUrl = window.location.href;
+    var searchData = searchUrl.split("=");        //截取 url中的“=”,获得“=”后面的参数
+    var searchText = decodeURI(searchData[2]);   //decodeURI解码
     /**
      * 显示前一个界面点击的视频
      */
@@ -35,7 +39,7 @@ $(function () {
     $.ajax({
         url: './get_same_video',
         method: 'get',
-        data: {"classified": "运动"},
+        data: {"classified": searchText},
         success: function (result) {
             if (result.code === 500) {
                 alert(result.message)

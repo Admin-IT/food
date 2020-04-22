@@ -12,5 +12,6 @@ public interface VideoDao {
 
     Video getVideoMsg(Integer id);
 
+
     List<Video> listSameVideo(String classified);
 }

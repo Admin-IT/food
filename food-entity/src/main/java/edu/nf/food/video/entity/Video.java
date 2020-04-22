@@ -11,6 +11,7 @@ import java.util.Date;
  */
 @Data
 public class Video {
+
     private Integer id;
     private String name;//视频名称
     private String label;//视频标签

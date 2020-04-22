@@ -10,4 +10,5 @@ public interface VideoService {
     Video getVideoMsg(Integer id);
 
     List<Video> listSameVideo(String classified);
+
 }
