@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>有谱 - 美食,菜谱</title>
+    <title>有谱 - 美食,菜谱 - 投稿-发布</title>
     <link rel="shortcut icon" href="img/png/logo1.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/main-m.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/ss_base.css">
     <link rel="stylesheet" href="css/user.css">
     <link rel="stylesheet" href="css/upload.css">
@@ -16,448 +16,193 @@
     <script src="js/tipwindown.js"></script>
     <script src="js/upload.js"></script>
 </head>
-<body style="background:  #fae8c8">
+<body style="background:  beige">
 <div class="header">
+    <!--顶部-->
     <div class="header_c">
-        <a href="" class="logo pngFix"></a>
+        <!--logo标-->
+        <a href="index.html" class="logo pngFix">
+            <img src="img/logo3.png" height="120">
+        </a>
+        <!--搜索框框架-->
         <div class="main_search_top_w">
-            <div class="suggestionsBox" id="suggestions" style="display: none">
+            <div class="suggestionsBox" id="suggestions" style="display:none;">
                 <ul class="suggestionList" id="autoSuggestionsList"></ul>
             </div>
             <form class="search" action="">
-                <input type="text" class="text" name="q" placeholder="请输入菜谱/食材/菜单/作者" x-webkit-speech value="请输入菜谱/食材/菜单/作者"
-                       autocomplete="off" onfocus="if (this.value == '请输入菜谱/食材/菜单/作者'){
-                               this.value='';}$(this).css('color','#333');" onblur="if (this.value=''){this.value='请输入菜谱/食材/菜单/作者';$(this).css('color','#999');}"
-                       id="inputString" style="color: rgb(153,153,153);">
-                <input type="submit" class="submit" value="搜 索">
+                <input type="text" class="text" name="q" defaultval="请输入菜谱/食材/菜单/作者" x-webkit-speech=""
+                       value="请输入菜谱/食材/菜单/作者" autocomplete="off"
+                       onfocus="if(this.value=='请输入菜谱/食材/菜单/作者'){this.value='';}$(this).css('color','#333');"
+                       onblur="if(this.value==''){this.value='请输入菜谱/食材/菜单/作者';$(this).css('color','#999');}"
+                       id="input-String"><input type="button" class="submit" value="搜 索">
             </form>
         </div>
+        <!--登录/注册-->
         <div class="loginitem_h">
-            <script src=""></script>
-            <div class="userinfo">
-                <div class="userinfo_w" id="userinfo_w">
-                    <a href="user-center.html" class="avatar">
-                        <img src="img/jpg/head.jpg">
-                    </a>
-                    <a href="user-center.html" class="outer">厨神</a>
-                    <div class="top_userinfo_more">
-                        <div class="u">
-                            <a href="" class="img">
-                                <img src="img/jpg/head.jpg">
-                            </a>
-                            <div class="n">
-                                <a href="user-center.html">厨神</a>
-                                <a target="_blank" href="" class="v"></a>
-                            </div>
-                        </div>
-                        <ul class="clearfix">
-                            <li>
-                                <a href="create-cp.html" class="redbtn">发布菜谱</a>
-                                <a class="greybtn free" onclick="">发布图文（400积分）</a>
-                            </li>
-                            <li>
-                                <a href="user-center.html" class="linkk">我的美食空间</a>
-                            </li>
-                            <li>
-                                <a href="" class="linkk">我的积分成长</a>
-                            </li>
-                            <li>
-                                <a href="" class="linkk">退出登录</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <a href="" class="outer">收藏</a>
-                <div class="mes">
-                    <a href="" class="outer">消息</a>
-                    <div class="topbar_mesbox" id="dr_getmission_box1" style="display: none"></div>
-                </div>
-            </div>
+            <a href="#" class="link header_login">注册</a>
+            <a href="#" class="link header_register">登录</a>
         </div>
     </div>
 </div>
+<!--导航栏-->
 <div class="nav">
     <ul id="main_nav">
-        <li>
-            <a href="index.html" class="link pngFix">
-                <strong>首页</strong>
-            </a>
-        </li>
+        <li class="current"><a href="index.html" class="link pngFix"><strong>首页</strong></a></li>
         <li class="hasmore">
-            <a href="menu-family.html" class="link pngFix">
-                <strong>菜谱大全</strong>
-            </a>
+            <a href="menu-family.html" class="link pngFix"><strong>菜谱大全</strong></a>
             <div class="dw clearfix">
                 <div class="dww clearfix dww_cpdq">
                     <div class="dwitem clearfix pngFix">
                         <dl class="clearfix">
-                            <dt>
-                                <a href="">家常菜谱</a>
-                            </dt>
-                            <dd>
-                                <a href="">家常菜</a>
-                            </dd>
-                            <dd>
-                                <a href="">凉菜</a>
-                            </dd>
-                            <dd>
-                                <a href="">素食</a>
-                            </dd>
-                            <dd>
-                                <a href="">晚餐</a>
-                            </dd>
-                            <dd>
-                                <a href="">私家菜</a>
-                            </dd>
-                            <dd>
-                                <a href="">热菜</a>
-                            </dd>
-                            <dd>
-                                <a href="">海鲜</a>
-                            </dd>
-                            <dd>
-                                <a href="">孕妇</a>
-                            </dd>
-                            <dd>
-                                <a href="">早餐</a>
-                            </dd>
-                            <dd>
-                                <a href="/">午餐</a>
-                            </dd>
-                            <dd>
-                                <a href="">甜品点心</a>
-                            </dd>
-                            <dd>
-                                <a href="">汤粥</a>
-                            </dd>
-                            <dd>
-                                <a href="">宝宝食谱-婴儿食谱</a>
-                            </dd>
-                            <dd>
-                                <a href="">糕点主食</a>
-                            </dd>
-                            <dd>
-                                <a href="">微波炉</a>
-                            </dd>
+                            <dt><a href="menu-family.html">家常菜谱</a></dt>
+                            <dd><a href="#">家常菜</a></dd>
+                            <dd><a href="#">私家菜</a></dd>
+                            <dd><a href="#">凉菜</a></dd>
+                            <dd><a href="#">海鲜</a></dd>
+                            <dd><a href="#">热菜</a></dd>
+                            <dd><a href="#">汤粥</a></dd>
+                            <dd><a href="#">素食</a></dd>
+                            <dd><a href="#">酱料蘸料</a></dd>
+                            <dd><a href="#">卤酱</a></dd>
+                            <dd><a href="#">火锅底料</a></dd>
+                            <dd><a href="#">甜品点心</a></dd>
+                            <dd><a href="#">糕点主食</a></dd>
+                            <dd><a href="#">时尚饮品</a></dd>
                         </dl>
                     </div>
                     <div class="dwitem dwitem_half clearfix">
                         <dl class="clearfix">
-                            <dt>
-                                <a href="">中华菜系</a>
-                            </dt>
-                            <dd>
-                                <a href="">川菜</a>
-                            </dd>
-                            <dd>
-                                <a href="">粤菜</a>
-                            </dd>
-                            <dd>
-                                <a href="">东北菜</a>
-                            </dd>
-                            <dd>
-                                <a href="">湘菜</a>
-                            </dd>
-                            <dd>
-                                <a href="">鲁菜</a>
-                            </dd>
-                            <dd>
-                                <a href="">浙菜</a>
-                            </dd>
-                            <dd>
-                                <a href="">湖北菜</a>
-                            </dd>
+                            <dt><a href="menu-chinesefood.html">中华菜系</a></dt>
+                            <dd><a href="#">川菜</a></dd>
+                            <dd><a href="#">粤菜</a></dd>
+                            <dd><a href="#">东北菜</a></dd>
+                            <dd><a href="#">湘菜</a></dd>
+                            <dd><a href="#">鲁菜</a></dd>
+                            <dd><a href="#">浙菜</a></dd>
+                            <dd><a href="#">湖北菜</a></dd>
                         </dl>
                     </div>
                     <div class="dwitem dwitem_half clearfix">
                         <dl class="clearfix">
-                            <dt>
-                                <a href="">各地小吃</a>
-                            </dt>
-                            <dd>
-                                <a href="">四川小吃</a>
-                            </dd>
-                            <dd>
-                                <a href="">广东小吃</a>
-                            </dd>
-                            <dd>
-                                <a href="">北京小吃</a>
-                            </dd>
-                            <dd>
-                                <a href="">陕西小吃</a>
-                            </dd>
+                            <dt><a href="menu-specialsnack.html">特色小吃</a></dt>
+                            <dd><a href="#">四川小吃</a></dd>
+                            <dd><a href="#">广东小吃</a></dd>
+                            <dd><a href="#">北京小吃</a></dd>
+                            <dd><a href="#">陕西小吃</a></dd>
                         </dl>
                     </div>
-                    <br>
+                    <br/>
                     <div class="dwitem dwitem_half clearfix">
                         <dl class="clearfix">
-                            <dt>
-                                <a href="">外国菜谱</a>
-                            </dt>
-                            <dd>
-                                <a href="">韩国料理</a>
-                            </dd>
-                            <dd>
-                                <a href="">日本料理</a>
-                            </dd>
-                            <dd>
-                                <a href="">法国菜</a>
-                            </dd>
-                            <dd>
-                                <a href="">意大利餐</a>
-                            </dd>
+                            <dt><a href="menu-worldmenu.html">外国菜谱</a></dt>
+                            <dd><a href="#">韩国料理</a></dd>
+                            <dd><a href="#">日本料理</a></dd>
+                            <dd><a href="#">法国菜</a></dd>
+                            <dd><a href="#">意大利餐</a></dd>
                         </dl>
                     </div>
                     <div class="dwitem dwitem_half clearfix">
                         <dl class="clearfix">
-                            <dt>
-                                <a href="">烘焙</a>
-                            </dt>
-                            <dd>
-                                <a href="">蛋糕面包</a>
-                            </dd>
-                            <dd>
-                                <a href="">饼干配方</a>
-                            </dd>
-                            <dd>
-                                <a href="">甜品点心</a>
-                            </dd>
+                            <dt><a href="menu-baking.html">烘焙</a></dt>
+                            <dd><a href="#">蛋糕面包</a></dd>
+                            <dd><a href="#">饼干配方</a></dd>
+                            <dd><a href="#">甜品点心</a></dd>
                         </dl>
                     </div>
-                    <br>
+                    <br/>
                     <div class="dwitem dwitem_half clearfix">
                         <dl class="clearfix">
-                            <dt>
-                                <a href="">厨房百科</a>
-                            </dt>
-                            <dd>
-                                <a href="">摆盘围边</a>
-                            </dd>
-                            <dd>
-                                <a href="">烹饪技巧</a>
-                            </dd>
-                            <dd>
-                                <a href="">生活妙招</a>
-                            </dd>
-                            <dd>
-                                <a href="">美食专题</a>
-                            </dd>
+                            <dt><a href="menu-all.html">食材百科</a></dt>
                         </dl>
                     </div>
-                    <div class="dwitem dwitem_half clearfix">
-                        <dl class="clearfix">
-                            <dt>
-                                <a href="">食材百科</a>
-                            </dt>
-                            <dd>
-                                <a href="">蔬菜</a>
-                            </dd>
-                            <dd>
-                                <a href="">水果</a>
-                            </dd>
-                            <dd>
-                                <a href="">谷类</a>
-                            </dd>
-                        </dl>
-                    </div>
-                    <div class="bgitem"></div>
                 </div>
             </div>
         </li>
-        <li class="hasmore">
-            <a href="healthy-eating.html" class="link pngFix">
-                <strong>健康饮食</strong>
-            </a>
+        <li class="hasmore"><a href="healthy-eating.html" class="link pngFix"><strong>饮食健康</strong></a>
             <div class="dw clearfix">
                 <div class="dww clearfix dww_ysjk">
                     <div class="dwitem clearfix pngFix">
                         <dl class="clearfix">
-                            <dt>
-                                <a href="">饮食健康</a>
-                            </dt>
-                            <dd>
-                                <a href="">饮食小常识</a>
-                            </dd>
-                            <dd>
-                                <a href="">美容瘦身</a>
-                            </dd>
-                            <dd>
-                                <a href="">食品安全</a>
-                            </dd>
-                            <dd>
-                                <a href="">养生妙方</a>
-                            </dd>
-                            <dd>
-                                <a href="">饮食禁忌</a>
-                            </dd>
-                            <dd>
-                                <a href="">中医保健</a></dd>
-                            <dd>
-                                <a href="">母婴健康饮食</a>
-                            </dd>
-                            <dd>
-                                <a href="">饮食新闻</a>
-                            </dd>
+                            <dt><a href="healthy-eating.html">饮食健康</a></dt>
+                            <dd><a href="#">饮食小常识</a></dd>
+                            <dd><a href="#">美容瘦身</a></dd>
+                            <dd><a href="#">食品安全</a></dd>
+                            <dd><a href="#">养生妙方</a></dd>
+                            <dd><a href="#">饮食禁忌</a></dd>
+                            <dd><a href="#">中医保健</a></dd>
+                            <dd><a href="#">母婴健康饮食</a></dd>
+                            <dd><a href="#">饮食新闻</a></dd>
                         </dl>
                     </div>
                     <div class="dwitem clearfix">
                         <dl class="clearfix">
-                            <dt>
-                                <a href="">功能性调理</a>
-                            </dt>
-                            <dd>
-                                <a href="">清热去火</a>
-                            </dd>
-                            <dd>
-                                <a href="">减肥</a>
-                            </dd>
-                            <dd>
-                                <a href="">祛痰</a>
-                            </dd>
-                            <dd>
-                                <a href="">乌发</a></dd>
-                            <dd>
-                                <a href="">滋阴补肾</a>
-                            </dd>
-                            <dd>
-                                <a href="">健脾开胃</a>
-                            </dd>
-                            <dd>
-                                <a href="">消化不良</a>
-                            </dd>
-                            <dd>
-                                <a href="">清热解毒</a>
-                            </dd>
-                            <dd>
-                                <a href="">补阳壮阳</a>
-                            </dd>
-                            <dd>
-                                <a href="">增肥</a>
-                            </dd>
+                            <dt><a href="healthy-method.html">功能性调理</a></dt>
+                            <dd><a href="#">清热去火</a></dd>
+                            <dd><a href="#">减肥</a></dd>
+                            <dd><a href="#">祛痰</a></dd>
+                            <dd><a href="#">乌发</a></dd>
+                            <dd><a href="#">滋阴补肾</a></dd>
+                            <dd><a href="#">健脾开胃</a></dd>
+                            <dd><a href="#">消化不良</a></dd>
+                            <dd><a href="#">清热解毒</a></dd>
+                            <dd><a href="#">补阳壮阳</a></dd>
+                            <dd><a href="#">增肥</a></dd>
                         </dl>
                     </div>
-                    <br>
+                    <br/>
                     <div class="dwitem dwitem_half clearfix">
                         <dl class="clearfix">
-                            <dt>
-                                <a href="">人群膳食</a>
-                            </dt>
-                            <dd>
-                                <a href="">孕妇</a>
-                            </dd>
-                            <dd>
-                                <a href="">老人</a>
-                            </dd>
-                            <dd>
-                                <a href="">产妇</a>
-                            </dd>
-                            <dd>
-                                <a href="">哺乳期</a>
-                            </dd>
-                            <dd>
-                                <a href="">青少年</a>
-                            </dd>
-                            <dd>
-                                <a href="">幼儿</a>
-                            </dd>
-                            <dd>
-                                <a href="">学龄期儿童</a>
-                            </dd>
+                            <dt><a href="healthy-people.html">人群膳食</a></dt>
+                            <dd><a href="#">孕妇</a></dd>
+                            <dd><a href="#">老人</a></dd>
+                            <dd><a href="#">产妇</a></dd>
+                            <dd><a href="#">哺乳期</a></dd>
+                            <dd><a href="#">青少年</a></dd>
+                            <dd><a href="#">幼儿</a></dd>
+                            <dd><a href="#">学龄期儿童</a></dd>
                         </dl>
                     </div>
                     <div class="dwitem dwitem_half clearfix">
                         <dl class="clearfix">
-                            <dt>
-                                <a href="">疾病调理</a>
-                            </dt>
-                            <dd>
-                                <a href="">糖尿病</a>
-                            </dd>
-                            <dd>
-                                <a href="">高血压</a>
-                            </dd>
-                            <dd>
-                                <a href="">痛风</a>
-                            </dd>
-                            <dd>
-                                <a href="">胃炎</a>
-                            </dd>
-                            <dd>
-                                <a href="">痔疮</a>
-                            </dd>
-                            <dd>
-                                <a href="">更年期</a>
-                            </dd>
-                            <dd>
-                                <a href="">甲状腺</a>
-                            </dd>
+                            <dt><a href="healthy-sick.html">疾病调理</a></dt>
+                            <dd><a href="#">糖尿病</a></dd>
+                            <dd><a href="#">高血压</a></dd>
+                            <dd><a href="#">痛风</a></dd>
+                            <dd><a href="#">胃炎</a></dd>
+                            <dd><a href="#">痔疮</a></dd>
+                            <dd><a href="#">更年期</a></dd>
+                            <dd><a href="#">甲状腺</a></dd>
                         </dl>
                     </div>
-                    <br>
+                    <br/>
                     <div class="dwitem clearfix">
                         <dl class="clearfix">
-                            <dt>
-                                <a href="">脏腑调理</a>
-                            </dt>
-                            <dd>
-                                <a href="">感冒</a>
-                            </dd>
-                            <dd>
-                                <a href="">补肾</a>
-                            </dd>
-                            <dd>
-                                <a href="">阳痿早泄</a>
-                            </dd>
-                            <dd>
-                                <a href="">补血</a>
-                            </dd>
-                            <dd>
-                                <a href="">便秘</a>
-                            </dd>
-                            <dd>
-                                <a href="">腹泻</a>
-                            </dd>
-                            <dd>
-                                <a href="">活血化瘀</a>
-                            </dd>
+                            <dt><a href="healthy-heart.html">脏腑调理</a></dt>
+                            <dd><a href="#">感冒</a></dd>
+                            <dd><a href="#">补肾</a></dd>
+                            <dd><a href="#">阳痿早泄</a></dd>
+                            <dd><a href="#">补血</a></dd>
+                            <dd><a href="#">便秘</a></dd>
+                            <dd><a href="#">腹泻</a></dd>
+                            <dd><a href="#">活血化瘀</a></dd>
                         </dl>
                     </div>
-                    <div class="bgitem"></div>
+                    <!--<div class="bgitem">
+                    </div>-->
                 </div>
             </div>
         </li>
-        <li class="">
-            <a href="food-menu.html" class="link pngFix">
-                <strong>美食菜单</strong>
-            </a>
-        </li>
-        <li class="">
-            <a href="" class="link pngFix">
-                <strong>美食达人</strong>
-                <img src="img/png/foodshow.png" style="display: inline-block;margin-left: -7px;vertical-align: top;margin-top: 8px;">
-            </a>
-        </li>
-        <li class="">
-            <a href="menu-video.html" class="link pngFix">
-                <strong>菜谱视频</strong>
-            </a>
-        </li>
-        <li class="">
-            <a href="app-download.html" class="link pngFix">
-                <strong>产品下载</strong>
-            </a>
-        </li>
+        <li><a href="food-menu.html" class="link pngFix"><strong>美食菜单</strong></a></li>
+        <li><a href="food-leader.html" class="link"><strong>美食达人</strong></a></li>
+        <li><a href="menu-video.html" class="link pngFix"><strong>菜谱视频</strong></a></li>
+        <li><a href="app-download.html" class="link pngFix"><strong>产品下载</strong></a></li>
     </ul>
-</div>
-<!--  回到顶部指针  -->
-<div class="bottom_back_top_top bottom_back_top_top_slideUp" id="bottom_back_top_top" style="left: 1161px;bottom: 6px;display: block">
-    <a href="#" class="backtotop pngFix">回到顶部</a>
 </div>
 <div class="main_w clearfix">
     <div class="main">
         <ul class="pathstlye1">
             <li>投稿</li>
-            <li> &gt; </li>
+            <li> &gt;</li>
             <li>发布</li>
         </ul>
         <div class="forum_main clearfix">
@@ -475,70 +220,94 @@
                             <div class="ke-container ke-container-default" style="width: 898px;">
                                 <div style="display:block;" class="ke-toolbar" unselectable="on">
                                     <span class="ke-outline" data-name="fontname" title="字体" unselectable="on">
-                                        <span class="ke-toolbar-icon ke-toolbar-icon-url ke-icon-fontname" unselectable="on"></span>
+                                        <span class="ke-toolbar-icon ke-toolbar-icon-url ke-icon-fontname"
+                                              unselectable="on"></span>
                                     </span>
                                     <span class="ke-outline" data-name="fontsize" title="文字大小" unselectable="on">
-                                        <span class="ke-toolbar-icon ke-toolbar-icon-url ke-icon-fontsize" unselectable="on"></span>
+                                        <span class="ke-toolbar-icon ke-toolbar-icon-url ke-icon-fontsize"
+                                              unselectable="on"></span>
                                     </span>
                                     <span class="ke-inline-block ke-separator"></span>
                                     <span class="ke-outline" data-name="forecolor" title="文字颜色" unselectable="on">
-                                        <span class="ke-toolbar-icon ke-toolbar-icon-url ke-icon-forecolor" unselectable="on"></span>
+                                        <span class="ke-toolbar-icon ke-toolbar-icon-url ke-icon-forecolor"
+                                              unselectable="on"></span>
                                     </span>
                                     <span class="ke-outline" data-name="hilitecolor" title="文字背景" unselectable="on">
-                                        <span class="ke-toolbar-icon ke-toolbar-icon-url ke-icon-hilitecolor" unselectable="on"></span>
+                                        <span class="ke-toolbar-icon ke-toolbar-icon-url ke-icon-hilitecolor"
+                                              unselectable="on"></span>
                                     </span>
                                     <span class="ke-outline" data-name="bold" title="粗体(Ctrl+B)" unselectable="on">
-                                        <span class="ke-toolbar-icon ke-toolbar-icon-url ke-icon-bold" unselectable="on"></span>
+                                        <span class="ke-toolbar-icon ke-toolbar-icon-url ke-icon-bold"
+                                              unselectable="on"></span>
                                     </span>
                                     <span class="ke-outline" data-name="italic" title="斜体(Ctrl+I)" unselectable="on">
-                                        <span class="ke-toolbar-icon ke-toolbar-icon-url ke-icon-italic" unselectable="on"></span>
+                                        <span class="ke-toolbar-icon ke-toolbar-icon-url ke-icon-italic"
+                                              unselectable="on"></span>
                                     </span>
-                                    <span class="ke-outline" data-name="underline" title="下划线(Ctrl+U)" unselectable="on">
-                                        <span class="ke-toolbar-icon ke-toolbar-icon-url ke-icon-underline" unselectable="on"></span>
+                                    <span class="ke-outline" data-name="underline" title="下划线(Ctrl+U)"
+                                          unselectable="on">
+                                        <span class="ke-toolbar-icon ke-toolbar-icon-url ke-icon-underline"
+                                              unselectable="on"></span>
                                     </span>
                                     <span class="ke-outline" data-name="removeformat" title="删除格式" unselectable="on">
-                                        <span class="ke-toolbar-icon ke-toolbar-icon-url ke-icon-removeformat" unselectable="on"></span>
+                                        <span class="ke-toolbar-icon ke-toolbar-icon-url ke-icon-removeformat"
+                                              unselectable="on"></span>
                                     </span>
                                     <span class="ke-inline-block ke-separator"></span>
                                     <span class="ke-outline" data-name="justifyleft" title="左对齐" unselectable="on">
-                                        <span class="ke-toolbar-icon ke-toolbar-icon-url ke-icon-justifyleft" unselectable="on"></span>
+                                        <span class="ke-toolbar-icon ke-toolbar-icon-url ke-icon-justifyleft"
+                                              unselectable="on"></span>
                                     </span>
                                     <span class="ke-outline" data-name="justifycenter" title="居中" unselectable="on">
-                                        <span class="ke-toolbar-icon ke-toolbar-icon-url ke-icon-justifycenter" unselectable="on"></span>
+                                        <span class="ke-toolbar-icon ke-toolbar-icon-url ke-icon-justifycenter"
+                                              unselectable="on"></span>
                                     </span>
                                     <span class="ke-outline" data-name="justifyright" title="右对齐" unselectable="on">
-                                        <span class="ke-toolbar-icon ke-toolbar-icon-url ke-icon-justifyright" unselectable="on"></span>
+                                        <span class="ke-toolbar-icon ke-toolbar-icon-url ke-icon-justifyright"
+                                              unselectable="on"></span>
                                     </span>
                                     <span class="ke-outline" data-name="insertorderedlist" title="编号" unselectable="on">
-                                        <span class="ke-toolbar-icon ke-toolbar-icon-url ke-icon-insertorderedlist" unselectable="on"></span>
+                                        <span class="ke-toolbar-icon ke-toolbar-icon-url ke-icon-insertorderedlist"
+                                              unselectable="on"></span>
                                     </span>
-                                    <span class="ke-outline" data-name="insertunorderedlist" title="项目符号" unselectable="on">
-                                        <span class="ke-toolbar-icon ke-toolbar-icon-url ke-icon-insertunorderedlist" unselectable="on"></span>
+                                    <span class="ke-outline" data-name="insertunorderedlist" title="项目符号"
+                                          unselectable="on">
+                                        <span class="ke-toolbar-icon ke-toolbar-icon-url ke-icon-insertunorderedlist"
+                                              unselectable="on"></span>
                                     </span>
                                     <span class="ke-inline-block ke-separator"></span>
                                     <span class="ke-outline" data-name="emoticons" title="插入表情" unselectable="on">
-                                        <span class="ke-toolbar-icon ke-toolbar-icon-url ke-icon-emoticons" unselectable="on"></span>
+                                        <span class="ke-toolbar-icon ke-toolbar-icon-url ke-icon-emoticons"
+                                              unselectable="on"></span>
                                     </span>
                                     <span class="ke-outline" data-name="image" title="图片" unselectable="on">
-                                        <span class="ke-toolbar-icon ke-toolbar-icon-url ke-icon-image" unselectable="on"></span>
+                                        <span class="ke-toolbar-icon ke-toolbar-icon-url ke-icon-image"
+                                              unselectable="on"></span>
                                     </span>
                                     <span class="ke-outline" data-name="multiimage" title="批量图片上传" unselectable="on">
-                                        <span class="ke-toolbar-icon ke-toolbar-icon-url ke-icon-multiimage" unselectable="on"></span>
+                                        <span class="ke-toolbar-icon ke-toolbar-icon-url ke-icon-multiimage"
+                                              unselectable="on"></span>
                                     </span>
                                     <span class="ke-outline" data-name="link" title="超级链接" unselectable="on">
-                                        <span class="ke-toolbar-icon ke-toolbar-icon-url ke-icon-link" unselectable="on"></span>
+                                        <span class="ke-toolbar-icon ke-toolbar-icon-url ke-icon-link"
+                                              unselectable="on"></span>
                                     </span>
                                 </div>
                                 <div style="display: block; height: 379px;" class="ke-edit">
-                                    <iframe class="ke-edit-iframe" hidefocus="true" frameborder="0" style="width: 100%; height: 379px;"></iframe>
-                                    <textarea class="ke-edit-textarea" hidefocus="true" style="width: 100%; height: 379px; display: none;"></textarea>
+                                    <iframe class="ke-edit-iframe" hidefocus="true" frameborder="0"
+                                            style="width: 100%; height: 379px;"></iframe>
+                                    <textarea class="ke-edit-textarea" hidefocus="true"
+                                              style="width: 100%; height: 379px; display: none;"></textarea>
                                 </div>
                                 <div class="ke-statusbar">
-                                    <span class="ke-inline-block ke-statusbar-center-icon" style="visibility: hidden;"></span>
-                                    <span class="ke-inline-block ke-statusbar-right-icon" style="visibility: hidden;"></span>
+                                    <span class="ke-inline-block ke-statusbar-center-icon"
+                                          style="visibility: hidden;"></span>
+                                    <span class="ke-inline-block ke-statusbar-right-icon"
+                                          style="visibility: hidden;"></span>
                                 </div>
                             </div>
-                            <textarea id="textareaw_content" name="content" style="visibility: hidden; display: none;" placeholder="请填写内容"></textarea>
+                            <textarea id="textareaw_content" name="content" style="visibility: hidden; display: none;"
+                                      placeholder="请填写内容"></textarea>
                         </div>
                     </div>
                     <input type="hidden" value="add" name="action">
@@ -552,45 +321,84 @@
     </div>
     <script type="text/javascript">
         var editor;
-        KindEditor.ready(function(K) {
+        KindEditor.ready(function (K) {
             editor = K.create('textarea[name="content"]', {
                 //basePath:'s',
-                uploadJson : 'http://www.meishij.net/ajax/upload_json.php',
-                allowFileManager : true,
-                resizeType :0,
-                allowPreviewEmoticons : true,
-                allowImageUpload : true,
-                cssPath : ['https://s1.c.meishij.net/n/css/default_kd.css'],
-                items : [
+                uploadJson: 'http://www.meishij.net/ajax/upload_json.php',
+                allowFileManager: true,
+                resizeType: 0,
+                allowPreviewEmoticons: true,
+                allowImageUpload: true,
+                cssPath: ['https://s1.c.meishij.net/n/css/default_kd.css'],
+                items: [
                     'fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold', 'italic', 'underline',
                     'removeformat', '|', 'justifyleft', 'justifycenter', 'justifyright', 'insertorderedlist',
-                    'insertunorderedlist', '|', 'emoticons', 'image','multiimage','link']
+                    'insertunorderedlist', '|', 'emoticons', 'image', 'multiimage', 'link']
             });
         });
+
         function create_topic() {
-            $('#submit_f').attr("disabled",true);
+            $('#submit_f').attr("disabled", true);
             editor.sync();
-            $("#newpostform").ajaxSubmit(function(message) {
-                $('#submit_f').attr("disabled",false);
+            $("#newpostform").ajaxSubmit(function (message) {
+                $('#submit_f').attr("disabled", false);
                 var result_obj = eval('(' + message + ')');
                 alert(result_obj.msg);
-                if(result_obj.code > 0){
+                if (result_obj.code > 0) {
                     location.href = '';
                 }
             });
             return false;
         }
-        function show_recipe_op(v){
-            if(v == 4){
+
+        function show_recipe_op(v) {
+            if (v == 4) {
                 $('#recipe_url').show();
-            }else{
+            } else {
                 $('#recipe_url').hide();
             }
         }
-        setInterval(function(){
+
+        setInterval(function () {
             editor.sync();
-        },60000);
+        }, 60000);
     </script>
+</div>
+<!--底部-->
+<div class="main_footer pngFix">
+    <div class="footer_con1 clearfix">
+        <div class="logobottom" style="height:196px;width:600px;background-size:70% auto;">
+            <a href="index.html" style="height:100%;width:200px;display:block;">
+                <img src="img/logo-bottom.png">
+            </a>
+        </div>
+        <!--官方微博、QQ空间、微信二维码、手机端二维码-->
+        <!--
+        <div class="links">
+            <ul class="cleearfix">
+                <li class="sina"><a class="img" target="_blank" href="https://e.weibo.com/meishij"><span>关注：49万</span></a><p><a target="_blank" href="https://e.weibo.com/meishij">点击进入<br/>美食杰官方微博</a></p></li><li class="tengxun"><a class="img"  target="_blank" href="https://user.qzone.qq.com/613171717"><span>关注：10.9万</span></a><p><a target="_blank" href="https://user.qzone.qq.com/613171717">点击进入<br/>美食杰QQ空间</a></p></li><li class="weixin"><a target="_blank" href="https://sj.meishi.cc/" class="img"></a><p><a target="_blank" href="https://sj.meishi.cc/">扫描二维码添加<br/>美食杰为微信好友</a></p></li><li class="download"><a target="_blank" href="https://sj.meishi.cc/" class="img"></a><p><a target="_blank" href="https://sj.meishi.cc/">扫描二维码下载<br/>美食杰手机客户端</a></p></li>
+            </ul>
+        </div>-->
+    </div>
+    <div class="footer_con3">
+        <ul class="clearfix">
+            <li><a target="_blank" href="#" title="公司简介">公司简介</a></li>
+            <li><a target="_blank" href="#" title="关于我们">关于我们</a></li>
+            <li><a target="_blank" href="#" title="产品下载">产品下载</a></li>
+            <li><a target="_blank" href="#" title="加入我们">加入我们</a></li>
+            <li><a target="_blank" href="#" title="联系我们">联系我们</a></li>
+            <li><a target="_blank" href="#" title="商务合作">商务合作</a></li>
+            <li><a target="_blank" href="#" title="用户协议">用户协议</a></li>
+            <li><a target="_blank" href="#" title="用户协议">隐私政策</a></li>
+            <li><a target="_blank" href="#" title="网站地图">网站地图</a></li>
+            <li><a target="_blank" href="#" title="友情链接">友情链接</a></li>
+        </ul>
+        <!--<p><a target="_blank" href="https://www.miibeian.gov.cn" class="gray_a">京ICP备14030359号</a>/<a target="_blank" href="https://beian.gov.cn/" class="gray_a"><img src="https://st-cn.meishij.net/p2/20180208/20180208111357_93713.png" />京公网安备11010802026928</a> Copyright © 2003-2020 MEISHIJ CO.,LTD.</p>-->
+    </div>
+</div>
+<div style="display:none;">
+    <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cspan id='cnzz_stat_icon_1259001544'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/stat.php%3Fid%3D1259001544' type='text/javascript'%3E%3C/script%3E"));</script>
 </div>
 </body>
 </html>

@@ -5,7 +5,7 @@ server:
     max-threads: 1000
     min-spare-threads: 50
   # 指定端口
-  port: 8089
+  port: 8080
   # 指定项目的ContextPath路径
   servlet:
     context-path: /food

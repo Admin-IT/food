@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+    <title>有谱_菜谱大全_食材百科</title>
+    <meta name="keywords"
+          content="美食,美食网,菜谱,菜谱网,美食地图,食谱,食谱网,特色食谱,特色美食,美食大全家常菜谱,菜谱大全,美食网站,特色菜谱,最新菜谱,美食分享,美食加盟,人气美食,菜谱分享,餐饮加盟,特色小吃,美食文化"/>
+    <meta name="description"
+          content="有谱 - 做你最喜爱的美食网，菜谱网。提供最人性化的菜谱大全,食谱家常菜，家常菜谱大全的美食网,让人们在宣泄的都市中体验在家常做菜,享受美食的乐趣.找家常菜谱,上有谱美食网"/>
+    <meta name="renderer" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <script>var _hmt = _hmt || [];</script>
+    <link rel="stylesheet" type="text/css" media="all" href="css/ss_base.css"/>
+    <link rel="stylesheet" type="text/css" media="all" href="css/main.css"/>
+    <link rel="stylesheet" type="text/css" media="all" href="css/list.css"/>
+    <script type="text/javascript" src="js/j.m.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/list.js"></script>
+</head>
+<body>
+<!--顶部-->
+<div class="header">
+    <div class="header_c">
+        <!--logo标-->
+        <a href="index.html" class="logo pngFix">
+            <img src="img/logo3.png" height="120">
+        </a>
+        <!--搜索框-->
+        <div class="main_search_top_w">
+            <div class="suggestionsBox" id="suggestions" style="display:none;">
+                <ul class="suggestionList" id="autoSuggestionsList"></ul>
+            </div>
+            <form class="search" action="">
+                <input type="text" class="text" name="q" defaultval="请输入菜谱/食材/菜单/作者" x-webkit-speech=""
+                       value="请输入菜谱/食材/菜单/作者" autocomplete="off"
+                       onfocus="if(this.value=='请输入菜谱/食材/菜单/作者'){this.value='';}$(this).css('color','#333');"
+                       onblur="if(this.value==''){this.value='请输入菜谱/食材/菜单/作者';$(this).css('color','#999');}"
+                       id="input1String"><input type="button" class="submit" value="搜 索">
+            </form>
+        </div>
+        <!--登录/注册-->
+        <div class="loginitem_h">
+            <a href="logon-youpu.html" class="link header_login">注册</a>
+            <a href="logon-youpu.html" class="link header_register">登录</a>
+        </div>
+    </div>
+</div>
+<!--导航栏-->
+<div class="nav">
+    <ul id="main_nav">
+        <li class=""><a href="index.html" class="link pngFix"><strong>首页</strong></a></li>
+        <li class="hasmore current">
+            <a href="menu-family.html" class="link pngFix"><strong>菜谱大全</strong></a>
+            <div class="dw clearfix">
+                <div class="dww clearfix dww_cpdq">
+                    <div class="dwitem clearfix pngFix">
+                        <dl class="clearfix">
+                            <dt><a href="menu-family.html">家常菜谱</a></dt>
+                            <dd><a href="#">家常菜</a></dd>
+                            <dd><a href="#">私家菜</a></dd>
+                            <dd><a href="#">凉菜</a></dd>
+                            <dd><a href="#">海鲜</a></dd>
+                            <dd><a href="#">热菜</a></dd>
+                            <dd><a href="#">汤粥</a></dd>
+                            <dd><a href="#">素食</a></dd>
+                            <dd><a href="#">酱料蘸料</a></dd>
+                            <dd><a href="#">卤酱</a></dd>
+                            <dd><a href="#">火锅底料</a></dd>
+                            <dd><a href="#">甜品点心</a></dd>
+                            <dd><a href="#">糕点主食</a></dd>
+                            <dd><a href="#">时尚饮品</a></dd>
+                        </dl>
+                    </div>
+                    <div class="dwitem dwitem_half clearfix">
+                        <dl class="clearfix">
+                            <dt><a href="menu-chinesefood.html">中华菜系</a></dt>
+                            <dd><a href="#">川菜</a></dd>
+                            <dd><a href="#">粤菜</a></dd>
+                            <dd><a href="#">东北菜</a></dd>
+                            <dd><a href="#">湘菜</a></dd>
+                            <dd><a href="#">鲁菜</a></dd>
+                            <dd><a href="#">浙菜</a></dd>
+                            <dd><a href="#">湖北菜</a></dd>
+                        </dl>
+                    </div>
+                    <div class="dwitem dwitem_half clearfix">
+                        <dl class="clearfix">
+                            <dt><a href="menu-specialsnack.html">特色小吃</a></dt>
+                            <dd><a href="#">四川小吃</a></dd>
+                            <dd><a href="#">广东小吃</a></dd>
+                            <dd><a href="#">北京小吃</a></dd>
+                            <dd><a href="#">陕西小吃</a></dd>
+                        </dl>
+                    </div>
+                    <br/>
+                    <div class="dwitem dwitem_half clearfix">
+                        <dl class="clearfix">
+                            <dt><a href="menu-worldmenu.html">外国菜谱</a></dt>
+                            <dd><a href="#">韩国料理</a></dd>
+                            <dd><a href="#">日本料理</a></dd>
+                            <dd><a href="#">法国菜</a></dd>
+                            <dd><a href="#">意大利餐</a></dd>
+                        </dl>
+                    </div>
+                    <div class="dwitem dwitem_half clearfix">
+                        <dl class="clearfix">
+                            <dt><a href="#">烘焙</a></dt>
+                            <dd><a href="#">蛋糕面包</a></dd>
+                            <dd><a href="#">饼干配方</a></dd>
+                            <dd><a href="#">甜品点心</a></dd>
+                        </dl>
+                    </div>
+                    <br/>
+                    <div class="dwitem dwitem_half clearfix">
+                        <dl class="clearfix">
+                            <dt><a href="menu-all.html">食材百科</a></dt>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="hasmore"><a href="healthy-eating.html" class="link pngFix"><strong>饮食健康</strong></a>
+            <div class="dw clearfix">
+                <div class="dww clearfix dww_ysjk">
+                    <div class="dwitem clearfix pngFix">
+                        <dl class="clearfix">
+                            <dt><a href="healthy-eating.html">饮食健康</a></dt>
+                            <dd><a href="#">饮食小常识</a></dd>
+                            <dd><a href="#">美容瘦身</a></dd>
+                            <dd><a href="#">食品安全</a></dd>
+                            <dd><a href="#">养生妙方</a></dd>
+                            <dd><a href="#">饮食禁忌</a></dd>
+                            <dd><a href="#">中医保健</a></dd>
+                            <dd><a href="#">母婴健康饮食</a></dd>
+                            <dd><a href="#">饮食新闻</a></dd>
+                        </dl>
+                    </div>
+                    <div class="dwitem clearfix">
+                        <dl class="clearfix">
+                            <dt><a href="healthy-method.html">功能性调理</a></dt>
+                            <dd><a href="#">清热去火</a></dd>
+                            <dd><a href="#">减肥</a></dd>
+                            <dd><a href="#">祛痰</a></dd>
+                            <dd><a href="#">乌发</a></dd>
+                            <dd><a href="#">滋阴补肾</a></dd>
+                            <dd><a href="#">健脾开胃</a></dd>
+                            <dd><a href="#">消化不良</a></dd>
+                            <dd><a href="#">清热解毒</a></dd>
+                            <dd><a href="#">补阳壮阳</a></dd>
+                            <dd><a href="#">增肥</a></dd>
+                        </dl>
+                    </div>
+                    <br/>
+                    <div class="dwitem dwitem_half clearfix">
+                        <dl class="clearfix">
+                            <dt><a href="healthy-people.html">人群膳食</a></dt>
+                            <dd><a href="#">孕妇</a></dd>
+                            <dd><a href="#">老人</a></dd>
+                            <dd><a href="#">产妇</a></dd>
+                            <dd><a href="#">哺乳期</a></dd>
+                            <dd><a href="#">青少年</a></dd>
+                            <dd><a href="#">幼儿</a></dd>
+                            <dd><a href="#">学龄期儿童</a></dd>
+                        </dl>
+                    </div>
+                    <div class="dwitem dwitem_half clearfix">
+                        <dl class="clearfix">
+                            <dt><a href="healthy-sick.html">疾病调理</a></dt>
+                            <dd><a href="#">糖尿病</a></dd>
+                            <dd><a href="#">高血压</a></dd>
+                            <dd><a href="#">痛风</a></dd>
+                            <dd><a href="#">胃炎</a></dd>
+                            <dd><a href="#">痔疮</a></dd>
+                            <dd><a href="#">更年期</a></dd>
+                            <dd><a href="#">甲状腺</a></dd>
+                        </dl>
+                    </div>
+                    <br/>
+                    <div class="dwitem clearfix">
+                        <dl class="clearfix">
+                            <dt><a href="healthy-heart.html">脏腑调理</a></dt>
+                            <dd><a href="#">感冒</a></dd>
+                            <dd><a href="#">补肾</a></dd>
+                            <dd><a href="#">阳痿早泄</a></dd>
+                            <dd><a href="#">补血</a></dd>
+                            <dd><a href="#">便秘</a></dd>
+                            <dd><a href="#">腹泻</a></dd>
+                            <dd><a href="#">活血化瘀</a></dd>
+                        </dl>
+                    </div>
+                    <!--<div class="bgitem">
+                    </div>-->
+                </div>
+            </div>
+        </li>
+        <li><a href="food-menu.html" class="link pngFix"><strong>美食菜单</strong></a></li>
+        <li><a href="food-leader.html" class="link"><strong>美食达人</strong></a></li>
+        <li><a href="menu-video.html" class="link pngFix"><strong>菜谱视频</strong></a></li>
+        <li><a href="app-download.html" class="link pngFix"><strong>产品下载</strong></a></li>
+    </ul>
+</div>
+<!--底部自动弹出的搜索框-->
+<div class="main_search main_search_slideUp pngFix" slideUp="1" style="_display:none;" id="main_search">
+    <div class="main_search_w">
+        <div class="searchform_div">
+            <form action="#" target="_blank"><input type="text" class="text" name="q" x-webkit-speech=""
+                                                    autocomplete="off" id="inputString" placeholder="输入菜谱、食材、作者"><input
+                    type="button" class="submit" value="搜 索"></form>
+        </div>
+    </div>
+</div>
+<!--中间内容-->
+<div class="main_w clearfix">
+    <div class="main">
+        <div class="listnav clearfix" id="listnav">
+            <ul class="listnav_ul" id="listnav_ul">
+                <li><h1><a href="menu-family.html" class="link">家常菜谱</a></h1></li>
+                <li><a href="menu-chinesefood.html" class="link">中华菜系</a></li>
+                <li><a href="menu-specialsnack.html" class="link">特色小吃</a></li>
+                <li><a href="menu-worldmenu.html" class="link">外国菜谱</a></li>
+                <li><a href="menu-baking.html" class="link">烘焙</a></li>
+                <li class="current hover"><a href="menu-all.html" class="link">食材百科</a></li>
+            </ul>
+        </div>
+        <div class="other_c listnav_con clearfix" style="font-size:0px;">
+            <dl class="listnav_dl_style1 w990 bb1 clearfix">
+                <dt>茎叶花类</dt>
+                <dd><a href="menu-single.html">白菜</a></dd>
+                <dd><a href="">菜花</a></dd>
+                <dd><a href="">小白菜</a></dd>
+                <dd><a href="">娃娃菜</a></dd>
+                <dd><a href="">芥菜</a></dd>
+                <dd><a href="">茼蒿</a></dd>
+                <dd><a href="">梅菜</a></dd>
+                <dd><a href="">茴香</a></dd>
+                <dd><a href="">苦菊</a></dd>
+                <dd><a href="">春笋</a></dd>
+                <dd><a href="">木耳菜</a></dd>
+                <dd><a href="">萝卜苗</a></dd>
+                <dd><a href="">香芹</a></dd>
+                <dd><a href="">苜蓿</a></dd>
+                <dd><a href="">雪菜</a></dd>
+                <dd><a href="">芝麻菜</a></dd>
+                <dd><a href="">刺儿菜</a></dd>
+                <dd><a href="">萝卜叶</a></dd>
+                <dd><a href="">豆瓣菜</a></dd>
+                <dd><a href="">紫背天葵</a></dd>
+                <dd><a href="">莼菜</a></dd>
+                <dd><a href="">芹菜</a></dd>
+                <dd><a href="">西兰花</a></dd>
+                <dd><a href="">卷心菜</a></dd>
+                <dd><a href="">油菜</a></dd>
+                <dd><a href="">西芹</a></dd>
+                <dd><a href="">竹笋</a></dd>
+                <dd><a href="">芦笋</a></dd>
+                <dd><a href="">梅干菜</a></dd>
+                <dd><a href="">芦荟</a></dd>
+                <dd><a href="">空心菜</a></dd>
+                <dd><a href="">豌豆尖</a></dd>
+                <dd><a href="">香菜</a></dd>
+                <dd><a href="">韭菜</a></dd>
+                <dd><a href="">黄花菜</a></dd>
+                <dd><a href="">菠菜</a></dd>
+                <dd><a href="">酸白菜</a></dd>
+                <dd><a href="">莴笋</a></dd>
+                <dd><a href="">百合</a></dd>
+                <dd><a href="">苋菜</a></dd>
+                <dd><a href="">紫甘蓝</a></dd>
+                <dd><a href="">荠菜</a></dd>
+                <dd><a href="">芹菜叶</a></dd>
+                <dd><a href="">芥兰</a></dd>
+                <dd><a href="">橄榄菜</a></dd>
+                <dd><a href="">油麦菜</a></dd>
+                <dd><a href="">芥蓝</a></dd>
+                <dd><a href="">霸王花</a></dd>
+                <dd><a href="">生菜</a></dd>
+            </dl>
+            <dl class="listnav_dl_style1 w990 bb1 clearfix">
+                <dt>根茎类</dt>
+                <dd><a href="">土豆</a></dd>
+                <dd><a href="">胡萝卜</a></dd>
+                <dd><a href="">魔芋</a></dd>
+                <dd><a href="">牛蒡</a></dd>
+                <dd><a href="">青萝卜</a></dd>
+                <dd><a href="">红薯</a></dd>
+                <dd><a href="">白萝卜</a></dd>
+                <dd><a href="">山药</a></dd>
+                <dd><a href="">芋头</a></dd>
+                <dd><a href="">竹笋</a></dd>
+                <dd><a href="">藕</a></dd>
+                <dd><a href="">紫薯</a></dd>
+                <dd><a href="">冬笋</a></dd>
+                <dd><a href="">红萝卜</a></dd>
+            </dl>
+            <dl class="listnav_dl_style1 w990 bb1 clearfix">
+                <dt>瓜果类</dt>
+                <dd><a href="">茄子</a></dd>
+                <dd><a href="">黄瓜</a></dd>
+                <dd><a href="">南瓜</a></dd>
+                <dd><a href="">葫芦</a></dd>
+                <dd><a href="">辣椒</a></dd>
+                <dd><a href="">青椒</a></dd>
+                <dd><a href="">冬瓜</a></dd>
+                <dd><a href="">丝瓜</a></dd>
+                <dd><a href="">红椒</a></dd>
+                <dd><a href="">西红柿</a></dd>
+                <dd><a href="">苦瓜</a></dd>
+                <dd><a href="">西葫芦</a></dd>
+            </dl>
+            <dl class="listnav_dl_style1 w990 bb1 clearfix">
+                <dt>菌类</dt>
+                <dd><a href="">香菇</a></dd>
+                <dd><a href="">猴头菇</a></dd>
+                <dd><a href="">蘑菇</a></dd>
+                <dd><a href="">木耳</a></dd>
+                <dd><a href="">金针菇</a></dd>
+                <dd><a href="">木耳</a></dd>
+                <dd><a href="">白蘑菇</a></dd>
+                <dd><a href="">竹笋</a></dd>
+                <dd><a href="">羊肚菌</a></dd>
+                <dd><a href="">杏鲍菇</a></dd>
+                <dd><a href="">银耳</a></dd>
+            </dl>
+            <dl class="listnav_dl_style1 w990 bb1 clearfix">
+                <dt>葱蒜类</dt>
+                <dd><a href="">洋葱</a></dd>
+                <dd><a href="">韭黄</a></dd>
+                <dd><a href="">大蒜</a></dd>
+                <dd><a href="">韭菜</a></dd>
+                <dd><a href="">葱</a></dd>
+                <dd><a href="">蒜苔</a></dd>
+                <dd><a href="">蒜</a></dd>
+            </dl>
+            <dl class="listnav_dl_style1 w990 bb1 clearfix">
+                <dt>鲜豆类</dt>
+                <dd><a href="">豆角</a></dd>
+                <dd><a href="">绿豆芽</a></dd>
+                <dd><a href="">扁豆</a></dd>
+                <dd><a href="">刀豆</a></dd>
+                <dd><a href="">四季豆</a></dd>
+                <dd><a href="">黄豆芽</a></dd>
+                <dd><a href="">豌豆</a></dd>
+                <dd><a href="">蚕豆</a></dd>
+                <dd><a href="">荷兰豆</a></dd>
+                <dd><a href="">毛豆</a></dd>
+            </dl>
+            <dl class="listnav_dl_style1 w990 bb1 clearfix">
+                <dt>猪肉</dt>
+                <dd><a href="">五花肉</a></dd>
+                <dd><a href="">猪血</a></dd>
+                <dd><a href="">猪肘</a></dd>
+                <dd><a href="">猪肺</a></dd>
+                <dd><a href="">排骨</a></dd>
+                <dd><a href="">猪排</a></dd>
+                <dd><a href="">猪肉</a></dd>
+                <dd><a href="">猪肝</a></dd>
+                <dd><a href="">猪腰</a></dd>
+                <dd><a href="">猪耳朵</a></dd>
+                <dd><a href="">猪大肠</a></dd>
+                <dd><a href="">猪里脊肉</a></dd>
+                <dd><a href="">猪舌头</a></dd>
+                <dd><a href="">猪蹄</a></dd>
+                <dd><a href="">猪肚</a></dd>
+                <dd><a href="">猪皮</a></dd>
+                <dd><a href="">猪心</a></dd>
+                <dd><a href="">猪脑</a></dd>
+            </dl>
+            <dl class="listnav_dl_style1 w990 bb1 clearfix">
+                <dt>牛肉</dt>
+                <dd><a href="">牛肉</a></dd>
+                <dd><a href="">牛肚</a></dd>
+                <dd><a href="">牛筋</a></dd>
+                <dd><a href="">牛排</a></dd>
+                <dd><a href="">牛骨</a></dd>
+                <dd><a href="">牛腩</a></dd>
+                <dd><a href="">牛鞭</a></dd>
+                <dd><a href="">肥牛</a></dd>
+                <dd><a href="">牛柳</a></dd>
+                <dd><a href="">牛蹄筋</a></dd>
+            </dl>
+            <dl class="listnav_dl_style1 w990 bb1 clearfix">
+                <dt>羊肉</dt>
+                <dd><a href="">羊肉</a></dd>
+                <dd><a href="">羊蝎子</a></dd>
+                <dd><a href="">羊排</a></dd>
+                <dd><a href="">羊肝</a></dd>
+                <dd><a href="">羊血</a></dd>
+                <dd><a href="">羊腿</a></dd>
+                <dd><a href="">羊肚</a></dd>
+                <dd><a href="">羊骨</a></dd>
+            </dl>
+            <dl class="listnav_dl_style1 w990 bb1 clearfix">
+                <dt>鸡肉</dt>
+                <dd><a href="">鸡翅</a></dd>
+                <dd><a href="">鸡爪</a></dd>
+                <dd><a href="">鸡心</a></dd>
+                <dd><a href="">童子鸡</a></dd>
+                <dd><a href="">鸡腿</a></dd>
+                <dd><a href="">鸡胗</a></dd>
+                <dd><a href="">鸡肝</a></dd>
+                <dd><a href="">乌骨鸡</a></dd>
+                <dd><a href="">鸡血</a></dd>
+                <dd><a href="">鸡肉</a></dd>
+            </dl>
+            <dl class="listnav_dl_style1 w990 bb1 clearfix">
+                <dt>鸭肉</dt>
+                <dd><a href="">鸭肉</a></dd>
+                <dd><a href="">鸭胗</a></dd>
+                <dd><a href="">鸭掌</a></dd>
+                <dd><a href="">鸭肝</a></dd>
+                <dd><a href="">鸭腿</a></dd>
+                <dd><a href="">鸭翅</a></dd>
+                <dd><a href="">鸭头</a></dd>
+                <dd><a href="">鸭血</a></dd>
+                <dd><a href="">鸭舌</a></dd>
+                <dd><a href="">鸭肠</a></dd>
+            </dl>
+            <dl class="listnav_dl_style1 w990 bb1 clearfix">
+                <dt>肉制品</dt>
+                <dd><a href="">腊肉</a></dd>
+                <dd><a href="">咸肉</a></dd>
+                <dd><a href="">午餐肉</a></dd>
+                <dd><a href="">腊鱼</a></dd>
+                <dd><a href="">火腿</a></dd>
+                <dd><a href="">肉松</a></dd>
+                <dd><a href="">熏肉</a></dd>
+                <dd><a href="">熏鱼</a></dd>
+                <dd><a href="">香肠</a></dd>
+                <dd><a href="">培根</a></dd>
+            </dl>
+            <dl class="listnav_dl_style1 w990 bb1 clearfix">
+                <dt>其他肉类</dt>
+                <dd><a href="">鹌鹑</a></dd>
+                <dd><a href="">牛蛙</a></dd>
+                <dd><a href="h">驴肉</a></dd>
+                <dd><a href="">鸽子</a></dd>
+                <dd><a href="">兔肉</a></dd>
+                <dd><a href="">鹅肉</a></dd>
+                <dd><a href="">蚕蛹</a></dd>
+                <dd><a href="">火鸡</a></dd>
+            </dl>
+            <dl class="listnav_dl_style1 w990 bb1 clearfix">
+                <dt>淡水鱼</dt>
+                <dd><a href="">草鱼</a></dd>
+                <dd><a href="">鲤鱼</a></dd>
+                <dd><a href="">青鱼</a></dd>
+                <dd><a href="">罗非鱼</a></dd>
+                <dd><a href="">桂鱼</a></dd>
+                <dd><a href="">鲫鱼</a></dd>
+                <dd><a href="">鲶鱼</a></dd>
+                <dd><a href="">泥鳅</a></dd>
+            </dl>
+            <dl class="listnav_dl_style1 w990 bb1 clearfix">
+                <dt>咸水鱼</dt>
+                <dd><a href="">带鱼</a></dd>
+                <dd><a href="">鳗鱼</a></dd>
+                <dd><a href="">沙丁鱼</a></dd>
+                <dd><a href="">石斑鱼</a></dd>
+                <dd><a href="">金枪鱼</a></dd>
+                <dd><a href="">三文鱼</a></dd>
+                <dd><a href="">秋刀鱼</a></dd>
+                <dd><a href="">小黄花鱼</a></dd>
+                <dd><a href="">鳕鱼</a></dd>
+                <dd><a href="">比目鱼</a></dd>
+                <dd><a href="">明太鱼</a></dd>
+            </dl>
+            <dl class="listnav_dl_style1 w990 bb1 clearfix">
+                <dt>鱼制品</dt>
+                <dd><a href="">鱼丸</a></dd>
+                <dd><a href="">鱼籽</a></dd>
+                <dd><a href="">鱼头</a></dd>
+                <dd><a href="">鱼干</a></dd>
+            </dl>
+            <dl class="listnav_dl_style1 w990 bb1 clearfix">
+                <dt>虾</dt>
+                <dd><a href="">虾</a></dd>
+                <dd><a href="">河虾</a></dd>
+                <dd><a href="">皮皮虾</a></dd>
+                <dd><a href="">虾仁</a></dd>
+                <dd><a href="">虾米</a></dd>
+                <dd><a href="">龙虾</a></dd>
+                <dd><a href="">虾皮</a></dd>
+            </dl>
+            <dl class="listnav_dl_style1 w990 bb1 clearfix">
+                <dt>蟹</dt>
+                <dd><a href="">螃蟹</a></dd>
+                <dd><a href="">河蟹</a></dd>
+                <dd><a href="">梭子蟹</a></dd>
+                <dd><a href="">海蟹</a></dd>
+                <dd><a href="">大闸蟹</a></dd>
+            </dl>
+            <dl class="listnav_dl_style1 w990 bb1 clearfix">
+                <dt>藻类</dt>
+                <dd><a href="">海带</a></dd>
+                <dd><a href="">海肠</a></dd>
+                <dd><a href="">发菜</a></dd>
+                <dd><a href="">海藻</a></dd>
+                <dd><a href="">苔菜</a></dd>
+                <dd><a href="">紫菜</a></dd>
+                <dd><a href="">裙带菜</a></dd>
+            </dl>
+            <dl class="listnav_dl_style1 w990 bb1 clearfix">
+                <dt>贝</dt>
+                <dd><a href="">鲍鱼</a></dd>
+                <dd><a href="">生蚝</a></dd>
+                <dd><a href="">蛤蜊</a></dd>
+                <dd><a href="">海螺</a></dd>
+                <dd><a href="">鲜贝</a></dd>
+                <dd><a href="">青口</a></dd>
+                <dd><a href="">牡蛎</a></dd>
+                <dd><a href="">毛蛤蜊</a></dd>
+                <dd><a href="">田螺</a></dd>
+                <dd><a href="">扇贝</a></dd>
+                <dd><a href="">河蚌</a></dd>
+            </dl>
+            <dl class="listnav_dl_style1 w990 bb1 clearfix">
+                <dt>其他水产</dt>
+                <dd><a href="">海参</a></dd>
+                <dd><a href="">田鸡</a></dd>
+                <dd><a href="">鱿鱼</a></dd>
+                <dd><a href="">甲鱼</a></dd>
+                <dd><a href="">墨鱼</a></dd>
+                <dd><a href="">海胆</a></dd>
+            </dl>
+            <dl class="listnav_dl_style1 w990 bb1 clearfix">
+                <dt>蛋类</dt>
+                <dd><a href="">鸡蛋</a></dd>
+                <dd><a href="">咸鸭蛋</a></dd>
+                <dd><a href="">鹅蛋</a></dd>
+                <dd><a href="">鸭蛋</a></dd>
+                <dd><a href="">鸽子蛋</a></dd>
+                <dd><a href="">鹌鹑蛋</a></dd>
+                <dd><a href="">松花蛋</a></dd>
+            </dl>
+            <dl class="listnav_dl_style1 w990 bb1 clearfix">
+                <dt>豆类</dt>
+                <dd><a href="">红豆</a></dd>
+                <dd><a href="">黑豆</a></dd>
+                <dd><a href="">绿豆</a></dd>
+                <dd><a href="">蚕豆</a></dd>
+                <dd><a href="">黄豆</a></dd>
+                <dd><a href="">青豆</a></dd>
+                <dd><a href="">豌豆</a></dd>
+            </dl>
+            <dl class="listnav_dl_style1 w990 bb1 clearfix">
+                <dt>豆制品</dt>
+                <dd><a href="">豆腐</a></dd>
+                <dd><a href="">豆腐干</a></dd>
+                <dd><a href="">豆浆</a></dd>
+                <dd><a href="">豆渣</a></dd>
+                <dd><a href="">豆腐丝</a></dd>
+                <dd><a href="">豆腐渣</a></dd>
+                <dd><a href="">千张</a></dd>
+                <dd><a href="">豆腐皮</a></dd>
+                <dd><a href="">油豆腐</a></dd>
+                <dd><a href="">腐竹</a></dd>
+                <dd><a href="">鸡蛋豆腐</a></dd>
+            </dl>
+            <dl class="listnav_dl_style1 w990 bb1 clearfix">
+                <dt>水果</dt>
+                <dd><a href="">柚子</a></dd>
+                <dd><a href="">柿子</a></dd>
+                <dd><a href="">橘子</a></dd>
+                <dd><a href="">木瓜</a></dd>
+                <dd><a href="">橙子</a></dd>
+                <dd><a href="">枣</a></dd>
+                <dd><a href="">草莓</a></dd>
+                <dd><a href="">葡萄干</a></dd>
+                <dd><a href="">椰汁</a></dd>
+                <dd><a href="">百香果</a></dd>
+                <dd><a href="">桑葚</a></dd>
+                <dd><a href="">石榴</a></dd>
+                <dd><a href="">杨梅</a></dd>
+                <dd><a href="">枇杷</a></dd>
+                <dd><a href="">猕猴桃</a></dd>
+                <dd><a href="">甘蔗</a></dd>
+                <dd><a href="">山楂</a></dd>
+                <dd><a href="">苹果</a></dd>
+                <dd><a href="">榴莲</a></dd>
+                <dd><a href="">菠萝</a></dd>
+                <dd><a href="">桂圆</a></dd>
+                <dd><a href="">樱桃</a></dd>
+                <dd><a href="">荔枝</a></dd>
+                <dd><a href="">金桔</a></dd>
+                <dd><a href="">椰子</a></dd>
+                <dd><a href="">蔓越莓</a></dd>
+                <dd><a href="">柑桔</a></dd>
+                <dd><a href="">橘子</a></dd>
+                <dd><a href="">梨</a></dd>
+                <dd><a href="">火龙果</a></dd>
+                <dd><a href="">香蕉</a></dd>
+                <dd><a href="">葡萄</a></dd>
+                <dd><a href="">芒果</a></dd>
+                <dd><a href="">柠檬</a></dd>
+                <dd><a href="">蓝莓</a></dd>
+                <dd><a href="">西瓜</a></dd>
+                <dd><a href="">桃</a></dd>
+                <dd><a href="">牛油果</a></dd>
+                <dd><a href="">李子</a></dd>
+                <dd><a href="">无花果</a></dd>
+                <dd><a href="">香瓜</a></dd>
+                <dd><a href="">杨桃</a></dd>
+                <dd><a href="">山竹</a></dd>
+                <dd><a href="">番石榴</a></dd>
+                <dd><a href="">猕猴桃</a></dd>
+            </dl>
+            <dl class="listnav_dl_style1 w990 bb1 clearfix">
+                <dt>干果</dt>
+                <dd><a href="">花生</a></dd>
+                <dd><a href="">核桃</a></dd>
+                <dd><a href="">莲子</a></dd>
+                <dd><a href="">开心果</a></dd>
+                <dd><a href="">板栗</a></dd>
+                dd>
+                <dd><a href="">葡萄干</a></dd>
+                <dd><a href="">芝麻</a></dd>
+            </dl>
+            <dl class="listnav_dl_style1 w990 bb1 clearfix">
+                <dt>五谷</dt>
+                <dd><a href="">糯米</a></dd>
+                <dd><a href="">黑米</a></dd>
+                <dd><a href="">面粉</a></dd>
+                <dd><a href="">芝麻</a></dd>
+                <dd><a href="">麦芽</a></dd>
+                <dd><a href="">青稞</a></dd>
+                <dd><a href="">大米</a></dd>
+                <dd><a href="">薏米</a></dd>
+                <dd><a href="">小米</a></dd>
+                <dd><a href="">荞麦</a></dd>
+                <dd><a href="">燕麦</a></dd>
+                <dd><a href="">荞麦</a></dd>
+            </dl>
+            <dl class="listnav_dl_style1 w990 bb1 clearfix">
+                <dt>药材</dt>
+                <dd><a href="">燕窝</a></dd>
+                <dd><a href="">何首乌</a></dd>
+                <dd><a href="">当归</a></dd>
+                <dd><a href="">茯苓</a></dd>
+                <dd><a href="">板蓝根</a></dd>
+                <dd><a href="">车前草</a></dd>
+                <dd><a href="">山楂叶</a></dd>
+                <dd><a href="">桔皮</a></dd>
+                <dd><a href="">紫苏</a></dd>
+                <dd><a href="">罗汉果</a></dd>
+                <dd><a href="">乌梅</a></dd>
+                <dd><a href="">肉桂</a></dd>
+                <dd><a href="">橘红</a></dd>
+                <dd><a href="">牡丹花</a></dd>
+                <dd><a href="">酸枣仁</a></dd>
+                <dd><a href="">白参</a></dd>
+                <dd><a href="">蛋白粉</a></dd>
+                <dd><a href="">枇杷叶</a></dd>
+                <dd><a href="">栀子</a></dd>
+                <dd><a href="">枇杷花</a></dd>
+                <dd><a href="">人参</a></dd>
+                <dd><a href="">枸杞</a></dd>
+                <dd><a href="">黄芪</a></dd>
+                <dd><a href="">灵芝</a></dd>
+                <dd><a href="">白芍</a></dd>
+                <dd><a href="">田七</a></dd>
+                <dd><a href="">桂皮</a></dd>
+                <dd><a href="">西洋参</a></dd>
+                <dd><a href="">灵芝</a></dd>
+                <dd><a href="">丁香</a></dd>
+                <dd><a href="">冬虫夏草</a></dd>
+                <dd><a href="">黄莲</a></dd>
+                <dd><a href="">桂花</a></dd>
+                <dd><a href="">鱼腥草</a></dd>
+                <dd><a href="">胖大海</a></dd>
+                <dd><a href="">杜鹃花</a></dd>
+                <dd><a href="">蒲公英叶</a></dd>
+                <dd><a href="">薰衣草</a></dd>
+                <dd><a href="">豆蔻</a></dd>
+            </dl>
+        </div>
+    </div>
+</div>
+<!--底部-->
+<div class="main_footer pngFix">
+    <div class="footer_con1 clearfix">
+        <div class="logobottom" style="height:196px;width:600px;background-size:70% auto;">
+            <a href="index.html" style="height:100%;width:200px;display:block;">
+                <img src="img/logo-bottom.png">
+            </a>
+        </div>
+        <!--官方微博、QQ空间、微信二维码、手机端二维码-->
+        <!--
+        <div class="links">
+            <ul class="cleearfix">
+                <li class="sina"><a class="img" target="_blank" href="https://e.weibo.com/meishij"><span>关注：49万</span></a><p><a target="_blank" href="https://e.weibo.com/meishij">点击进入<br/>美食杰官方微博</a></p></li><li class="tengxun"><a class="img"  target="_blank" href="https://user.qzone.qq.com/613171717"><span>关注：10.9万</span></a><p><a target="_blank" href="https://user.qzone.qq.com/613171717">点击进入<br/>美食杰QQ空间</a></p></li><li class="weixin"><a target="_blank" href="https://sj.meishi.cc/" class="img"></a><p><a target="_blank" href="https://sj.meishi.cc/">扫描二维码添加<br/>美食杰为微信好友</a></p></li><li class="download"><a target="_blank" href="https://sj.meishi.cc/" class="img"></a><p><a target="_blank" href="https://sj.meishi.cc/">扫描二维码下载<br/>美食杰手机客户端</a></p></li>
+            </ul>
+        </div>-->
+    </div>
+    <div class="footer_con3">
+        <ul class="clearfix">
+            <li><a target="_blank" href="#" title="公司简介">公司简介</a></li>
+            <li><a target="_blank" href="#" title="关于我们">关于我们</a></li>
+            <li><a target="_blank" href="#" title="产品下载">产品下载</a></li>
+            <li><a target="_blank" href="#" title="加入我们">加入我们</a></li>
+            <li><a target="_blank" href="#" title="联系我们">联系我们</a></li>
+            <li><a target="_blank" href="#" title="商务合作">商务合作</a></li>
+            <li><a target="_blank" href="#" title="用户协议">用户协议</a></li>
+            <li><a target="_blank" href="#" title="用户协议">隐私政策</a></li>
+            <li><a target="_blank" href="#" title="网站地图">网站地图</a></li>
+            <li><a target="_blank" href="#" title="友情链接">友情链接</a></li>
+        </ul>
+        <!--<p><a target="_blank" href="https://www.miibeian.gov.cn" class="gray_a">京ICP备14030359号</a>/<a target="_blank" href="https://beian.gov.cn/" class="gray_a"><img src="https://st-cn.meishij.net/p2/20180208/20180208111357_93713.png" />京公网安备11010802026928</a> Copyright © 2003-2020 MEISHIJ CO.,LTD.</p>-->
+    </div>
+</div>
+<div style="display:none;">
+    <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cspan id='cnzz_stat_icon_1259001544'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/stat.php%3Fid%3D1259001544' type='text/javascript'%3E%3C/script%3E"));</script>
+</div>
+</body>
+</html>
+
+
+

@@ -4,8 +4,8 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://rm-2zebhr6xk778lbo75ko.mysql.rds.aliyuncs.com:3306/food?serverTimezone=GMT&useUnicode=true&characterEncoding=utf-8
-    username: food
-    password: Ljf13411479616
+    username: food5
+    password: Pzc123456
     # 使用druid连接池，当使用其他连接池的时候，可以指定type类型为对应的数据源
     type: com.alibaba.druid.pool.DruidDataSource
     druid:
@@ -40,13 +40,15 @@ mybatis:
   - edu.nf.food.label.entity
   - edu.nf.food.food.entity
   - edu.nf.food.user.entity
+  - edu.nf.food.video.entity
   mapper-locations:
     - classpath:/mapper/Label/*.xml
     - classpath:/mapper/Food/*.xml
     - classpath:/mapper/User/*.xml
+    - classpath:/mapper/Video/*.xml
 # 分页插件配置
 pagehelper:
-  # 数据库方言
+  # 数据库的方言
   helper-dialect: mysql
   # 分页合理化参数，默认值为false。当该参数设置为 true 时，pageNum<=0 时会查询第一页
   reasonable: true
