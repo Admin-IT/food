@@ -22,5 +22,5 @@ spring:
     time-zone: GMT+8
   # 包含dao的yml配置文件,对应的是application-xxx.yml文件的xxx名称
   profiles:
-    include: dao
+    include: dao,service
 
