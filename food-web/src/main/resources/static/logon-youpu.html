@@ -25,16 +25,16 @@
                     <a href="healthy-eating.html">饮食健康</a>
                 </li>
                 <li>
-                    <a href="food-menu">美食菜单</a>
+                    <a href="food-menu.html">美食菜单</a>
                 </li>
                 <li>
-                    <a href="">美食达人</a>
+                    <a href="food-leader.html">美食达人</a>
                 </li>
                 <li>
                     <a href="menu-video.html">美食视频</a>
                 </li>
                 <li>
-                    <a href="app-download">产品下载</a>
+                    <a href="app-download.html">产品下载</a>
                 </li>
             </ul>
         </div>
@@ -81,7 +81,7 @@
                             <input type="hidden" name="login_type" value="1">
                             <input id="login_code" type="text" class="text forcheck pyzm_forcheck yzm" name="number"
                                    placeholder="请输入验证码">
-                            <a href="" class="phone_yzmbtn" id="phone_yzmbtn">获取验证码</a>
+                            <a class="phone_yzmbtn" id="phone_yzmbtn">获取验证码</a>
                         </div>
                         <div class="n1_loginitem" style="text-align: center;">
                             <input type="submit" class="submit" value="登 录">
@@ -153,7 +153,6 @@
 <script type="text/javascript">
     $(function () {
 
-
             $('#phone_yzmbtn1').on('click', function () {
                 var email = $("#reg_email").val();
 
@@ -173,15 +172,14 @@
 
                     }
 
-
                 });
 
             });
 
             $('#f1 :button').on('click', function () {
+
                 var name = $("input[name=userEmail]").val();
                 var pass = $("input[name=userPass]").val();
-
                 $.ajax({
                     url: './login_user?userEmail=' + name + '&userPass=' + pass,
                     // data : $("#f1").serialize(),
@@ -190,6 +188,7 @@
 
                         if (result.code == 200) {
                             window.location.href = "index.html";//登陆成功跳转到管理界面
+                            // localStorage.info = name;
                         } else {
                             alert(result.message)
                         }
@@ -198,7 +197,6 @@
             });
 
             $('#reg_btn').on('click', function () {
-                reg_pass
                 var email = $("#reg_email").val();
                 var yzm = $("#reg_code").val();
                 var password = $("#reg_pass").val();
@@ -217,6 +215,7 @@
                     }
                 })
             });
+
         }
     )
 </script>

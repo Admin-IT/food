@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+    <title>有谱_菜谱大全_食材百科_xx</title>
+    <meta name="keywords"
+          content="美食,美食网,菜谱,菜谱网,美食地图,食谱,食谱网,特色食谱,特色美食,美食大全家常菜谱,菜谱大全,美食网站,特色菜谱,最新菜谱,美食分享,美食加盟,人气美食,菜谱分享,餐饮加盟,特色小吃,美食文化"/>
+    <meta name="description"
+          content="有谱 - 做你最喜爱的美食网，菜谱网。提供最人性化的菜谱大全,食谱家常菜，家常菜谱大全的美食网,让人们在宣泄的都市中体验在家常做菜,享受美食的乐趣.找家常菜谱,上有谱美食网"/>
+    <meta name="renderer" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <script>var _hmt = _hmt || [];</script>
+    <link rel="stylesheet" type="text/css" media="all" href="css/ss_base.css"/>
+    <link rel="stylesheet" type="text/css" media="all" href="css/main.css"/>
+    <link rel="stylesheet" type="text/css" media="all" href="css/list.css"/>
+    <link rel="stylesheet" type="text/css" media="all" href="css/menu-single-list.css"/>
+    <script type="text/javascript" src="js/j.m.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/list.js"></script>
+</head>
+<body>
+<!--顶部-->
+<div class="header">
+    <div class="header_c">
+        <!--logo标-->
+        <a href="index.html" class="logo pngFix">
+            <img src="img/logo3.png" height="120">
+        </a>
+        <!--搜索框-->
+        <div class="main_search_top_w">
+            <div class="suggestionsBox" id="suggestions" style="display:none;">
+                <ul class="suggestionList" id="autoSuggestionsList"></ul>
+            </div>
+            <form class="search" action="">
+                <input type="text" class="text" name="q" defaultval="请输入菜谱/食材/菜单/作者" x-webkit-speech=""
+                       value="请输入菜谱/食材/菜单/作者" autocomplete="off"
+                       onfocus="if(this.value=='请输入菜谱/食材/菜单/作者'){this.value='';}$(this).css('color','#333');"
+                       onblur="if(this.value==''){this.value='请输入菜谱/食材/菜单/作者';$(this).css('color','#999');}"
+                       id="input1String"><input type="button" class="submit" value="搜 索">
+            </form>
+        </div>
+        <!--登录/注册-->
+        <div class="loginitem_h">
+            <a href="logon-youpu.html" class="link header_login">注册</a>
+            <a href="logon-youpu.html" class="link header_register">登录</a>
+        </div>
+    </div>
+</div>
+<!--导航栏-->
+<div class="nav">
+    <ul id="main_nav">
+        <li class=""><a href="index.html" class="link pngFix"><strong>首页</strong></a></li>
+        <li class="hasmore current">
+            <a href="menu-family.html" class="link pngFix"><strong>菜谱大全</strong></a>
+            <div class="dw clearfix">
+                <div class="dww clearfix dww_cpdq">
+                    <div class="dwitem clearfix pngFix">
+                        <dl class="clearfix">
+                            <dt><a href="menu-family.html">家常菜谱</a></dt>
+                            <dd><a href="#">家常菜</a></dd>
+                            <dd><a href="#">私家菜</a></dd>
+                            <dd><a href="#">凉菜</a></dd>
+                            <dd><a href="#">海鲜</a></dd>
+                            <dd><a href="#">热菜</a></dd>
+                            <dd><a href="#">汤粥</a></dd>
+                            <dd><a href="#">素食</a></dd>
+                            <dd><a href="#">酱料蘸料</a></dd>
+                            <dd><a href="#">卤酱</a></dd>
+                            <dd><a href="#">火锅底料</a></dd>
+                            <dd><a href="#">甜品点心</a></dd>
+                            <dd><a href="#">糕点主食</a></dd>
+                            <dd><a href="#">时尚饮品</a></dd>
+                        </dl>
+                    </div>
+                    <div class="dwitem dwitem_half clearfix">
+                        <dl class="clearfix">
+                            <dt><a href="menu-chinesefood.html">中华菜系</a></dt>
+                            <dd><a href="#">川菜</a></dd>
+                            <dd><a href="#">粤菜</a></dd>
+                            <dd><a href="#">东北菜</a></dd>
+                            <dd><a href="#">湘菜</a></dd>
+                            <dd><a href="#">鲁菜</a></dd>
+                            <dd><a href="#">浙菜</a></dd>
+                            <dd><a href="#">湖北菜</a></dd>
+                        </dl>
+                    </div>
+                    <div class="dwitem dwitem_half clearfix">
+                        <dl class="clearfix">
+                            <dt><a href="menu-specialsnack.html">特色小吃</a></dt>
+                            <dd><a href="#">四川小吃</a></dd>
+                            <dd><a href="#">广东小吃</a></dd>
+                            <dd><a href="#">北京小吃</a></dd>
+                            <dd><a href="#">陕西小吃</a></dd>
+                        </dl>
+                    </div>
+                    <br/>
+                    <div class="dwitem dwitem_half clearfix">
+                        <dl class="clearfix">
+                            <dt><a href="menu-worldmenu.html">外国菜谱</a></dt>
+                            <dd><a href="#">韩国料理</a></dd>
+                            <dd><a href="#">日本料理</a></dd>
+                            <dd><a href="#">法国菜</a></dd>
+                            <dd><a href="#">意大利餐</a></dd>
+                        </dl>
+                    </div>
+                    <div class="dwitem dwitem_half clearfix">
+                        <dl class="clearfix">
+                            <dt><a href="menu-baking.html">烘焙</a></dt>
+                            <dd><a href="#">蛋糕面包</a></dd>
+                            <dd><a href="#">饼干配方</a></dd>
+                            <dd><a href="#">甜品点心</a></dd>
+                        </dl>
+                    </div>
+                    <br/>
+                    <div class="dwitem dwitem_half clearfix">
+                        <dl class="clearfix">
+                            <dt><a href="menu-all.html">食材百科</a></dt>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="hasmore"><a href="healthy-eating.html" class="link pngFix"><strong>饮食健康</strong></a>
+            <div class="dw clearfix">
+                <div class="dww clearfix dww_ysjk">
+                    <div class="dwitem clearfix pngFix">
+                        <dl class="clearfix">
+                            <dt><a href="healthy-eating.html">饮食健康</a></dt>
+                            <dd><a href="#">饮食小常识</a></dd>
+                            <dd><a href="#">美容瘦身</a></dd>
+                            <dd><a href="#">食品安全</a></dd>
+                            <dd><a href="#">养生妙方</a></dd>
+                            <dd><a href="#">饮食禁忌</a></dd>
+                            <dd><a href="#">中医保健</a></dd>
+                            <dd><a href="#">母婴健康饮食</a></dd>
+                            <dd><a href="#">饮食新闻</a></dd>
+                        </dl>
+                    </div>
+                    <div class="dwitem clearfix">
+                        <dl class="clearfix">
+                            <dt><a href="healthy-method.html">功能性调理</a></dt>
+                            <dd><a href="#">清热去火</a></dd>
+                            <dd><a href="#">减肥</a></dd>
+                            <dd><a href="#">祛痰</a></dd>
+                            <dd><a href="#">乌发</a></dd>
+                            <dd><a href="#">滋阴补肾</a></dd>
+                            <dd><a href="#">健脾开胃</a></dd>
+                            <dd><a href="#">消化不良</a></dd>
+                            <dd><a href="#">清热解毒</a></dd>
+                            <dd><a href="#">补阳壮阳</a></dd>
+                            <dd><a href="#">增肥</a></dd>
+                        </dl>
+                    </div>
+                    <br/>
+                    <div class="dwitem dwitem_half clearfix">
+                        <dl class="clearfix">
+                            <dt><a href="healthy-people.html">人群膳食</a></dt>
+                            <dd><a href="#">孕妇</a></dd>
+                            <dd><a href="#">老人</a></dd>
+                            <dd><a href="#">产妇</a></dd>
+                            <dd><a href="#">哺乳期</a></dd>
+                            <dd><a href="#">青少年</a></dd>
+                            <dd><a href="#">幼儿</a></dd>
+                            <dd><a href="#">学龄期儿童</a></dd>
+                        </dl>
+                    </div>
+                    <div class="dwitem dwitem_half clearfix">
+                        <dl class="clearfix">
+                            <dt><a href="healthy-sick.html">疾病调理</a></dt>
+                            <dd><a href="#">糖尿病</a></dd>
+                            <dd><a href="#">高血压</a></dd>
+                            <dd><a href="#">痛风</a></dd>
+                            <dd><a href="#">胃炎</a></dd>
+                            <dd><a href="#">痔疮</a></dd>
+                            <dd><a href="#">更年期</a></dd>
+                            <dd><a href="#">甲状腺</a></dd>
+                        </dl>
+                    </div>
+                    <br/>
+                    <div class="dwitem clearfix">
+                        <dl class="clearfix">
+                            <dt><a href="healthy-heart.html">脏腑调理</a></dt>
+                            <dd><a href="#">感冒</a></dd>
+                            <dd><a href="#">补肾</a></dd>
+                            <dd><a href="#">阳痿早泄</a></dd>
+                            <dd><a href="#">补血</a></dd>
+                            <dd><a href="#">便秘</a></dd>
+                            <dd><a href="#">腹泻</a></dd>
+                            <dd><a href="#">活血化瘀</a></dd>
+                        </dl>
+                    </div>
+                    <!--<div class="bgitem">
+                    </div>-->
+                </div>
+            </div>
+        </li>
+        <li><a href="food-menu.html" class="link pngFix"><strong>美食菜单</strong></a></li>
+        <li><a href="food-leader.html" class="link"><strong>美食达人</strong></a></li>
+        <li><a href="menu-video.html" class="link pngFix"><strong>菜谱视频</strong></a></li>
+        <li><a href="app-download.html" class="link pngFix"><strong>产品下载</strong></a></li>
+    </ul>
+</div>
+<!--底部自动弹出的搜索框-->
+<div class="main_search main_search_slideUp pngFix" slideUp="1" style="_display:none;" id="main_search">
+    <div class="main_search_w">
+        <div class="searchform_div">
+            <form action="#" target="_blank"><input type="text" class="text" name="q" x-webkit-speech=""
+                                                    autocomplete="off" id="inputString" placeholder="输入菜谱、食材、作者"><input
+                    type="button" class="submit" value="搜 索"></form>
+        </div>
+    </div>
+</div>
+<!--中间内容-->
+<div class="main_w clearfix">
+    <div class="main">
+        <ul class="pathstlye1">
+            <li><a href="index.html">首页</a></li>
+            <li> &gt;</li>
+            <li><a href="menu-family.html">菜谱大全</a></li>
+            <li> &gt;</li>
+            <li><a href="menu-all.html">食材百科</a></li>
+            <li> &gt;</li>
+            <li><h2>xx</h2></li>
+        </ul>
+        <div class="sc_header">
+            <img class="sc_headerimg" alt=""
+                 src="http://images.meishij.net/p/20110706/46ff26140cddcba66a59ef101bb7a4a0_180x180.jpg"/>
+            <div class="sc_header_con1">
+                <h1>xx</h1>
+                <p class="p1"></p>
+                <p class="p2">
+                    【别名】：xx、xx<br/>
+                    【食量建议】：每次约85克<br/>
+                    【适宜人群】：特别适合心血管疾病<br/>
+                    <strong>【禁忌人群】</strong>：脾胃虚寒的人、哮喘患者慎食
+                </p>
+            </div>
+            <div class="sc_header_con2">
+                <ul class="clearfix">
+                    <li class="yi"><a>平和质</a></li>
+                    <li class="ji"><a>湿热质</a></li>
+                    <li class="ji"><a>痰湿质</a></li>
+                </ul>
+            </div>
+        </div>
+        <h2 class="bbtitles">xx的做法介绍</h2>
+        <div class="shicai_maincon">
+            <div class="shicai_cp clearfix">
+                <div class="shicai_cp_w clearfix">
+                    <div class="sccon_left" id="sccon_left">
+                        <div class="listtyle1_w clearfix" id="listtyle1_w">
+                            <div class="listtyle1_list clearfix" id="listtyle1_list">
+                                <div class="scc_masker pngFix" style="display:none;"></div>
+                                <div class="listtyle1 ml0">
+                                    <a target="_blank" href="details.html" title="" class="big">
+                                        <img class="img" alt=""
+                                             src="https://s1.ig.meishij.net/p/20141224/6fbc87716d1fd43831c4f8e5875662a5_150x150.jpg">
+                                        <div class="i_w">
+                                            <div class="i" style="margin-top: 0px;">
+                                                <div class="c1"><strong>xxxx</strong><span>676 评论  3150086 人气</span><em>潘潘猫</em>
+                                                </div>
+                                                <div class="c2">
+                                                    <ul>
+                                                        <li class="li1">10步 / 大概10分钟</li>
+                                                        <li class="li2">烧 / 咸鲜味</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <strong class="gx"><span>抗衰老</span></strong>
+                                    </a>
+                                </div>
+                                <div class="listtyle1">
+                                    <a target="_blank" href="" title="" class="big">
+                                        <img class="img" alt="" src="">
+                                        <div class="i_w">
+                                            <div class="i" style="margin-top: 0px;">
+                                                <div class="c1"><strong>xxxx</strong><span>676 评论  3150086 人气</span><em>author</em>
+                                                </div>
+                                                <div class="c2">
+                                                    <ul>
+                                                        <li class="li1">10步 / 大概10分钟</li>
+                                                        <li class="li2">烧 / 咸鲜味</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <strong class="gx"><span>抗衰老</span></strong>
+                                    </a>
+                                </div>
+                                <div class="listtyle1">
+                                    <a target="_blank" href="" title="" class="big">
+                                        <img class="img" alt="" src="">
+                                        <div class="i_w">
+                                            <div class="i" style="margin-top: 0px;">
+                                                <div class="c1"><strong>xxxx</strong><span>676 评论  3150086 人气</span><em>author</em>
+                                                </div>
+                                                <div class="c2">
+                                                    <ul>
+                                                        <li class="li1">10步 / 大概10分钟</li>
+                                                        <li class="li2">烧 / 咸鲜味</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <strong class="gx"><span>抗衰老</span></strong>
+                                    </a>
+                                </div>
+                                <div class="listtyle1 ml0">
+                                    <a target="_blank" href="" title="" class="big">
+                                        <img class="img" alt="" src="">
+                                        <div class="i_w">
+                                            <div class="i" style="margin-top: 0px;">
+                                                <div class="c1"><strong>xxxx</strong><span>676 评论  3150086 人气</span><em>author</em>
+                                                </div>
+                                                <div class="c2">
+                                                    <ul>
+                                                        <li class="li1">10步 / 大概10分钟</li>
+                                                        <li class="li2">烧 / 咸鲜味</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <strong class="gx"><span>抗衰老</span></strong>
+                                    </a>
+                                </div>
+                                <div class="listtyle1">
+                                    <a target="_blank" href="" title="" class="big">
+                                        <img class="img" alt="" src="">
+                                        <div class="i_w">
+                                            <div class="i" style="margin-top: 0px;">
+                                                <div class="c1"><strong>xxxx</strong><span>676 评论  3150086 人气</span><em>author</em>
+                                                </div>
+                                                <div class="c2">
+                                                    <ul>
+                                                        <li class="li1">10步 / 大概10分钟</li>
+                                                        <li class="li2">烧 / 咸鲜味</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <strong class="gx"><span>抗衰老</span></strong>
+                                    </a>
+                                </div>
+                                <div class="listtyle1">
+                                    <a target="_blank" href="" title="" class="big">
+                                        <img class="img" alt="" src="">
+                                        <div class="i_w">
+                                            <div class="i" style="margin-top: 0px;">
+                                                <div class="c1"><strong>xxxx</strong><span>676 评论  3150086 人气</span><em>author</em>
+                                                </div>
+                                                <div class="c2">
+                                                    <ul>
+                                                        <li class="li1">10步 / 大概10分钟</li>
+                                                        <li class="li2">烧 / 咸鲜味</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <strong class="gx"><span>抗衰老</span></strong>
+                                    </a>
+                                </div>
+                                <div class="listtyle1 ml0">
+                                    <a target="_blank" href="" title="" class="big">
+                                        <img class="img" alt="" src="">
+                                        <div class="i_w">
+                                            <div class="i" style="margin-top: 0px;">
+                                                <div class="c1"><strong>xxxx</strong><span>676 评论  3150086 人气</span><em>author</em>
+                                                </div>
+                                                <div class="c2">
+                                                    <ul>
+                                                        <li class="li1">10步 / 大概10分钟</li>
+                                                        <li class="li2">烧 / 咸鲜味</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <strong class="gx"><span>抗衰老</span></strong>
+                                    </a>
+                                </div>
+                                <div class="listtyle1">
+                                    <a target="_blank" href="" title="" class="big">
+                                        <img class="img" alt="" src="">
+                                        <div class="i_w">
+                                            <div class="i" style="margin-top: 0px;">
+                                                <div class="c1"><strong>xxxx</strong><span>676 评论  3150086 人气</span><em>author</em>
+                                                </div>
+                                                <div class="c2">
+                                                    <ul>
+                                                        <li class="li1">10步 / 大概10分钟</li>
+                                                        <li class="li2">烧 / 咸鲜味</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <strong class="gx"><span>抗衰老</span></strong>
+                                    </a>
+                                </div>
+                                <div class="listtyle1">
+                                    <a target="_blank" href="" title="" class="big">
+                                        <img class="img" alt="" src="">
+                                        <div class="i_w">
+                                            <div class="i" style="margin-top: 0px;">
+                                                <div class="c1"><strong>xxxx</strong><span>676 评论  3150086 人气</span><em>author</em>
+                                                </div>
+                                                <div class="c2">
+                                                    <ul>
+                                                        <li class="li1">10步 / 大概10分钟</li>
+                                                        <li class="li2">烧 / 咸鲜味</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <strong class="gx"><span>抗衰老</span></strong>
+                                    </a>
+                                </div>
+                            </div>
+                            <!--f分页-->
+                            <div class="listtyle1_page">
+                                <div class="listtyle1_page_w">
+                                    <a title="" href="" class="current">1</a>
+                                    <a title="" href="">2</a>
+                                    <a title="" href="">3</a>
+                                    <a title="" href="">4</a>
+                                    <a title="" href="">5</a>
+                                    <a href="" class="next">下一页</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--食材百科介绍-->
+                    <div class="sccon_right" id="sccon_right">
+                        <div class="sccon_right_w">
+                            <div class="scc_masker pngFix" style="display:block;"></div>
+                            <div class="sccon_right_con">
+                                <strong class="title1">xx的百科知识</strong>
+                                <strong class="title2">xx介绍</strong>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;茄子是为数不多的紫色蔬菜之一，也是餐桌上十分常见的家常蔬菜。在它的紫皮中含有丰富的维生素E和维生素P，这是其他蔬菜所不能比的。茄子属茄科，一年生蔬菜。原产印度，我国普遍栽培，是夏季主要蔬菜之一。茄子食用的部位是它的嫩果，按其形状不同可分为圆茄、灯泡茄和线茄三种。圆茄，果为圆球形，皮黑紫色，有光泽，果柄深紫色，果肉浅绿白色，肉质致密而细嫩；灯泡茄，果形似灯泡，皮黑紫色，有光泽，果柄深紫色，果肉浅绿白色，含子较多，肉质略松；线茄，果为细长条形或略弯曲，皮较薄，深紫色或黑紫色，果肉浅绿白色，含子少，肉质细嫩松软，品质好。
+                                    <br/>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;茄子最早产于印度，公元4-5世纪传入中国，南北朝栽培的茄子为圆形，与野生形状相似；元代则培养出长形茄子；到清朝末年，这种长茄被引入日本。现在主要在北半球种植较多。
+                                    　　</p>
+                                <strong class="title2">茄子的营养价值</strong>
+                                <p>1.茄子的营养，也较丰富，含有蛋白质、脂肪、碳水化合物、维 生素以及钙、磷、铁等多种营养成分。特别是维生素P的含量很高。每100克中即含维生素P750毫克。
+                                    　　<br/>
+                                    2.茄子维生素P能增强人体细胞间的黏着力，增强毛细血管的弹性，减低脆性及渗透性，防止微血管破裂出血。<br/>
+                                    3.茄子还含磷、钙、钾等微量元素和胆碱、胡芦巴碱、水苏碱、龙葵碱等多种生物碱。尤其是紫色茄子中维生素含量更高。可以抑制消化道肿瘤细胞的增值。</p>
+                                <strong class="title2">茄子的食用效果</strong>
+                                <p>1.治胃癌<br/>
+                                    国外研究结果表明它的抗癌性能是其他有同样作用的蔬菜的好几倍，是抗癌强手。能抑制消化道肿瘤细胞的增值针对胃癌、盲肠癌有较好的抑制作用。<br/>
+                                    2.抗衰老<br/>
+                                    茄子含有维生素E，有防止出血和抗衰老功能，常吃茄子，可使血液中胆固醇水平不致增高，对延缓人体衰老具有积极的意义。<br/>
+                                    3.降低胆固醇保护心血管<br/>
+                                    经常吃茄子有预防高血压、冠心病、动脉粥样硬化、紫斑症、坏血病及促进伤口愈合等作用。</p>
+                                <strong class="title2">茄子的食用禁忌</strong>
+                                <p>
+                                <p>脾胃虚寒、哮喘者不宜多吃。<br/><br/>
+                                    体弱、便溏者不宜多食。<br/><br/>
+                                    手术前吃茄子，麻醉剂可能无法被正常地分解会拖延病人苏醒时间， 影响病人康复速度。</p>
+                                <strong class="title2">茄子的选购</strong>
+                                <p>
+                                <p>
+                                    茄子以果形均匀周正、老嫩适度、无裂口、腐烂、锈皮、斑点、皮薄、子少、肉厚、细嫩的为佳品。嫩茄子颜色发乌暗、皮薄肉松、重量少、子嫩味甜、子肉不易分离、花萼下部有一片绿白色的皮。老茄子颜色光亮发光滑、皮厚而紧、肉坚子实、子容易分离、子黄硬、重量大、有的带苦味。</p></p>
+                                <strong class="title2">茄子的存储</strong>
+                                <p>
+                                <p>
+                                    茄子的表皮覆盖着一层蜡质，它不仅使茄子发出光泽，而且具有保护茄子的作用，一旦蜡质层被冲刷掉或受机械损害，就容易受微生物侵害而腐烂变质。因此，要保存的茄子绝对不能用水冲洗，还要防雨淋，防磕碰，防受热，并存放在阴凉通风处。
+                                    　　</p></p>
+                                <strong class="title2">茄子的烹饪小技巧</strong>
+                                <p>
+                                <p>切开的茄子可用清水浸泡，烹制前再捞出来，这样可以防治茄子变黑。</p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--
+    <script type="text/javascript">
+        (function(win,doc){
+        var s = doc.createElement("script"), h = doc.getElementsByTagName("head")[0];
+        if (!win.alimamatk_show) {
+            s.charset = "gbk";
+            s.async = true;
+            s.src = "http://a.alimama.cn/tkapi.js";
+            s.kslite = "";
+            h.insertBefore(s, h.firstChild);
+        }
+        var o = {
+            pid: "mm_10008787_2640448_11521435",
+            unid:"",
+            rd:2,
+            appkey:"",
+            plugins:[{name:"keyword"}]
+        };
+        win.alimamatk_onload = win.alimamatk_onload || [];
+        win.alimamatk_onload.push(o);
+    })(window,document);
+</script>-->
+</div>
+<!--底部-->
+<div class="main_footer pngFix">
+    <div class="footer_con1 clearfix">
+        <div class="logobottom" style="height:196px;width:600px;background-size:70% auto;">
+            <a href="index.html" style="height:100%;width:200px;display:block;">
+                <img src="img/logo-bottom.png">
+            </a>
+        </div>
+        <!--官方微博、QQ空间、微信二维码、手机端二维码-->
+        <!--
+        <div class="links">
+            <ul class="cleearfix">
+                <li class="sina"><a class="img" target="_blank" href="https://e.weibo.com/meishij"><span>关注：49万</span></a><p><a target="_blank" href="https://e.weibo.com/meishij">点击进入<br/>美食杰官方微博</a></p></li><li class="tengxun"><a class="img"  target="_blank" href="https://user.qzone.qq.com/613171717"><span>关注：10.9万</span></a><p><a target="_blank" href="https://user.qzone.qq.com/613171717">点击进入<br/>美食杰QQ空间</a></p></li><li class="weixin"><a target="_blank" href="https://sj.meishi.cc/" class="img"></a><p><a target="_blank" href="https://sj.meishi.cc/">扫描二维码添加<br/>美食杰为微信好友</a></p></li><li class="download"><a target="_blank" href="https://sj.meishi.cc/" class="img"></a><p><a target="_blank" href="https://sj.meishi.cc/">扫描二维码下载<br/>美食杰手机客户端</a></p></li>
+            </ul>
+        </div>-->
+    </div>
+    <div class="footer_con3">
+        <ul class="clearfix">
+            <li><a target="_blank" href="#" title="公司简介">公司简介</a></li>
+            <li><a target="_blank" href="#" title="关于我们">关于我们</a></li>
+            <li><a target="_blank" href="#" title="产品下载">产品下载</a></li>
+            <li><a target="_blank" href="#" title="加入我们">加入我们</a></li>
+            <li><a target="_blank" href="#" title="联系我们">联系我们</a></li>
+            <li><a target="_blank" href="#" title="商务合作">商务合作</a></li>
+            <li><a target="_blank" href="#" title="用户协议">用户协议</a></li>
+            <li><a target="_blank" href="#" title="用户协议">隐私政策</a></li>
+            <li><a target="_blank" href="#" title="网站地图">网站地图</a></li>
+            <li><a target="_blank" href="#" title="友情链接">友情链接</a></li>
+        </ul>
+        <!--<p><a target="_blank" href="https://www.miibeian.gov.cn" class="gray_a">京ICP备14030359号</a>/<a target="_blank" href="https://beian.gov.cn/" class="gray_a"><img src="https://st-cn.meishij.net/p2/20180208/20180208111357_93713.png" />京公网安备11010802026928</a> Copyright © 2003-2020 MEISHIJ CO.,LTD.</p>-->
+    </div>
+</div>
+<div style="display:none;">
+    <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cspan id='cnzz_stat_icon_1259001544'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/stat.php%3Fid%3D1259001544' type='text/javascript'%3E%3C/script%3E"));</script>
+</div>
+</body>
+</html>
+
+
+

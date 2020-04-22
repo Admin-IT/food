@@ -8,10 +8,10 @@ import lombok.Data;
  * 视频做法
  */
 @Data
-public class VidepStep {
+public class VideoStep {
+
     private Integer id;
     private Integer videoId;//视频ID
-    private Integer foodId;//菜谱ID
-    private String practice;//做法
-    private Integer order;//顺序
+    private String method;//做法内容介绍
+    private Video video;//关联video的视频ID
 }
