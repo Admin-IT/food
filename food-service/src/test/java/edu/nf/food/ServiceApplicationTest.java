@@ -5,6 +5,7 @@ import edu.nf.food.food.entity.Food;
 import edu.nf.food.food.service.FoodService;
 import edu.nf.food.label.entity.Technology;
 import edu.nf.food.label.service.TechnologyService;
+import edu.nf.food.message.service.ProducerService;
 import edu.nf.food.user.entity.User;
 import edu.nf.food.user.service.UserService;
 import lombok.extern.slf4j.Slf4j;
@@ -20,5 +21,20 @@ import java.util.List;
 @SpringBootApplication(scanBasePackages = "edu.nf.food")
 class ServiceApplicationTest {
 
+    @Autowired
+    private ProducerService service;
+
+    @Test
+    public void testSendMessage() {
+        service.sendMessage("Hello world");
+    }
+
+    @Test
+    public void testSendObject() {
+        Technology orderDTO = new Technology();
+        orderDTO.setTechnologyId(10001);
+        orderDTO.setTechnologyName("烤");
+        service.sendObject(orderDTO);
+    }
 
 }

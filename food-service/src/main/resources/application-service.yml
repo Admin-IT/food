@@ -1,0 +1,24 @@
+spring:
+  rabbitmq:
+    addresses: 182.92.113.189
+    # 连接端口,默认5672
+    port: 5672
+    # 设置登陆认证的账号密码，默认为guest
+    username: guest
+    password: guest
+    # 虚拟主机地址，默认为"/"
+    virtual-host: /
+    # 设置连接诶超时时间
+    connection-timeout: 5000
+    # 配置消费者监听设置
+    listener:
+      simple:
+        # 最小消息消费线程数
+        concurrency: 2
+        # 最大消息消费线程数
+        max-concurrency: 5
+        # 限流，每个消费线程能从队列获取的消息数量
+        prefetch: 1
+        # 消息签收模式，消息被消费后会回馈一条确认信息给rabbitmq
+        # 可以设置为自动或者手动签收，这里设置为手动
+        acknowledge-mode: manual

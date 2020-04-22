@@ -1,0 +1,477 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8; charset=UTF-8">
+    <title>菜谱搜索</title>
+    <meta name="renderer" content="webkit">
+    <meta name=“viewport” content=“width=device-width; initial-scale=1.0”>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" type="text/css" media="all" href="https://s1.c.meishij.net/css/ss_base.css"/>
+    <script type="text/javascript" src="https://s1.c.meishij.net/n/js/j.m.js"></script>
+    <link rel="stylesheet" type="text/css" media="all" href="https://s1.c.meishij.net/css/search20151229.css"/>
+    <link rel="stylesheet" type="text/css" media="all" href="https://s1.c.meishij.net/css/tipswindownnew.css"/>
+    <script type="text/javascript" src="https://s1.c.meishij.net/js/tipswindownnew.js"></script>
+</head>
+
+<div class="search_header">
+    <div class="search_header_con">
+        <a href="index.html" class="logo"><img src="img/logo-search.png"></a>
+        <ul class="headernav">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="menu-family.html">菜谱大全</a></li>
+            <li><a href="healthy-eating.html">饮食健康</a></li>
+        </ul>
+        <div class="search_toplogin">
+            <a href="logon-youpu.html" class="a1">登录</a>
+            <a href="logon-youpu.html" class="a1">注册</a>
+        </div>
+    </div>
+</div>
+<body>
+<script>
+
+    checkWindowWidth();
+
+    function checkWindowWidth() {
+        var wW = $(window).width();
+        if (wW > 1420) {
+            $("body").removeClass().addClass("widebody");
+        } else if (wW > 1250) {
+            $("body").removeClass().addClass("midbody");
+        } else {
+            $("body").removeClass().addClass("narrowbody");
+        }
+    }
+</script>
+<div id="app">
+    <div class="searchbox_box">
+        <div class="searchbox_w">
+            <div class="searchbox_ww">
+                <div class="searchbox" id="searchbox">
+                    <form action="">
+
+                        <input v-model="keyword" type="text" class="text" value="" placeholder="请输入菜谱/食材/菜单/作者"
+                               defaultval="请输入菜谱/食材/菜单/作者名" autocomplete="off" id="inputString">
+                        <button @click.prevent="searchKey" type="submit" class="submit">搜索</button>
+                        <!--                    -->
+                        <!--<a href="javascript:void(0);" class="openfilter " id="openfilter">展开高级筛选 ∨</a>-->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="search2015_path">当前位置：
+        <a href="">首页</a> >
+        <span>搜索：
+        葡萄 | 为您找到
+        <em>
+            885        </em>
+        个结果
+    </span>
+    </div>
+    <!--分类-->
+    <div class="search_content clearfix">
+        <div class="scon_left">
+            <div class="search_filterbox_w">
+                <div class="search_filterbox">
+                    <div class="fliterset">
+                        <span class="t">工艺：</span>
+                        <div class="fliters">
+                            <a href="" class="current">不限</a>
+                            <a href="">炒</a>
+                            <a href="">蒸</a>
+                            <a href="">煮</a>
+                            <a href="">炖</a>
+                            <a href="">拌</a>
+                            <a href="">烧</a>
+                            <a href="">煎</a>
+                            <a href="">炸</a>
+                            <a href="">烘焙</a>
+                            <a href="">微波</a>
+                            <a href="">烤</a>
+                            <a href="">煲</a>
+                            <a href="">焖</a>
+                            <a href="">冻</a>
+                            <a href="">烙</a>
+                        </div>
+                        <span class="filter_openbtn">展开 ∨</span>
+                    </div>
+                    <div class="fliterset">
+                        <span class="t">口味：</span>
+                        <div class="fliters">
+                            <a href="https://so.meishi.cc/?&q=%E8%91%A1%E8%90%84" class="current">不限</a>
+                            <a href="">家常味</a>
+                            <a href="">香辣味</a>
+                            <a href="">咸鲜味</a>
+                            <a href="">甜味</a>
+                            <a href="">酸甜味</a>
+                            <a href="">酸辣味</a>
+                            <a href="">麻辣味</a>
+                            <a href="">酱香味</a>
+                            <a href="">奶香味</a>
+                            <a href="">蒜香味</a>
+                            <a href="">五香味</a>
+                            <a href="">咖喱味</a>
+                            <a href="">芥末味</a>
+                            <a href="">其他</a>
+                        </div>
+                        <span class="filter_openbtn">展开 ∨</span>
+                    </div>
+                    <div class="fliterset">
+                        <span class="t">时间：</span>
+                        <div class="fliters">
+                            <a href="" class="current">不限</a>
+                            <a href=""><5分钟</a>
+                            <a href=""><10分钟</a>
+                            <a href=""><15分钟</a>
+                            <a href=""><30分钟</a>
+                            <a href=""><60分钟</a>
+                            <a href=""><90分钟</a>
+                            <a href=""><2小时</a>
+                        </div>
+                        <span class="filter_openbtn filter_openbtn3">展开 ∨</span>
+                    </div>
+                    <div class="fliterset fliterset_last">
+                        <span class="t">难度：</span>
+                        <div class="fliters">
+                            <a href="" class="current">不限</a>
+                            <a href="">新手尝试</a>
+                            <a href="">初级入门</a>
+                            <a href="">初中水平</a>
+                            <a href="">中级掌勺</a>
+                            <a href="">高级厨师</a>
+                            <a href="">厨神级</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="javascript:void(0);" class="openfilter opened" id="openfilter">收起高级筛选 ∧</a>
+            </div>
+            <div class="search_cplist">
+                <div class="fliter_px">
+                    <ul class="fliter_px_ul">
+                        <li><a href="" class="current">默认排序</a></li>
+                        <li><a href="">按发布时间</a></li>
+                        <li><a href="">按热度</a></li>
+                        <li><a href="">按人气</a></li>
+                        <!--
+                        <li><a href="https">官方发布</a></li>-->
+                    </ul>
+                </div>
+                <div class="search2015_cpitem_w clearfix">
+                    <div v-for="result in results">
+                        <div class="search2015_cpitem">
+                            <a href="" target="_blank" class="img" title="">
+                                <img :src="result.img">
+                            </a>
+                            <a href="" class="similarcpbtn">找相似菜谱</a>
+                            <div class="info">
+                                <a href="" target="_blank" title="" class="cpn">{{result.title}}</a>
+                                <span class="des">{{result.price}}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="search_page">
+                <span>1</span>
+                <a href="">2</a>
+                <a href="">3</a>
+                <a href="">下一页</a>
+            </div>
+        </div>
+        <div class="scon_right">
+            <h3 class="t">大家正在搜...</h3>
+            <ul class="clearfix">
+                <li class="others">
+                    <a title="" href="">
+                        <em>1.</em>
+                        <strong>烤羊肉串</strong>
+                        <span>
+                        <img src="https://s1.c.meishij.net/images/newsearch_searchicon.png">
+                    </span>
+                    </a>
+                </li>
+                <li class="others">
+                    <a title="" href="">
+                        <em>2.</em>
+                        <strong>烤羊肉串</strong>
+                        <span>
+                        <img src="https://s1.c.meishij.net/images/newsearch_searchicon.png">
+                    </span>
+                    </a>
+                </li>
+                <li class="others">
+                    <a title="" href="">
+                        <em>3.</em>
+                        <strong>烤羊肉串</strong>
+                        <span>
+                        <img src="https://s1.c.meishij.net/images/newsearch_searchicon.png">
+                    </span>
+                    </a>
+                </li>
+                <li class="others">
+                    <a title="" href="">
+                        <em>4.</em>
+                        <strong>烤羊肉串</strong>
+                        <span>
+                        <img src="https://s1.c.meishij.net/images/newsearch_searchicon.png">
+                    </span>
+                    </a>
+                </li>
+                <li class="others">
+                    <a title="" href="">
+                        <em>5.</em>
+                        <strong>烤羊肉串</strong>
+                        <span>
+                        <img src="https://s1.c.meishij.net/images/newsearch_searchicon.png">
+                    </span>
+                    </a>
+                </li>
+                <li class="others">
+                    <a title="" href="">
+                        <em>6.</em>
+                        <strong>烤羊肉串</strong>
+                        <span>
+                        <img src="https://s1.c.meishij.net/images/newsearch_searchicon.png">
+                    </span>
+                    </a>
+                </li>
+                <li class="others">
+                    <a title="" href="">
+                        <em>7.</em>
+                        <strong>烤羊肉串</strong>
+                        <span>
+                        <img src="https://s1.c.meishij.net/images/newsearch_searchicon.png">
+                    </span>
+                    </a>
+                </li>
+                <li class="others">
+                    <a title="" href="">
+                        <em>8.</em>
+                        <strong>烤羊肉串</strong>
+                        <span>
+                        <img src="https://s1.c.meishij.net/images/newsearch_searchicon.png">
+                    </span>
+                    </a>
+                </li>
+                <li class="others">
+                    <a title="" href="">
+                        <em>9.</em>
+                        <strong>烤羊肉串</strong>
+                        <span>
+                        <img src="https://s1.c.meishij.net/images/newsearch_searchicon.png">
+                    </span>
+                    </a>
+                </li>
+                <li class="others">
+                    <a title="" href="">
+                        <em>10.</em>
+                        <strong>烤羊肉串</strong>
+                        <span>
+                        <img src="https://s1.c.meishij.net/images/newsearch_searchicon.png">
+                    </span>
+                    </a>
+                </li>
+                <li class="others">
+                    <a title="" href="">
+                        <em>11.</em>
+                        <strong>烤羊肉串</strong>
+                        <span>
+                        <img src="https://s1.c.meishij.net/images/newsearch_searchicon.png">
+                    </span>
+                    </a>
+                </li>
+                <li class="others">
+                    <a title="" href="">
+                        <em>12.</em>
+                        <strong>烤羊肉串</strong>
+                        <span>
+                        <img src="https://s1.c.meishij.net/images/newsearch_searchicon.png">
+                    </span>
+                    </a>
+                </li>
+                <li class="others">
+                    <a title="" href="">
+                        <em>13.</em>
+                        <strong>烤羊肉串</strong>
+                        <span>
+                        <img src="https://s1.c.meishij.net/images/newsearch_searchicon.png">
+                    </span>
+                    </a>
+                </li>
+                <li class="others">
+                    <a title="" href="">
+                        <em>14.</em>
+                        <strong>烤羊肉串</strong>
+                        <span>
+                        <img src="https://s1.c.meishij.net/images/newsearch_searchicon.png">
+                    </span>
+                    </a>
+                </li>
+                <li class="others">
+                    <a title="" href="">
+                        <em>15.</em>
+                        <strong>烤羊肉串</strong>
+                        <span>
+                        <img src="https://s1.c.meishij.net/images/newsearch_searchicon.png">
+                    </span>
+                    </a>
+                </li>
+                <li class="others">
+                    <a title="" href="">
+                        <em>16.</em>
+                        <strong>烤羊肉串</strong>
+                        <span>
+                        <img src="https://s1.c.meishij.net/images/newsearch_searchicon.png">
+                    </span>
+                    </a>
+                </li>
+                <li class="others">
+                    <a title="" href="">
+                        <em>17.</em>
+                        <strong>烤羊肉串</strong>
+                        <span>
+                        <img src="https://s1.c.meishij.net/images/newsearch_searchicon.png">
+                    </span>
+                    </a>
+                </li>
+                <li class="others">
+                    <a title="" href="">
+                        <em>18.</em>
+                        <strong>烤羊肉串</strong>
+                        <span>
+                        <img src="https://s1.c.meishij.net/images/newsearch_searchicon.png">
+                    </span>
+                    </a>
+                </li>
+                <li class="others">
+                    <a title="" href="">
+                        <em>19.</em>
+                        <strong>烤羊肉串</strong>
+                        <span>
+                        <img src="https://s1.c.meishij.net/images/newsearch_searchicon.png">
+                    </span>
+                    </a>
+                </li>
+                <li class="others">
+                    <a title="" href="">
+                        <em>20.</em>
+                        <strong>烤羊肉串</strong>
+                        <span>
+                        <img src="https://s1.c.meishij.net/images/newsearch_searchicon.png">
+                    </span>
+                    </a>
+                </li>
+                <li class="others">
+                    <a title="" href="">
+                        <em>21.</em>
+                        <strong>烤羊肉串</strong>
+                        <span>
+                        <img src="https://s1.c.meishij.net/images/newsearch_searchicon.png">
+                    </span>
+                    </a>
+                </li>
+                <li class="others">
+                    <a title="" href="">
+                        <em>22.</em>
+                        <strong>烤羊肉串</strong>
+                        <span>
+                        <img src="https://s1.c.meishij.net/images/newsearch_searchicon.png">
+                    </span>
+                    </a>
+                </li>
+                <li class="others">
+                    <a title="" href="">
+                        <em>23.</em>
+                        <strong>烤羊肉串</strong>
+                        <span>
+                        <img src="https://s1.c.meishij.net/images/newsearch_searchicon.png">
+                    </span>
+                    </a>
+                </li>
+                <li class="others">
+                    <a title="" href="">
+                        <em>24.</em>
+                        <strong>烤羊肉串</strong>
+                        <span>
+                        <img src="https://s1.c.meishij.net/images/newsearch_searchicon.png">
+                    </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="searchbottom">
+        <strong>有谱 - 用心做美食</strong>
+    </div>
+
+</div>
+
+<script src="js/axios.min.js"></script>
+<script src="js/vue.min.js"></script>
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            keyword: '',//搜索的关键字
+            results: [] //搜索的结果
+        },
+        methods: {
+            searchKey() {
+                var keyword = this.keyword;
+                console.log(keyword);
+                //对接后端的接口
+                axios.get('search/' + keyword).then(response => {
+                    console.log(response);
+
+                    this.results = response.data; // 绑定数据
+
+                })
+            }
+        }
+    })
+</script>
+
+<script>
+    $(function () {
+        /**
+         * 收起筛选
+         */
+        $("#openfilter").click(function () {
+            var _this = $(this);
+            if (_this.hasClass("opened")) {
+                $(".search_filterbox").slideUp(400);
+                _this.removeClass("opened");
+                _this.html("展开高级筛选 ∨");
+
+            } else {
+                $(".search_filterbox").slideDown(400);
+                _this.addClass("opened");
+                _this.html("收起高级筛选 ∧");
+            }
+        });
+        /**
+         * 分类收起与展开
+         */
+        $(".filter_openbtn").click(function () {
+            var _this = $(this);
+            if (_this.html() == "展开 ∨") {
+                _this.prev(".fliters").css("height", "auto");
+                _this.html("收起 ∧");
+            } else {
+                _this.prev(".fliters").css("height", "22px");
+                _this.html("展开 ∨");
+            }
+        });
+
+    });
+</script>
+
+
+</body>
+<!--</html><div style="display:none;"><script>var _hmt = _hmt || [];(function() {var hm = document.createElement("script");hm.src = "//hm.baidu.com/hm.js?05fa5ed02545dfdb59ea7e4104b463ab";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(hm, s);})();</script><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1259001544'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/stat.php%3Fid%3D1259001544' type='text/javascript'%3E%3C/script%3E"));</script></div></body></html>-->
